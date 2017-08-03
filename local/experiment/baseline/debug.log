@@ -1,0 +1,84 @@
+2017-07-28 17:58:04.644936 PDT | [explictNoise_baseline] itr #0 | Sampling set of tasks/goals for this meta-batch...
+2017-07-28 17:58:04.646522 PDT | [explictNoise_baseline] itr #0 | ** Step 0 **
+2017-07-28 17:58:04.646689 PDT | [explictNoise_baseline] itr #0 | Obtaining samples...
+2017-07-28 17:58:04.646835 PDT | [explictNoise_baseline] itr #0 | Obtaining samples for iteration 0...
+2017-07-28 17:58:17.051636 PDT | [explictNoise_baseline] itr #0 | Processing samples...
+2017-07-28 17:58:17.133331 PDT | [explictNoise_baseline] itr #0 | fitting baseline...
+2017-07-28 17:58:17.148288 PDT | [explictNoise_baseline] itr #0 | fitted
+2017-07-28 17:58:17.180562 PDT | [explictNoise_baseline] itr #0 | Logging diagnostics...
+2017-07-28 17:58:17.182821 PDT | [explictNoise_baseline] itr #0 | Computing policy updates...
+2017-07-28 17:58:22.006783 PDT | [explictNoise_baseline] itr #0 | ** Step 1 **
+2017-07-28 17:58:22.006956 PDT | [explictNoise_baseline] itr #0 | Obtaining samples...
+2017-07-28 17:58:22.007071 PDT | [explictNoise_baseline] itr #0 | Obtaining samples for iteration 0...
+2017-07-28 17:58:48.347090 PDT | [explictNoise_baseline] itr #0 | Processing samples...
+2017-07-28 17:58:48.448795 PDT | [explictNoise_baseline] itr #0 | fitting baseline...
+2017-07-28 17:58:48.469993 PDT | [explictNoise_baseline] itr #0 | fitted
+2017-07-28 17:58:48.517598 PDT | [explictNoise_baseline] itr #0 | Logging diagnostics...
+2017-07-28 17:58:48.519723 PDT | [explictNoise_baseline] itr #0 | Optimizing policy...
+2017-07-28 17:58:48.520159 PDT | [explictNoise_baseline] itr #0 | Computing KL before
+2017-07-28 17:58:48.868234 PDT | [explictNoise_baseline] itr #0 | Computing loss before
+2017-07-28 17:58:49.192706 PDT | [explictNoise_baseline] itr #0 | Optimizing
+2017-07-28 17:58:49.273667 PDT | [explictNoise_baseline] itr #0 | Start CG optimization: #parameters: 1284, #inputs: 2000, #subsample_inputs: 2000
+2017-07-28 17:58:49.273855 PDT | [explictNoise_baseline] itr #0 | computing loss before
+2017-07-28 17:58:49.311225 PDT | [explictNoise_baseline] itr #0 | performing update
+2017-07-28 17:58:49.311409 PDT | [explictNoise_baseline] itr #0 | computing gradient
+2017-07-28 17:58:50.171016 PDT | [explictNoise_baseline] itr #0 | gradient computed
+2017-07-28 17:58:50.171199 PDT | [explictNoise_baseline] itr #0 | computing descent direction
+2017-07-28 17:58:53.807349 PDT | [explictNoise_baseline] itr #0 | descent direction computed
+2017-07-28 17:58:54.896191 PDT | [explictNoise_baseline] itr #0 | Line search condition violated. Rejecting the step!
+2017-07-28 17:58:54.896425 PDT | [explictNoise_baseline] itr #0 | Violated because loss is NaN
+2017-07-28 17:58:54.896564 PDT | [explictNoise_baseline] itr #0 | Violated because constraint mean_kl is NaN
+2017-07-28 17:58:54.897715 PDT | [explictNoise_baseline] itr #0 | backtrack iters: 14
+2017-07-28 17:58:54.897865 PDT | [explictNoise_baseline] itr #0 | computing loss after
+2017-07-28 17:58:54.897985 PDT | [explictNoise_baseline] itr #0 | optimization finished
+2017-07-28 17:58:54.898104 PDT | [explictNoise_baseline] itr #0 | Computing loss after
+2017-07-28 17:58:54.928775 PDT | [explictNoise_baseline] itr #0 | Computing KL after
+2017-07-28 17:58:54.961468 PDT | [explictNoise_baseline] itr #0 | Saving snapshot...
+2017-07-28 17:58:55.035372 PDT | [explictNoise_baseline] itr #0 | Saved
+2017-07-28 17:58:55.035545 PDT | [explictNoise_baseline] itr #0 | Saving visualization of paths
+2017-07-28 17:58:55.941670 PDT | ----------------------  ----------
+2017-07-28 17:58:55.941842 PDT | 0PolicyExecTime           2.80243
+2017-07-28 17:58:55.941949 PDT | 0EnvExecTime              9.19822
+2017-07-28 17:58:55.942049 PDT | 0ProcessExecTime          0.355549
+2017-07-28 17:58:55.942157 PDT | 0AverageReturn            0
+2017-07-28 17:58:55.942256 PDT | 0ExplainedVariance        1
+2017-07-28 17:58:55.942353 PDT | 0NumTrajs               400
+2017-07-28 17:58:55.942450 PDT | 0Entropy                  2.83788
+2017-07-28 17:58:55.942546 PDT | 0Perplexity              17.0795
+2017-07-28 17:58:55.942642 PDT | 0StdReturn                0
+2017-07-28 17:58:55.942738 PDT | 0MaxReturn                0
+2017-07-28 17:58:55.942838 PDT | 0MinReturn                0
+2017-07-28 17:58:55.942936 PDT | 0AveragePolicyStd         1
+2017-07-28 17:58:55.943032 PDT | ComputeUpdatedDistTime    4.82367
+2017-07-28 17:58:55.943128 PDT | 1PolicyExecTime          13.1188
+2017-07-28 17:58:55.943233 PDT | 1EnvExecTime             12.6981
+2017-07-28 17:58:55.943329 PDT | 1ProcessExecTime          0.456812
+2017-07-28 17:58:55.943426 PDT | 1AverageReturn            0
+2017-07-28 17:58:55.943522 PDT | 1ExplainedVariance        1
+2017-07-28 17:58:55.943618 PDT | 1NumTrajs               400
+2017-07-28 17:58:55.943714 PDT | 1Entropy                  2.83788
+2017-07-28 17:58:55.943810 PDT | 1Perplexity              17.0795
+2017-07-28 17:58:55.943905 PDT | 1StdReturn                0
+2017-07-28 17:58:55.944001 PDT | 1MaxReturn                0
+2017-07-28 17:58:55.944096 PDT | 1MinReturn                0
+2017-07-28 17:58:55.944192 PDT | 1AveragePolicyStd         1
+2017-07-28 17:58:55.944296 PDT | MeanKLBefore              0
+2017-07-28 17:58:55.944403 PDT | MeanKL                    0
+2017-07-28 17:58:55.944500 PDT | LossBefore                0
+2017-07-28 17:58:55.944596 PDT | LossAfter                 0
+2017-07-28 17:58:55.944692 PDT | dLoss                     0
+2017-07-28 17:58:55.944789 PDT | Time                     50.3906
+2017-07-28 17:58:55.944885 PDT | ItrTime                  50.3906
+2017-07-28 17:58:55.944980 PDT | ----------------------  ----------
+2017-07-28 17:58:55.945201 PDT | [explictNoise_baseline] itr #1 | Sampling set of tasks/goals for this meta-batch...
+2017-07-28 17:58:55.946642 PDT | [explictNoise_baseline] itr #1 | ** Step 0 **
+2017-07-28 17:58:55.946799 PDT | [explictNoise_baseline] itr #1 | Obtaining samples...
+2017-07-28 17:58:55.946910 PDT | [explictNoise_baseline] itr #1 | Obtaining samples for iteration 1...
+2017-07-28 17:59:10.106575 PDT | [explictNoise_baseline] itr #1 | Processing samples...
+2017-07-28 17:59:10.186209 PDT | [explictNoise_baseline] itr #1 | fitting baseline...
+2017-07-28 17:59:10.200431 PDT | [explictNoise_baseline] itr #1 | fitted
+2017-07-28 17:59:10.237430 PDT | [explictNoise_baseline] itr #1 | Logging diagnostics...
+2017-07-28 17:59:10.239651 PDT | [explictNoise_baseline] itr #1 | Computing policy updates...
+2017-07-28 17:59:10.532139 PDT | [explictNoise_baseline] itr #1 | ** Step 1 **
+2017-07-28 17:59:10.532314 PDT | [explictNoise_baseline] itr #1 | Obtaining samples...
+2017-07-28 17:59:10.532436 PDT | [explictNoise_baseline] itr #1 | Obtaining samples for iteration 1...

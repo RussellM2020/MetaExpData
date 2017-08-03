@@ -1,0 +1,69 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAQAAABhcmdzcQcpWAsAAABwcm94eV9jbGFzc3EIY3NhbmRib3gucm9ja3kudGYuYWxnb3MudnBnClZQRwpxCVgGAAAAa3dhcmdzcQp9cQsoWA4AAABvcHRpbWl6ZXJfYXJnc3EMfXENKFgSAAAAaW5pdF9sZWFybmluZ19yYXRlcQ5HP+AAAAAAAABYEQAAAHRmX29wdGltaXplcl9hcmdzcQ99cRBYDQAAAGxlYXJuaW5nX3JhdGVxEUc/0AAAAAAAAHNYEAAAAHRmX29wdGltaXplcl9jbHNxEmN0ZW5zb3JmbG93LnB5dGhvbi50cmFpbmluZy5ncmFkaWVudF9kZXNjZW50CkdyYWRpZW50RGVzY2VudE9wdGltaXplcgpxE3VYCwAAAGxvYWRfcG9saWN5cRRYOAAAAGRhdGEvbG9jYWwvZnNraXAyL1NpbmdsZUdvYWxfYWRkZWRSYW5kb21Ob2lzZS9pdHJfOTkucGtscRVYBQAAAG5faXRycRZLB1gPAAAAbWF4X3BhdGhfbGVuZ3RocRdNLAFYCgAAAGJhdGNoX3NpemVxGE1wF1gIAAAAYmFzZWxpbmVxGWgEKYFxGn1xGyhoByloCGNybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnEcaAp9cR1YCAAAAGVudl9zcGVjcR5jcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEfKYFxIH1xIShYCgAAAF9hdHRyX25hbWVxIlgEAAAAc3BlY3EjWAQAAABfb2JqcSRoBCmBcSV9cSYoaAcpaAhjc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcSdoCn1xKFgLAAAAd3JhcHBlZF9lbnZxKWgEKYFxKn1xKyhoByloCGNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcSxoCn1xLVgDAAAAZW52cS5oBCmBcS99cTAoaAcpaAhjcmxsYWIuZW52cy5tdWpvY28ubWF6ZV9yYW5kZ29hbDIKTWF6ZUVudgpxMWgKfXEyWAQAAABnb2FscTNdcTQoY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcTVjbnVtcHkKZHR5cGUKcTZYAgAAAGY4cTdLAEsBh3E4UnE5KEsDWAEAAAA8cTpOTk5K/////0r/////SwB0cTtiQwiV/niLILbrv3E8hnE9UnE+aDVoOUMI1kstiTAM0L9xP4ZxQFJxQWVzdWJzdWJzdWJ1YnN1YmguaCVYBgAAAHBvbGljeXFCTnV1YlgFAAAAdHJhaW5xQyl9cUR0cUVYCAAAAF9fa3dhcmdzcUZ9cUd1Yi4=",
+  "exp_name": "point_26",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.vpg.VPG",
+      "batch_size": 6000,
+      "load_policy": "data/local/fskip2/SingleGoal_addedRandomNoise/itr_99.pkl",
+      "max_path_length": 300,
+      "n_itr": 7,
+      "optimizer_args": {
+        "init_learning_rate": 0.5,
+        "tf_optimizer_args": {
+          "learning_rate": 0.25
+        },
+        "tf_optimizer_cls": {
+          "$class": "tensorflow.python.training.gradient_descent.GradientDescentOptimizer"
+        }
+      }
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.maze_randgoal2.MazeEnv",
+              "goal": [
+                -0.8659823154520888,
+                -0.25074399372277634
+              ]
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.mujoco.maze_randgoal2.MazeEnv",
+          "goal": [
+            -0.8659823154520888,
+            -0.25074399372277634
+          ]
+        }
+      }
+    },
+    "policy": null
+  },
+  "log_dir": "/home/russellm/rllab/data/local/singleRegion-frameskip2-randNoise-seed9/point_26",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 9,
+  "snapshot_gap": 1,
+  "snapshot_mode": "all",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

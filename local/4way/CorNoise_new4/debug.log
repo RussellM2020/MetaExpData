@@ -1,0 +1,840 @@
+2017-08-03 13:18:04.451897 PDT | [CorNoise_new4] itr #0 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:18:04.453722 PDT | [CorNoise_new4] itr #0 | ** Step 0 **
+2017-08-03 13:18:04.454003 PDT | [CorNoise_new4] itr #0 | Obtaining samples...
+2017-08-03 13:18:04.454243 PDT | [CorNoise_new4] itr #0 | Obtaining samples for iteration 0...
+2017-08-03 13:18:11.281443 PDT | [CorNoise_new4] itr #0 | Processing samples...
+2017-08-03 13:18:11.324293 PDT | [CorNoise_new4] itr #0 | fitting baseline...
+2017-08-03 13:18:11.335492 PDT | [CorNoise_new4] itr #0 | fitted
+2017-08-03 13:18:11.360473 PDT | [CorNoise_new4] itr #0 | Logging diagnostics...
+2017-08-03 13:18:11.361633 PDT | [CorNoise_new4] itr #0 | Computing policy updates...
+2017-08-03 13:18:12.069915 PDT | [CorNoise_new4] itr #0 | ** Step 1 **
+2017-08-03 13:18:12.070099 PDT | [CorNoise_new4] itr #0 | Obtaining samples...
+2017-08-03 13:18:12.070217 PDT | [CorNoise_new4] itr #0 | Obtaining samples for iteration 0...
+2017-08-03 13:18:21.826337 PDT | [CorNoise_new4] itr #0 | Processing samples...
+2017-08-03 13:18:21.898569 PDT | [CorNoise_new4] itr #0 | fitting baseline...
+2017-08-03 13:18:21.914035 PDT | [CorNoise_new4] itr #0 | fitted
+2017-08-03 13:18:21.942578 PDT | [CorNoise_new4] itr #0 | Logging diagnostics...
+2017-08-03 13:18:21.944192 PDT | [CorNoise_new4] itr #0 | Optimizing policy...
+2017-08-03 13:18:21.944649 PDT | [CorNoise_new4] itr #0 | Computing KL before
+2017-08-03 13:18:22.035099 PDT | [CorNoise_new4] itr #0 | Computing loss before
+2017-08-03 13:18:22.100305 PDT | [CorNoise_new4] itr #0 | Optimizing
+2017-08-03 13:18:22.115599 PDT | [CorNoise_new4] itr #0 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:18:22.115802 PDT | [CorNoise_new4] itr #0 | computing loss before
+2017-08-03 13:18:22.124428 PDT | [CorNoise_new4] itr #0 | performing update
+2017-08-03 13:18:22.124697 PDT | [CorNoise_new4] itr #0 | computing gradient
+2017-08-03 13:18:22.323225 PDT | [CorNoise_new4] itr #0 | gradient computed
+2017-08-03 13:18:22.323439 PDT | [CorNoise_new4] itr #0 | computing descent direction
+2017-08-03 13:18:23.137901 PDT | [CorNoise_new4] itr #0 | descent direction computed
+2017-08-03 13:18:23.217233 PDT | [CorNoise_new4] itr #0 | backtrack iters: 1
+2017-08-03 13:18:23.217468 PDT | [CorNoise_new4] itr #0 | computing loss after
+2017-08-03 13:18:23.217729 PDT | [CorNoise_new4] itr #0 | optimization finished
+2017-08-03 13:18:23.217982 PDT | [CorNoise_new4] itr #0 | Computing loss after
+2017-08-03 13:18:23.226844 PDT | [CorNoise_new4] itr #0 | Computing KL after
+2017-08-03 13:18:23.234123 PDT | [CorNoise_new4] itr #0 | Saving snapshot...
+2017-08-03 13:18:23.240423 PDT | [CorNoise_new4] itr #0 | Saved
+2017-08-03 13:18:23.240664 PDT | [CorNoise_new4] itr #0 | Saving visualization of paths
+2017-08-03 13:18:23.727274 PDT | ----------------------  --------------
+2017-08-03 13:18:23.727447 PDT | 0PolicyExecTime            3.43449
+2017-08-03 13:18:23.727564 PDT | 0EnvExecTime               3.1985
+2017-08-03 13:18:23.727675 PDT | 0ProcessExecTime           0.135799
+2017-08-03 13:18:23.727788 PDT | 0AverageReturn             6.5
+2017-08-03 13:18:23.727895 PDT | 0ExplainedVariance         0.0667274
+2017-08-03 13:18:23.728008 PDT | 0NumTrajs                200
+2017-08-03 13:18:23.728120 PDT | 0Entropy                   2.83788
+2017-08-03 13:18:23.728232 PDT | 0Perplexity               17.0795
+2017-08-03 13:18:23.728337 PDT | 0StdReturn                69.3379
+2017-08-03 13:18:23.728469 PDT | 0MaxReturn               900
+2017-08-03 13:18:23.728583 PDT | 0MinReturn                 0
+2017-08-03 13:18:23.728688 PDT | 0AveragePolicyStd          1
+2017-08-03 13:18:23.728800 PDT | ComputeUpdatedDistTime     0.707989
+2017-08-03 13:18:23.728907 PDT | 1PolicyExecTime            5.92432
+2017-08-03 13:18:23.729013 PDT | 1EnvExecTime               3.61358
+2017-08-03 13:18:23.729127 PDT | 1ProcessExecTime           0.15284
+2017-08-03 13:18:23.729240 PDT | 1AverageReturn            39
+2017-08-03 13:18:23.729355 PDT | 1ExplainedVariance         0.264073
+2017-08-03 13:18:23.729474 PDT | 1NumTrajs                200
+2017-08-03 13:18:23.729621 PDT | 1Entropy                   2.83388
+2017-08-03 13:18:23.729729 PDT | 1Perplexity               17.0114
+2017-08-03 13:18:23.729835 PDT | 1StdReturn               203.664
+2017-08-03 13:18:23.729940 PDT | 1MaxReturn              1600
+2017-08-03 13:18:23.730045 PDT | 1MinReturn                 0
+2017-08-03 13:18:23.730151 PDT | 1AveragePolicyStd          0.998019
+2017-08-03 13:18:23.730256 PDT | MeanKLBefore               8.44011e-10
+2017-08-03 13:18:23.730362 PDT | MeanKL                     0.00870992
+2017-08-03 13:18:23.730467 PDT | LossBefore                -2.79397e-09
+2017-08-03 13:18:23.730573 PDT | LossAfter                 -0.00535641
+2017-08-03 13:18:23.730678 PDT | dLoss                      0.00535641
+2017-08-03 13:18:23.730784 PDT | Time                      18.7888
+2017-08-03 13:18:23.730889 PDT | ItrTime                   18.7888
+2017-08-03 13:18:23.730994 PDT | ----------------------  --------------
+2017-08-03 13:18:23.731236 PDT | [CorNoise_new4] itr #1 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:18:23.732933 PDT | [CorNoise_new4] itr #1 | ** Step 0 **
+2017-08-03 13:18:23.733313 PDT | [CorNoise_new4] itr #1 | Obtaining samples...
+2017-08-03 13:18:23.733439 PDT | [CorNoise_new4] itr #1 | Obtaining samples for iteration 1...
+2017-08-03 13:18:30.519555 PDT | [CorNoise_new4] itr #1 | Processing samples...
+2017-08-03 13:18:30.599922 PDT | [CorNoise_new4] itr #1 | fitting baseline...
+2017-08-03 13:18:30.616598 PDT | [CorNoise_new4] itr #1 | fitted
+2017-08-03 13:18:30.645875 PDT | [CorNoise_new4] itr #1 | Logging diagnostics...
+2017-08-03 13:18:30.647504 PDT | [CorNoise_new4] itr #1 | Computing policy updates...
+2017-08-03 13:18:30.737553 PDT | [CorNoise_new4] itr #1 | ** Step 1 **
+2017-08-03 13:18:30.737738 PDT | [CorNoise_new4] itr #1 | Obtaining samples...
+2017-08-03 13:18:30.737879 PDT | [CorNoise_new4] itr #1 | Obtaining samples for iteration 1...
+2017-08-03 13:18:40.787128 PDT | [CorNoise_new4] itr #1 | Processing samples...
+2017-08-03 13:18:40.845056 PDT | [CorNoise_new4] itr #1 | fitting baseline...
+2017-08-03 13:18:40.857241 PDT | [CorNoise_new4] itr #1 | fitted
+2017-08-03 13:18:40.881001 PDT | [CorNoise_new4] itr #1 | Logging diagnostics...
+2017-08-03 13:18:40.882327 PDT | [CorNoise_new4] itr #1 | Optimizing policy...
+2017-08-03 13:18:40.882665 PDT | [CorNoise_new4] itr #1 | Computing KL before
+2017-08-03 13:18:40.893934 PDT | [CorNoise_new4] itr #1 | Computing loss before
+2017-08-03 13:18:40.905529 PDT | [CorNoise_new4] itr #1 | Optimizing
+2017-08-03 13:18:40.906703 PDT | [CorNoise_new4] itr #1 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:18:40.906945 PDT | [CorNoise_new4] itr #1 | computing loss before
+2017-08-03 13:18:40.918258 PDT | [CorNoise_new4] itr #1 | performing update
+2017-08-03 13:18:40.918556 PDT | [CorNoise_new4] itr #1 | computing gradient
+2017-08-03 13:18:40.940310 PDT | [CorNoise_new4] itr #1 | gradient computed
+2017-08-03 13:18:40.940500 PDT | [CorNoise_new4] itr #1 | computing descent direction
+2017-08-03 13:18:41.391698 PDT | [CorNoise_new4] itr #1 | descent direction computed
+2017-08-03 13:18:41.408416 PDT | [CorNoise_new4] itr #1 | backtrack iters: 1
+2017-08-03 13:18:41.408641 PDT | [CorNoise_new4] itr #1 | computing loss after
+2017-08-03 13:18:41.408770 PDT | [CorNoise_new4] itr #1 | optimization finished
+2017-08-03 13:18:41.408896 PDT | [CorNoise_new4] itr #1 | Computing loss after
+2017-08-03 13:18:41.416134 PDT | [CorNoise_new4] itr #1 | Computing KL after
+2017-08-03 13:18:41.423029 PDT | [CorNoise_new4] itr #1 | Saving snapshot...
+2017-08-03 13:18:41.426687 PDT | [CorNoise_new4] itr #1 | Saved
+2017-08-03 13:18:41.426859 PDT | [CorNoise_new4] itr #1 | Saving visualization of paths
+2017-08-03 13:18:41.781467 PDT | ----------------------  --------------
+2017-08-03 13:18:41.781648 PDT | 0PolicyExecTime            3.3775
+2017-08-03 13:18:41.781761 PDT | 0EnvExecTime               3.21516
+2017-08-03 13:18:41.781883 PDT | 0ProcessExecTime           0.135534
+2017-08-03 13:18:41.781991 PDT | 0AverageReturn            19
+2017-08-03 13:18:41.782094 PDT | 0ExplainedVariance         0.123204
+2017-08-03 13:18:41.782195 PDT | 0NumTrajs                200
+2017-08-03 13:18:41.782296 PDT | 0Entropy                   2.82341
+2017-08-03 13:18:41.782396 PDT | 0Perplexity               16.8342
+2017-08-03 13:18:41.782497 PDT | 0StdReturn               117.639
+2017-08-03 13:18:41.782597 PDT | 0MaxReturn              1200
+2017-08-03 13:18:41.782698 PDT | 0MinReturn                 0
+2017-08-03 13:18:41.782798 PDT | 0AveragePolicyStd          0.992796
+2017-08-03 13:18:41.782899 PDT | ComputeUpdatedDistTime     0.0897417
+2017-08-03 13:18:41.782999 PDT | 1PolicyExecTime            6.04905
+2017-08-03 13:18:41.783099 PDT | 1EnvExecTime               3.77763
+2017-08-03 13:18:41.783198 PDT | 1ProcessExecTime           0.154269
+2017-08-03 13:18:41.783298 PDT | 1AverageReturn            26.5
+2017-08-03 13:18:41.783397 PDT | 1ExplainedVariance         0.129876
+2017-08-03 13:18:41.783497 PDT | 1NumTrajs                200
+2017-08-03 13:18:41.783596 PDT | 1Entropy                   2.817
+2017-08-03 13:18:41.783696 PDT | 1Perplexity               16.7266
+2017-08-03 13:18:41.783796 PDT | 1StdReturn               150.492
+2017-08-03 13:18:41.783896 PDT | 1MaxReturn              1100
+2017-08-03 13:18:41.784001 PDT | 1MinReturn                 0
+2017-08-03 13:18:41.784115 PDT | 1AveragePolicyStd          0.989673
+2017-08-03 13:18:41.784216 PDT | MeanKLBefore               2.09548e-09
+2017-08-03 13:18:41.784316 PDT | MeanKL                     0.00686074
+2017-08-03 13:18:41.784417 PDT | LossBefore                -1.39698e-09
+2017-08-03 13:18:41.784517 PDT | LossAfter                 -0.00342925
+2017-08-03 13:18:41.784616 PDT | dLoss                      0.00342925
+2017-08-03 13:18:41.784716 PDT | Time                      36.975
+2017-08-03 13:18:41.784816 PDT | ItrTime                   17.6956
+2017-08-03 13:18:41.784917 PDT | ----------------------  --------------
+2017-08-03 13:18:41.785105 PDT | [CorNoise_new4] itr #2 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:18:41.786648 PDT | [CorNoise_new4] itr #2 | ** Step 0 **
+2017-08-03 13:18:41.786940 PDT | [CorNoise_new4] itr #2 | Obtaining samples...
+2017-08-03 13:18:41.787059 PDT | [CorNoise_new4] itr #2 | Obtaining samples for iteration 2...
+2017-08-03 13:18:49.113248 PDT | [CorNoise_new4] itr #2 | Processing samples...
+2017-08-03 13:18:49.172533 PDT | [CorNoise_new4] itr #2 | fitting baseline...
+2017-08-03 13:18:49.185139 PDT | [CorNoise_new4] itr #2 | fitted
+2017-08-03 13:18:49.209533 PDT | [CorNoise_new4] itr #2 | Logging diagnostics...
+2017-08-03 13:18:49.210935 PDT | [CorNoise_new4] itr #2 | Computing policy updates...
+2017-08-03 13:18:49.295634 PDT | [CorNoise_new4] itr #2 | ** Step 1 **
+2017-08-03 13:18:49.295808 PDT | [CorNoise_new4] itr #2 | Obtaining samples...
+2017-08-03 13:18:49.295937 PDT | [CorNoise_new4] itr #2 | Obtaining samples for iteration 2...
+2017-08-03 13:18:58.644494 PDT | [CorNoise_new4] itr #2 | Processing samples...
+2017-08-03 13:18:58.695476 PDT | [CorNoise_new4] itr #2 | fitting baseline...
+2017-08-03 13:18:58.708246 PDT | [CorNoise_new4] itr #2 | fitted
+2017-08-03 13:18:58.734243 PDT | [CorNoise_new4] itr #2 | Logging diagnostics...
+2017-08-03 13:18:58.735408 PDT | [CorNoise_new4] itr #2 | Optimizing policy...
+2017-08-03 13:18:58.735702 PDT | [CorNoise_new4] itr #2 | Computing KL before
+2017-08-03 13:18:58.747111 PDT | [CorNoise_new4] itr #2 | Computing loss before
+2017-08-03 13:18:58.759824 PDT | [CorNoise_new4] itr #2 | Optimizing
+2017-08-03 13:18:58.760907 PDT | [CorNoise_new4] itr #2 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:18:58.761123 PDT | [CorNoise_new4] itr #2 | computing loss before
+2017-08-03 13:18:58.773475 PDT | [CorNoise_new4] itr #2 | performing update
+2017-08-03 13:18:58.773695 PDT | [CorNoise_new4] itr #2 | computing gradient
+2017-08-03 13:18:58.794465 PDT | [CorNoise_new4] itr #2 | gradient computed
+2017-08-03 13:18:58.794631 PDT | [CorNoise_new4] itr #2 | computing descent direction
+2017-08-03 13:18:59.355944 PDT | [CorNoise_new4] itr #2 | descent direction computed
+2017-08-03 13:18:59.379465 PDT | [CorNoise_new4] itr #2 | backtrack iters: 1
+2017-08-03 13:18:59.379654 PDT | [CorNoise_new4] itr #2 | computing loss after
+2017-08-03 13:18:59.379785 PDT | [CorNoise_new4] itr #2 | optimization finished
+2017-08-03 13:18:59.379905 PDT | [CorNoise_new4] itr #2 | Computing loss after
+2017-08-03 13:18:59.390692 PDT | [CorNoise_new4] itr #2 | Computing KL after
+2017-08-03 13:18:59.399957 PDT | [CorNoise_new4] itr #2 | Saving snapshot...
+2017-08-03 13:18:59.402519 PDT | [CorNoise_new4] itr #2 | Saved
+2017-08-03 13:18:59.402680 PDT | [CorNoise_new4] itr #2 | Saving visualization of paths
+2017-08-03 13:18:59.752674 PDT | ----------------------  --------------
+2017-08-03 13:18:59.752848 PDT | 0PolicyExecTime            3.58857
+2017-08-03 13:18:59.752965 PDT | 0EnvExecTime               3.52498
+2017-08-03 13:18:59.753177 PDT | 0ProcessExecTime           0.149352
+2017-08-03 13:18:59.753328 PDT | 0AverageReturn             5.5
+2017-08-03 13:18:59.753449 PDT | 0ExplainedVariance         0.0770986
+2017-08-03 13:18:59.753558 PDT | 0NumTrajs                200
+2017-08-03 13:18:59.753664 PDT | 0Entropy                   2.8149
+2017-08-03 13:18:59.753770 PDT | 0Perplexity               16.6915
+2017-08-03 13:18:59.753876 PDT | 0StdReturn                64.9596
+2017-08-03 13:18:59.753981 PDT | 0MaxReturn               900
+2017-08-03 13:18:59.754087 PDT | 0MinReturn                 0
+2017-08-03 13:18:59.754192 PDT | 0AveragePolicyStd          0.988588
+2017-08-03 13:18:59.754298 PDT | ComputeUpdatedDistTime     0.0844319
+2017-08-03 13:18:59.754403 PDT | 1PolicyExecTime            5.64118
+2017-08-03 13:18:59.754507 PDT | 1EnvExecTime               3.50248
+2017-08-03 13:18:59.754612 PDT | 1ProcessExecTime           0.141366
+2017-08-03 13:18:59.754759 PDT | 1AverageReturn            84
+2017-08-03 13:18:59.754881 PDT | 1ExplainedVariance         0.302925
+2017-08-03 13:18:59.755010 PDT | 1NumTrajs                200
+2017-08-03 13:18:59.755117 PDT | 1Entropy                   2.80825
+2017-08-03 13:18:59.755223 PDT | 1Perplexity               16.5809
+2017-08-03 13:18:59.755330 PDT | 1StdReturn               336.369
+2017-08-03 13:18:59.755436 PDT | 1MaxReturn              2000
+2017-08-03 13:18:59.755541 PDT | 1MinReturn                 0
+2017-08-03 13:18:59.755646 PDT | 1AveragePolicyStd          0.985321
+2017-08-03 13:18:59.755751 PDT | MeanKLBefore               1.39698e-09
+2017-08-03 13:18:59.755856 PDT | MeanKL                     0.00726386
+2017-08-03 13:18:59.755961 PDT | LossBefore                 3.49246e-09
+2017-08-03 13:18:59.756078 PDT | LossAfter                 -0.00826775
+2017-08-03 13:18:59.756184 PDT | dLoss                      0.00826775
+2017-08-03 13:18:59.756290 PDT | Time                      54.9509
+2017-08-03 13:18:59.756403 PDT | ItrTime                   17.6176
+2017-08-03 13:18:59.756625 PDT | ----------------------  --------------
+2017-08-03 13:18:59.756839 PDT | [CorNoise_new4] itr #3 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:18:59.758533 PDT | [CorNoise_new4] itr #3 | ** Step 0 **
+2017-08-03 13:18:59.758864 PDT | [CorNoise_new4] itr #3 | Obtaining samples...
+2017-08-03 13:18:59.758995 PDT | [CorNoise_new4] itr #3 | Obtaining samples for iteration 3...
+2017-08-03 13:19:06.755193 PDT | [CorNoise_new4] itr #3 | Processing samples...
+2017-08-03 13:19:06.802460 PDT | [CorNoise_new4] itr #3 | fitting baseline...
+2017-08-03 13:19:06.811914 PDT | [CorNoise_new4] itr #3 | fitted
+2017-08-03 13:19:06.827704 PDT | [CorNoise_new4] itr #3 | Logging diagnostics...
+2017-08-03 13:19:06.828414 PDT | [CorNoise_new4] itr #3 | Computing policy updates...
+2017-08-03 13:19:06.907166 PDT | [CorNoise_new4] itr #3 | ** Step 1 **
+2017-08-03 13:19:06.907337 PDT | [CorNoise_new4] itr #3 | Obtaining samples...
+2017-08-03 13:19:06.907459 PDT | [CorNoise_new4] itr #3 | Obtaining samples for iteration 3...
+2017-08-03 13:19:16.560555 PDT | [CorNoise_new4] itr #3 | Processing samples...
+2017-08-03 13:19:16.629390 PDT | [CorNoise_new4] itr #3 | fitting baseline...
+2017-08-03 13:19:16.645903 PDT | [CorNoise_new4] itr #3 | fitted
+2017-08-03 13:19:16.673808 PDT | [CorNoise_new4] itr #3 | Logging diagnostics...
+2017-08-03 13:19:16.675394 PDT | [CorNoise_new4] itr #3 | Optimizing policy...
+2017-08-03 13:19:16.675788 PDT | [CorNoise_new4] itr #3 | Computing KL before
+2017-08-03 13:19:16.688386 PDT | [CorNoise_new4] itr #3 | Computing loss before
+2017-08-03 13:19:16.699628 PDT | [CorNoise_new4] itr #3 | Optimizing
+2017-08-03 13:19:16.701042 PDT | [CorNoise_new4] itr #3 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:19:16.701371 PDT | [CorNoise_new4] itr #3 | computing loss before
+2017-08-03 13:19:16.712998 PDT | [CorNoise_new4] itr #3 | performing update
+2017-08-03 13:19:16.713328 PDT | [CorNoise_new4] itr #3 | computing gradient
+2017-08-03 13:19:16.736764 PDT | [CorNoise_new4] itr #3 | gradient computed
+2017-08-03 13:19:16.736949 PDT | [CorNoise_new4] itr #3 | computing descent direction
+2017-08-03 13:19:17.162747 PDT | [CorNoise_new4] itr #3 | descent direction computed
+2017-08-03 13:19:17.180487 PDT | [CorNoise_new4] itr #3 | backtrack iters: 1
+2017-08-03 13:19:17.180663 PDT | [CorNoise_new4] itr #3 | computing loss after
+2017-08-03 13:19:17.180795 PDT | [CorNoise_new4] itr #3 | optimization finished
+2017-08-03 13:19:17.180924 PDT | [CorNoise_new4] itr #3 | Computing loss after
+2017-08-03 13:19:17.188430 PDT | [CorNoise_new4] itr #3 | Computing KL after
+2017-08-03 13:19:17.195717 PDT | [CorNoise_new4] itr #3 | Saving snapshot...
+2017-08-03 13:19:17.198328 PDT | [CorNoise_new4] itr #3 | Saved
+2017-08-03 13:19:17.198490 PDT | [CorNoise_new4] itr #3 | Saving visualization of paths
+2017-08-03 13:19:17.737702 PDT | ----------------------  --------------
+2017-08-03 13:19:17.737861 PDT | 0PolicyExecTime            3.42896
+2017-08-03 13:19:17.737981 PDT | 0EnvExecTime               3.36573
+2017-08-03 13:19:17.738096 PDT | 0ProcessExecTime           0.141266
+2017-08-03 13:19:17.738200 PDT | 0AverageReturn            24
+2017-08-03 13:19:17.738302 PDT | 0ExplainedVariance         0.0709167
+2017-08-03 13:19:17.738404 PDT | 0NumTrajs                200
+2017-08-03 13:19:17.738504 PDT | 0Entropy                   2.80908
+2017-08-03 13:19:17.738605 PDT | 0Perplexity               16.5946
+2017-08-03 13:19:17.738705 PDT | 0StdReturn               139.728
+2017-08-03 13:19:17.738806 PDT | 0MaxReturn              1300
+2017-08-03 13:19:17.738906 PDT | 0MinReturn                 0
+2017-08-03 13:19:17.739002 PDT | 0AveragePolicyStd          0.985792
+2017-08-03 13:19:17.739099 PDT | ComputeUpdatedDistTime     0.0785973
+2017-08-03 13:19:17.739194 PDT | 1PolicyExecTime            5.88484
+2017-08-03 13:19:17.739289 PDT | 1EnvExecTime               3.55968
+2017-08-03 13:19:17.739384 PDT | 1ProcessExecTime           0.143305
+2017-08-03 13:19:17.739480 PDT | 1AverageReturn           169.5
+2017-08-03 13:19:17.739576 PDT | 1ExplainedVariance         0.387173
+2017-08-03 13:19:17.739672 PDT | 1NumTrajs                200
+2017-08-03 13:19:17.739767 PDT | 1Entropy                   2.82659
+2017-08-03 13:19:17.739862 PDT | 1Perplexity               16.8878
+2017-08-03 13:19:17.739957 PDT | 1StdReturn               531.996
+2017-08-03 13:19:17.740071 PDT | 1MaxReturn              2600
+2017-08-03 13:19:17.740168 PDT | 1MinReturn                 0
+2017-08-03 13:19:17.740264 PDT | 1AveragePolicyStd          0.994575
+2017-08-03 13:19:17.740359 PDT | MeanKLBefore               2.91038e-10
+2017-08-03 13:19:17.740454 PDT | MeanKL                     0.00849395
+2017-08-03 13:19:17.740549 PDT | LossBefore                -3.14321e-09
+2017-08-03 13:19:17.740644 PDT | LossAfter                 -0.0083636
+2017-08-03 13:19:17.740739 PDT | dLoss                      0.0083636
+2017-08-03 13:19:17.740835 PDT | Time                      72.7467
+2017-08-03 13:19:17.740930 PDT | ItrTime                   17.4417
+2017-08-03 13:19:17.741025 PDT | ----------------------  --------------
+2017-08-03 13:19:17.741216 PDT | [CorNoise_new4] itr #4 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:19:17.742757 PDT | [CorNoise_new4] itr #4 | ** Step 0 **
+2017-08-03 13:19:17.743010 PDT | [CorNoise_new4] itr #4 | Obtaining samples...
+2017-08-03 13:19:17.743127 PDT | [CorNoise_new4] itr #4 | Obtaining samples for iteration 4...
+2017-08-03 13:19:24.389145 PDT | [CorNoise_new4] itr #4 | Processing samples...
+2017-08-03 13:19:24.446675 PDT | [CorNoise_new4] itr #4 | fitting baseline...
+2017-08-03 13:19:24.459745 PDT | [CorNoise_new4] itr #4 | fitted
+2017-08-03 13:19:24.485100 PDT | [CorNoise_new4] itr #4 | Logging diagnostics...
+2017-08-03 13:19:24.486556 PDT | [CorNoise_new4] itr #4 | Computing policy updates...
+2017-08-03 13:19:24.573483 PDT | [CorNoise_new4] itr #4 | ** Step 1 **
+2017-08-03 13:19:24.573658 PDT | [CorNoise_new4] itr #4 | Obtaining samples...
+2017-08-03 13:19:24.573797 PDT | [CorNoise_new4] itr #4 | Obtaining samples for iteration 4...
+2017-08-03 13:19:33.940598 PDT | [CorNoise_new4] itr #4 | Processing samples...
+2017-08-03 13:19:33.979807 PDT | [CorNoise_new4] itr #4 | fitting baseline...
+2017-08-03 13:19:33.989936 PDT | [CorNoise_new4] itr #4 | fitted
+2017-08-03 13:19:34.008141 PDT | [CorNoise_new4] itr #4 | Logging diagnostics...
+2017-08-03 13:19:34.009214 PDT | [CorNoise_new4] itr #4 | Optimizing policy...
+2017-08-03 13:19:34.009493 PDT | [CorNoise_new4] itr #4 | Computing KL before
+2017-08-03 13:19:34.019220 PDT | [CorNoise_new4] itr #4 | Computing loss before
+2017-08-03 13:19:34.028521 PDT | [CorNoise_new4] itr #4 | Optimizing
+2017-08-03 13:19:34.029611 PDT | [CorNoise_new4] itr #4 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:19:34.029858 PDT | [CorNoise_new4] itr #4 | computing loss before
+2017-08-03 13:19:34.040370 PDT | [CorNoise_new4] itr #4 | performing update
+2017-08-03 13:19:34.040636 PDT | [CorNoise_new4] itr #4 | computing gradient
+2017-08-03 13:19:34.064970 PDT | [CorNoise_new4] itr #4 | gradient computed
+2017-08-03 13:19:34.065235 PDT | [CorNoise_new4] itr #4 | computing descent direction
+2017-08-03 13:19:34.478687 PDT | [CorNoise_new4] itr #4 | descent direction computed
+2017-08-03 13:19:34.488391 PDT | [CorNoise_new4] itr #4 | backtrack iters: 0
+2017-08-03 13:19:34.488614 PDT | [CorNoise_new4] itr #4 | computing loss after
+2017-08-03 13:19:34.488777 PDT | [CorNoise_new4] itr #4 | optimization finished
+2017-08-03 13:19:34.488936 PDT | [CorNoise_new4] itr #4 | Computing loss after
+2017-08-03 13:19:34.496534 PDT | [CorNoise_new4] itr #4 | Computing KL after
+2017-08-03 13:19:34.503561 PDT | [CorNoise_new4] itr #4 | Saving snapshot...
+2017-08-03 13:19:34.506760 PDT | [CorNoise_new4] itr #4 | Saved
+2017-08-03 13:19:34.506968 PDT | [CorNoise_new4] itr #4 | Saving visualization of paths
+2017-08-03 13:19:34.878881 PDT | ----------------------  --------------
+2017-08-03 13:19:34.879056 PDT | 0PolicyExecTime            3.29402
+2017-08-03 13:19:34.879174 PDT | 0EnvExecTime               3.15917
+2017-08-03 13:19:34.879284 PDT | 0ProcessExecTime           0.13585
+2017-08-03 13:19:34.879401 PDT | 0AverageReturn            26.5
+2017-08-03 13:19:34.879508 PDT | 0ExplainedVariance         0.212121
+2017-08-03 13:19:34.879615 PDT | 0NumTrajs                200
+2017-08-03 13:19:34.879721 PDT | 0Entropy                   2.80975
+2017-08-03 13:19:34.879827 PDT | 0Perplexity               16.6058
+2017-08-03 13:19:34.879933 PDT | 0StdReturn               171.603
+2017-08-03 13:19:34.880049 PDT | 0MaxReturn              1600
+2017-08-03 13:19:34.880157 PDT | 0MinReturn                 0
+2017-08-03 13:19:34.880263 PDT | 0AveragePolicyStd          0.986443
+2017-08-03 13:19:34.880370 PDT | ComputeUpdatedDistTime     0.0866563
+2017-08-03 13:19:34.880476 PDT | 1PolicyExecTime            5.67229
+2017-08-03 13:19:34.880581 PDT | 1EnvExecTime               3.48811
+2017-08-03 13:19:34.880687 PDT | 1ProcessExecTime           0.143122
+2017-08-03 13:19:34.880793 PDT | 1AverageReturn           285
+2017-08-03 13:19:34.880900 PDT | 1ExplainedVariance         0.391719
+2017-08-03 13:19:34.881011 PDT | 1NumTrajs                200
+2017-08-03 13:19:34.881119 PDT | 1Entropy                   2.81095
+2017-08-03 13:19:34.881225 PDT | 1Perplexity               16.6258
+2017-08-03 13:19:34.881331 PDT | 1StdReturn               673.999
+2017-08-03 13:19:34.881436 PDT | 1MaxReturn              2600
+2017-08-03 13:19:34.881541 PDT | 1MinReturn                 0
+2017-08-03 13:19:34.881647 PDT | 1AveragePolicyStd          0.98708
+2017-08-03 13:19:34.881753 PDT | MeanKLBefore              -2.56114e-08
+2017-08-03 13:19:34.881859 PDT | MeanKL                     0.00946339
+2017-08-03 13:19:34.881965 PDT | LossBefore                -1.16415e-10
+2017-08-03 13:19:34.882071 PDT | LossAfter                 -0.0092687
+2017-08-03 13:19:34.882178 PDT | dLoss                      0.0092687
+2017-08-03 13:19:34.882283 PDT | Time                      90.0551
+2017-08-03 13:19:34.882389 PDT | ItrTime                   16.7658
+2017-08-03 13:19:34.882494 PDT | ----------------------  --------------
+2017-08-03 13:19:34.882689 PDT | [CorNoise_new4] itr #5 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:19:34.884341 PDT | [CorNoise_new4] itr #5 | ** Step 0 **
+2017-08-03 13:19:34.884684 PDT | [CorNoise_new4] itr #5 | Obtaining samples...
+2017-08-03 13:19:34.884809 PDT | [CorNoise_new4] itr #5 | Obtaining samples for iteration 5...
+2017-08-03 13:19:42.213453 PDT | [CorNoise_new4] itr #5 | Processing samples...
+2017-08-03 13:19:42.284991 PDT | [CorNoise_new4] itr #5 | fitting baseline...
+2017-08-03 13:19:42.295258 PDT | [CorNoise_new4] itr #5 | fitted
+2017-08-03 13:19:42.316532 PDT | [CorNoise_new4] itr #5 | Logging diagnostics...
+2017-08-03 13:19:42.317497 PDT | [CorNoise_new4] itr #5 | Computing policy updates...
+2017-08-03 13:19:42.402558 PDT | [CorNoise_new4] itr #5 | ** Step 1 **
+2017-08-03 13:19:42.402727 PDT | [CorNoise_new4] itr #5 | Obtaining samples...
+2017-08-03 13:19:42.402855 PDT | [CorNoise_new4] itr #5 | Obtaining samples for iteration 5...
+2017-08-03 13:19:52.034663 PDT | [CorNoise_new4] itr #5 | Processing samples...
+2017-08-03 13:19:52.069367 PDT | [CorNoise_new4] itr #5 | fitting baseline...
+2017-08-03 13:19:52.076395 PDT | [CorNoise_new4] itr #5 | fitted
+2017-08-03 13:19:52.095924 PDT | [CorNoise_new4] itr #5 | Logging diagnostics...
+2017-08-03 13:19:52.097059 PDT | [CorNoise_new4] itr #5 | Optimizing policy...
+2017-08-03 13:19:52.097345 PDT | [CorNoise_new4] itr #5 | Computing KL before
+2017-08-03 13:19:52.111413 PDT | [CorNoise_new4] itr #5 | Computing loss before
+2017-08-03 13:19:52.128126 PDT | [CorNoise_new4] itr #5 | Optimizing
+2017-08-03 13:19:52.129917 PDT | [CorNoise_new4] itr #5 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:19:52.130128 PDT | [CorNoise_new4] itr #5 | computing loss before
+2017-08-03 13:19:52.143421 PDT | [CorNoise_new4] itr #5 | performing update
+2017-08-03 13:19:52.143659 PDT | [CorNoise_new4] itr #5 | computing gradient
+2017-08-03 13:19:52.167356 PDT | [CorNoise_new4] itr #5 | gradient computed
+2017-08-03 13:19:52.167511 PDT | [CorNoise_new4] itr #5 | computing descent direction
+2017-08-03 13:19:52.613484 PDT | [CorNoise_new4] itr #5 | descent direction computed
+2017-08-03 13:19:52.645488 PDT | [CorNoise_new4] itr #5 | backtrack iters: 2
+2017-08-03 13:19:52.645667 PDT | [CorNoise_new4] itr #5 | computing loss after
+2017-08-03 13:19:52.645797 PDT | [CorNoise_new4] itr #5 | optimization finished
+2017-08-03 13:19:52.645925 PDT | [CorNoise_new4] itr #5 | Computing loss after
+2017-08-03 13:19:52.653520 PDT | [CorNoise_new4] itr #5 | Computing KL after
+2017-08-03 13:19:52.662947 PDT | [CorNoise_new4] itr #5 | Saving snapshot...
+2017-08-03 13:19:52.665837 PDT | [CorNoise_new4] itr #5 | Saved
+2017-08-03 13:19:52.666018 PDT | [CorNoise_new4] itr #5 | Saving visualization of paths
+2017-08-03 13:19:53.027190 PDT | ----------------------  --------------
+2017-08-03 13:19:53.027368 PDT | 0PolicyExecTime            3.58619
+2017-08-03 13:19:53.027516 PDT | 0EnvExecTime               3.52858
+2017-08-03 13:19:53.027645 PDT | 0ProcessExecTime           0.148823
+2017-08-03 13:19:53.027787 PDT | 0AverageReturn            38
+2017-08-03 13:19:53.027895 PDT | 0ExplainedVariance         0.158821
+2017-08-03 13:19:53.028008 PDT | 0NumTrajs                200
+2017-08-03 13:19:53.028118 PDT | 0Entropy                   2.7894
+2017-08-03 13:19:53.028225 PDT | 0Perplexity               16.2712
+2017-08-03 13:19:53.028330 PDT | 0StdReturn               223.508
+2017-08-03 13:19:53.028436 PDT | 0MaxReturn              2100
+2017-08-03 13:19:53.028541 PDT | 0MinReturn                 0
+2017-08-03 13:19:53.028646 PDT | 0AveragePolicyStd          0.976188
+2017-08-03 13:19:53.028751 PDT | ComputeUpdatedDistTime     0.0847504
+2017-08-03 13:19:53.028856 PDT | 1PolicyExecTime            5.85467
+2017-08-03 13:19:53.028961 PDT | 1EnvExecTime               3.57009
+2017-08-03 13:19:53.029066 PDT | 1ProcessExecTime           0.142303
+2017-08-03 13:19:53.029171 PDT | 1AverageReturn           174
+2017-08-03 13:19:53.029276 PDT | 1ExplainedVariance         0.335142
+2017-08-03 13:19:53.029380 PDT | 1NumTrajs                200
+2017-08-03 13:19:53.029486 PDT | 1Entropy                   2.78795
+2017-08-03 13:19:53.029591 PDT | 1Perplexity               16.2477
+2017-08-03 13:19:53.029696 PDT | 1StdReturn               519.253
+2017-08-03 13:19:53.029800 PDT | 1MaxReturn              2800
+2017-08-03 13:19:53.029905 PDT | 1MinReturn                 0
+2017-08-03 13:19:53.030010 PDT | 1AveragePolicyStd          0.975639
+2017-08-03 13:19:53.030114 PDT | MeanKLBefore               1.86264e-08
+2017-08-03 13:19:53.030219 PDT | MeanKL                     0.00858943
+2017-08-03 13:19:53.030324 PDT | LossBefore                 4.65661e-10
+2017-08-03 13:19:53.030430 PDT | LossAfter                 -0.00646783
+2017-08-03 13:19:53.030534 PDT | dLoss                      0.00646784
+2017-08-03 13:19:53.030639 PDT | Time                     108.214
+2017-08-03 13:19:53.030744 PDT | ItrTime                   17.7833
+2017-08-03 13:19:53.030849 PDT | ----------------------  --------------
+2017-08-03 13:19:53.031043 PDT | [CorNoise_new4] itr #6 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:19:53.032726 PDT | [CorNoise_new4] itr #6 | ** Step 0 **
+2017-08-03 13:19:53.033079 PDT | [CorNoise_new4] itr #6 | Obtaining samples...
+2017-08-03 13:19:53.033213 PDT | [CorNoise_new4] itr #6 | Obtaining samples for iteration 6...
+2017-08-03 13:20:00.149399 PDT | [CorNoise_new4] itr #6 | Processing samples...
+2017-08-03 13:20:00.224219 PDT | [CorNoise_new4] itr #6 | fitting baseline...
+2017-08-03 13:20:00.238600 PDT | [CorNoise_new4] itr #6 | fitted
+2017-08-03 13:20:00.265907 PDT | [CorNoise_new4] itr #6 | Logging diagnostics...
+2017-08-03 13:20:00.267475 PDT | [CorNoise_new4] itr #6 | Computing policy updates...
+2017-08-03 13:20:00.363599 PDT | [CorNoise_new4] itr #6 | ** Step 1 **
+2017-08-03 13:20:00.363779 PDT | [CorNoise_new4] itr #6 | Obtaining samples...
+2017-08-03 13:20:00.363913 PDT | [CorNoise_new4] itr #6 | Obtaining samples for iteration 6...
+2017-08-03 13:20:09.725262 PDT | [CorNoise_new4] itr #6 | Processing samples...
+2017-08-03 13:20:09.799405 PDT | [CorNoise_new4] itr #6 | fitting baseline...
+2017-08-03 13:20:09.816953 PDT | [CorNoise_new4] itr #6 | fitted
+2017-08-03 13:20:09.844970 PDT | [CorNoise_new4] itr #6 | Logging diagnostics...
+2017-08-03 13:20:09.846782 PDT | [CorNoise_new4] itr #6 | Optimizing policy...
+2017-08-03 13:20:09.847195 PDT | [CorNoise_new4] itr #6 | Computing KL before
+2017-08-03 13:20:09.860231 PDT | [CorNoise_new4] itr #6 | Computing loss before
+2017-08-03 13:20:09.872721 PDT | [CorNoise_new4] itr #6 | Optimizing
+2017-08-03 13:20:09.873980 PDT | [CorNoise_new4] itr #6 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:20:09.874281 PDT | [CorNoise_new4] itr #6 | computing loss before
+2017-08-03 13:20:09.886432 PDT | [CorNoise_new4] itr #6 | performing update
+2017-08-03 13:20:09.886737 PDT | [CorNoise_new4] itr #6 | computing gradient
+2017-08-03 13:20:09.906303 PDT | [CorNoise_new4] itr #6 | gradient computed
+2017-08-03 13:20:09.906487 PDT | [CorNoise_new4] itr #6 | computing descent direction
+2017-08-03 13:20:10.340946 PDT | [CorNoise_new4] itr #6 | descent direction computed
+2017-08-03 13:20:10.349966 PDT | [CorNoise_new4] itr #6 | backtrack iters: 0
+2017-08-03 13:20:10.350125 PDT | [CorNoise_new4] itr #6 | computing loss after
+2017-08-03 13:20:10.350243 PDT | [CorNoise_new4] itr #6 | optimization finished
+2017-08-03 13:20:10.350358 PDT | [CorNoise_new4] itr #6 | Computing loss after
+2017-08-03 13:20:10.357748 PDT | [CorNoise_new4] itr #6 | Computing KL after
+2017-08-03 13:20:10.364584 PDT | [CorNoise_new4] itr #6 | Saving snapshot...
+2017-08-03 13:20:10.367168 PDT | [CorNoise_new4] itr #6 | Saved
+2017-08-03 13:20:10.367321 PDT | [CorNoise_new4] itr #6 | Saving visualization of paths
+2017-08-03 13:20:10.731135 PDT | ----------------------  --------------
+2017-08-03 13:20:10.731306 PDT | 0PolicyExecTime            3.52278
+2017-08-03 13:20:10.731425 PDT | 0EnvExecTime               3.38828
+2017-08-03 13:20:10.731535 PDT | 0ProcessExecTime           0.143931
+2017-08-03 13:20:10.731643 PDT | 0AverageReturn            61
+2017-08-03 13:20:10.731749 PDT | 0ExplainedVariance         0.208724
+2017-08-03 13:20:10.731855 PDT | 0NumTrajs                200
+2017-08-03 13:20:10.731959 PDT | 0Entropy                   2.78566
+2017-08-03 13:20:10.732075 PDT | 0Perplexity               16.2105
+2017-08-03 13:20:10.732181 PDT | 0StdReturn               285.795
+2017-08-03 13:20:10.732287 PDT | 0MaxReturn              2000
+2017-08-03 13:20:10.732391 PDT | 0MinReturn                 0
+2017-08-03 13:20:10.732496 PDT | 0AveragePolicyStd          0.974363
+2017-08-03 13:20:10.732601 PDT | ComputeUpdatedDistTime     0.0958335
+2017-08-03 13:20:10.732705 PDT | 1PolicyExecTime            5.6621
+2017-08-03 13:20:10.732808 PDT | 1EnvExecTime               3.49506
+2017-08-03 13:20:10.732913 PDT | 1ProcessExecTime           0.140909
+2017-08-03 13:20:10.733017 PDT | 1AverageReturn           241.5
+2017-08-03 13:20:10.733121 PDT | 1ExplainedVariance         0.320894
+2017-08-03 13:20:10.733226 PDT | 1NumTrajs                200
+2017-08-03 13:20:10.733330 PDT | 1Entropy                   2.78262
+2017-08-03 13:20:10.733434 PDT | 1Perplexity               16.1614
+2017-08-03 13:20:10.733539 PDT | 1StdReturn               616.869
+2017-08-03 13:20:10.733643 PDT | 1MaxReturn              2700
+2017-08-03 13:20:10.733748 PDT | 1MinReturn                 0
+2017-08-03 13:20:10.733852 PDT | 1AveragePolicyStd          0.972866
+2017-08-03 13:20:10.733957 PDT | MeanKLBefore               6.98492e-10
+2017-08-03 13:20:10.734061 PDT | MeanKL                     0.0087348
+2017-08-03 13:20:10.734166 PDT | LossBefore                -1.39698e-09
+2017-08-03 13:20:10.734269 PDT | LossAfter                 -0.00740803
+2017-08-03 13:20:10.734374 PDT | dLoss                      0.00740803
+2017-08-03 13:20:10.734477 PDT | Time                     125.915
+2017-08-03 13:20:10.734581 PDT | ItrTime                   17.3363
+2017-08-03 13:20:10.734685 PDT | ----------------------  --------------
+2017-08-03 13:20:10.734879 PDT | [CorNoise_new4] itr #7 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:20:10.736583 PDT | [CorNoise_new4] itr #7 | ** Step 0 **
+2017-08-03 13:20:10.736934 PDT | [CorNoise_new4] itr #7 | Obtaining samples...
+2017-08-03 13:20:10.737059 PDT | [CorNoise_new4] itr #7 | Obtaining samples for iteration 7...
+2017-08-03 13:20:17.911989 PDT | [CorNoise_new4] itr #7 | Processing samples...
+2017-08-03 13:20:17.947085 PDT | [CorNoise_new4] itr #7 | fitting baseline...
+2017-08-03 13:20:17.955957 PDT | [CorNoise_new4] itr #7 | fitted
+2017-08-03 13:20:17.974553 PDT | [CorNoise_new4] itr #7 | Logging diagnostics...
+2017-08-03 13:20:17.975682 PDT | [CorNoise_new4] itr #7 | Computing policy updates...
+2017-08-03 13:20:18.056263 PDT | [CorNoise_new4] itr #7 | ** Step 1 **
+2017-08-03 13:20:18.056444 PDT | [CorNoise_new4] itr #7 | Obtaining samples...
+2017-08-03 13:20:18.056574 PDT | [CorNoise_new4] itr #7 | Obtaining samples for iteration 7...
+2017-08-03 13:20:27.258383 PDT | [CorNoise_new4] itr #7 | Processing samples...
+2017-08-03 13:20:27.292157 PDT | [CorNoise_new4] itr #7 | fitting baseline...
+2017-08-03 13:20:27.300969 PDT | [CorNoise_new4] itr #7 | fitted
+2017-08-03 13:20:27.319109 PDT | [CorNoise_new4] itr #7 | Logging diagnostics...
+2017-08-03 13:20:27.320182 PDT | [CorNoise_new4] itr #7 | Optimizing policy...
+2017-08-03 13:20:27.320456 PDT | [CorNoise_new4] itr #7 | Computing KL before
+2017-08-03 13:20:27.329457 PDT | [CorNoise_new4] itr #7 | Computing loss before
+2017-08-03 13:20:27.339286 PDT | [CorNoise_new4] itr #7 | Optimizing
+2017-08-03 13:20:27.340199 PDT | [CorNoise_new4] itr #7 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:20:27.340409 PDT | [CorNoise_new4] itr #7 | computing loss before
+2017-08-03 13:20:27.351375 PDT | [CorNoise_new4] itr #7 | performing update
+2017-08-03 13:20:27.351592 PDT | [CorNoise_new4] itr #7 | computing gradient
+2017-08-03 13:20:27.375274 PDT | [CorNoise_new4] itr #7 | gradient computed
+2017-08-03 13:20:27.375491 PDT | [CorNoise_new4] itr #7 | computing descent direction
+2017-08-03 13:20:27.838343 PDT | [CorNoise_new4] itr #7 | descent direction computed
+2017-08-03 13:20:27.860525 PDT | [CorNoise_new4] itr #7 | backtrack iters: 1
+2017-08-03 13:20:27.860722 PDT | [CorNoise_new4] itr #7 | computing loss after
+2017-08-03 13:20:27.862226 PDT | [CorNoise_new4] itr #7 | optimization finished
+2017-08-03 13:20:27.862416 PDT | [CorNoise_new4] itr #7 | Computing loss after
+2017-08-03 13:20:27.870961 PDT | [CorNoise_new4] itr #7 | Computing KL after
+2017-08-03 13:20:27.878436 PDT | [CorNoise_new4] itr #7 | Saving snapshot...
+2017-08-03 13:20:27.881223 PDT | [CorNoise_new4] itr #7 | Saved
+2017-08-03 13:20:27.881397 PDT | [CorNoise_new4] itr #7 | Saving visualization of paths
+2017-08-03 13:20:28.424567 PDT | ----------------------  --------------
+2017-08-03 13:20:28.424742 PDT | 0PolicyExecTime            3.50784
+2017-08-03 13:20:28.424860 PDT | 0EnvExecTime               3.45293
+2017-08-03 13:20:28.424971 PDT | 0ProcessExecTime           0.152184
+2017-08-03 13:20:28.425078 PDT | 0AverageReturn            60.5
+2017-08-03 13:20:28.425185 PDT | 0ExplainedVariance         0.0951128
+2017-08-03 13:20:28.425292 PDT | 0NumTrajs                200
+2017-08-03 13:20:28.425399 PDT | 0Entropy                   2.76841
+2017-08-03 13:20:28.425505 PDT | 0Perplexity               15.9333
+2017-08-03 13:20:28.425611 PDT | 0StdReturn               238.096
+2017-08-03 13:20:28.425717 PDT | 0MaxReturn              1400
+2017-08-03 13:20:28.425822 PDT | 0MinReturn                 0
+2017-08-03 13:20:28.425928 PDT | 0AveragePolicyStd          0.966154
+2017-08-03 13:20:28.426033 PDT | ComputeUpdatedDistTime     0.0803609
+2017-08-03 13:20:28.426139 PDT | 1PolicyExecTime            5.56239
+2017-08-03 13:20:28.426244 PDT | 1EnvExecTime               3.4346
+2017-08-03 13:20:28.426349 PDT | 1ProcessExecTime           0.143118
+2017-08-03 13:20:28.426455 PDT | 1AverageReturn           180.5
+2017-08-03 13:20:28.426561 PDT | 1ExplainedVariance         0.249637
+2017-08-03 13:20:28.426667 PDT | 1NumTrajs                200
+2017-08-03 13:20:28.426773 PDT | 1Entropy                   2.76653
+2017-08-03 13:20:28.426878 PDT | 1Perplexity               15.9033
+2017-08-03 13:20:28.426983 PDT | 1StdReturn               511.439
+2017-08-03 13:20:28.427088 PDT | 1MaxReturn              2300
+2017-08-03 13:20:28.427193 PDT | 1MinReturn                 0
+2017-08-03 13:20:28.427299 PDT | 1AveragePolicyStd          0.965185
+2017-08-03 13:20:28.427404 PDT | MeanKLBefore              -9.31322e-10
+2017-08-03 13:20:28.427510 PDT | MeanKL                     0.0097275
+2017-08-03 13:20:28.427615 PDT | LossBefore                 0
+2017-08-03 13:20:28.427720 PDT | LossAfter                 -0.00961963
+2017-08-03 13:20:28.427826 PDT | dLoss                      0.00961963
+2017-08-03 13:20:28.427931 PDT | Time                     143.43
+2017-08-03 13:20:28.428047 PDT | ItrTime                   17.1465
+2017-08-03 13:20:28.428160 PDT | ----------------------  --------------
+2017-08-03 13:20:28.428363 PDT | [CorNoise_new4] itr #8 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:20:28.430095 PDT | [CorNoise_new4] itr #8 | ** Step 0 **
+2017-08-03 13:20:28.430415 PDT | [CorNoise_new4] itr #8 | Obtaining samples...
+2017-08-03 13:20:28.430540 PDT | [CorNoise_new4] itr #8 | Obtaining samples for iteration 8...
+2017-08-03 13:20:35.095025 PDT | [CorNoise_new4] itr #8 | Processing samples...
+2017-08-03 13:20:35.148932 PDT | [CorNoise_new4] itr #8 | fitting baseline...
+2017-08-03 13:20:35.159211 PDT | [CorNoise_new4] itr #8 | fitted
+2017-08-03 13:20:35.178317 PDT | [CorNoise_new4] itr #8 | Logging diagnostics...
+2017-08-03 13:20:35.179712 PDT | [CorNoise_new4] itr #8 | Computing policy updates...
+2017-08-03 13:20:35.268420 PDT | [CorNoise_new4] itr #8 | ** Step 1 **
+2017-08-03 13:20:35.268588 PDT | [CorNoise_new4] itr #8 | Obtaining samples...
+2017-08-03 13:20:35.268714 PDT | [CorNoise_new4] itr #8 | Obtaining samples for iteration 8...
+2017-08-03 13:20:44.672637 PDT | [CorNoise_new4] itr #8 | Processing samples...
+2017-08-03 13:20:44.769460 PDT | [CorNoise_new4] itr #8 | fitting baseline...
+2017-08-03 13:20:44.781021 PDT | [CorNoise_new4] itr #8 | fitted
+2017-08-03 13:20:44.805146 PDT | [CorNoise_new4] itr #8 | Logging diagnostics...
+2017-08-03 13:20:44.806356 PDT | [CorNoise_new4] itr #8 | Optimizing policy...
+2017-08-03 13:20:44.806748 PDT | [CorNoise_new4] itr #8 | Computing KL before
+2017-08-03 13:20:44.818497 PDT | [CorNoise_new4] itr #8 | Computing loss before
+2017-08-03 13:20:44.832672 PDT | [CorNoise_new4] itr #8 | Optimizing
+2017-08-03 13:20:44.834494 PDT | [CorNoise_new4] itr #8 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:20:44.834815 PDT | [CorNoise_new4] itr #8 | computing loss before
+2017-08-03 13:20:44.848434 PDT | [CorNoise_new4] itr #8 | performing update
+2017-08-03 13:20:44.848757 PDT | [CorNoise_new4] itr #8 | computing gradient
+2017-08-03 13:20:44.869374 PDT | [CorNoise_new4] itr #8 | gradient computed
+2017-08-03 13:20:44.869587 PDT | [CorNoise_new4] itr #8 | computing descent direction
+2017-08-03 13:20:45.281949 PDT | [CorNoise_new4] itr #8 | descent direction computed
+2017-08-03 13:20:45.289935 PDT | [CorNoise_new4] itr #8 | backtrack iters: 0
+2017-08-03 13:20:45.290116 PDT | [CorNoise_new4] itr #8 | computing loss after
+2017-08-03 13:20:45.290258 PDT | [CorNoise_new4] itr #8 | optimization finished
+2017-08-03 13:20:45.290392 PDT | [CorNoise_new4] itr #8 | Computing loss after
+2017-08-03 13:20:45.297199 PDT | [CorNoise_new4] itr #8 | Computing KL after
+2017-08-03 13:20:45.304084 PDT | [CorNoise_new4] itr #8 | Saving snapshot...
+2017-08-03 13:20:45.306449 PDT | [CorNoise_new4] itr #8 | Saved
+2017-08-03 13:20:45.306596 PDT | [CorNoise_new4] itr #8 | Saving visualization of paths
+2017-08-03 13:20:45.651451 PDT | ----------------------  --------------
+2017-08-03 13:20:45.651612 PDT | 0PolicyExecTime            3.28238
+2017-08-03 13:20:45.651723 PDT | 0EnvExecTime               3.18581
+2017-08-03 13:20:45.651826 PDT | 0ProcessExecTime           0.137078
+2017-08-03 13:20:45.651928 PDT | 0AverageReturn            74
+2017-08-03 13:20:45.652039 PDT | 0ExplainedVariance         0.0964735
+2017-08-03 13:20:45.652142 PDT | 0NumTrajs                200
+2017-08-03 13:20:45.652242 PDT | 0Entropy                   2.75451
+2017-08-03 13:20:45.652343 PDT | 0Perplexity               15.7133
+2017-08-03 13:20:45.652443 PDT | 0StdReturn               258.503
+2017-08-03 13:20:45.652544 PDT | 0MaxReturn              1500
+2017-08-03 13:20:45.652644 PDT | 0MinReturn                 0
+2017-08-03 13:20:45.652743 PDT | 0AveragePolicyStd          0.959354
+2017-08-03 13:20:45.652843 PDT | ComputeUpdatedDistTime     0.0884056
+2017-08-03 13:20:45.652943 PDT | 1PolicyExecTime            5.7463
+2017-08-03 13:20:45.653042 PDT | 1EnvExecTime               3.45114
+2017-08-03 13:20:45.653141 PDT | 1ProcessExecTime           0.14304
+2017-08-03 13:20:45.653241 PDT | 1AverageReturn           253.5
+2017-08-03 13:20:45.653341 PDT | 1ExplainedVariance         0.248239
+2017-08-03 13:20:45.653446 PDT | 1NumTrajs                200
+2017-08-03 13:20:45.653547 PDT | 1Entropy                   2.75769
+2017-08-03 13:20:45.653648 PDT | 1Perplexity               15.7634
+2017-08-03 13:20:45.653747 PDT | 1StdReturn               603.894
+2017-08-03 13:20:45.653847 PDT | 1MaxReturn              2400
+2017-08-03 13:20:45.653948 PDT | 1MinReturn                 0
+2017-08-03 13:20:45.654047 PDT | 1AveragePolicyStd          0.961122
+2017-08-03 13:20:45.654146 PDT | MeanKLBefore              -3.25963e-09
+2017-08-03 13:20:45.654246 PDT | MeanKL                     0.00880368
+2017-08-03 13:20:45.654345 PDT | LossBefore                 2.79397e-09
+2017-08-03 13:20:45.654445 PDT | LossAfter                 -0.00710313
+2017-08-03 13:20:45.654544 PDT | dLoss                      0.00710313
+2017-08-03 13:20:45.654644 PDT | Time                     160.855
+2017-08-03 13:20:45.654744 PDT | ItrTime                   16.8782
+2017-08-03 13:20:45.654844 PDT | ----------------------  --------------
+2017-08-03 13:20:45.655029 PDT | [CorNoise_new4] itr #9 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:20:45.656650 PDT | [CorNoise_new4] itr #9 | ** Step 0 **
+2017-08-03 13:20:45.656908 PDT | [CorNoise_new4] itr #9 | Obtaining samples...
+2017-08-03 13:20:45.657028 PDT | [CorNoise_new4] itr #9 | Obtaining samples for iteration 9...
+2017-08-03 13:20:52.826364 PDT | [CorNoise_new4] itr #9 | Processing samples...
+2017-08-03 13:20:52.881912 PDT | [CorNoise_new4] itr #9 | fitting baseline...
+2017-08-03 13:20:52.894036 PDT | [CorNoise_new4] itr #9 | fitted
+2017-08-03 13:20:52.917865 PDT | [CorNoise_new4] itr #9 | Logging diagnostics...
+2017-08-03 13:20:52.919219 PDT | [CorNoise_new4] itr #9 | Computing policy updates...
+2017-08-03 13:20:53.001826 PDT | [CorNoise_new4] itr #9 | ** Step 1 **
+2017-08-03 13:20:53.001997 PDT | [CorNoise_new4] itr #9 | Obtaining samples...
+2017-08-03 13:20:53.002122 PDT | [CorNoise_new4] itr #9 | Obtaining samples for iteration 9...
+2017-08-03 13:21:03.199211 PDT | [CorNoise_new4] itr #9 | Processing samples...
+2017-08-03 13:21:03.233995 PDT | [CorNoise_new4] itr #9 | fitting baseline...
+2017-08-03 13:21:03.243318 PDT | [CorNoise_new4] itr #9 | fitted
+2017-08-03 13:21:03.261935 PDT | [CorNoise_new4] itr #9 | Logging diagnostics...
+2017-08-03 13:21:03.263032 PDT | [CorNoise_new4] itr #9 | Optimizing policy...
+2017-08-03 13:21:03.263304 PDT | [CorNoise_new4] itr #9 | Computing KL before
+2017-08-03 13:21:03.275051 PDT | [CorNoise_new4] itr #9 | Computing loss before
+2017-08-03 13:21:03.287666 PDT | [CorNoise_new4] itr #9 | Optimizing
+2017-08-03 13:21:03.295170 PDT | [CorNoise_new4] itr #9 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:21:03.295384 PDT | [CorNoise_new4] itr #9 | computing loss before
+2017-08-03 13:21:03.305193 PDT | [CorNoise_new4] itr #9 | performing update
+2017-08-03 13:21:03.305419 PDT | [CorNoise_new4] itr #9 | computing gradient
+2017-08-03 13:21:03.328898 PDT | [CorNoise_new4] itr #9 | gradient computed
+2017-08-03 13:21:03.329065 PDT | [CorNoise_new4] itr #9 | computing descent direction
+2017-08-03 13:21:03.759334 PDT | [CorNoise_new4] itr #9 | descent direction computed
+2017-08-03 13:21:03.781053 PDT | [CorNoise_new4] itr #9 | backtrack iters: 1
+2017-08-03 13:21:03.781301 PDT | [CorNoise_new4] itr #9 | computing loss after
+2017-08-03 13:21:03.781482 PDT | [CorNoise_new4] itr #9 | optimization finished
+2017-08-03 13:21:03.781658 PDT | [CorNoise_new4] itr #9 | Computing loss after
+2017-08-03 13:21:03.790626 PDT | [CorNoise_new4] itr #9 | Computing KL after
+2017-08-03 13:21:03.799070 PDT | [CorNoise_new4] itr #9 | Saving snapshot...
+2017-08-03 13:21:03.802305 PDT | [CorNoise_new4] itr #9 | Saved
+2017-08-03 13:21:03.802524 PDT | [CorNoise_new4] itr #9 | Saving visualization of paths
+2017-08-03 13:21:04.167587 PDT | ----------------------  --------------
+2017-08-03 13:21:04.167759 PDT | 0PolicyExecTime            3.50822
+2017-08-03 13:21:04.167876 PDT | 0EnvExecTime               3.45298
+2017-08-03 13:21:04.167990 PDT | 0ProcessExecTime           0.145977
+2017-08-03 13:21:04.168120 PDT | 0AverageReturn            79
+2017-08-03 13:21:04.168229 PDT | 0ExplainedVariance         0.102119
+2017-08-03 13:21:04.168339 PDT | 0NumTrajs                200
+2017-08-03 13:21:04.168456 PDT | 0Entropy                   2.71689
+2017-08-03 13:21:04.168576 PDT | 0Perplexity               15.1332
+2017-08-03 13:21:04.168684 PDT | 0StdReturn               245.681
+2017-08-03 13:21:04.168791 PDT | 0MaxReturn              1500
+2017-08-03 13:21:04.168896 PDT | 0MinReturn                 0
+2017-08-03 13:21:04.169000 PDT | 0AveragePolicyStd          0.941935
+2017-08-03 13:21:04.169105 PDT | ComputeUpdatedDistTime     0.0823498
+2017-08-03 13:21:04.169209 PDT | 1PolicyExecTime            6.14236
+2017-08-03 13:21:04.169313 PDT | 1EnvExecTime               3.8281
+2017-08-03 13:21:04.169418 PDT | 1ProcessExecTime           0.157988
+2017-08-03 13:21:04.169522 PDT | 1AverageReturn           328.5
+2017-08-03 13:21:04.169631 PDT | 1ExplainedVariance         0.300717
+2017-08-03 13:21:04.169738 PDT | 1NumTrajs                200
+2017-08-03 13:21:04.169843 PDT | 1Entropy                   2.70675
+2017-08-03 13:21:04.169947 PDT | 1Perplexity               14.9805
+2017-08-03 13:21:04.170051 PDT | 1StdReturn               727.693
+2017-08-03 13:21:04.170156 PDT | 1MaxReturn              2600
+2017-08-03 13:21:04.170260 PDT | 1MinReturn                 0
+2017-08-03 13:21:04.170364 PDT | 1AveragePolicyStd          0.937272
+2017-08-03 13:21:04.170468 PDT | MeanKLBefore              -1.86264e-09
+2017-08-03 13:21:04.170572 PDT | MeanKL                     0.00739106
+2017-08-03 13:21:04.170681 PDT | LossBefore                 2.67755e-09
+2017-08-03 13:21:04.170788 PDT | LossAfter                 -0.00841483
+2017-08-03 13:21:04.170893 PDT | dLoss                      0.00841484
+2017-08-03 13:21:04.170997 PDT | Time                     179.351
+2017-08-03 13:21:04.171101 PDT | ItrTime                   18.1475
+2017-08-03 13:21:04.171216 PDT | ----------------------  --------------
+2017-08-03 13:21:04.171426 PDT | [CorNoise_new4] itr #10 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:21:04.173119 PDT | [CorNoise_new4] itr #10 | ** Step 0 **
+2017-08-03 13:21:04.173472 PDT | [CorNoise_new4] itr #10 | Obtaining samples...
+2017-08-03 13:21:04.173597 PDT | [CorNoise_new4] itr #10 | Obtaining samples for iteration 10...
+2017-08-03 13:21:11.238659 PDT | [CorNoise_new4] itr #10 | Processing samples...
+2017-08-03 13:21:11.316138 PDT | [CorNoise_new4] itr #10 | fitting baseline...
+2017-08-03 13:21:11.327880 PDT | [CorNoise_new4] itr #10 | fitted
+2017-08-03 13:21:11.351511 PDT | [CorNoise_new4] itr #10 | Logging diagnostics...
+2017-08-03 13:21:11.352743 PDT | [CorNoise_new4] itr #10 | Computing policy updates...
+2017-08-03 13:21:11.452576 PDT | [CorNoise_new4] itr #10 | ** Step 1 **
+2017-08-03 13:21:11.452759 PDT | [CorNoise_new4] itr #10 | Obtaining samples...
+2017-08-03 13:21:11.452904 PDT | [CorNoise_new4] itr #10 | Obtaining samples for iteration 10...
+2017-08-03 13:21:20.907742 PDT | [CorNoise_new4] itr #10 | Processing samples...
+2017-08-03 13:21:20.976424 PDT | [CorNoise_new4] itr #10 | fitting baseline...
+2017-08-03 13:21:20.985310 PDT | [CorNoise_new4] itr #10 | fitted
+2017-08-03 13:21:21.003571 PDT | [CorNoise_new4] itr #10 | Logging diagnostics...
+2017-08-03 13:21:21.004716 PDT | [CorNoise_new4] itr #10 | Optimizing policy...
+2017-08-03 13:21:21.005046 PDT | [CorNoise_new4] itr #10 | Computing KL before
+2017-08-03 13:21:21.014724 PDT | [CorNoise_new4] itr #10 | Computing loss before
+2017-08-03 13:21:21.025613 PDT | [CorNoise_new4] itr #10 | Optimizing
+2017-08-03 13:21:21.026697 PDT | [CorNoise_new4] itr #10 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:21:21.026960 PDT | [CorNoise_new4] itr #10 | computing loss before
+2017-08-03 13:21:21.036820 PDT | [CorNoise_new4] itr #10 | performing update
+2017-08-03 13:21:21.037087 PDT | [CorNoise_new4] itr #10 | computing gradient
+2017-08-03 13:21:21.059783 PDT | [CorNoise_new4] itr #10 | gradient computed
+2017-08-03 13:21:21.060061 PDT | [CorNoise_new4] itr #10 | computing descent direction
+2017-08-03 13:21:21.524425 PDT | [CorNoise_new4] itr #10 | descent direction computed
+2017-08-03 13:21:21.537077 PDT | [CorNoise_new4] itr #10 | backtrack iters: 0
+2017-08-03 13:21:21.537426 PDT | [CorNoise_new4] itr #10 | computing loss after
+2017-08-03 13:21:21.537689 PDT | [CorNoise_new4] itr #10 | optimization finished
+2017-08-03 13:21:21.537944 PDT | [CorNoise_new4] itr #10 | Computing loss after
+2017-08-03 13:21:21.547648 PDT | [CorNoise_new4] itr #10 | Computing KL after
+2017-08-03 13:21:21.556612 PDT | [CorNoise_new4] itr #10 | Saving snapshot...
+2017-08-03 13:21:21.559363 PDT | [CorNoise_new4] itr #10 | Saved
+2017-08-03 13:21:21.559537 PDT | [CorNoise_new4] itr #10 | Saving visualization of paths
+2017-08-03 13:21:22.099904 PDT | ----------------------  --------------
+2017-08-03 13:21:22.100080 PDT | 0PolicyExecTime            3.45699
+2017-08-03 13:21:22.100197 PDT | 0EnvExecTime               3.39875
+2017-08-03 13:21:22.100298 PDT | 0ProcessExecTime           0.147835
+2017-08-03 13:21:22.100396 PDT | 0AverageReturn            30.5
+2017-08-03 13:21:22.100493 PDT | 0ExplainedVariance         0.0917406
+2017-08-03 13:21:22.100590 PDT | 0NumTrajs                200
+2017-08-03 13:21:22.100688 PDT | 0Entropy                   2.73152
+2017-08-03 13:21:22.100785 PDT | 0Perplexity               15.3562
+2017-08-03 13:21:22.100882 PDT | 0StdReturn               156.907
+2017-08-03 13:21:22.100979 PDT | 0MaxReturn              1200
+2017-08-03 13:21:22.101074 PDT | 0MinReturn                 0
+2017-08-03 13:21:22.101171 PDT | 0AveragePolicyStd          0.949415
+2017-08-03 13:21:22.101267 PDT | ComputeUpdatedDistTime     0.0995591
+2017-08-03 13:21:22.101363 PDT | 1PolicyExecTime            5.72173
+2017-08-03 13:21:22.101459 PDT | 1EnvExecTime               3.52458
+2017-08-03 13:21:22.101556 PDT | 1ProcessExecTime           0.144634
+2017-08-03 13:21:22.101653 PDT | 1AverageReturn           166.5
+2017-08-03 13:21:22.101749 PDT | 1ExplainedVariance         0.176089
+2017-08-03 13:21:22.101845 PDT | 1NumTrajs                200
+2017-08-03 13:21:22.101941 PDT | 1Entropy                   2.72315
+2017-08-03 13:21:22.102038 PDT | 1Perplexity               15.2282
+2017-08-03 13:21:22.102134 PDT | 1StdReturn               432.814
+2017-08-03 13:21:22.102230 PDT | 1MaxReturn              1900
+2017-08-03 13:21:22.102326 PDT | 1MinReturn                 0
+2017-08-03 13:21:22.102422 PDT | 1AveragePolicyStd          0.945525
+2017-08-03 13:21:22.102518 PDT | MeanKLBefore               2.56114e-09
+2017-08-03 13:21:22.102616 PDT | MeanKL                     0.00922823
+2017-08-03 13:21:22.102712 PDT | LossBefore                -2.79397e-09
+2017-08-03 13:21:22.102808 PDT | LossAfter                 -0.00695917
+2017-08-03 13:21:22.102903 PDT | dLoss                      0.00695917
+2017-08-03 13:21:22.103000 PDT | Time                     197.108
+2017-08-03 13:21:22.103096 PDT | ItrTime                   17.3881
+2017-08-03 13:21:22.103191 PDT | ----------------------  --------------
+2017-08-03 13:21:22.103368 PDT | [CorNoise_new4] itr #11 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:21:22.104926 PDT | [CorNoise_new4] itr #11 | ** Step 0 **
+2017-08-03 13:21:22.105261 PDT | [CorNoise_new4] itr #11 | Obtaining samples...
+2017-08-03 13:21:22.105375 PDT | [CorNoise_new4] itr #11 | Obtaining samples for iteration 11...
+2017-08-03 13:21:28.663276 PDT | [CorNoise_new4] itr #11 | Processing samples...
+2017-08-03 13:21:28.705868 PDT | [CorNoise_new4] itr #11 | fitting baseline...
+2017-08-03 13:21:28.715714 PDT | [CorNoise_new4] itr #11 | fitted
+2017-08-03 13:21:28.737505 PDT | [CorNoise_new4] itr #11 | Logging diagnostics...
+2017-08-03 13:21:28.738735 PDT | [CorNoise_new4] itr #11 | Computing policy updates...
+2017-08-03 13:21:28.819799 PDT | [CorNoise_new4] itr #11 | ** Step 1 **
+2017-08-03 13:21:28.819981 PDT | [CorNoise_new4] itr #11 | Obtaining samples...
+2017-08-03 13:21:28.820127 PDT | [CorNoise_new4] itr #11 | Obtaining samples for iteration 11...
+2017-08-03 13:21:38.207706 PDT | [CorNoise_new4] itr #11 | Processing samples...
+2017-08-03 13:21:38.256602 PDT | [CorNoise_new4] itr #11 | fitting baseline...
+2017-08-03 13:21:38.267758 PDT | [CorNoise_new4] itr #11 | fitted
+2017-08-03 13:21:38.289585 PDT | [CorNoise_new4] itr #11 | Logging diagnostics...
+2017-08-03 13:21:38.290836 PDT | [CorNoise_new4] itr #11 | Optimizing policy...
+2017-08-03 13:21:38.291145 PDT | [CorNoise_new4] itr #11 | Computing KL before
+2017-08-03 13:21:38.300547 PDT | [CorNoise_new4] itr #11 | Computing loss before
+2017-08-03 13:21:38.311060 PDT | [CorNoise_new4] itr #11 | Optimizing
+2017-08-03 13:21:38.313317 PDT | [CorNoise_new4] itr #11 | Start CG optimization: #parameters: 1412, #inputs: 2500, #subsample_inputs: 2500
+2017-08-03 13:21:38.313596 PDT | [CorNoise_new4] itr #11 | computing loss before
+2017-08-03 13:21:38.324254 PDT | [CorNoise_new4] itr #11 | performing update
+2017-08-03 13:21:38.324534 PDT | [CorNoise_new4] itr #11 | computing gradient
+2017-08-03 13:21:38.344415 PDT | [CorNoise_new4] itr #11 | gradient computed
+2017-08-03 13:21:38.344681 PDT | [CorNoise_new4] itr #11 | computing descent direction
+2017-08-03 13:21:38.765924 PDT | [CorNoise_new4] itr #11 | descent direction computed
+2017-08-03 13:21:38.774425 PDT | [CorNoise_new4] itr #11 | backtrack iters: 0
+2017-08-03 13:21:38.774587 PDT | [CorNoise_new4] itr #11 | computing loss after
+2017-08-03 13:21:38.774708 PDT | [CorNoise_new4] itr #11 | optimization finished
+2017-08-03 13:21:38.774826 PDT | [CorNoise_new4] itr #11 | Computing loss after
+2017-08-03 13:21:38.782418 PDT | [CorNoise_new4] itr #11 | Computing KL after
+2017-08-03 13:21:38.789450 PDT | [CorNoise_new4] itr #11 | Saving snapshot...
+2017-08-03 13:21:38.792077 PDT | [CorNoise_new4] itr #11 | Saved
+2017-08-03 13:21:38.792240 PDT | [CorNoise_new4] itr #11 | Saving visualization of paths
+2017-08-03 13:21:39.149532 PDT | ----------------------  --------------
+2017-08-03 13:21:39.149704 PDT | 0PolicyExecTime            3.26342
+2017-08-03 13:21:39.149820 PDT | 0EnvExecTime               3.1051
+2017-08-03 13:21:39.149929 PDT | 0ProcessExecTime           0.133197
+2017-08-03 13:21:39.150035 PDT | 0AverageReturn            48.5
+2017-08-03 13:21:39.150140 PDT | 0ExplainedVariance         0.0328051
+2017-08-03 13:21:39.150244 PDT | 0NumTrajs                200
+2017-08-03 13:21:39.150349 PDT | 0Entropy                   2.74437
+2017-08-03 13:21:39.150452 PDT | 0Perplexity               15.5547
+2017-08-03 13:21:39.150557 PDT | 0StdReturn               211.418
+2017-08-03 13:21:39.150660 PDT | 0MaxReturn              1600
+2017-08-03 13:21:39.150765 PDT | 0MinReturn                 0
+2017-08-03 13:21:39.150869 PDT | 0AveragePolicyStd          0.955209
+2017-08-03 13:21:39.150974 PDT | ComputeUpdatedDistTime     0.0807991
+2017-08-03 13:21:39.151077 PDT | 1PolicyExecTime            5.68763
+2017-08-03 13:21:39.151181 PDT | 1EnvExecTime               3.4926
+2017-08-03 13:21:39.151284 PDT | 1ProcessExecTime           0.144083
+2017-08-03 13:21:39.151389 PDT | 1AverageReturn           293
+2017-08-03 13:21:39.151493 PDT | 1ExplainedVariance         0.196849
+2017-08-03 13:21:39.151596 PDT | 1NumTrajs                200
+2017-08-03 13:21:39.151701 PDT | 1Entropy                   2.74069
+2017-08-03 13:21:39.151805 PDT | 1Perplexity               15.4977
+2017-08-03 13:21:39.151909 PDT | 1StdReturn               625.101
+2017-08-03 13:21:39.152023 PDT | 1MaxReturn              2600
+2017-08-03 13:21:39.152130 PDT | 1MinReturn                 0
+2017-08-03 13:21:39.152235 PDT | 1AveragePolicyStd          0.953494
+2017-08-03 13:21:39.152340 PDT | MeanKLBefore              -1.16415e-09
+2017-08-03 13:21:39.152453 PDT | MeanKL                     0.00676064
+2017-08-03 13:21:39.152557 PDT | LossBefore                 1.62981e-09
+2017-08-03 13:21:39.152661 PDT | LossAfter                 -0.00713702
+2017-08-03 13:21:39.152765 PDT | dLoss                      0.00713702
+2017-08-03 13:21:39.152869 PDT | Time                     214.34
+2017-08-03 13:21:39.152978 PDT | ItrTime                   16.6889
+2017-08-03 13:21:39.153084 PDT | ----------------------  --------------
+2017-08-03 13:21:39.153280 PDT | [CorNoise_new4] itr #12 | Sampling set of tasks/goals for this meta-batch...
+2017-08-03 13:21:39.154958 PDT | [CorNoise_new4] itr #12 | ** Step 0 **
+2017-08-03 13:21:39.155259 PDT | [CorNoise_new4] itr #12 | Obtaining samples...
+2017-08-03 13:21:39.155384 PDT | [CorNoise_new4] itr #12 | Obtaining samples for iteration 12...
+2017-08-03 13:21:46.007222 PDT | [CorNoise_new4] itr #12 | Processing samples...
+2017-08-03 13:21:46.061062 PDT | [CorNoise_new4] itr #12 | fitting baseline...
+2017-08-03 13:21:46.073205 PDT | [CorNoise_new4] itr #12 | fitted
+2017-08-03 13:21:46.097061 PDT | [CorNoise_new4] itr #12 | Logging diagnostics...
+2017-08-03 13:21:46.098425 PDT | [CorNoise_new4] itr #12 | Computing policy updates...
+2017-08-03 13:21:46.183288 PDT | [CorNoise_new4] itr #12 | ** Step 1 **
+2017-08-03 13:21:46.183471 PDT | [CorNoise_new4] itr #12 | Obtaining samples...
+2017-08-03 13:21:46.183618 PDT | [CorNoise_new4] itr #12 | Obtaining samples for iteration 12...
