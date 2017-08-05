@@ -5201,3 +5201,2134 @@
 2017-08-04 03:42:24.449341 PDT | [SingleGoal_addedGaussNoise] itr #56 | ** Step 1 **
 2017-08-04 03:42:24.449536 PDT | [SingleGoal_addedGaussNoise] itr #56 | Obtaining samples...
 2017-08-04 03:42:24.449663 PDT | [SingleGoal_addedGaussNoise] itr #56 | Obtaining samples for iteration 56...
+2017-08-04 03:43:32.561751 PDT | [SingleGoal_addedGaussNoise] itr #56 | Processing samples...
+2017-08-04 03:43:32.801491 PDT | [SingleGoal_addedGaussNoise] itr #56 | fitting baseline...
+2017-08-04 03:43:32.854547 PDT | [SingleGoal_addedGaussNoise] itr #56 | fitted
+2017-08-04 03:43:32.941165 PDT | [SingleGoal_addedGaussNoise] itr #56 | Logging diagnostics...
+2017-08-04 03:43:32.945701 PDT | [SingleGoal_addedGaussNoise] itr #56 | Optimizing policy...
+2017-08-04 03:43:32.946235 PDT | [SingleGoal_addedGaussNoise] itr #56 | Computing KL before
+2017-08-04 03:43:33.009646 PDT | [SingleGoal_addedGaussNoise] itr #56 | Computing loss before
+2017-08-04 03:43:33.074288 PDT | [SingleGoal_addedGaussNoise] itr #56 | Optimizing
+2017-08-04 03:43:33.075169 PDT | [SingleGoal_addedGaussNoise] itr #56 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:43:33.075312 PDT | [SingleGoal_addedGaussNoise] itr #56 | computing loss before
+2017-08-04 03:43:33.141255 PDT | [SingleGoal_addedGaussNoise] itr #56 | performing update
+2017-08-04 03:43:33.141637 PDT | [SingleGoal_addedGaussNoise] itr #56 | computing gradient
+2017-08-04 03:43:33.311130 PDT | [SingleGoal_addedGaussNoise] itr #56 | gradient computed
+2017-08-04 03:43:33.311614 PDT | [SingleGoal_addedGaussNoise] itr #56 | computing descent direction
+2017-08-04 03:43:36.685312 PDT | [SingleGoal_addedGaussNoise] itr #56 | descent direction computed
+2017-08-04 03:43:36.818379 PDT | [SingleGoal_addedGaussNoise] itr #56 | backtrack iters: 1
+2017-08-04 03:43:36.818846 PDT | [SingleGoal_addedGaussNoise] itr #56 | computing loss after
+2017-08-04 03:43:36.819125 PDT | [SingleGoal_addedGaussNoise] itr #56 | optimization finished
+2017-08-04 03:43:36.819401 PDT | [SingleGoal_addedGaussNoise] itr #56 | Computing loss after
+2017-08-04 03:43:36.882811 PDT | [SingleGoal_addedGaussNoise] itr #56 | Computing KL after
+2017-08-04 03:43:36.939277 PDT | [SingleGoal_addedGaussNoise] itr #56 | Saving snapshot...
+2017-08-04 03:43:36.942834 PDT | [SingleGoal_addedGaussNoise] itr #56 | Saved
+2017-08-04 03:43:36.943056 PDT | [SingleGoal_addedGaussNoise] itr #56 | Saving visualization of paths
+2017-08-04 03:43:37.782284 PDT | ----------------------  ---------------
+2017-08-04 03:43:37.782465 PDT | 0PolicyExecTime             9.05647
+2017-08-04 03:43:37.782585 PDT | 0EnvExecTime               34.5835
+2017-08-04 03:43:37.782698 PDT | 0ProcessExecTime            1.22183
+2017-08-04 03:43:37.782809 PDT | 0AverageReturn           3799.25
+2017-08-04 03:43:37.782919 PDT | 0ExplainedVariance          0.085766
+2017-08-04 03:43:37.783029 PDT | 0NumTrajs                 400
+2017-08-04 03:43:37.783139 PDT | 0Entropy                    2.68612
+2017-08-04 03:43:37.783248 PDT | 0Perplexity                14.6746
+2017-08-04 03:43:37.783356 PDT | 0StdReturn               5350.41
+2017-08-04 03:43:37.783465 PDT | 0MaxReturn              20100
+2017-08-04 03:43:37.783574 PDT | 0MinReturn                  0
+2017-08-04 03:43:37.783683 PDT | 0AveragePolicyStd           0.927051
+2017-08-04 03:43:37.783792 PDT | ComputeUpdatedDistTime      0.351954
+2017-08-04 03:43:37.783901 PDT | 1PolicyExecTime            33.6294
+2017-08-04 03:43:37.784020 PDT | 1EnvExecTime               33.2329
+2017-08-04 03:43:37.784132 PDT | 1ProcessExecTime            1.0978
+2017-08-04 03:43:37.784241 PDT | 1AverageReturn           6781.5
+2017-08-04 03:43:37.784359 PDT | 1ExplainedVariance          0.166387
+2017-08-04 03:43:37.784473 PDT | 1NumTrajs                 400
+2017-08-04 03:43:37.784584 PDT | 1Entropy                    2.68979
+2017-08-04 03:43:37.784693 PDT | 1Perplexity                14.7286
+2017-08-04 03:43:37.784802 PDT | 1StdReturn               7457.83
+2017-08-04 03:43:37.784910 PDT | 1MaxReturn              22300
+2017-08-04 03:43:37.785020 PDT | 1MinReturn                  0
+2017-08-04 03:43:37.785127 PDT | 1AveragePolicyStd           0.928774
+2017-08-04 03:43:37.785236 PDT | MeanKLBefore               -2.04891e-09
+2017-08-04 03:43:37.785345 PDT | MeanKL                      0.00791107
+2017-08-04 03:43:37.785455 PDT | LossBefore                 -1.92085e-10
+2017-08-04 03:43:37.785564 PDT | LossAfter                  -0.00440538
+2017-08-04 03:43:37.785673 PDT | dLoss                       0.00440538
+2017-08-04 03:43:37.785781 PDT | Time                     6178.53
+2017-08-04 03:43:37.785890 PDT | ItrTime                   118.161
+2017-08-04 03:43:37.785999 PDT | ----------------------  ---------------
+2017-08-04 03:43:37.786201 PDT | [SingleGoal_addedGaussNoise] itr #57 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:43:37.790545 PDT | [SingleGoal_addedGaussNoise] itr #57 | ** Step 0 **
+2017-08-04 03:43:37.791003 PDT | [SingleGoal_addedGaussNoise] itr #57 | Obtaining samples...
+2017-08-04 03:43:37.791128 PDT | [SingleGoal_addedGaussNoise] itr #57 | Obtaining samples for iteration 57...
+2017-08-04 03:44:19.956297 PDT | [SingleGoal_addedGaussNoise] itr #57 | Processing samples...
+2017-08-04 03:44:20.133532 PDT | [SingleGoal_addedGaussNoise] itr #57 | fitting baseline...
+2017-08-04 03:44:20.181124 PDT | [SingleGoal_addedGaussNoise] itr #57 | fitted
+2017-08-04 03:44:20.262537 PDT | [SingleGoal_addedGaussNoise] itr #57 | Logging diagnostics...
+2017-08-04 03:44:20.265787 PDT | [SingleGoal_addedGaussNoise] itr #57 | Computing policy updates...
+2017-08-04 03:44:20.594280 PDT | [SingleGoal_addedGaussNoise] itr #57 | ** Step 1 **
+2017-08-04 03:44:20.594494 PDT | [SingleGoal_addedGaussNoise] itr #57 | Obtaining samples...
+2017-08-04 03:44:20.594622 PDT | [SingleGoal_addedGaussNoise] itr #57 | Obtaining samples for iteration 57...
+2017-08-04 03:45:29.593699 PDT | [SingleGoal_addedGaussNoise] itr #57 | Processing samples...
+2017-08-04 03:45:29.859773 PDT | [SingleGoal_addedGaussNoise] itr #57 | fitting baseline...
+2017-08-04 03:45:29.914824 PDT | [SingleGoal_addedGaussNoise] itr #57 | fitted
+2017-08-04 03:45:30.000693 PDT | [SingleGoal_addedGaussNoise] itr #57 | Logging diagnostics...
+2017-08-04 03:45:30.003771 PDT | [SingleGoal_addedGaussNoise] itr #57 | Optimizing policy...
+2017-08-04 03:45:30.004080 PDT | [SingleGoal_addedGaussNoise] itr #57 | Computing KL before
+2017-08-04 03:45:30.064226 PDT | [SingleGoal_addedGaussNoise] itr #57 | Computing loss before
+2017-08-04 03:45:30.130028 PDT | [SingleGoal_addedGaussNoise] itr #57 | Optimizing
+2017-08-04 03:45:30.130841 PDT | [SingleGoal_addedGaussNoise] itr #57 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:45:30.130991 PDT | [SingleGoal_addedGaussNoise] itr #57 | computing loss before
+2017-08-04 03:45:30.199882 PDT | [SingleGoal_addedGaussNoise] itr #57 | performing update
+2017-08-04 03:45:30.200119 PDT | [SingleGoal_addedGaussNoise] itr #57 | computing gradient
+2017-08-04 03:45:30.366056 PDT | [SingleGoal_addedGaussNoise] itr #57 | gradient computed
+2017-08-04 03:45:30.366277 PDT | [SingleGoal_addedGaussNoise] itr #57 | computing descent direction
+2017-08-04 03:45:33.739584 PDT | [SingleGoal_addedGaussNoise] itr #57 | descent direction computed
+2017-08-04 03:45:33.800515 PDT | [SingleGoal_addedGaussNoise] itr #57 | backtrack iters: 0
+2017-08-04 03:45:33.800741 PDT | [SingleGoal_addedGaussNoise] itr #57 | computing loss after
+2017-08-04 03:45:33.800869 PDT | [SingleGoal_addedGaussNoise] itr #57 | optimization finished
+2017-08-04 03:45:33.801003 PDT | [SingleGoal_addedGaussNoise] itr #57 | Computing loss after
+2017-08-04 03:45:33.859687 PDT | [SingleGoal_addedGaussNoise] itr #57 | Computing KL after
+2017-08-04 03:45:33.914545 PDT | [SingleGoal_addedGaussNoise] itr #57 | Saving snapshot...
+2017-08-04 03:45:33.917216 PDT | [SingleGoal_addedGaussNoise] itr #57 | Saved
+2017-08-04 03:45:33.917386 PDT | [SingleGoal_addedGaussNoise] itr #57 | Saving visualization of paths
+2017-08-04 03:45:34.754075 PDT | ----------------------  ---------------
+2017-08-04 03:45:34.754254 PDT | 0PolicyExecTime             8.57515
+2017-08-04 03:45:34.754371 PDT | 0EnvExecTime               32.3567
+2017-08-04 03:45:34.754481 PDT | 0ProcessExecTime            1.08543
+2017-08-04 03:45:34.754588 PDT | 0AverageReturn           3463
+2017-08-04 03:45:34.754695 PDT | 0ExplainedVariance          0.0710982
+2017-08-04 03:45:34.754801 PDT | 0NumTrajs                 400
+2017-08-04 03:45:34.754906 PDT | 0Entropy                    2.69199
+2017-08-04 03:45:34.755010 PDT | 0Perplexity                14.7611
+2017-08-04 03:45:34.755114 PDT | 0StdReturn               5434.72
+2017-08-04 03:45:34.755219 PDT | 0MaxReturn              20700
+2017-08-04 03:45:34.755323 PDT | 0MinReturn                  0
+2017-08-04 03:45:34.755427 PDT | 0AveragePolicyStd           0.92972
+2017-08-04 03:45:34.755531 PDT | ComputeUpdatedDistTime      0.328323
+2017-08-04 03:45:34.755636 PDT | 1PolicyExecTime            34.2854
+2017-08-04 03:45:34.755740 PDT | 1EnvExecTime               33.4756
+2017-08-04 03:45:34.755844 PDT | 1ProcessExecTime            1.08379
+2017-08-04 03:45:34.755947 PDT | 1AverageReturn           6956.25
+2017-08-04 03:45:34.756063 PDT | 1ExplainedVariance          0.217688
+2017-08-04 03:45:34.756169 PDT | 1NumTrajs                 400
+2017-08-04 03:45:34.756275 PDT | 1Entropy                    2.68934
+2017-08-04 03:45:34.756379 PDT | 1Perplexity                14.7219
+2017-08-04 03:45:34.756483 PDT | 1StdReturn               7635.82
+2017-08-04 03:45:34.756587 PDT | 1MaxReturn              22500
+2017-08-04 03:45:34.756691 PDT | 1MinReturn                  0
+2017-08-04 03:45:34.756793 PDT | 1AveragePolicyStd           0.928506
+2017-08-04 03:45:34.756903 PDT | MeanKLBefore               -2.79397e-09
+2017-08-04 03:45:34.757008 PDT | MeanKL                      0.00953608
+2017-08-04 03:45:34.757112 PDT | LossBefore                 -1.32713e-09
+2017-08-04 03:45:34.757217 PDT | LossAfter                  -0.00474947
+2017-08-04 03:45:34.757321 PDT | dLoss                       0.00474947
+2017-08-04 03:45:34.757426 PDT | Time                     6295.51
+2017-08-04 03:45:34.757530 PDT | ItrTime                   116.131
+2017-08-04 03:45:34.757634 PDT | ----------------------  ---------------
+2017-08-04 03:45:34.757830 PDT | [SingleGoal_addedGaussNoise] itr #58 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:45:34.762138 PDT | [SingleGoal_addedGaussNoise] itr #58 | ** Step 0 **
+2017-08-04 03:45:34.762711 PDT | [SingleGoal_addedGaussNoise] itr #58 | Obtaining samples...
+2017-08-04 03:45:34.762840 PDT | [SingleGoal_addedGaussNoise] itr #58 | Obtaining samples for iteration 58...
+2017-08-04 03:46:18.695706 PDT | [SingleGoal_addedGaussNoise] itr #58 | Processing samples...
+2017-08-04 03:46:18.857011 PDT | [SingleGoal_addedGaussNoise] itr #58 | fitting baseline...
+2017-08-04 03:46:18.905530 PDT | [SingleGoal_addedGaussNoise] itr #58 | fitted
+2017-08-04 03:46:18.987345 PDT | [SingleGoal_addedGaussNoise] itr #58 | Logging diagnostics...
+2017-08-04 03:46:18.990553 PDT | [SingleGoal_addedGaussNoise] itr #58 | Computing policy updates...
+2017-08-04 03:46:19.326784 PDT | [SingleGoal_addedGaussNoise] itr #58 | ** Step 1 **
+2017-08-04 03:46:19.326979 PDT | [SingleGoal_addedGaussNoise] itr #58 | Obtaining samples...
+2017-08-04 03:46:19.327106 PDT | [SingleGoal_addedGaussNoise] itr #58 | Obtaining samples for iteration 58...
+2017-08-04 03:47:29.975755 PDT | [SingleGoal_addedGaussNoise] itr #58 | Processing samples...
+2017-08-04 03:47:30.132634 PDT | [SingleGoal_addedGaussNoise] itr #58 | fitting baseline...
+2017-08-04 03:47:30.179139 PDT | [SingleGoal_addedGaussNoise] itr #58 | fitted
+2017-08-04 03:47:30.258305 PDT | [SingleGoal_addedGaussNoise] itr #58 | Logging diagnostics...
+2017-08-04 03:47:30.261578 PDT | [SingleGoal_addedGaussNoise] itr #58 | Optimizing policy...
+2017-08-04 03:47:30.261892 PDT | [SingleGoal_addedGaussNoise] itr #58 | Computing KL before
+2017-08-04 03:47:30.321423 PDT | [SingleGoal_addedGaussNoise] itr #58 | Computing loss before
+2017-08-04 03:47:30.386143 PDT | [SingleGoal_addedGaussNoise] itr #58 | Optimizing
+2017-08-04 03:47:30.387028 PDT | [SingleGoal_addedGaussNoise] itr #58 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:47:30.387196 PDT | [SingleGoal_addedGaussNoise] itr #58 | computing loss before
+2017-08-04 03:47:30.455055 PDT | [SingleGoal_addedGaussNoise] itr #58 | performing update
+2017-08-04 03:47:30.455319 PDT | [SingleGoal_addedGaussNoise] itr #58 | computing gradient
+2017-08-04 03:47:30.622444 PDT | [SingleGoal_addedGaussNoise] itr #58 | gradient computed
+2017-08-04 03:47:30.622662 PDT | [SingleGoal_addedGaussNoise] itr #58 | computing descent direction
+2017-08-04 03:47:34.013701 PDT | [SingleGoal_addedGaussNoise] itr #58 | descent direction computed
+2017-08-04 03:47:34.076486 PDT | [SingleGoal_addedGaussNoise] itr #58 | backtrack iters: 0
+2017-08-04 03:47:34.076763 PDT | [SingleGoal_addedGaussNoise] itr #58 | computing loss after
+2017-08-04 03:47:34.076909 PDT | [SingleGoal_addedGaussNoise] itr #58 | optimization finished
+2017-08-04 03:47:34.077056 PDT | [SingleGoal_addedGaussNoise] itr #58 | Computing loss after
+2017-08-04 03:47:34.137779 PDT | [SingleGoal_addedGaussNoise] itr #58 | Computing KL after
+2017-08-04 03:47:34.193512 PDT | [SingleGoal_addedGaussNoise] itr #58 | Saving snapshot...
+2017-08-04 03:47:34.196291 PDT | [SingleGoal_addedGaussNoise] itr #58 | Saved
+2017-08-04 03:47:34.196503 PDT | [SingleGoal_addedGaussNoise] itr #58 | Saving visualization of paths
+2017-08-04 03:47:35.034091 PDT | ----------------------  ---------------
+2017-08-04 03:47:35.034269 PDT | 0PolicyExecTime             8.50033
+2017-08-04 03:47:35.034385 PDT | 0EnvExecTime               34.1639
+2017-08-04 03:47:35.034500 PDT | 0ProcessExecTime            1.11204
+2017-08-04 03:47:35.034607 PDT | 0AverageReturn           2038.5
+2017-08-04 03:47:35.034713 PDT | 0ExplainedVariance          0.0352528
+2017-08-04 03:47:35.034819 PDT | 0NumTrajs                 400
+2017-08-04 03:47:35.034923 PDT | 0Entropy                    2.70551
+2017-08-04 03:47:35.035028 PDT | 0Perplexity                14.962
+2017-08-04 03:47:35.035132 PDT | 0StdReturn               4053.4
+2017-08-04 03:47:35.035236 PDT | 0MaxReturn              20200
+2017-08-04 03:47:35.035340 PDT | 0MinReturn                  0
+2017-08-04 03:47:35.035443 PDT | 0AveragePolicyStd           0.935996
+2017-08-04 03:47:35.035546 PDT | ComputeUpdatedDistTime      0.336061
+2017-08-04 03:47:35.035650 PDT | 1PolicyExecTime            35.0192
+2017-08-04 03:47:35.035753 PDT | 1EnvExecTime               34.3979
+2017-08-04 03:47:35.035857 PDT | 1ProcessExecTime            1.0744
+2017-08-04 03:47:35.035960 PDT | 1AverageReturn           4429.75
+2017-08-04 03:47:35.036075 PDT | 1ExplainedVariance          0.10408
+2017-08-04 03:47:35.036179 PDT | 1NumTrajs                 400
+2017-08-04 03:47:35.036283 PDT | 1Entropy                    2.70385
+2017-08-04 03:47:35.036387 PDT | 1Perplexity                14.9372
+2017-08-04 03:47:35.036490 PDT | 1StdReturn               6249.23
+2017-08-04 03:47:35.036594 PDT | 1MaxReturn              21400
+2017-08-04 03:47:35.036696 PDT | 1MinReturn                  0
+2017-08-04 03:47:35.036799 PDT | 1AveragePolicyStd           0.935245
+2017-08-04 03:47:35.036903 PDT | MeanKLBefore                1.86265e-09
+2017-08-04 03:47:35.037006 PDT | MeanKL                      0.00964012
+2017-08-04 03:47:35.037110 PDT | LossBefore                  1.08266e-09
+2017-08-04 03:47:35.037213 PDT | LossAfter                  -0.00439432
+2017-08-04 03:47:35.037317 PDT | dLoss                       0.00439432
+2017-08-04 03:47:35.037421 PDT | Time                     6415.79
+2017-08-04 03:47:35.037525 PDT | ItrTime                   119.439
+2017-08-04 03:47:35.037629 PDT | ----------------------  ---------------
+2017-08-04 03:47:35.037825 PDT | [SingleGoal_addedGaussNoise] itr #59 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:47:35.042216 PDT | [SingleGoal_addedGaussNoise] itr #59 | ** Step 0 **
+2017-08-04 03:47:35.042665 PDT | [SingleGoal_addedGaussNoise] itr #59 | Obtaining samples...
+2017-08-04 03:47:35.042797 PDT | [SingleGoal_addedGaussNoise] itr #59 | Obtaining samples for iteration 59...
+2017-08-04 03:48:19.685223 PDT | [SingleGoal_addedGaussNoise] itr #59 | Processing samples...
+2017-08-04 03:48:19.840970 PDT | [SingleGoal_addedGaussNoise] itr #59 | fitting baseline...
+2017-08-04 03:48:19.888272 PDT | [SingleGoal_addedGaussNoise] itr #59 | fitted
+2017-08-04 03:48:19.969079 PDT | [SingleGoal_addedGaussNoise] itr #59 | Logging diagnostics...
+2017-08-04 03:48:19.972295 PDT | [SingleGoal_addedGaussNoise] itr #59 | Computing policy updates...
+2017-08-04 03:48:20.304163 PDT | [SingleGoal_addedGaussNoise] itr #59 | ** Step 1 **
+2017-08-04 03:48:20.304360 PDT | [SingleGoal_addedGaussNoise] itr #59 | Obtaining samples...
+2017-08-04 03:48:20.304497 PDT | [SingleGoal_addedGaussNoise] itr #59 | Obtaining samples for iteration 59...
+2017-08-04 03:49:15.438819 PDT | [SingleGoal_addedGaussNoise] itr #59 | Processing samples...
+2017-08-04 03:49:15.568964 PDT | [SingleGoal_addedGaussNoise] itr #59 | fitting baseline...
+2017-08-04 03:49:15.616261 PDT | [SingleGoal_addedGaussNoise] itr #59 | fitted
+2017-08-04 03:49:15.691787 PDT | [SingleGoal_addedGaussNoise] itr #59 | Logging diagnostics...
+2017-08-04 03:49:15.696233 PDT | [SingleGoal_addedGaussNoise] itr #59 | Optimizing policy...
+2017-08-04 03:49:15.696578 PDT | [SingleGoal_addedGaussNoise] itr #59 | Computing KL before
+2017-08-04 03:49:15.762556 PDT | [SingleGoal_addedGaussNoise] itr #59 | Computing loss before
+2017-08-04 03:49:15.825453 PDT | [SingleGoal_addedGaussNoise] itr #59 | Optimizing
+2017-08-04 03:49:15.826197 PDT | [SingleGoal_addedGaussNoise] itr #59 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:49:15.826346 PDT | [SingleGoal_addedGaussNoise] itr #59 | computing loss before
+2017-08-04 03:49:15.887487 PDT | [SingleGoal_addedGaussNoise] itr #59 | performing update
+2017-08-04 03:49:15.887700 PDT | [SingleGoal_addedGaussNoise] itr #59 | computing gradient
+2017-08-04 03:49:16.049636 PDT | [SingleGoal_addedGaussNoise] itr #59 | gradient computed
+2017-08-04 03:49:16.049834 PDT | [SingleGoal_addedGaussNoise] itr #59 | computing descent direction
+2017-08-04 03:49:19.339397 PDT | [SingleGoal_addedGaussNoise] itr #59 | descent direction computed
+2017-08-04 03:49:19.466031 PDT | [SingleGoal_addedGaussNoise] itr #59 | backtrack iters: 1
+2017-08-04 03:49:19.466263 PDT | [SingleGoal_addedGaussNoise] itr #59 | computing loss after
+2017-08-04 03:49:19.466396 PDT | [SingleGoal_addedGaussNoise] itr #59 | optimization finished
+2017-08-04 03:49:19.466525 PDT | [SingleGoal_addedGaussNoise] itr #59 | Computing loss after
+2017-08-04 03:49:19.524579 PDT | [SingleGoal_addedGaussNoise] itr #59 | Computing KL after
+2017-08-04 03:49:19.578949 PDT | [SingleGoal_addedGaussNoise] itr #59 | Saving snapshot...
+2017-08-04 03:49:19.581593 PDT | [SingleGoal_addedGaussNoise] itr #59 | Saved
+2017-08-04 03:49:19.581754 PDT | [SingleGoal_addedGaussNoise] itr #59 | Saving visualization of paths
+2017-08-04 03:49:20.305878 PDT | ----------------------  ---------------
+2017-08-04 03:49:20.306044 PDT | 0PolicyExecTime             8.61464
+2017-08-04 03:49:20.306150 PDT | 0EnvExecTime               34.7936
+2017-08-04 03:49:20.306248 PDT | 0ProcessExecTime            1.07604
+2017-08-04 03:49:20.306345 PDT | 0AverageReturn           3399.25
+2017-08-04 03:49:20.306440 PDT | 0ExplainedVariance          0.0607027
+2017-08-04 03:49:20.306536 PDT | 0NumTrajs                 400
+2017-08-04 03:49:20.306632 PDT | 0Entropy                    2.70375
+2017-08-04 03:49:20.306727 PDT | 0Perplexity                14.9356
+2017-08-04 03:49:20.306822 PDT | 0StdReturn               5609.53
+2017-08-04 03:49:20.306916 PDT | 0MaxReturn              20800
+2017-08-04 03:49:20.307011 PDT | 0MinReturn                  0
+2017-08-04 03:49:20.307105 PDT | 0AveragePolicyStd           0.935325
+2017-08-04 03:49:20.307200 PDT | ComputeUpdatedDistTime      0.331698
+2017-08-04 03:49:20.307294 PDT | 1PolicyExecTime            27.3562
+2017-08-04 03:49:20.307388 PDT | 1EnvExecTime               26.7516
+2017-08-04 03:49:20.307483 PDT | 1ProcessExecTime            0.904651
+2017-08-04 03:49:20.307577 PDT | 1AverageReturn           4977.5
+2017-08-04 03:49:20.307672 PDT | 1ExplainedVariance          0.139528
+2017-08-04 03:49:20.307766 PDT | 1NumTrajs                 400
+2017-08-04 03:49:20.307861 PDT | 1Entropy                    2.6997
+2017-08-04 03:49:20.307955 PDT | 1Perplexity                14.8753
+2017-08-04 03:49:20.308068 PDT | 1StdReturn               6497.93
+2017-08-04 03:49:20.308164 PDT | 1MaxReturn              21800
+2017-08-04 03:49:20.308259 PDT | 1MinReturn                  0
+2017-08-04 03:49:20.308354 PDT | 1AveragePolicyStd           0.933473
+2017-08-04 03:49:20.308448 PDT | MeanKLBefore               -7.26431e-09
+2017-08-04 03:49:20.308543 PDT | MeanKL                      0.00684722
+2017-08-04 03:49:20.308638 PDT | LossBefore                 -4.21278e-10
+2017-08-04 03:49:20.308732 PDT | LossAfter                  -0.00360062
+2017-08-04 03:49:20.308826 PDT | dLoss                       0.00360062
+2017-08-04 03:49:20.308921 PDT | Time                     6521.17
+2017-08-04 03:49:20.309016 PDT | ItrTime                   104.544
+2017-08-04 03:49:20.309111 PDT | ----------------------  ---------------
+2017-08-04 03:49:20.309296 PDT | [SingleGoal_addedGaussNoise] itr #60 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:49:20.313226 PDT | [SingleGoal_addedGaussNoise] itr #60 | ** Step 0 **
+2017-08-04 03:49:20.313633 PDT | [SingleGoal_addedGaussNoise] itr #60 | Obtaining samples...
+2017-08-04 03:49:20.313750 PDT | [SingleGoal_addedGaussNoise] itr #60 | Obtaining samples for iteration 60...
+2017-08-04 03:49:54.889088 PDT | [SingleGoal_addedGaussNoise] itr #60 | Processing samples...
+2017-08-04 03:49:55.058015 PDT | [SingleGoal_addedGaussNoise] itr #60 | fitting baseline...
+2017-08-04 03:49:55.106805 PDT | [SingleGoal_addedGaussNoise] itr #60 | fitted
+2017-08-04 03:49:55.189096 PDT | [SingleGoal_addedGaussNoise] itr #60 | Logging diagnostics...
+2017-08-04 03:49:55.192272 PDT | [SingleGoal_addedGaussNoise] itr #60 | Computing policy updates...
+2017-08-04 03:49:55.504066 PDT | [SingleGoal_addedGaussNoise] itr #60 | ** Step 1 **
+2017-08-04 03:49:55.504260 PDT | [SingleGoal_addedGaussNoise] itr #60 | Obtaining samples...
+2017-08-04 03:49:55.504389 PDT | [SingleGoal_addedGaussNoise] itr #60 | Obtaining samples for iteration 60...
+2017-08-04 03:50:47.637794 PDT | [SingleGoal_addedGaussNoise] itr #60 | Processing samples...
+2017-08-04 03:50:47.790312 PDT | [SingleGoal_addedGaussNoise] itr #60 | fitting baseline...
+2017-08-04 03:50:47.831625 PDT | [SingleGoal_addedGaussNoise] itr #60 | fitted
+2017-08-04 03:50:47.902528 PDT | [SingleGoal_addedGaussNoise] itr #60 | Logging diagnostics...
+2017-08-04 03:50:47.906863 PDT | [SingleGoal_addedGaussNoise] itr #60 | Optimizing policy...
+2017-08-04 03:50:47.907264 PDT | [SingleGoal_addedGaussNoise] itr #60 | Computing KL before
+2017-08-04 03:50:47.968533 PDT | [SingleGoal_addedGaussNoise] itr #60 | Computing loss before
+2017-08-04 03:50:48.035283 PDT | [SingleGoal_addedGaussNoise] itr #60 | Optimizing
+2017-08-04 03:50:48.036193 PDT | [SingleGoal_addedGaussNoise] itr #60 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:50:48.036344 PDT | [SingleGoal_addedGaussNoise] itr #60 | computing loss before
+2017-08-04 03:50:48.099266 PDT | [SingleGoal_addedGaussNoise] itr #60 | performing update
+2017-08-04 03:50:48.099466 PDT | [SingleGoal_addedGaussNoise] itr #60 | computing gradient
+2017-08-04 03:50:48.259154 PDT | [SingleGoal_addedGaussNoise] itr #60 | gradient computed
+2017-08-04 03:50:48.259344 PDT | [SingleGoal_addedGaussNoise] itr #60 | computing descent direction
+2017-08-04 03:50:51.499956 PDT | [SingleGoal_addedGaussNoise] itr #60 | descent direction computed
+2017-08-04 03:50:51.628450 PDT | [SingleGoal_addedGaussNoise] itr #60 | backtrack iters: 1
+2017-08-04 03:50:51.628710 PDT | [SingleGoal_addedGaussNoise] itr #60 | computing loss after
+2017-08-04 03:50:51.628862 PDT | [SingleGoal_addedGaussNoise] itr #60 | optimization finished
+2017-08-04 03:50:51.629012 PDT | [SingleGoal_addedGaussNoise] itr #60 | Computing loss after
+2017-08-04 03:50:51.687872 PDT | [SingleGoal_addedGaussNoise] itr #60 | Computing KL after
+2017-08-04 03:50:51.742020 PDT | [SingleGoal_addedGaussNoise] itr #60 | Saving snapshot...
+2017-08-04 03:50:51.745414 PDT | [SingleGoal_addedGaussNoise] itr #60 | Saved
+2017-08-04 03:50:51.745652 PDT | [SingleGoal_addedGaussNoise] itr #60 | Saving visualization of paths
+2017-08-04 03:50:52.664015 PDT | ----------------------  ---------------
+2017-08-04 03:50:52.664227 PDT | 0PolicyExecTime             6.89101
+2017-08-04 03:50:52.664347 PDT | 0EnvExecTime               26.6876
+2017-08-04 03:50:52.664458 PDT | 0ProcessExecTime            0.877517
+2017-08-04 03:50:52.664566 PDT | 0AverageReturn           3516.5
+2017-08-04 03:50:52.664672 PDT | 0ExplainedVariance          0.062352
+2017-08-04 03:50:52.664779 PDT | 0NumTrajs                 400
+2017-08-04 03:50:52.664886 PDT | 0Entropy                    2.69403
+2017-08-04 03:50:52.664991 PDT | 0Perplexity                14.7912
+2017-08-04 03:50:52.665096 PDT | 0StdReturn               4771.2
+2017-08-04 03:50:52.665201 PDT | 0MaxReturn              19600
+2017-08-04 03:50:52.665306 PDT | 0MinReturn                  0
+2017-08-04 03:50:52.665410 PDT | 0AveragePolicyStd           0.930916
+2017-08-04 03:50:52.665515 PDT | ComputeUpdatedDistTime      0.311631
+2017-08-04 03:50:52.665620 PDT | 1PolicyExecTime            25.5842
+2017-08-04 03:50:52.665761 PDT | 1EnvExecTime               25.5904
+2017-08-04 03:50:52.665868 PDT | 1ProcessExecTime            0.843506
+2017-08-04 03:50:52.665980 PDT | 1AverageReturn           7700.25
+2017-08-04 03:50:52.666086 PDT | 1ExplainedVariance          0.203936
+2017-08-04 03:50:52.666191 PDT | 1NumTrajs                 400
+2017-08-04 03:50:52.666296 PDT | 1Entropy                    2.69235
+2017-08-04 03:50:52.666400 PDT | 1Perplexity                14.7663
+2017-08-04 03:50:52.666505 PDT | 1StdReturn               7406.64
+2017-08-04 03:50:52.666609 PDT | 1MaxReturn              22200
+2017-08-04 03:50:52.666713 PDT | 1MinReturn                  0
+2017-08-04 03:50:52.666817 PDT | 1AveragePolicyStd           0.930097
+2017-08-04 03:50:52.666921 PDT | MeanKLBefore               -1.21072e-08
+2017-08-04 03:50:52.667027 PDT | MeanKL                      0.00733899
+2017-08-04 03:50:52.667131 PDT | LossBefore                  2.03145e-09
+2017-08-04 03:50:52.667236 PDT | LossAfter                  -0.00320044
+2017-08-04 03:50:52.667340 PDT | dLoss                       0.00320044
+2017-08-04 03:50:52.667444 PDT | Time                     6613.34
+2017-08-04 03:50:52.667548 PDT | ItrTime                    91.4364
+2017-08-04 03:50:52.667652 PDT | ----------------------  ---------------
+2017-08-04 03:50:52.667850 PDT | [SingleGoal_addedGaussNoise] itr #61 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:50:52.672172 PDT | [SingleGoal_addedGaussNoise] itr #61 | ** Step 0 **
+2017-08-04 03:50:52.672686 PDT | [SingleGoal_addedGaussNoise] itr #61 | Obtaining samples...
+2017-08-04 03:50:52.672811 PDT | [SingleGoal_addedGaussNoise] itr #61 | Obtaining samples for iteration 61...
+2017-08-04 03:51:28.338358 PDT | [SingleGoal_addedGaussNoise] itr #61 | Processing samples...
+2017-08-04 03:51:28.517716 PDT | [SingleGoal_addedGaussNoise] itr #61 | fitting baseline...
+2017-08-04 03:51:28.569193 PDT | [SingleGoal_addedGaussNoise] itr #61 | fitted
+2017-08-04 03:51:28.654972 PDT | [SingleGoal_addedGaussNoise] itr #61 | Logging diagnostics...
+2017-08-04 03:51:28.659825 PDT | [SingleGoal_addedGaussNoise] itr #61 | Computing policy updates...
+2017-08-04 03:51:29.142184 PDT | [SingleGoal_addedGaussNoise] itr #61 | ** Step 1 **
+2017-08-04 03:51:29.142495 PDT | [SingleGoal_addedGaussNoise] itr #61 | Obtaining samples...
+2017-08-04 03:51:29.142753 PDT | [SingleGoal_addedGaussNoise] itr #61 | Obtaining samples for iteration 61...
+2017-08-04 03:52:20.152473 PDT | [SingleGoal_addedGaussNoise] itr #61 | Processing samples...
+2017-08-04 03:52:20.304662 PDT | [SingleGoal_addedGaussNoise] itr #61 | fitting baseline...
+2017-08-04 03:52:20.349635 PDT | [SingleGoal_addedGaussNoise] itr #61 | fitted
+2017-08-04 03:52:20.426891 PDT | [SingleGoal_addedGaussNoise] itr #61 | Logging diagnostics...
+2017-08-04 03:52:20.430009 PDT | [SingleGoal_addedGaussNoise] itr #61 | Optimizing policy...
+2017-08-04 03:52:20.430296 PDT | [SingleGoal_addedGaussNoise] itr #61 | Computing KL before
+2017-08-04 03:52:20.483160 PDT | [SingleGoal_addedGaussNoise] itr #61 | Computing loss before
+2017-08-04 03:52:20.536844 PDT | [SingleGoal_addedGaussNoise] itr #61 | Optimizing
+2017-08-04 03:52:20.537574 PDT | [SingleGoal_addedGaussNoise] itr #61 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:52:20.537709 PDT | [SingleGoal_addedGaussNoise] itr #61 | computing loss before
+2017-08-04 03:52:20.594603 PDT | [SingleGoal_addedGaussNoise] itr #61 | performing update
+2017-08-04 03:52:20.594816 PDT | [SingleGoal_addedGaussNoise] itr #61 | computing gradient
+2017-08-04 03:52:20.741868 PDT | [SingleGoal_addedGaussNoise] itr #61 | gradient computed
+2017-08-04 03:52:20.742212 PDT | [SingleGoal_addedGaussNoise] itr #61 | computing descent direction
+2017-08-04 03:52:24.013417 PDT | [SingleGoal_addedGaussNoise] itr #61 | descent direction computed
+2017-08-04 03:52:24.072425 PDT | [SingleGoal_addedGaussNoise] itr #61 | backtrack iters: 0
+2017-08-04 03:52:24.072691 PDT | [SingleGoal_addedGaussNoise] itr #61 | computing loss after
+2017-08-04 03:52:24.072841 PDT | [SingleGoal_addedGaussNoise] itr #61 | optimization finished
+2017-08-04 03:52:24.072989 PDT | [SingleGoal_addedGaussNoise] itr #61 | Computing loss after
+2017-08-04 03:52:24.128701 PDT | [SingleGoal_addedGaussNoise] itr #61 | Computing KL after
+2017-08-04 03:52:24.183077 PDT | [SingleGoal_addedGaussNoise] itr #61 | Saving snapshot...
+2017-08-04 03:52:24.185871 PDT | [SingleGoal_addedGaussNoise] itr #61 | Saved
+2017-08-04 03:52:24.186036 PDT | [SingleGoal_addedGaussNoise] itr #61 | Saving visualization of paths
+2017-08-04 03:52:24.947288 PDT | ----------------------  ---------------
+2017-08-04 03:52:24.947451 PDT | 0PolicyExecTime             7.48406
+2017-08-04 03:52:24.947556 PDT | 0EnvExecTime               27.1623
+2017-08-04 03:52:24.947654 PDT | 0ProcessExecTime            0.897239
+2017-08-04 03:52:24.947750 PDT | 0AverageReturn           2870.75
+2017-08-04 03:52:24.947845 PDT | 0ExplainedVariance          0.0381914
+2017-08-04 03:52:24.947939 PDT | 0NumTrajs                 400
+2017-08-04 03:52:24.948136 PDT | 0Entropy                    2.69346
+2017-08-04 03:52:24.948348 PDT | 0Perplexity                14.7828
+2017-08-04 03:52:24.948559 PDT | 0StdReturn               5127.46
+2017-08-04 03:52:24.948775 PDT | 0MaxReturn              20500
+2017-08-04 03:52:24.948986 PDT | 0MinReturn                  0
+2017-08-04 03:52:24.949199 PDT | 0AveragePolicyStd           0.930834
+2017-08-04 03:52:24.949414 PDT | ComputeUpdatedDistTime      0.482139
+2017-08-04 03:52:24.949622 PDT | 1PolicyExecTime            24.7872
+2017-08-04 03:52:24.949834 PDT | 1EnvExecTime               25.3152
+2017-08-04 03:52:24.950046 PDT | 1ProcessExecTime            0.791857
+2017-08-04 03:52:24.950253 PDT | 1AverageReturn           5333.75
+2017-08-04 03:52:24.950436 PDT | 1ExplainedVariance          0.102381
+2017-08-04 03:52:24.950537 PDT | 1NumTrajs                 400
+2017-08-04 03:52:24.950634 PDT | 1Entropy                    2.69438
+2017-08-04 03:52:24.950729 PDT | 1Perplexity                14.7963
+2017-08-04 03:52:24.950823 PDT | 1StdReturn               6852.32
+2017-08-04 03:52:24.950931 PDT | 1MaxReturn              22000
+2017-08-04 03:52:24.951134 PDT | 1MinReturn                  0
+2017-08-04 03:52:24.951345 PDT | 1AveragePolicyStd           0.931341
+2017-08-04 03:52:24.951558 PDT | MeanKLBefore               -1.49012e-09
+2017-08-04 03:52:24.951773 PDT | MeanKL                      0.00912234
+2017-08-04 03:52:24.951983 PDT | LossBefore                 -7.36327e-10
+2017-08-04 03:52:24.952201 PDT | LossAfter                  -0.00509873
+2017-08-04 03:52:24.952415 PDT | dLoss                       0.00509873
+2017-08-04 03:52:24.952627 PDT | Time                     6705.78
+2017-08-04 03:52:24.952838 PDT | ItrTime                    91.5182
+2017-08-04 03:52:24.953045 PDT | ----------------------  ---------------
+2017-08-04 03:52:24.953380 PDT | [SingleGoal_addedGaussNoise] itr #62 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:52:24.958255 PDT | [SingleGoal_addedGaussNoise] itr #62 | ** Step 0 **
+2017-08-04 03:52:24.958628 PDT | [SingleGoal_addedGaussNoise] itr #62 | Obtaining samples...
+2017-08-04 03:52:24.958747 PDT | [SingleGoal_addedGaussNoise] itr #62 | Obtaining samples for iteration 62...
+2017-08-04 03:53:00.730450 PDT | [SingleGoal_addedGaussNoise] itr #62 | Processing samples...
+2017-08-04 03:53:00.918142 PDT | [SingleGoal_addedGaussNoise] itr #62 | fitting baseline...
+2017-08-04 03:53:00.968719 PDT | [SingleGoal_addedGaussNoise] itr #62 | fitted
+2017-08-04 03:53:01.047742 PDT | [SingleGoal_addedGaussNoise] itr #62 | Logging diagnostics...
+2017-08-04 03:53:01.050749 PDT | [SingleGoal_addedGaussNoise] itr #62 | Computing policy updates...
+2017-08-04 03:53:01.369750 PDT | [SingleGoal_addedGaussNoise] itr #62 | ** Step 1 **
+2017-08-04 03:53:01.369924 PDT | [SingleGoal_addedGaussNoise] itr #62 | Obtaining samples...
+2017-08-04 03:53:01.370038 PDT | [SingleGoal_addedGaussNoise] itr #62 | Obtaining samples for iteration 62...
+2017-08-04 03:53:53.570855 PDT | [SingleGoal_addedGaussNoise] itr #62 | Processing samples...
+2017-08-04 03:53:53.732135 PDT | [SingleGoal_addedGaussNoise] itr #62 | fitting baseline...
+2017-08-04 03:53:53.806065 PDT | [SingleGoal_addedGaussNoise] itr #62 | fitted
+2017-08-04 03:53:53.920350 PDT | [SingleGoal_addedGaussNoise] itr #62 | Logging diagnostics...
+2017-08-04 03:53:53.925438 PDT | [SingleGoal_addedGaussNoise] itr #62 | Optimizing policy...
+2017-08-04 03:53:53.925891 PDT | [SingleGoal_addedGaussNoise] itr #62 | Computing KL before
+2017-08-04 03:53:53.985346 PDT | [SingleGoal_addedGaussNoise] itr #62 | Computing loss before
+2017-08-04 03:53:54.044359 PDT | [SingleGoal_addedGaussNoise] itr #62 | Optimizing
+2017-08-04 03:53:54.045537 PDT | [SingleGoal_addedGaussNoise] itr #62 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:53:54.045740 PDT | [SingleGoal_addedGaussNoise] itr #62 | computing loss before
+2017-08-04 03:53:54.100893 PDT | [SingleGoal_addedGaussNoise] itr #62 | performing update
+2017-08-04 03:53:54.101156 PDT | [SingleGoal_addedGaussNoise] itr #62 | computing gradient
+2017-08-04 03:53:54.285684 PDT | [SingleGoal_addedGaussNoise] itr #62 | gradient computed
+2017-08-04 03:53:54.286138 PDT | [SingleGoal_addedGaussNoise] itr #62 | computing descent direction
+2017-08-04 03:53:58.797874 PDT | [SingleGoal_addedGaussNoise] itr #62 | descent direction computed
+2017-08-04 03:53:58.856675 PDT | [SingleGoal_addedGaussNoise] itr #62 | backtrack iters: 0
+2017-08-04 03:53:58.856952 PDT | [SingleGoal_addedGaussNoise] itr #62 | computing loss after
+2017-08-04 03:53:58.857106 PDT | [SingleGoal_addedGaussNoise] itr #62 | optimization finished
+2017-08-04 03:53:58.857272 PDT | [SingleGoal_addedGaussNoise] itr #62 | Computing loss after
+2017-08-04 03:53:58.913518 PDT | [SingleGoal_addedGaussNoise] itr #62 | Computing KL after
+2017-08-04 03:53:58.965268 PDT | [SingleGoal_addedGaussNoise] itr #62 | Saving snapshot...
+2017-08-04 03:53:58.967659 PDT | [SingleGoal_addedGaussNoise] itr #62 | Saved
+2017-08-04 03:53:58.967805 PDT | [SingleGoal_addedGaussNoise] itr #62 | Saving visualization of paths
+2017-08-04 03:53:59.648449 PDT | ----------------------  ---------------
+2017-08-04 03:53:59.648607 PDT | 0PolicyExecTime             7.11154
+2017-08-04 03:53:59.648711 PDT | 0EnvExecTime               27.6158
+2017-08-04 03:53:59.648809 PDT | 0ProcessExecTime            0.92117
+2017-08-04 03:53:59.648905 PDT | 0AverageReturn           4324
+2017-08-04 03:53:59.649000 PDT | 0ExplainedVariance          0.078414
+2017-08-04 03:53:59.649096 PDT | 0NumTrajs                 400
+2017-08-04 03:53:59.649191 PDT | 0Entropy                    2.71337
+2017-08-04 03:53:59.649285 PDT | 0Perplexity                15.08
+2017-08-04 03:53:59.649379 PDT | 0StdReturn               5953.01
+2017-08-04 03:53:59.649472 PDT | 0MaxReturn              20500
+2017-08-04 03:53:59.649567 PDT | 0MinReturn                  0
+2017-08-04 03:53:59.649660 PDT | 0AveragePolicyStd           0.940016
+2017-08-04 03:53:59.649755 PDT | ComputeUpdatedDistTime      0.318842
+2017-08-04 03:53:59.649849 PDT | 1PolicyExecTime            25.6998
+2017-08-04 03:53:59.649943 PDT | 1EnvExecTime               25.4959
+2017-08-04 03:53:59.650036 PDT | 1ProcessExecTime            0.890125
+2017-08-04 03:53:59.650130 PDT | 1AverageReturn           7494.25
+2017-08-04 03:53:59.650223 PDT | 1ExplainedVariance          0.228966
+2017-08-04 03:53:59.650317 PDT | 1NumTrajs                 400
+2017-08-04 03:53:59.650411 PDT | 1Entropy                    2.71567
+2017-08-04 03:53:59.650505 PDT | 1Perplexity                15.1147
+2017-08-04 03:53:59.650598 PDT | 1StdReturn               7816.26
+2017-08-04 03:53:59.650691 PDT | 1MaxReturn              22400
+2017-08-04 03:53:59.650784 PDT | 1MinReturn                  0
+2017-08-04 03:53:59.650880 PDT | 1AveragePolicyStd           0.941106
+2017-08-04 03:53:59.650973 PDT | MeanKLBefore                8.38191e-10
+2017-08-04 03:53:59.651067 PDT | MeanKL                      0.00887742
+2017-08-04 03:53:59.651162 PDT | LossBefore                  7.33416e-10
+2017-08-04 03:53:59.651255 PDT | LossAfter                  -0.00399831
+2017-08-04 03:53:59.651349 PDT | dLoss                       0.00399831
+2017-08-04 03:53:59.651443 PDT | Time                     6800.56
+2017-08-04 03:53:59.651541 PDT | ItrTime                    94.0144
+2017-08-04 03:53:59.651637 PDT | ----------------------  ---------------
+2017-08-04 03:53:59.651816 PDT | [SingleGoal_addedGaussNoise] itr #63 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:53:59.655658 PDT | [SingleGoal_addedGaussNoise] itr #63 | ** Step 0 **
+2017-08-04 03:53:59.656240 PDT | [SingleGoal_addedGaussNoise] itr #63 | Obtaining samples...
+2017-08-04 03:53:59.656355 PDT | [SingleGoal_addedGaussNoise] itr #63 | Obtaining samples for iteration 63...
+2017-08-04 03:54:34.396545 PDT | [SingleGoal_addedGaussNoise] itr #63 | Processing samples...
+2017-08-04 03:54:34.536363 PDT | [SingleGoal_addedGaussNoise] itr #63 | fitting baseline...
+2017-08-04 03:54:34.586024 PDT | [SingleGoal_addedGaussNoise] itr #63 | fitted
+2017-08-04 03:54:34.666565 PDT | [SingleGoal_addedGaussNoise] itr #63 | Logging diagnostics...
+2017-08-04 03:54:34.669960 PDT | [SingleGoal_addedGaussNoise] itr #63 | Computing policy updates...
+2017-08-04 03:54:34.992593 PDT | [SingleGoal_addedGaussNoise] itr #63 | ** Step 1 **
+2017-08-04 03:54:34.992788 PDT | [SingleGoal_addedGaussNoise] itr #63 | Obtaining samples...
+2017-08-04 03:54:34.992930 PDT | [SingleGoal_addedGaussNoise] itr #63 | Obtaining samples for iteration 63...
+2017-08-04 03:55:27.916769 PDT | [SingleGoal_addedGaussNoise] itr #63 | Processing samples...
+2017-08-04 03:55:28.070682 PDT | [SingleGoal_addedGaussNoise] itr #63 | fitting baseline...
+2017-08-04 03:55:28.116920 PDT | [SingleGoal_addedGaussNoise] itr #63 | fitted
+2017-08-04 03:55:28.195197 PDT | [SingleGoal_addedGaussNoise] itr #63 | Logging diagnostics...
+2017-08-04 03:55:28.198336 PDT | [SingleGoal_addedGaussNoise] itr #63 | Optimizing policy...
+2017-08-04 03:55:28.198627 PDT | [SingleGoal_addedGaussNoise] itr #63 | Computing KL before
+2017-08-04 03:55:28.248974 PDT | [SingleGoal_addedGaussNoise] itr #63 | Computing loss before
+2017-08-04 03:55:28.307198 PDT | [SingleGoal_addedGaussNoise] itr #63 | Optimizing
+2017-08-04 03:55:28.307891 PDT | [SingleGoal_addedGaussNoise] itr #63 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:55:28.308042 PDT | [SingleGoal_addedGaussNoise] itr #63 | computing loss before
+2017-08-04 03:55:28.363778 PDT | [SingleGoal_addedGaussNoise] itr #63 | performing update
+2017-08-04 03:55:28.364142 PDT | [SingleGoal_addedGaussNoise] itr #63 | computing gradient
+2017-08-04 03:55:28.513081 PDT | [SingleGoal_addedGaussNoise] itr #63 | gradient computed
+2017-08-04 03:55:28.513276 PDT | [SingleGoal_addedGaussNoise] itr #63 | computing descent direction
+2017-08-04 03:55:31.785526 PDT | [SingleGoal_addedGaussNoise] itr #63 | descent direction computed
+2017-08-04 03:55:31.844448 PDT | [SingleGoal_addedGaussNoise] itr #63 | backtrack iters: 0
+2017-08-04 03:55:31.844674 PDT | [SingleGoal_addedGaussNoise] itr #63 | computing loss after
+2017-08-04 03:55:31.844808 PDT | [SingleGoal_addedGaussNoise] itr #63 | optimization finished
+2017-08-04 03:55:31.844934 PDT | [SingleGoal_addedGaussNoise] itr #63 | Computing loss after
+2017-08-04 03:55:31.900444 PDT | [SingleGoal_addedGaussNoise] itr #63 | Computing KL after
+2017-08-04 03:55:31.953338 PDT | [SingleGoal_addedGaussNoise] itr #63 | Saving snapshot...
+2017-08-04 03:55:31.955927 PDT | [SingleGoal_addedGaussNoise] itr #63 | Saved
+2017-08-04 03:55:31.956127 PDT | [SingleGoal_addedGaussNoise] itr #63 | Saving visualization of paths
+2017-08-04 03:55:32.789422 PDT | ----------------------  ---------------
+2017-08-04 03:55:32.789585 PDT | 0PolicyExecTime             6.52093
+2017-08-04 03:55:32.789691 PDT | 0EnvExecTime               27.1696
+2017-08-04 03:55:32.789789 PDT | 0ProcessExecTime            0.928914
+2017-08-04 03:55:32.789885 PDT | 0AverageReturn           3916.5
+2017-08-04 03:55:32.789981 PDT | 0ExplainedVariance          0.0793093
+2017-08-04 03:55:32.790077 PDT | 0NumTrajs                 400
+2017-08-04 03:55:32.790172 PDT | 0Entropy                    2.69092
+2017-08-04 03:55:32.790267 PDT | 0Perplexity                14.7453
+2017-08-04 03:55:32.790368 PDT | 0StdReturn               5529.27
+2017-08-04 03:55:32.790464 PDT | 0MaxReturn              20200
+2017-08-04 03:55:32.790559 PDT | 0MinReturn                  0
+2017-08-04 03:55:32.790653 PDT | 0AveragePolicyStd           0.929375
+2017-08-04 03:55:32.790747 PDT | ComputeUpdatedDistTime      0.322445
+2017-08-04 03:55:32.790840 PDT | 1PolicyExecTime            26.096
+2017-08-04 03:55:32.790934 PDT | 1EnvExecTime               25.8712
+2017-08-04 03:55:32.791028 PDT | 1ProcessExecTime            0.840015
+2017-08-04 03:55:32.791122 PDT | 1AverageReturn           7555.25
+2017-08-04 03:55:32.791216 PDT | 1ExplainedVariance          0.213545
+2017-08-04 03:55:32.791309 PDT | 1NumTrajs                 400
+2017-08-04 03:55:32.791403 PDT | 1Entropy                    2.69321
+2017-08-04 03:55:32.791496 PDT | 1Perplexity                14.779
+2017-08-04 03:55:32.791590 PDT | 1StdReturn               7466.49
+2017-08-04 03:55:32.791683 PDT | 1MaxReturn              22000
+2017-08-04 03:55:32.791776 PDT | 1MinReturn                  0
+2017-08-04 03:55:32.791869 PDT | 1AveragePolicyStd           0.93046
+2017-08-04 03:55:32.791962 PDT | MeanKLBefore               -2.6077e-09
+2017-08-04 03:55:32.792067 PDT | MeanKL                      0.00984575
+2017-08-04 03:55:32.792162 PDT | LossBefore                  1.97906e-10
+2017-08-04 03:55:32.792256 PDT | LossAfter                  -0.00457006
+2017-08-04 03:55:32.792349 PDT | dLoss                       0.00457006
+2017-08-04 03:55:32.792443 PDT | Time                     6893.55
+2017-08-04 03:55:32.792535 PDT | ItrTime                    92.3043
+2017-08-04 03:55:32.792629 PDT | ----------------------  ---------------
+2017-08-04 03:55:32.792806 PDT | [SingleGoal_addedGaussNoise] itr #64 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:55:32.796402 PDT | [SingleGoal_addedGaussNoise] itr #64 | ** Step 0 **
+2017-08-04 03:55:32.796800 PDT | [SingleGoal_addedGaussNoise] itr #64 | Obtaining samples...
+2017-08-04 03:55:32.796913 PDT | [SingleGoal_addedGaussNoise] itr #64 | Obtaining samples for iteration 64...
+2017-08-04 03:56:07.916707 PDT | [SingleGoal_addedGaussNoise] itr #64 | Processing samples...
+2017-08-04 03:56:08.085780 PDT | [SingleGoal_addedGaussNoise] itr #64 | fitting baseline...
+2017-08-04 03:56:08.130061 PDT | [SingleGoal_addedGaussNoise] itr #64 | fitted
+2017-08-04 03:56:08.229094 PDT | [SingleGoal_addedGaussNoise] itr #64 | Logging diagnostics...
+2017-08-04 03:56:08.232282 PDT | [SingleGoal_addedGaussNoise] itr #64 | Computing policy updates...
+2017-08-04 03:56:08.534330 PDT | [SingleGoal_addedGaussNoise] itr #64 | ** Step 1 **
+2017-08-04 03:56:08.534512 PDT | [SingleGoal_addedGaussNoise] itr #64 | Obtaining samples...
+2017-08-04 03:56:08.534630 PDT | [SingleGoal_addedGaussNoise] itr #64 | Obtaining samples for iteration 64...
+2017-08-04 03:57:16.745981 PDT | [SingleGoal_addedGaussNoise] itr #64 | Processing samples...
+2017-08-04 03:57:16.940243 PDT | [SingleGoal_addedGaussNoise] itr #64 | fitting baseline...
+2017-08-04 03:57:16.986811 PDT | [SingleGoal_addedGaussNoise] itr #64 | fitted
+2017-08-04 03:57:17.067118 PDT | [SingleGoal_addedGaussNoise] itr #64 | Logging diagnostics...
+2017-08-04 03:57:17.070265 PDT | [SingleGoal_addedGaussNoise] itr #64 | Optimizing policy...
+2017-08-04 03:57:17.070562 PDT | [SingleGoal_addedGaussNoise] itr #64 | Computing KL before
+2017-08-04 03:57:17.130285 PDT | [SingleGoal_addedGaussNoise] itr #64 | Computing loss before
+2017-08-04 03:57:17.193628 PDT | [SingleGoal_addedGaussNoise] itr #64 | Optimizing
+2017-08-04 03:57:17.194518 PDT | [SingleGoal_addedGaussNoise] itr #64 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:57:17.194664 PDT | [SingleGoal_addedGaussNoise] itr #64 | computing loss before
+2017-08-04 03:57:17.259947 PDT | [SingleGoal_addedGaussNoise] itr #64 | performing update
+2017-08-04 03:57:17.260255 PDT | [SingleGoal_addedGaussNoise] itr #64 | computing gradient
+2017-08-04 03:57:17.429079 PDT | [SingleGoal_addedGaussNoise] itr #64 | gradient computed
+2017-08-04 03:57:17.429322 PDT | [SingleGoal_addedGaussNoise] itr #64 | computing descent direction
+2017-08-04 03:57:20.827160 PDT | [SingleGoal_addedGaussNoise] itr #64 | descent direction computed
+2017-08-04 03:57:20.955168 PDT | [SingleGoal_addedGaussNoise] itr #64 | backtrack iters: 1
+2017-08-04 03:57:20.955411 PDT | [SingleGoal_addedGaussNoise] itr #64 | computing loss after
+2017-08-04 03:57:20.955536 PDT | [SingleGoal_addedGaussNoise] itr #64 | optimization finished
+2017-08-04 03:57:20.955662 PDT | [SingleGoal_addedGaussNoise] itr #64 | Computing loss after
+2017-08-04 03:57:21.011471 PDT | [SingleGoal_addedGaussNoise] itr #64 | Computing KL after
+2017-08-04 03:57:21.067430 PDT | [SingleGoal_addedGaussNoise] itr #64 | Saving snapshot...
+2017-08-04 03:57:21.070051 PDT | [SingleGoal_addedGaussNoise] itr #64 | Saved
+2017-08-04 03:57:21.070216 PDT | [SingleGoal_addedGaussNoise] itr #64 | Saving visualization of paths
+2017-08-04 03:57:21.791668 PDT | ----------------------  ---------------
+2017-08-04 03:57:21.791827 PDT | 0PolicyExecTime             7.06025
+2017-08-04 03:57:21.791938 PDT | 0EnvExecTime               27.0101
+2017-08-04 03:57:21.792061 PDT | 0ProcessExecTime            0.928352
+2017-08-04 03:57:21.792163 PDT | 0AverageReturn           2635.75
+2017-08-04 03:57:21.792263 PDT | 0ExplainedVariance          0.040994
+2017-08-04 03:57:21.792363 PDT | 0NumTrajs                 400
+2017-08-04 03:57:21.792462 PDT | 0Entropy                    2.70346
+2017-08-04 03:57:21.792561 PDT | 0Perplexity                14.9313
+2017-08-04 03:57:21.792660 PDT | 0StdReturn               4638.53
+2017-08-04 03:57:21.792758 PDT | 0MaxReturn              21000
+2017-08-04 03:57:21.792856 PDT | 0MinReturn                  0
+2017-08-04 03:57:21.792950 PDT | 0AveragePolicyStd           0.93503
+2017-08-04 03:57:21.793044 PDT | ComputeUpdatedDistTime      0.301884
+2017-08-04 03:57:21.793137 PDT | 1PolicyExecTime            33.8396
+2017-08-04 03:57:21.793231 PDT | 1EnvExecTime               33.2025
+2017-08-04 03:57:21.793324 PDT | 1ProcessExecTime            1.01792
+2017-08-04 03:57:21.793417 PDT | 1AverageReturn           5687
+2017-08-04 03:57:21.793510 PDT | 1ExplainedVariance          0.129459
+2017-08-04 03:57:21.793603 PDT | 1NumTrajs                 400
+2017-08-04 03:57:21.793696 PDT | 1Entropy                    2.6976
+2017-08-04 03:57:21.793789 PDT | 1Perplexity                14.844
+2017-08-04 03:57:21.793882 PDT | 1StdReturn               7096.86
+2017-08-04 03:57:21.793975 PDT | 1MaxReturn              22300
+2017-08-04 03:57:21.794068 PDT | 1MinReturn                  0
+2017-08-04 03:57:21.794162 PDT | 1AveragePolicyStd           0.932358
+2017-08-04 03:57:21.794255 PDT | MeanKLBefore               -5.2154e-09
+2017-08-04 03:57:21.794349 PDT | MeanKL                      0.00701665
+2017-08-04 03:57:21.794442 PDT | LossBefore                  1.60653e-09
+2017-08-04 03:57:21.794535 PDT | LossAfter                  -0.00355516
+2017-08-04 03:57:21.794627 PDT | dLoss                       0.00355516
+2017-08-04 03:57:21.794720 PDT | Time                     7002.66
+2017-08-04 03:57:21.794812 PDT | ItrTime                   108.277
+2017-08-04 03:57:21.794905 PDT | ----------------------  ---------------
+2017-08-04 03:57:21.795082 PDT | [SingleGoal_addedGaussNoise] itr #65 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:57:21.798756 PDT | [SingleGoal_addedGaussNoise] itr #65 | ** Step 0 **
+2017-08-04 03:57:21.799240 PDT | [SingleGoal_addedGaussNoise] itr #65 | Obtaining samples...
+2017-08-04 03:57:21.799354 PDT | [SingleGoal_addedGaussNoise] itr #65 | Obtaining samples for iteration 65...
+2017-08-04 03:58:07.077547 PDT | [SingleGoal_addedGaussNoise] itr #65 | Processing samples...
+2017-08-04 03:58:07.270890 PDT | [SingleGoal_addedGaussNoise] itr #65 | fitting baseline...
+2017-08-04 03:58:07.319201 PDT | [SingleGoal_addedGaussNoise] itr #65 | fitted
+2017-08-04 03:58:07.400180 PDT | [SingleGoal_addedGaussNoise] itr #65 | Logging diagnostics...
+2017-08-04 03:58:07.403431 PDT | [SingleGoal_addedGaussNoise] itr #65 | Computing policy updates...
+2017-08-04 03:58:07.717781 PDT | [SingleGoal_addedGaussNoise] itr #65 | ** Step 1 **
+2017-08-04 03:58:07.717957 PDT | [SingleGoal_addedGaussNoise] itr #65 | Obtaining samples...
+2017-08-04 03:58:07.718072 PDT | [SingleGoal_addedGaussNoise] itr #65 | Obtaining samples for iteration 65...
+2017-08-04 03:59:17.171354 PDT | [SingleGoal_addedGaussNoise] itr #65 | Processing samples...
+2017-08-04 03:59:17.348080 PDT | [SingleGoal_addedGaussNoise] itr #65 | fitting baseline...
+2017-08-04 03:59:17.394679 PDT | [SingleGoal_addedGaussNoise] itr #65 | fitted
+2017-08-04 03:59:17.473813 PDT | [SingleGoal_addedGaussNoise] itr #65 | Logging diagnostics...
+2017-08-04 03:59:17.476847 PDT | [SingleGoal_addedGaussNoise] itr #65 | Optimizing policy...
+2017-08-04 03:59:17.477151 PDT | [SingleGoal_addedGaussNoise] itr #65 | Computing KL before
+2017-08-04 03:59:17.537264 PDT | [SingleGoal_addedGaussNoise] itr #65 | Computing loss before
+2017-08-04 03:59:17.598149 PDT | [SingleGoal_addedGaussNoise] itr #65 | Optimizing
+2017-08-04 03:59:17.599155 PDT | [SingleGoal_addedGaussNoise] itr #65 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 03:59:17.599400 PDT | [SingleGoal_addedGaussNoise] itr #65 | computing loss before
+2017-08-04 03:59:17.667667 PDT | [SingleGoal_addedGaussNoise] itr #65 | performing update
+2017-08-04 03:59:17.667924 PDT | [SingleGoal_addedGaussNoise] itr #65 | computing gradient
+2017-08-04 03:59:17.835538 PDT | [SingleGoal_addedGaussNoise] itr #65 | gradient computed
+2017-08-04 03:59:17.835837 PDT | [SingleGoal_addedGaussNoise] itr #65 | computing descent direction
+2017-08-04 03:59:21.242734 PDT | [SingleGoal_addedGaussNoise] itr #65 | descent direction computed
+2017-08-04 03:59:21.447923 PDT | [SingleGoal_addedGaussNoise] itr #65 | backtrack iters: 2
+2017-08-04 03:59:21.448275 PDT | [SingleGoal_addedGaussNoise] itr #65 | computing loss after
+2017-08-04 03:59:21.448456 PDT | [SingleGoal_addedGaussNoise] itr #65 | optimization finished
+2017-08-04 03:59:21.448637 PDT | [SingleGoal_addedGaussNoise] itr #65 | Computing loss after
+2017-08-04 03:59:21.512074 PDT | [SingleGoal_addedGaussNoise] itr #65 | Computing KL after
+2017-08-04 03:59:21.571415 PDT | [SingleGoal_addedGaussNoise] itr #65 | Saving snapshot...
+2017-08-04 03:59:21.574458 PDT | [SingleGoal_addedGaussNoise] itr #65 | Saved
+2017-08-04 03:59:21.574650 PDT | [SingleGoal_addedGaussNoise] itr #65 | Saving visualization of paths
+2017-08-04 03:59:22.334413 PDT | ----------------------  ---------------
+2017-08-04 03:59:22.334567 PDT | 0PolicyExecTime             8.74502
+2017-08-04 03:59:22.334667 PDT | 0EnvExecTime               35.3124
+2017-08-04 03:59:22.334763 PDT | 0ProcessExecTime            1.06002
+2017-08-04 03:59:22.334856 PDT | 0AverageReturn           3340.5
+2017-08-04 03:59:22.334948 PDT | 0ExplainedVariance          0.0526386
+2017-08-04 03:59:22.335039 PDT | 0NumTrajs                 400
+2017-08-04 03:59:22.335131 PDT | 0Entropy                    2.69313
+2017-08-04 03:59:22.335221 PDT | 0Perplexity                14.7779
+2017-08-04 03:59:22.335311 PDT | 0StdReturn               5760.78
+2017-08-04 03:59:22.335401 PDT | 0MaxReturn              20900
+2017-08-04 03:59:22.335491 PDT | 0MinReturn                  0
+2017-08-04 03:59:22.335581 PDT | 0AveragePolicyStd           0.930199
+2017-08-04 03:59:22.335671 PDT | ComputeUpdatedDistTime      0.314167
+2017-08-04 03:59:22.335762 PDT | 1PolicyExecTime            34.5678
+2017-08-04 03:59:22.335852 PDT | 1EnvExecTime               33.7392
+2017-08-04 03:59:22.335941 PDT | 1ProcessExecTime            0.993474
+2017-08-04 03:59:22.336041 PDT | 1AverageReturn           6404.25
+2017-08-04 03:59:22.336132 PDT | 1ExplainedVariance          0.121421
+2017-08-04 03:59:22.336222 PDT | 1NumTrajs                 400
+2017-08-04 03:59:22.336312 PDT | 1Entropy                    2.6927
+2017-08-04 03:59:22.336401 PDT | 1Perplexity                14.7715
+2017-08-04 03:59:22.336491 PDT | 1StdReturn               7209.97
+2017-08-04 03:59:22.336580 PDT | 1MaxReturn              21700
+2017-08-04 03:59:22.336674 PDT | 1MinReturn                  0
+2017-08-04 03:59:22.336765 PDT | 1AveragePolicyStd           0.930058
+2017-08-04 03:59:22.336855 PDT | MeanKLBefore                9.31321e-10
+2017-08-04 03:59:22.336945 PDT | MeanKL                      0.00646014
+2017-08-04 03:59:22.337034 PDT | LossBefore                 -7.21775e-10
+2017-08-04 03:59:22.337123 PDT | LossAfter                  -0.00378497
+2017-08-04 03:59:22.337212 PDT | dLoss                       0.00378496
+2017-08-04 03:59:22.337302 PDT | Time                     7123.16
+2017-08-04 03:59:22.337391 PDT | ItrTime                   119.78
+2017-08-04 03:59:22.337481 PDT | ----------------------  ---------------
+2017-08-04 03:59:22.337652 PDT | [SingleGoal_addedGaussNoise] itr #66 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 03:59:22.341128 PDT | [SingleGoal_addedGaussNoise] itr #66 | ** Step 0 **
+2017-08-04 03:59:22.341502 PDT | [SingleGoal_addedGaussNoise] itr #66 | Obtaining samples...
+2017-08-04 03:59:22.341608 PDT | [SingleGoal_addedGaussNoise] itr #66 | Obtaining samples for iteration 66...
+2017-08-04 04:00:07.450524 PDT | [SingleGoal_addedGaussNoise] itr #66 | Processing samples...
+2017-08-04 04:00:07.684499 PDT | [SingleGoal_addedGaussNoise] itr #66 | fitting baseline...
+2017-08-04 04:00:07.741433 PDT | [SingleGoal_addedGaussNoise] itr #66 | fitted
+2017-08-04 04:00:07.823253 PDT | [SingleGoal_addedGaussNoise] itr #66 | Logging diagnostics...
+2017-08-04 04:00:07.826523 PDT | [SingleGoal_addedGaussNoise] itr #66 | Computing policy updates...
+2017-08-04 04:00:08.191348 PDT | [SingleGoal_addedGaussNoise] itr #66 | ** Step 1 **
+2017-08-04 04:00:08.191547 PDT | [SingleGoal_addedGaussNoise] itr #66 | Obtaining samples...
+2017-08-04 04:00:08.191673 PDT | [SingleGoal_addedGaussNoise] itr #66 | Obtaining samples for iteration 66...
+2017-08-04 04:01:18.250657 PDT | [SingleGoal_addedGaussNoise] itr #66 | Processing samples...
+2017-08-04 04:01:18.416334 PDT | [SingleGoal_addedGaussNoise] itr #66 | fitting baseline...
+2017-08-04 04:01:18.465520 PDT | [SingleGoal_addedGaussNoise] itr #66 | fitted
+2017-08-04 04:01:18.533982 PDT | [SingleGoal_addedGaussNoise] itr #66 | Logging diagnostics...
+2017-08-04 04:01:18.538223 PDT | [SingleGoal_addedGaussNoise] itr #66 | Optimizing policy...
+2017-08-04 04:01:18.538726 PDT | [SingleGoal_addedGaussNoise] itr #66 | Computing KL before
+2017-08-04 04:01:18.600733 PDT | [SingleGoal_addedGaussNoise] itr #66 | Computing loss before
+2017-08-04 04:01:18.665100 PDT | [SingleGoal_addedGaussNoise] itr #66 | Optimizing
+2017-08-04 04:01:18.665867 PDT | [SingleGoal_addedGaussNoise] itr #66 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:01:18.666007 PDT | [SingleGoal_addedGaussNoise] itr #66 | computing loss before
+2017-08-04 04:01:18.731099 PDT | [SingleGoal_addedGaussNoise] itr #66 | performing update
+2017-08-04 04:01:18.731342 PDT | [SingleGoal_addedGaussNoise] itr #66 | computing gradient
+2017-08-04 04:01:18.901952 PDT | [SingleGoal_addedGaussNoise] itr #66 | gradient computed
+2017-08-04 04:01:18.902193 PDT | [SingleGoal_addedGaussNoise] itr #66 | computing descent direction
+2017-08-04 04:01:22.311763 PDT | [SingleGoal_addedGaussNoise] itr #66 | descent direction computed
+2017-08-04 04:01:22.447207 PDT | [SingleGoal_addedGaussNoise] itr #66 | backtrack iters: 1
+2017-08-04 04:01:22.447526 PDT | [SingleGoal_addedGaussNoise] itr #66 | computing loss after
+2017-08-04 04:01:22.447690 PDT | [SingleGoal_addedGaussNoise] itr #66 | optimization finished
+2017-08-04 04:01:22.447851 PDT | [SingleGoal_addedGaussNoise] itr #66 | Computing loss after
+2017-08-04 04:01:22.508945 PDT | [SingleGoal_addedGaussNoise] itr #66 | Computing KL after
+2017-08-04 04:01:22.568267 PDT | [SingleGoal_addedGaussNoise] itr #66 | Saving snapshot...
+2017-08-04 04:01:22.571513 PDT | [SingleGoal_addedGaussNoise] itr #66 | Saved
+2017-08-04 04:01:22.571729 PDT | [SingleGoal_addedGaussNoise] itr #66 | Saving visualization of paths
+2017-08-04 04:01:23.415489 PDT | ----------------------  ---------------
+2017-08-04 04:01:23.415672 PDT | 0PolicyExecTime             8.75124
+2017-08-04 04:01:23.415788 PDT | 0EnvExecTime               35.1698
+2017-08-04 04:01:23.415898 PDT | 0ProcessExecTime            1.02977
+2017-08-04 04:01:23.416015 PDT | 0AverageReturn           4573
+2017-08-04 04:01:23.416126 PDT | 0ExplainedVariance          0.0803814
+2017-08-04 04:01:23.416233 PDT | 0NumTrajs                 400
+2017-08-04 04:01:23.416337 PDT | 0Entropy                    2.70201
+2017-08-04 04:01:23.416441 PDT | 0Perplexity                14.9096
+2017-08-04 04:01:23.416545 PDT | 0StdReturn               6249.32
+2017-08-04 04:01:23.416649 PDT | 0MaxReturn              21500
+2017-08-04 04:01:23.416752 PDT | 0MinReturn                  0
+2017-08-04 04:01:23.416856 PDT | 0AveragePolicyStd           0.934332
+2017-08-04 04:01:23.416960 PDT | ComputeUpdatedDistTime      0.364659
+2017-08-04 04:01:23.417065 PDT | 1PolicyExecTime            34.7264
+2017-08-04 04:01:23.417169 PDT | 1EnvExecTime               34.1597
+2017-08-04 04:01:23.417272 PDT | 1ProcessExecTime            1.01764
+2017-08-04 04:01:23.417375 PDT | 1AverageReturn           6569
+2017-08-04 04:01:23.417479 PDT | 1ExplainedVariance          0.140296
+2017-08-04 04:01:23.417582 PDT | 1NumTrajs                 400
+2017-08-04 04:01:23.417686 PDT | 1Entropy                    2.70053
+2017-08-04 04:01:23.417790 PDT | 1Perplexity                14.8877
+2017-08-04 04:01:23.417894 PDT | 1StdReturn               7213.92
+2017-08-04 04:01:23.417998 PDT | 1MaxReturn              23000
+2017-08-04 04:01:23.418102 PDT | 1MinReturn                  0
+2017-08-04 04:01:23.418206 PDT | 1AveragePolicyStd           0.933687
+2017-08-04 04:01:23.418310 PDT | MeanKLBefore               -9.87202e-09
+2017-08-04 04:01:23.418414 PDT | MeanKL                      0.00663013
+2017-08-04 04:01:23.418518 PDT | LossBefore                  1.1205e-09
+2017-08-04 04:01:23.418622 PDT | LossAfter                  -0.00382373
+2017-08-04 04:01:23.418727 PDT | dLoss                       0.00382373
+2017-08-04 04:01:23.418829 PDT | Time                     7244.16
+2017-08-04 04:01:23.418934 PDT | ItrTime                   120.234
+2017-08-04 04:01:23.419038 PDT | ----------------------  ---------------
+2017-08-04 04:01:23.419240 PDT | [SingleGoal_addedGaussNoise] itr #67 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:01:23.423225 PDT | [SingleGoal_addedGaussNoise] itr #67 | ** Step 0 **
+2017-08-04 04:01:23.423707 PDT | [SingleGoal_addedGaussNoise] itr #67 | Obtaining samples...
+2017-08-04 04:01:23.423838 PDT | [SingleGoal_addedGaussNoise] itr #67 | Obtaining samples for iteration 67...
+2017-08-04 04:02:08.152137 PDT | [SingleGoal_addedGaussNoise] itr #67 | Processing samples...
+2017-08-04 04:02:08.313137 PDT | [SingleGoal_addedGaussNoise] itr #67 | fitting baseline...
+2017-08-04 04:02:08.372033 PDT | [SingleGoal_addedGaussNoise] itr #67 | fitted
+2017-08-04 04:02:08.452594 PDT | [SingleGoal_addedGaussNoise] itr #67 | Logging diagnostics...
+2017-08-04 04:02:08.455692 PDT | [SingleGoal_addedGaussNoise] itr #67 | Computing policy updates...
+2017-08-04 04:02:08.778851 PDT | [SingleGoal_addedGaussNoise] itr #67 | ** Step 1 **
+2017-08-04 04:02:08.779111 PDT | [SingleGoal_addedGaussNoise] itr #67 | Obtaining samples...
+2017-08-04 04:02:08.779262 PDT | [SingleGoal_addedGaussNoise] itr #67 | Obtaining samples for iteration 67...
+2017-08-04 04:03:16.579497 PDT | [SingleGoal_addedGaussNoise] itr #67 | Processing samples...
+2017-08-04 04:03:16.770473 PDT | [SingleGoal_addedGaussNoise] itr #67 | fitting baseline...
+2017-08-04 04:03:16.817442 PDT | [SingleGoal_addedGaussNoise] itr #67 | fitted
+2017-08-04 04:03:16.896586 PDT | [SingleGoal_addedGaussNoise] itr #67 | Logging diagnostics...
+2017-08-04 04:03:16.899867 PDT | [SingleGoal_addedGaussNoise] itr #67 | Optimizing policy...
+2017-08-04 04:03:16.900169 PDT | [SingleGoal_addedGaussNoise] itr #67 | Computing KL before
+2017-08-04 04:03:16.960103 PDT | [SingleGoal_addedGaussNoise] itr #67 | Computing loss before
+2017-08-04 04:03:17.021990 PDT | [SingleGoal_addedGaussNoise] itr #67 | Optimizing
+2017-08-04 04:03:17.022899 PDT | [SingleGoal_addedGaussNoise] itr #67 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:03:17.023071 PDT | [SingleGoal_addedGaussNoise] itr #67 | computing loss before
+2017-08-04 04:03:17.083699 PDT | [SingleGoal_addedGaussNoise] itr #67 | performing update
+2017-08-04 04:03:17.084233 PDT | [SingleGoal_addedGaussNoise] itr #67 | computing gradient
+2017-08-04 04:03:17.250525 PDT | [SingleGoal_addedGaussNoise] itr #67 | gradient computed
+2017-08-04 04:03:17.250923 PDT | [SingleGoal_addedGaussNoise] itr #67 | computing descent direction
+2017-08-04 04:03:20.705776 PDT | [SingleGoal_addedGaussNoise] itr #67 | descent direction computed
+2017-08-04 04:03:20.840784 PDT | [SingleGoal_addedGaussNoise] itr #67 | backtrack iters: 1
+2017-08-04 04:03:20.841088 PDT | [SingleGoal_addedGaussNoise] itr #67 | computing loss after
+2017-08-04 04:03:20.841285 PDT | [SingleGoal_addedGaussNoise] itr #67 | optimization finished
+2017-08-04 04:03:20.841459 PDT | [SingleGoal_addedGaussNoise] itr #67 | Computing loss after
+2017-08-04 04:03:20.906837 PDT | [SingleGoal_addedGaussNoise] itr #67 | Computing KL after
+2017-08-04 04:03:20.970121 PDT | [SingleGoal_addedGaussNoise] itr #67 | Saving snapshot...
+2017-08-04 04:03:20.975577 PDT | [SingleGoal_addedGaussNoise] itr #67 | Saved
+2017-08-04 04:03:20.975894 PDT | [SingleGoal_addedGaussNoise] itr #67 | Saving visualization of paths
+2017-08-04 04:03:21.961392 PDT | ----------------------  ---------------
+2017-08-04 04:03:21.961568 PDT | 0PolicyExecTime             9.00326
+2017-08-04 04:03:21.961683 PDT | 0EnvExecTime               34.512
+2017-08-04 04:03:21.961790 PDT | 0ProcessExecTime            1.05696
+2017-08-04 04:03:21.961894 PDT | 0AverageReturn           3955.5
+2017-08-04 04:03:21.961999 PDT | 0ExplainedVariance          0.0780757
+2017-08-04 04:03:21.962103 PDT | 0NumTrajs                 400
+2017-08-04 04:03:21.962208 PDT | 0Entropy                    2.71269
+2017-08-04 04:03:21.962311 PDT | 0Perplexity                15.0697
+2017-08-04 04:03:21.962414 PDT | 0StdReturn               5771.6
+2017-08-04 04:03:21.962518 PDT | 0MaxReturn              21100
+2017-08-04 04:03:21.962622 PDT | 0MinReturn                  0
+2017-08-04 04:03:21.962725 PDT | 0AveragePolicyStd           0.939365
+2017-08-04 04:03:21.962829 PDT | ComputeUpdatedDistTime      0.322995
+2017-08-04 04:03:21.962932 PDT | 1PolicyExecTime            33.599
+2017-08-04 04:03:21.963035 PDT | 1EnvExecTime               33.0853
+2017-08-04 04:03:21.963139 PDT | 1ProcessExecTime            0.966805
+2017-08-04 04:03:21.963242 PDT | 1AverageReturn           7140.5
+2017-08-04 04:03:21.963346 PDT | 1ExplainedVariance          0.15594
+2017-08-04 04:03:21.963449 PDT | 1NumTrajs                 400
+2017-08-04 04:03:21.963553 PDT | 1Entropy                    2.71507
+2017-08-04 04:03:21.963656 PDT | 1Perplexity                15.1057
+2017-08-04 04:03:21.963758 PDT | 1StdReturn               7745.31
+2017-08-04 04:03:21.963861 PDT | 1MaxReturn              22700
+2017-08-04 04:03:21.963964 PDT | 1MinReturn                  0
+2017-08-04 04:03:21.964083 PDT | 1AveragePolicyStd           0.94054
+2017-08-04 04:03:21.964187 PDT | MeanKLBefore               -2.79397e-09
+2017-08-04 04:03:21.964291 PDT | MeanKL                      0.00662012
+2017-08-04 04:03:21.964395 PDT | LossBefore                 -1.80735e-09
+2017-08-04 04:03:21.964499 PDT | LossAfter                  -0.00381225
+2017-08-04 04:03:21.964602 PDT | dLoss                       0.00381224
+2017-08-04 04:03:21.964705 PDT | Time                     7362.57
+2017-08-04 04:03:21.964809 PDT | ItrTime                   117.557
+2017-08-04 04:03:21.964913 PDT | ----------------------  ---------------
+2017-08-04 04:03:21.965124 PDT | [SingleGoal_addedGaussNoise] itr #68 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:03:21.969048 PDT | [SingleGoal_addedGaussNoise] itr #68 | ** Step 0 **
+2017-08-04 04:03:21.969538 PDT | [SingleGoal_addedGaussNoise] itr #68 | Obtaining samples...
+2017-08-04 04:03:21.969668 PDT | [SingleGoal_addedGaussNoise] itr #68 | Obtaining samples for iteration 68...
+2017-08-04 04:04:03.827823 PDT | [SingleGoal_addedGaussNoise] itr #68 | Processing samples...
+2017-08-04 04:04:03.991540 PDT | [SingleGoal_addedGaussNoise] itr #68 | fitting baseline...
+2017-08-04 04:04:04.038893 PDT | [SingleGoal_addedGaussNoise] itr #68 | fitted
+2017-08-04 04:04:04.119766 PDT | [SingleGoal_addedGaussNoise] itr #68 | Logging diagnostics...
+2017-08-04 04:04:04.123018 PDT | [SingleGoal_addedGaussNoise] itr #68 | Computing policy updates...
+2017-08-04 04:04:04.465576 PDT | [SingleGoal_addedGaussNoise] itr #68 | ** Step 1 **
+2017-08-04 04:04:04.465771 PDT | [SingleGoal_addedGaussNoise] itr #68 | Obtaining samples...
+2017-08-04 04:04:04.465896 PDT | [SingleGoal_addedGaussNoise] itr #68 | Obtaining samples for iteration 68...
+2017-08-04 04:05:13.773222 PDT | [SingleGoal_addedGaussNoise] itr #68 | Processing samples...
+2017-08-04 04:05:14.045415 PDT | [SingleGoal_addedGaussNoise] itr #68 | fitting baseline...
+2017-08-04 04:05:14.100891 PDT | [SingleGoal_addedGaussNoise] itr #68 | fitted
+2017-08-04 04:05:14.186536 PDT | [SingleGoal_addedGaussNoise] itr #68 | Logging diagnostics...
+2017-08-04 04:05:14.189729 PDT | [SingleGoal_addedGaussNoise] itr #68 | Optimizing policy...
+2017-08-04 04:05:14.190026 PDT | [SingleGoal_addedGaussNoise] itr #68 | Computing KL before
+2017-08-04 04:05:14.250219 PDT | [SingleGoal_addedGaussNoise] itr #68 | Computing loss before
+2017-08-04 04:05:14.314112 PDT | [SingleGoal_addedGaussNoise] itr #68 | Optimizing
+2017-08-04 04:05:14.315320 PDT | [SingleGoal_addedGaussNoise] itr #68 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:05:14.315592 PDT | [SingleGoal_addedGaussNoise] itr #68 | computing loss before
+2017-08-04 04:05:14.385900 PDT | [SingleGoal_addedGaussNoise] itr #68 | performing update
+2017-08-04 04:05:14.386148 PDT | [SingleGoal_addedGaussNoise] itr #68 | computing gradient
+2017-08-04 04:05:14.552049 PDT | [SingleGoal_addedGaussNoise] itr #68 | gradient computed
+2017-08-04 04:05:14.552305 PDT | [SingleGoal_addedGaussNoise] itr #68 | computing descent direction
+2017-08-04 04:05:17.951974 PDT | [SingleGoal_addedGaussNoise] itr #68 | descent direction computed
+2017-08-04 04:05:18.016882 PDT | [SingleGoal_addedGaussNoise] itr #68 | backtrack iters: 0
+2017-08-04 04:05:18.017296 PDT | [SingleGoal_addedGaussNoise] itr #68 | computing loss after
+2017-08-04 04:05:18.017544 PDT | [SingleGoal_addedGaussNoise] itr #68 | optimization finished
+2017-08-04 04:05:18.017783 PDT | [SingleGoal_addedGaussNoise] itr #68 | Computing loss after
+2017-08-04 04:05:18.080063 PDT | [SingleGoal_addedGaussNoise] itr #68 | Computing KL after
+2017-08-04 04:05:18.136623 PDT | [SingleGoal_addedGaussNoise] itr #68 | Saving snapshot...
+2017-08-04 04:05:18.139528 PDT | [SingleGoal_addedGaussNoise] itr #68 | Saved
+2017-08-04 04:05:18.139719 PDT | [SingleGoal_addedGaussNoise] itr #68 | Saving visualization of paths
+2017-08-04 04:05:18.941235 PDT | ----------------------  ---------------
+2017-08-04 04:05:18.941417 PDT | 0PolicyExecTime             8.55561
+2017-08-04 04:05:18.941533 PDT | 0EnvExecTime               32.1534
+2017-08-04 04:05:18.941640 PDT | 0ProcessExecTime            1.00334
+2017-08-04 04:05:18.941746 PDT | 0AverageReturn           2906.25
+2017-08-04 04:05:18.941851 PDT | 0ExplainedVariance          0.0429561
+2017-08-04 04:05:18.941955 PDT | 0NumTrajs                 400
+2017-08-04 04:05:18.942059 PDT | 0Entropy                    2.73407
+2017-08-04 04:05:18.942172 PDT | 0Perplexity                15.3954
+2017-08-04 04:05:18.942276 PDT | 0StdReturn               5073.77
+2017-08-04 04:05:18.942378 PDT | 0MaxReturn              21000
+2017-08-04 04:05:18.942482 PDT | 0MinReturn                  0
+2017-08-04 04:05:18.942585 PDT | 0AveragePolicyStd           0.949518
+2017-08-04 04:05:18.942688 PDT | ComputeUpdatedDistTime      0.342389
+2017-08-04 04:05:18.942790 PDT | 1PolicyExecTime            34.4365
+2017-08-04 04:05:18.942893 PDT | 1EnvExecTime               33.6895
+2017-08-04 04:05:18.943004 PDT | 1ProcessExecTime            1.02865
+2017-08-04 04:05:18.943109 PDT | 1AverageReturn           5022
+2017-08-04 04:05:18.943222 PDT | 1ExplainedVariance          0.109407
+2017-08-04 04:05:18.943326 PDT | 1NumTrajs                 400
+2017-08-04 04:05:18.943429 PDT | 1Entropy                    2.73392
+2017-08-04 04:05:18.943532 PDT | 1Perplexity                15.3932
+2017-08-04 04:05:18.943635 PDT | 1StdReturn               6278.43
+2017-08-04 04:05:18.943743 PDT | 1MaxReturn              22700
+2017-08-04 04:05:18.943846 PDT | 1MinReturn                  0
+2017-08-04 04:05:18.943948 PDT | 1AveragePolicyStd           0.949465
+2017-08-04 04:05:18.944062 PDT | MeanKLBefore               -6.89179e-09
+2017-08-04 04:05:18.944166 PDT | MeanKL                      0.00895399
+2017-08-04 04:05:18.944281 PDT | LossBefore                 -7.13044e-11
+2017-08-04 04:05:18.944384 PDT | LossAfter                  -0.00451569
+2017-08-04 04:05:18.944486 PDT | dLoss                       0.00451569
+2017-08-04 04:05:18.944588 PDT | Time                     7479.73
+2017-08-04 04:05:18.944690 PDT | ItrTime                   116.175
+2017-08-04 04:05:18.944792 PDT | ----------------------  ---------------
+2017-08-04 04:05:18.944994 PDT | [SingleGoal_addedGaussNoise] itr #69 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:05:18.948977 PDT | [SingleGoal_addedGaussNoise] itr #69 | ** Step 0 **
+2017-08-04 04:05:18.949399 PDT | [SingleGoal_addedGaussNoise] itr #69 | Obtaining samples...
+2017-08-04 04:05:18.949530 PDT | [SingleGoal_addedGaussNoise] itr #69 | Obtaining samples for iteration 69...
+2017-08-04 04:06:02.442791 PDT | [SingleGoal_addedGaussNoise] itr #69 | Processing samples...
+2017-08-04 04:06:02.604116 PDT | [SingleGoal_addedGaussNoise] itr #69 | fitting baseline...
+2017-08-04 04:06:02.650579 PDT | [SingleGoal_addedGaussNoise] itr #69 | fitted
+2017-08-04 04:06:02.730414 PDT | [SingleGoal_addedGaussNoise] itr #69 | Logging diagnostics...
+2017-08-04 04:06:02.733556 PDT | [SingleGoal_addedGaussNoise] itr #69 | Computing policy updates...
+2017-08-04 04:06:03.068035 PDT | [SingleGoal_addedGaussNoise] itr #69 | ** Step 1 **
+2017-08-04 04:06:03.068231 PDT | [SingleGoal_addedGaussNoise] itr #69 | Obtaining samples...
+2017-08-04 04:06:03.068377 PDT | [SingleGoal_addedGaussNoise] itr #69 | Obtaining samples for iteration 69...
+2017-08-04 04:07:11.689252 PDT | [SingleGoal_addedGaussNoise] itr #69 | Processing samples...
+2017-08-04 04:07:11.870058 PDT | [SingleGoal_addedGaussNoise] itr #69 | fitting baseline...
+2017-08-04 04:07:11.916242 PDT | [SingleGoal_addedGaussNoise] itr #69 | fitted
+2017-08-04 04:07:11.995288 PDT | [SingleGoal_addedGaussNoise] itr #69 | Logging diagnostics...
+2017-08-04 04:07:11.998302 PDT | [SingleGoal_addedGaussNoise] itr #69 | Optimizing policy...
+2017-08-04 04:07:11.998608 PDT | [SingleGoal_addedGaussNoise] itr #69 | Computing KL before
+2017-08-04 04:07:12.059699 PDT | [SingleGoal_addedGaussNoise] itr #69 | Computing loss before
+2017-08-04 04:07:12.122680 PDT | [SingleGoal_addedGaussNoise] itr #69 | Optimizing
+2017-08-04 04:07:12.123514 PDT | [SingleGoal_addedGaussNoise] itr #69 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:07:12.123658 PDT | [SingleGoal_addedGaussNoise] itr #69 | computing loss before
+2017-08-04 04:07:12.186831 PDT | [SingleGoal_addedGaussNoise] itr #69 | performing update
+2017-08-04 04:07:12.187060 PDT | [SingleGoal_addedGaussNoise] itr #69 | computing gradient
+2017-08-04 04:07:12.348843 PDT | [SingleGoal_addedGaussNoise] itr #69 | gradient computed
+2017-08-04 04:07:12.349054 PDT | [SingleGoal_addedGaussNoise] itr #69 | computing descent direction
+2017-08-04 04:07:15.738618 PDT | [SingleGoal_addedGaussNoise] itr #69 | descent direction computed
+2017-08-04 04:07:15.861769 PDT | [SingleGoal_addedGaussNoise] itr #69 | backtrack iters: 1
+2017-08-04 04:07:15.862021 PDT | [SingleGoal_addedGaussNoise] itr #69 | computing loss after
+2017-08-04 04:07:15.862156 PDT | [SingleGoal_addedGaussNoise] itr #69 | optimization finished
+2017-08-04 04:07:15.862302 PDT | [SingleGoal_addedGaussNoise] itr #69 | Computing loss after
+2017-08-04 04:07:15.920902 PDT | [SingleGoal_addedGaussNoise] itr #69 | Computing KL after
+2017-08-04 04:07:15.975253 PDT | [SingleGoal_addedGaussNoise] itr #69 | Saving snapshot...
+2017-08-04 04:07:15.977983 PDT | [SingleGoal_addedGaussNoise] itr #69 | Saved
+2017-08-04 04:07:15.978139 PDT | [SingleGoal_addedGaussNoise] itr #69 | Saving visualization of paths
+2017-08-04 04:07:17.462985 PDT | ----------------------  ---------------
+2017-08-04 04:07:17.463137 PDT | 0PolicyExecTime             8.46645
+2017-08-04 04:07:17.463241 PDT | 0EnvExecTime               33.8226
+2017-08-04 04:07:17.463337 PDT | 0ProcessExecTime            1.0506
+2017-08-04 04:07:17.463430 PDT | 0AverageReturn           2435.5
+2017-08-04 04:07:17.463524 PDT | 0ExplainedVariance          0.0330175
+2017-08-04 04:07:17.463617 PDT | 0NumTrajs                 400
+2017-08-04 04:07:17.463710 PDT | 0Entropy                    2.75395
+2017-08-04 04:07:17.463802 PDT | 0Perplexity                15.7045
+2017-08-04 04:07:17.463893 PDT | 0StdReturn               4718.95
+2017-08-04 04:07:17.463985 PDT | 0MaxReturn              21800
+2017-08-04 04:07:17.464085 PDT | 0MinReturn                  0
+2017-08-04 04:07:17.464177 PDT | 0AveragePolicyStd           0.959048
+2017-08-04 04:07:17.464279 PDT | ComputeUpdatedDistTime      0.334307
+2017-08-04 04:07:17.464370 PDT | 1PolicyExecTime            34.1639
+2017-08-04 04:07:17.464461 PDT | 1EnvExecTime               33.2748
+2017-08-04 04:07:17.464553 PDT | 1ProcessExecTime            1.03041
+2017-08-04 04:07:17.464645 PDT | 1AverageReturn           6640.75
+2017-08-04 04:07:17.464737 PDT | 1ExplainedVariance          0.12467
+2017-08-04 04:07:17.464828 PDT | 1NumTrajs                 400
+2017-08-04 04:07:17.464920 PDT | 1Entropy                    2.75695
+2017-08-04 04:07:17.465011 PDT | 1Perplexity                15.7518
+2017-08-04 04:07:17.465103 PDT | 1StdReturn               7943.62
+2017-08-04 04:07:17.465194 PDT | 1MaxReturn              22200
+2017-08-04 04:07:17.465285 PDT | 1MinReturn                  0
+2017-08-04 04:07:17.465377 PDT | 1AveragePolicyStd           0.960524
+2017-08-04 04:07:17.465469 PDT | MeanKLBefore               -2.14205e-09
+2017-08-04 04:07:17.465560 PDT | MeanKL                      0.00801546
+2017-08-04 04:07:17.465651 PDT | LossBefore                  3.31784e-10
+2017-08-04 04:07:17.465743 PDT | LossAfter                  -0.00413069
+2017-08-04 04:07:17.465835 PDT | dLoss                       0.00413069
+2017-08-04 04:07:17.465926 PDT | Time                     7597.57
+2017-08-04 04:07:17.466017 PDT | ItrTime                   117.033
+2017-08-04 04:07:17.466109 PDT | ----------------------  ---------------
+2017-08-04 04:07:17.466281 PDT | [SingleGoal_addedGaussNoise] itr #70 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:07:17.469889 PDT | [SingleGoal_addedGaussNoise] itr #70 | ** Step 0 **
+2017-08-04 04:07:17.470419 PDT | [SingleGoal_addedGaussNoise] itr #70 | Obtaining samples...
+2017-08-04 04:07:17.470621 PDT | [SingleGoal_addedGaussNoise] itr #70 | Obtaining samples for iteration 70...
+2017-08-04 04:08:01.473343 PDT | [SingleGoal_addedGaussNoise] itr #70 | Processing samples...
+2017-08-04 04:08:01.649763 PDT | [SingleGoal_addedGaussNoise] itr #70 | fitting baseline...
+2017-08-04 04:08:01.697622 PDT | [SingleGoal_addedGaussNoise] itr #70 | fitted
+2017-08-04 04:08:01.778658 PDT | [SingleGoal_addedGaussNoise] itr #70 | Logging diagnostics...
+2017-08-04 04:08:01.781777 PDT | [SingleGoal_addedGaussNoise] itr #70 | Computing policy updates...
+2017-08-04 04:08:02.129950 PDT | [SingleGoal_addedGaussNoise] itr #70 | ** Step 1 **
+2017-08-04 04:08:02.130142 PDT | [SingleGoal_addedGaussNoise] itr #70 | Obtaining samples...
+2017-08-04 04:08:02.130268 PDT | [SingleGoal_addedGaussNoise] itr #70 | Obtaining samples for iteration 70...
+2017-08-04 04:09:12.150910 PDT | [SingleGoal_addedGaussNoise] itr #70 | Processing samples...
+2017-08-04 04:09:12.311131 PDT | [SingleGoal_addedGaussNoise] itr #70 | fitting baseline...
+2017-08-04 04:09:12.356928 PDT | [SingleGoal_addedGaussNoise] itr #70 | fitted
+2017-08-04 04:09:12.436571 PDT | [SingleGoal_addedGaussNoise] itr #70 | Logging diagnostics...
+2017-08-04 04:09:12.439591 PDT | [SingleGoal_addedGaussNoise] itr #70 | Optimizing policy...
+2017-08-04 04:09:12.439875 PDT | [SingleGoal_addedGaussNoise] itr #70 | Computing KL before
+2017-08-04 04:09:12.499296 PDT | [SingleGoal_addedGaussNoise] itr #70 | Computing loss before
+2017-08-04 04:09:12.560585 PDT | [SingleGoal_addedGaussNoise] itr #70 | Optimizing
+2017-08-04 04:09:12.561471 PDT | [SingleGoal_addedGaussNoise] itr #70 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:09:12.561624 PDT | [SingleGoal_addedGaussNoise] itr #70 | computing loss before
+2017-08-04 04:09:12.620069 PDT | [SingleGoal_addedGaussNoise] itr #70 | performing update
+2017-08-04 04:09:12.620290 PDT | [SingleGoal_addedGaussNoise] itr #70 | computing gradient
+2017-08-04 04:09:12.777862 PDT | [SingleGoal_addedGaussNoise] itr #70 | gradient computed
+2017-08-04 04:09:12.778238 PDT | [SingleGoal_addedGaussNoise] itr #70 | computing descent direction
+2017-08-04 04:09:16.151536 PDT | [SingleGoal_addedGaussNoise] itr #70 | descent direction computed
+2017-08-04 04:09:16.286389 PDT | [SingleGoal_addedGaussNoise] itr #70 | backtrack iters: 1
+2017-08-04 04:09:16.286635 PDT | [SingleGoal_addedGaussNoise] itr #70 | computing loss after
+2017-08-04 04:09:16.286775 PDT | [SingleGoal_addedGaussNoise] itr #70 | optimization finished
+2017-08-04 04:09:16.286912 PDT | [SingleGoal_addedGaussNoise] itr #70 | Computing loss after
+2017-08-04 04:09:16.346729 PDT | [SingleGoal_addedGaussNoise] itr #70 | Computing KL after
+2017-08-04 04:09:16.401485 PDT | [SingleGoal_addedGaussNoise] itr #70 | Saving snapshot...
+2017-08-04 04:09:16.404368 PDT | [SingleGoal_addedGaussNoise] itr #70 | Saved
+2017-08-04 04:09:16.404602 PDT | [SingleGoal_addedGaussNoise] itr #70 | Saving visualization of paths
+2017-08-04 04:09:17.223115 PDT | ----------------------  ---------------
+2017-08-04 04:09:17.223284 PDT | 0PolicyExecTime             8.59574
+2017-08-04 04:09:17.223389 PDT | 0EnvExecTime               34.1781
+2017-08-04 04:09:17.223485 PDT | 0ProcessExecTime            1.07254
+2017-08-04 04:09:17.223581 PDT | 0AverageReturn           3742.5
+2017-08-04 04:09:17.223676 PDT | 0ExplainedVariance          0.0563157
+2017-08-04 04:09:17.223771 PDT | 0NumTrajs                 400
+2017-08-04 04:09:17.223865 PDT | 0Entropy                    2.75379
+2017-08-04 04:09:17.223958 PDT | 0Perplexity                15.7021
+2017-08-04 04:09:17.224078 PDT | 0StdReturn               5501.51
+2017-08-04 04:09:17.224173 PDT | 0MaxReturn              21600
+2017-08-04 04:09:17.224267 PDT | 0MinReturn                  0
+2017-08-04 04:09:17.224362 PDT | 0AveragePolicyStd           0.958855
+2017-08-04 04:09:17.224455 PDT | ComputeUpdatedDistTime      0.348004
+2017-08-04 04:09:17.224548 PDT | 1PolicyExecTime            34.7758
+2017-08-04 04:09:17.224642 PDT | 1EnvExecTime               34.0461
+2017-08-04 04:09:17.224735 PDT | 1ProcessExecTime            1.04262
+2017-08-04 04:09:17.224829 PDT | 1AverageReturn           7232.25
+2017-08-04 04:09:17.224923 PDT | 1ExplainedVariance          0.142274
+2017-08-04 04:09:17.225017 PDT | 1NumTrajs                 400
+2017-08-04 04:09:17.225111 PDT | 1Entropy                    2.75341
+2017-08-04 04:09:17.225205 PDT | 1Perplexity                15.696
+2017-08-04 04:09:17.225299 PDT | 1StdReturn               7707.77
+2017-08-04 04:09:17.225392 PDT | 1MaxReturn              22300
+2017-08-04 04:09:17.225487 PDT | 1MinReturn                  0
+2017-08-04 04:09:17.225581 PDT | 1AveragePolicyStd           0.958739
+2017-08-04 04:09:17.225674 PDT | MeanKLBefore                3.81842e-09
+2017-08-04 04:09:17.225769 PDT | MeanKL                      0.00644291
+2017-08-04 04:09:17.225863 PDT | LossBefore                  2.06055e-09
+2017-08-04 04:09:17.225957 PDT | LossAfter                  -0.00360159
+2017-08-04 04:09:17.226057 PDT | dLoss                       0.00360159
+2017-08-04 04:09:17.226151 PDT | Time                     7717.99
+2017-08-04 04:09:17.226245 PDT | ItrTime                   118.938
+2017-08-04 04:09:17.226338 PDT | ----------------------  ---------------
+2017-08-04 04:09:17.226516 PDT | [SingleGoal_addedGaussNoise] itr #71 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:09:17.230013 PDT | [SingleGoal_addedGaussNoise] itr #71 | ** Step 0 **
+2017-08-04 04:09:17.230383 PDT | [SingleGoal_addedGaussNoise] itr #71 | Obtaining samples...
+2017-08-04 04:09:17.230504 PDT | [SingleGoal_addedGaussNoise] itr #71 | Obtaining samples for iteration 71...
+2017-08-04 04:10:01.070512 PDT | [SingleGoal_addedGaussNoise] itr #71 | Processing samples...
+2017-08-04 04:10:01.246267 PDT | [SingleGoal_addedGaussNoise] itr #71 | fitting baseline...
+2017-08-04 04:10:01.295740 PDT | [SingleGoal_addedGaussNoise] itr #71 | fitted
+2017-08-04 04:10:01.367127 PDT | [SingleGoal_addedGaussNoise] itr #71 | Logging diagnostics...
+2017-08-04 04:10:01.371332 PDT | [SingleGoal_addedGaussNoise] itr #71 | Computing policy updates...
+2017-08-04 04:10:01.739330 PDT | [SingleGoal_addedGaussNoise] itr #71 | ** Step 1 **
+2017-08-04 04:10:01.739515 PDT | [SingleGoal_addedGaussNoise] itr #71 | Obtaining samples...
+2017-08-04 04:10:01.739640 PDT | [SingleGoal_addedGaussNoise] itr #71 | Obtaining samples for iteration 71...
+2017-08-04 04:11:11.192529 PDT | [SingleGoal_addedGaussNoise] itr #71 | Processing samples...
+2017-08-04 04:11:11.348869 PDT | [SingleGoal_addedGaussNoise] itr #71 | fitting baseline...
+2017-08-04 04:11:11.395773 PDT | [SingleGoal_addedGaussNoise] itr #71 | fitted
+2017-08-04 04:11:11.476019 PDT | [SingleGoal_addedGaussNoise] itr #71 | Logging diagnostics...
+2017-08-04 04:11:11.478895 PDT | [SingleGoal_addedGaussNoise] itr #71 | Optimizing policy...
+2017-08-04 04:11:11.479163 PDT | [SingleGoal_addedGaussNoise] itr #71 | Computing KL before
+2017-08-04 04:11:11.538797 PDT | [SingleGoal_addedGaussNoise] itr #71 | Computing loss before
+2017-08-04 04:11:11.601176 PDT | [SingleGoal_addedGaussNoise] itr #71 | Optimizing
+2017-08-04 04:11:11.601988 PDT | [SingleGoal_addedGaussNoise] itr #71 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:11:11.602137 PDT | [SingleGoal_addedGaussNoise] itr #71 | computing loss before
+2017-08-04 04:11:11.661913 PDT | [SingleGoal_addedGaussNoise] itr #71 | performing update
+2017-08-04 04:11:11.662161 PDT | [SingleGoal_addedGaussNoise] itr #71 | computing gradient
+2017-08-04 04:11:11.828876 PDT | [SingleGoal_addedGaussNoise] itr #71 | gradient computed
+2017-08-04 04:11:11.829302 PDT | [SingleGoal_addedGaussNoise] itr #71 | computing descent direction
+2017-08-04 04:11:15.184592 PDT | [SingleGoal_addedGaussNoise] itr #71 | descent direction computed
+2017-08-04 04:11:15.332139 PDT | [SingleGoal_addedGaussNoise] itr #71 | backtrack iters: 1
+2017-08-04 04:11:15.332463 PDT | [SingleGoal_addedGaussNoise] itr #71 | computing loss after
+2017-08-04 04:11:15.332650 PDT | [SingleGoal_addedGaussNoise] itr #71 | optimization finished
+2017-08-04 04:11:15.332830 PDT | [SingleGoal_addedGaussNoise] itr #71 | Computing loss after
+2017-08-04 04:11:15.395067 PDT | [SingleGoal_addedGaussNoise] itr #71 | Computing KL after
+2017-08-04 04:11:15.456605 PDT | [SingleGoal_addedGaussNoise] itr #71 | Saving snapshot...
+2017-08-04 04:11:15.460078 PDT | [SingleGoal_addedGaussNoise] itr #71 | Saved
+2017-08-04 04:11:15.460293 PDT | [SingleGoal_addedGaussNoise] itr #71 | Saving visualization of paths
+2017-08-04 04:11:16.228741 PDT | ----------------------  ---------------
+2017-08-04 04:11:16.228938 PDT | 0PolicyExecTime             8.49368
+2017-08-04 04:11:16.229062 PDT | 0EnvExecTime               34.1388
+2017-08-04 04:11:16.229172 PDT | 0ProcessExecTime            1.05343
+2017-08-04 04:11:16.229278 PDT | 0AverageReturn           3958
+2017-08-04 04:11:16.229384 PDT | 0ExplainedVariance          0.0798768
+2017-08-04 04:11:16.229490 PDT | 0NumTrajs                 400
+2017-08-04 04:11:16.229601 PDT | 0Entropy                    2.7703
+2017-08-04 04:11:16.229708 PDT | 0Perplexity                15.9634
+2017-08-04 04:11:16.229811 PDT | 0StdReturn               5741.36
+2017-08-04 04:11:16.229915 PDT | 0MaxReturn              20700
+2017-08-04 04:11:16.230023 PDT | 0MinReturn                  0
+2017-08-04 04:11:16.230131 PDT | 0AveragePolicyStd           0.966804
+2017-08-04 04:11:16.230235 PDT | ComputeUpdatedDistTime      0.367815
+2017-08-04 04:11:16.230339 PDT | 1PolicyExecTime            33.9263
+2017-08-04 04:11:16.230443 PDT | 1EnvExecTime               34.3365
+2017-08-04 04:11:16.230548 PDT | 1ProcessExecTime            1.03332
+2017-08-04 04:11:16.230651 PDT | 1AverageReturn           7250
+2017-08-04 04:11:16.230755 PDT | 1ExplainedVariance          0.16599
+2017-08-04 04:11:16.230860 PDT | 1NumTrajs                 400
+2017-08-04 04:11:16.230964 PDT | 1Entropy                    2.76504
+2017-08-04 04:11:16.231071 PDT | 1Perplexity                15.8796
+2017-08-04 04:11:16.231180 PDT | 1StdReturn               7709.12
+2017-08-04 04:11:16.231284 PDT | 1MaxReturn              22900
+2017-08-04 04:11:16.231388 PDT | 1MinReturn                  0
+2017-08-04 04:11:16.231491 PDT | 1AveragePolicyStd           0.964318
+2017-08-04 04:11:16.231595 PDT | MeanKLBefore               -4.65634e-11
+2017-08-04 04:11:16.231698 PDT | MeanKL                      0.00905415
+2017-08-04 04:11:16.231802 PDT | LossBefore                 -5.82077e-10
+2017-08-04 04:11:16.231905 PDT | LossAfter                  -0.00421737
+2017-08-04 04:11:16.232015 PDT | dLoss                       0.00421737
+2017-08-04 04:11:16.232121 PDT | Time                     7837.05
+2017-08-04 04:11:16.232232 PDT | ItrTime                   118.234
+2017-08-04 04:11:16.232337 PDT | ----------------------  ---------------
+2017-08-04 04:11:16.232532 PDT | [SingleGoal_addedGaussNoise] itr #72 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:11:16.236580 PDT | [SingleGoal_addedGaussNoise] itr #72 | ** Step 0 **
+2017-08-04 04:11:16.237160 PDT | [SingleGoal_addedGaussNoise] itr #72 | Obtaining samples...
+2017-08-04 04:11:16.237285 PDT | [SingleGoal_addedGaussNoise] itr #72 | Obtaining samples for iteration 72...
+2017-08-04 04:12:01.003359 PDT | [SingleGoal_addedGaussNoise] itr #72 | Processing samples...
+2017-08-04 04:12:01.169753 PDT | [SingleGoal_addedGaussNoise] itr #72 | fitting baseline...
+2017-08-04 04:12:01.217281 PDT | [SingleGoal_addedGaussNoise] itr #72 | fitted
+2017-08-04 04:12:01.301281 PDT | [SingleGoal_addedGaussNoise] itr #72 | Logging diagnostics...
+2017-08-04 04:12:01.304554 PDT | [SingleGoal_addedGaussNoise] itr #72 | Computing policy updates...
+2017-08-04 04:12:01.679378 PDT | [SingleGoal_addedGaussNoise] itr #72 | ** Step 1 **
+2017-08-04 04:12:01.679578 PDT | [SingleGoal_addedGaussNoise] itr #72 | Obtaining samples...
+2017-08-04 04:12:01.679707 PDT | [SingleGoal_addedGaussNoise] itr #72 | Obtaining samples for iteration 72...
+2017-08-04 04:13:10.031394 PDT | [SingleGoal_addedGaussNoise] itr #72 | Processing samples...
+2017-08-04 04:13:10.181702 PDT | [SingleGoal_addedGaussNoise] itr #72 | fitting baseline...
+2017-08-04 04:13:10.227761 PDT | [SingleGoal_addedGaussNoise] itr #72 | fitted
+2017-08-04 04:13:10.307152 PDT | [SingleGoal_addedGaussNoise] itr #72 | Logging diagnostics...
+2017-08-04 04:13:10.310314 PDT | [SingleGoal_addedGaussNoise] itr #72 | Optimizing policy...
+2017-08-04 04:13:10.310847 PDT | [SingleGoal_addedGaussNoise] itr #72 | Computing KL before
+2017-08-04 04:13:10.372586 PDT | [SingleGoal_addedGaussNoise] itr #72 | Computing loss before
+2017-08-04 04:13:10.436873 PDT | [SingleGoal_addedGaussNoise] itr #72 | Optimizing
+2017-08-04 04:13:10.437797 PDT | [SingleGoal_addedGaussNoise] itr #72 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:13:10.438017 PDT | [SingleGoal_addedGaussNoise] itr #72 | computing loss before
+2017-08-04 04:13:10.503134 PDT | [SingleGoal_addedGaussNoise] itr #72 | performing update
+2017-08-04 04:13:10.503373 PDT | [SingleGoal_addedGaussNoise] itr #72 | computing gradient
+2017-08-04 04:13:10.669651 PDT | [SingleGoal_addedGaussNoise] itr #72 | gradient computed
+2017-08-04 04:13:10.669987 PDT | [SingleGoal_addedGaussNoise] itr #72 | computing descent direction
+2017-08-04 04:13:14.084443 PDT | [SingleGoal_addedGaussNoise] itr #72 | descent direction computed
+2017-08-04 04:13:14.208427 PDT | [SingleGoal_addedGaussNoise] itr #72 | backtrack iters: 1
+2017-08-04 04:13:14.208985 PDT | [SingleGoal_addedGaussNoise] itr #72 | computing loss after
+2017-08-04 04:13:14.209372 PDT | [SingleGoal_addedGaussNoise] itr #72 | optimization finished
+2017-08-04 04:13:14.209767 PDT | [SingleGoal_addedGaussNoise] itr #72 | Computing loss after
+2017-08-04 04:13:14.274667 PDT | [SingleGoal_addedGaussNoise] itr #72 | Computing KL after
+2017-08-04 04:13:14.335653 PDT | [SingleGoal_addedGaussNoise] itr #72 | Saving snapshot...
+2017-08-04 04:13:14.338675 PDT | [SingleGoal_addedGaussNoise] itr #72 | Saved
+2017-08-04 04:13:14.338864 PDT | [SingleGoal_addedGaussNoise] itr #72 | Saving visualization of paths
+2017-08-04 04:13:15.090877 PDT | ----------------------  ---------------
+2017-08-04 04:13:15.091061 PDT | 0PolicyExecTime             8.71334
+2017-08-04 04:13:15.091188 PDT | 0EnvExecTime               34.8157
+2017-08-04 04:13:15.091310 PDT | 0ProcessExecTime            1.07887
+2017-08-04 04:13:15.091429 PDT | 0AverageReturn           1551.25
+2017-08-04 04:13:15.091546 PDT | 0ExplainedVariance          0.0359032
+2017-08-04 04:13:15.091663 PDT | 0NumTrajs                 400
+2017-08-04 04:13:15.091779 PDT | 0Entropy                    2.76665
+2017-08-04 04:13:15.091896 PDT | 0Perplexity                15.9052
+2017-08-04 04:13:15.092019 PDT | 0StdReturn               3146.74
+2017-08-04 04:13:15.092137 PDT | 0MaxReturn              19300
+2017-08-04 04:13:15.092253 PDT | 0MinReturn                  0
+2017-08-04 04:13:15.092368 PDT | 0AveragePolicyStd           0.965072
+2017-08-04 04:13:15.092483 PDT | ComputeUpdatedDistTime      0.374648
+2017-08-04 04:13:15.092597 PDT | 1PolicyExecTime            33.9855
+2017-08-04 04:13:15.092712 PDT | 1EnvExecTime               33.1872
+2017-08-04 04:13:15.092829 PDT | 1ProcessExecTime            1.02836
+2017-08-04 04:13:15.092944 PDT | 1AverageReturn           6996.5
+2017-08-04 04:13:15.093057 PDT | 1ExplainedVariance          0.224363
+2017-08-04 04:13:15.093173 PDT | 1NumTrajs                 400
+2017-08-04 04:13:15.093288 PDT | 1Entropy                    2.76418
+2017-08-04 04:13:15.093403 PDT | 1Perplexity                15.866
+2017-08-04 04:13:15.093517 PDT | 1StdReturn               7688.18
+2017-08-04 04:13:15.093632 PDT | 1MaxReturn              22600
+2017-08-04 04:13:15.093748 PDT | 1MinReturn                  0
+2017-08-04 04:13:15.093869 PDT | 1AveragePolicyStd           0.963894
+2017-08-04 04:13:15.093983 PDT | MeanKLBefore               -1.17812e-08
+2017-08-04 04:13:15.094099 PDT | MeanKL                      0.00891381
+2017-08-04 04:13:15.094214 PDT | LossBefore                  1.44355e-09
+2017-08-04 04:13:15.094329 PDT | LossAfter                  -0.00421468
+2017-08-04 04:13:15.094444 PDT | dLoss                       0.00421468
+2017-08-04 04:13:15.094558 PDT | Time                     7955.93
+2017-08-04 04:13:15.094674 PDT | ItrTime                   118.106
+2017-08-04 04:13:15.094789 PDT | ----------------------  ---------------
+2017-08-04 04:13:15.094996 PDT | [SingleGoal_addedGaussNoise] itr #73 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:13:15.099029 PDT | [SingleGoal_addedGaussNoise] itr #73 | ** Step 0 **
+2017-08-04 04:13:15.099446 PDT | [SingleGoal_addedGaussNoise] itr #73 | Obtaining samples...
+2017-08-04 04:13:15.099580 PDT | [SingleGoal_addedGaussNoise] itr #73 | Obtaining samples for iteration 73...
+2017-08-04 04:14:00.145980 PDT | [SingleGoal_addedGaussNoise] itr #73 | Processing samples...
+2017-08-04 04:14:00.277751 PDT | [SingleGoal_addedGaussNoise] itr #73 | fitting baseline...
+2017-08-04 04:14:00.323917 PDT | [SingleGoal_addedGaussNoise] itr #73 | fitted
+2017-08-04 04:14:00.403662 PDT | [SingleGoal_addedGaussNoise] itr #73 | Logging diagnostics...
+2017-08-04 04:14:00.406817 PDT | [SingleGoal_addedGaussNoise] itr #73 | Computing policy updates...
+2017-08-04 04:14:00.726353 PDT | [SingleGoal_addedGaussNoise] itr #73 | ** Step 1 **
+2017-08-04 04:14:00.726545 PDT | [SingleGoal_addedGaussNoise] itr #73 | Obtaining samples...
+2017-08-04 04:14:00.726671 PDT | [SingleGoal_addedGaussNoise] itr #73 | Obtaining samples for iteration 73...
+2017-08-04 04:15:09.192694 PDT | [SingleGoal_addedGaussNoise] itr #73 | Processing samples...
+2017-08-04 04:15:09.508403 PDT | [SingleGoal_addedGaussNoise] itr #73 | fitting baseline...
+2017-08-04 04:15:09.562237 PDT | [SingleGoal_addedGaussNoise] itr #73 | fitted
+2017-08-04 04:15:09.646932 PDT | [SingleGoal_addedGaussNoise] itr #73 | Logging diagnostics...
+2017-08-04 04:15:09.649969 PDT | [SingleGoal_addedGaussNoise] itr #73 | Optimizing policy...
+2017-08-04 04:15:09.650258 PDT | [SingleGoal_addedGaussNoise] itr #73 | Computing KL before
+2017-08-04 04:15:09.710028 PDT | [SingleGoal_addedGaussNoise] itr #73 | Computing loss before
+2017-08-04 04:15:09.769747 PDT | [SingleGoal_addedGaussNoise] itr #73 | Optimizing
+2017-08-04 04:15:09.770449 PDT | [SingleGoal_addedGaussNoise] itr #73 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:15:09.770586 PDT | [SingleGoal_addedGaussNoise] itr #73 | computing loss before
+2017-08-04 04:15:09.830637 PDT | [SingleGoal_addedGaussNoise] itr #73 | performing update
+2017-08-04 04:15:09.830845 PDT | [SingleGoal_addedGaussNoise] itr #73 | computing gradient
+2017-08-04 04:15:09.991516 PDT | [SingleGoal_addedGaussNoise] itr #73 | gradient computed
+2017-08-04 04:15:09.992045 PDT | [SingleGoal_addedGaussNoise] itr #73 | computing descent direction
+2017-08-04 04:15:13.399725 PDT | [SingleGoal_addedGaussNoise] itr #73 | descent direction computed
+2017-08-04 04:15:13.523278 PDT | [SingleGoal_addedGaussNoise] itr #73 | backtrack iters: 1
+2017-08-04 04:15:13.523542 PDT | [SingleGoal_addedGaussNoise] itr #73 | computing loss after
+2017-08-04 04:15:13.523679 PDT | [SingleGoal_addedGaussNoise] itr #73 | optimization finished
+2017-08-04 04:15:13.523824 PDT | [SingleGoal_addedGaussNoise] itr #73 | Computing loss after
+2017-08-04 04:15:13.585422 PDT | [SingleGoal_addedGaussNoise] itr #73 | Computing KL after
+2017-08-04 04:15:13.643423 PDT | [SingleGoal_addedGaussNoise] itr #73 | Saving snapshot...
+2017-08-04 04:15:13.646914 PDT | [SingleGoal_addedGaussNoise] itr #73 | Saved
+2017-08-04 04:15:13.647125 PDT | [SingleGoal_addedGaussNoise] itr #73 | Saving visualization of paths
+2017-08-04 04:15:14.392971 PDT | ----------------------  ---------------
+2017-08-04 04:15:14.393132 PDT | 0PolicyExecTime             9.01447
+2017-08-04 04:15:14.393238 PDT | 0EnvExecTime               34.7911
+2017-08-04 04:15:14.393338 PDT | 0ProcessExecTime            1.08437
+2017-08-04 04:15:14.393434 PDT | 0AverageReturn           2443.75
+2017-08-04 04:15:14.393530 PDT | 0ExplainedVariance          0.0705131
+2017-08-04 04:15:14.393625 PDT | 0NumTrajs                 400
+2017-08-04 04:15:14.393720 PDT | 0Entropy                    2.76194
+2017-08-04 04:15:14.393815 PDT | 0Perplexity                15.8305
+2017-08-04 04:15:14.393909 PDT | 0StdReturn               4434.86
+2017-08-04 04:15:14.394003 PDT | 0MaxReturn              19700
+2017-08-04 04:15:14.394097 PDT | 0MinReturn                  0
+2017-08-04 04:15:14.394219 PDT | 0AveragePolicyStd           0.962754
+2017-08-04 04:15:14.394316 PDT | ComputeUpdatedDistTime      0.319368
+2017-08-04 04:15:14.394411 PDT | 1PolicyExecTime            33.7923
+2017-08-04 04:15:14.394506 PDT | 1EnvExecTime               33.4971
+2017-08-04 04:15:14.394600 PDT | 1ProcessExecTime            1.02495
+2017-08-04 04:15:14.394694 PDT | 1AverageReturn           5932
+2017-08-04 04:15:14.394788 PDT | 1ExplainedVariance          0.152504
+2017-08-04 04:15:14.394883 PDT | 1NumTrajs                 400
+2017-08-04 04:15:14.394978 PDT | 1Entropy                    2.75469
+2017-08-04 04:15:14.395073 PDT | 1Perplexity                15.7162
+2017-08-04 04:15:14.395173 PDT | 1StdReturn               7279.03
+2017-08-04 04:15:14.395269 PDT | 1MaxReturn              21900
+2017-08-04 04:15:14.395363 PDT | 1MinReturn                  0
+2017-08-04 04:15:14.395458 PDT | 1AveragePolicyStd           0.959328
+2017-08-04 04:15:14.395552 PDT | MeanKLBefore               -1.49012e-09
+2017-08-04 04:15:14.395647 PDT | MeanKL                      0.0073363
+2017-08-04 04:15:14.395741 PDT | LossBefore                  1.36206e-09
+2017-08-04 04:15:14.395835 PDT | LossAfter                  -0.00398952
+2017-08-04 04:15:14.395930 PDT | dLoss                       0.00398952
+2017-08-04 04:15:14.396033 PDT | Time                     8075.24
+2017-08-04 04:15:14.396128 PDT | ItrTime                   118.552
+2017-08-04 04:15:14.396222 PDT | ----------------------  ---------------
+2017-08-04 04:15:14.396401 PDT | [SingleGoal_addedGaussNoise] itr #74 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:15:14.400010 PDT | [SingleGoal_addedGaussNoise] itr #74 | ** Step 0 **
+2017-08-04 04:15:14.400512 PDT | [SingleGoal_addedGaussNoise] itr #74 | Obtaining samples...
+2017-08-04 04:15:14.400622 PDT | [SingleGoal_addedGaussNoise] itr #74 | Obtaining samples for iteration 74...
+2017-08-04 04:15:58.696351 PDT | [SingleGoal_addedGaussNoise] itr #74 | Processing samples...
+2017-08-04 04:15:58.855376 PDT | [SingleGoal_addedGaussNoise] itr #74 | fitting baseline...
+2017-08-04 04:15:58.902028 PDT | [SingleGoal_addedGaussNoise] itr #74 | fitted
+2017-08-04 04:15:58.983295 PDT | [SingleGoal_addedGaussNoise] itr #74 | Logging diagnostics...
+2017-08-04 04:15:58.986618 PDT | [SingleGoal_addedGaussNoise] itr #74 | Computing policy updates...
+2017-08-04 04:15:59.302367 PDT | [SingleGoal_addedGaussNoise] itr #74 | ** Step 1 **
+2017-08-04 04:15:59.302566 PDT | [SingleGoal_addedGaussNoise] itr #74 | Obtaining samples...
+2017-08-04 04:15:59.302695 PDT | [SingleGoal_addedGaussNoise] itr #74 | Obtaining samples for iteration 74...
+2017-08-04 04:17:06.819461 PDT | [SingleGoal_addedGaussNoise] itr #74 | Processing samples...
+2017-08-04 04:17:07.004404 PDT | [SingleGoal_addedGaussNoise] itr #74 | fitting baseline...
+2017-08-04 04:17:07.050213 PDT | [SingleGoal_addedGaussNoise] itr #74 | fitted
+2017-08-04 04:17:07.128998 PDT | [SingleGoal_addedGaussNoise] itr #74 | Logging diagnostics...
+2017-08-04 04:17:07.132043 PDT | [SingleGoal_addedGaussNoise] itr #74 | Optimizing policy...
+2017-08-04 04:17:07.132333 PDT | [SingleGoal_addedGaussNoise] itr #74 | Computing KL before
+2017-08-04 04:17:07.193029 PDT | [SingleGoal_addedGaussNoise] itr #74 | Computing loss before
+2017-08-04 04:17:07.257063 PDT | [SingleGoal_addedGaussNoise] itr #74 | Optimizing
+2017-08-04 04:17:07.258079 PDT | [SingleGoal_addedGaussNoise] itr #74 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:17:07.258249 PDT | [SingleGoal_addedGaussNoise] itr #74 | computing loss before
+2017-08-04 04:17:07.322341 PDT | [SingleGoal_addedGaussNoise] itr #74 | performing update
+2017-08-04 04:17:07.322644 PDT | [SingleGoal_addedGaussNoise] itr #74 | computing gradient
+2017-08-04 04:17:07.490001 PDT | [SingleGoal_addedGaussNoise] itr #74 | gradient computed
+2017-08-04 04:17:07.490300 PDT | [SingleGoal_addedGaussNoise] itr #74 | computing descent direction
+2017-08-04 04:17:10.770399 PDT | [SingleGoal_addedGaussNoise] itr #74 | descent direction computed
+2017-08-04 04:17:10.894709 PDT | [SingleGoal_addedGaussNoise] itr #74 | backtrack iters: 1
+2017-08-04 04:17:10.894998 PDT | [SingleGoal_addedGaussNoise] itr #74 | computing loss after
+2017-08-04 04:17:10.895152 PDT | [SingleGoal_addedGaussNoise] itr #74 | optimization finished
+2017-08-04 04:17:10.895296 PDT | [SingleGoal_addedGaussNoise] itr #74 | Computing loss after
+2017-08-04 04:17:10.954432 PDT | [SingleGoal_addedGaussNoise] itr #74 | Computing KL after
+2017-08-04 04:17:11.012636 PDT | [SingleGoal_addedGaussNoise] itr #74 | Saving snapshot...
+2017-08-04 04:17:11.015906 PDT | [SingleGoal_addedGaussNoise] itr #74 | Saved
+2017-08-04 04:17:11.016117 PDT | [SingleGoal_addedGaussNoise] itr #74 | Saving visualization of paths
+2017-08-04 04:17:11.777115 PDT | ----------------------  ---------------
+2017-08-04 04:17:11.777296 PDT | 0PolicyExecTime             8.91944
+2017-08-04 04:17:11.777436 PDT | 0EnvExecTime               34.1661
+2017-08-04 04:17:11.777561 PDT | 0ProcessExecTime            1.05514
+2017-08-04 04:17:11.777681 PDT | 0AverageReturn           2028.5
+2017-08-04 04:17:11.777801 PDT | 0ExplainedVariance          0.0386556
+2017-08-04 04:17:11.777922 PDT | 0NumTrajs                 400
+2017-08-04 04:17:11.778042 PDT | 0Entropy                    2.75031
+2017-08-04 04:17:11.778162 PDT | 0Perplexity                15.6475
+2017-08-04 04:17:11.778284 PDT | 0StdReturn               3365.4
+2017-08-04 04:17:11.778405 PDT | 0MaxReturn              18300
+2017-08-04 04:17:11.778525 PDT | 0MinReturn                  0
+2017-08-04 04:17:11.778641 PDT | 0AveragePolicyStd           0.957182
+2017-08-04 04:17:11.778758 PDT | ComputeUpdatedDistTime      0.31558
+2017-08-04 04:17:11.778874 PDT | 1PolicyExecTime            33.6082
+2017-08-04 04:17:11.778989 PDT | 1EnvExecTime               32.7674
+2017-08-04 04:17:11.779103 PDT | 1ProcessExecTime            0.991971
+2017-08-04 04:17:11.779219 PDT | 1AverageReturn           5519.5
+2017-08-04 04:17:11.779334 PDT | 1ExplainedVariance          0.120446
+2017-08-04 04:17:11.779449 PDT | 1NumTrajs                 400
+2017-08-04 04:17:11.779564 PDT | 1Entropy                    2.75054
+2017-08-04 04:17:11.779680 PDT | 1Perplexity                15.6511
+2017-08-04 04:17:11.779795 PDT | 1StdReturn               6818.22
+2017-08-04 04:17:11.779910 PDT | 1MaxReturn              23100
+2017-08-04 04:17:11.780034 PDT | 1MinReturn                  0
+2017-08-04 04:17:11.780152 PDT | 1AveragePolicyStd           0.957347
+2017-08-04 04:17:11.780269 PDT | MeanKLBefore                3.07336e-09
+2017-08-04 04:17:11.780386 PDT | MeanKL                      0.00683852
+2017-08-04 04:17:11.780502 PDT | LossBefore                 -2.32394e-09
+2017-08-04 04:17:11.780617 PDT | LossAfter                  -0.00391651
+2017-08-04 04:17:11.780733 PDT | dLoss                       0.00391651
+2017-08-04 04:17:11.780848 PDT | Time                     8192.61
+2017-08-04 04:17:11.780963 PDT | ItrTime                   116.62
+2017-08-04 04:17:11.781077 PDT | ----------------------  ---------------
+2017-08-04 04:17:11.781286 PDT | [SingleGoal_addedGaussNoise] itr #75 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:17:11.785283 PDT | [SingleGoal_addedGaussNoise] itr #75 | ** Step 0 **
+2017-08-04 04:17:11.785675 PDT | [SingleGoal_addedGaussNoise] itr #75 | Obtaining samples...
+2017-08-04 04:17:11.785809 PDT | [SingleGoal_addedGaussNoise] itr #75 | Obtaining samples for iteration 75...
+2017-08-04 04:17:55.725786 PDT | [SingleGoal_addedGaussNoise] itr #75 | Processing samples...
+2017-08-04 04:17:55.966917 PDT | [SingleGoal_addedGaussNoise] itr #75 | fitting baseline...
+2017-08-04 04:17:56.016617 PDT | [SingleGoal_addedGaussNoise] itr #75 | fitted
+2017-08-04 04:17:56.096349 PDT | [SingleGoal_addedGaussNoise] itr #75 | Logging diagnostics...
+2017-08-04 04:17:56.099394 PDT | [SingleGoal_addedGaussNoise] itr #75 | Computing policy updates...
+2017-08-04 04:17:56.393850 PDT | [SingleGoal_addedGaussNoise] itr #75 | ** Step 1 **
+2017-08-04 04:17:56.394020 PDT | [SingleGoal_addedGaussNoise] itr #75 | Obtaining samples...
+2017-08-04 04:17:56.394128 PDT | [SingleGoal_addedGaussNoise] itr #75 | Obtaining samples for iteration 75...
+2017-08-04 04:19:06.365908 PDT | [SingleGoal_addedGaussNoise] itr #75 | Processing samples...
+2017-08-04 04:19:06.520432 PDT | [SingleGoal_addedGaussNoise] itr #75 | fitting baseline...
+2017-08-04 04:19:06.566696 PDT | [SingleGoal_addedGaussNoise] itr #75 | fitted
+2017-08-04 04:19:06.646659 PDT | [SingleGoal_addedGaussNoise] itr #75 | Logging diagnostics...
+2017-08-04 04:19:06.649742 PDT | [SingleGoal_addedGaussNoise] itr #75 | Optimizing policy...
+2017-08-04 04:19:06.650033 PDT | [SingleGoal_addedGaussNoise] itr #75 | Computing KL before
+2017-08-04 04:19:06.710428 PDT | [SingleGoal_addedGaussNoise] itr #75 | Computing loss before
+2017-08-04 04:19:06.771521 PDT | [SingleGoal_addedGaussNoise] itr #75 | Optimizing
+2017-08-04 04:19:06.772547 PDT | [SingleGoal_addedGaussNoise] itr #75 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:19:06.772780 PDT | [SingleGoal_addedGaussNoise] itr #75 | computing loss before
+2017-08-04 04:19:06.839416 PDT | [SingleGoal_addedGaussNoise] itr #75 | performing update
+2017-08-04 04:19:06.839712 PDT | [SingleGoal_addedGaussNoise] itr #75 | computing gradient
+2017-08-04 04:19:07.003092 PDT | [SingleGoal_addedGaussNoise] itr #75 | gradient computed
+2017-08-04 04:19:07.003440 PDT | [SingleGoal_addedGaussNoise] itr #75 | computing descent direction
+2017-08-04 04:19:10.318249 PDT | [SingleGoal_addedGaussNoise] itr #75 | descent direction computed
+2017-08-04 04:19:10.436081 PDT | [SingleGoal_addedGaussNoise] itr #75 | backtrack iters: 1
+2017-08-04 04:19:10.436419 PDT | [SingleGoal_addedGaussNoise] itr #75 | computing loss after
+2017-08-04 04:19:10.436617 PDT | [SingleGoal_addedGaussNoise] itr #75 | optimization finished
+2017-08-04 04:19:10.436809 PDT | [SingleGoal_addedGaussNoise] itr #75 | Computing loss after
+2017-08-04 04:19:10.496839 PDT | [SingleGoal_addedGaussNoise] itr #75 | Computing KL after
+2017-08-04 04:19:10.564647 PDT | [SingleGoal_addedGaussNoise] itr #75 | Saving snapshot...
+2017-08-04 04:19:10.568343 PDT | [SingleGoal_addedGaussNoise] itr #75 | Saved
+2017-08-04 04:19:10.568647 PDT | [SingleGoal_addedGaussNoise] itr #75 | Saving visualization of paths
+2017-08-04 04:19:11.447142 PDT | ----------------------  ---------------
+2017-08-04 04:19:11.447321 PDT | 0PolicyExecTime             8.49457
+2017-08-04 04:19:11.447437 PDT | 0EnvExecTime               34.2089
+2017-08-04 04:19:11.447546 PDT | 0ProcessExecTime            1.08204
+2017-08-04 04:19:11.447652 PDT | 0AverageReturn           1912.75
+2017-08-04 04:19:11.447757 PDT | 0ExplainedVariance          0.0305697
+2017-08-04 04:19:11.447862 PDT | 0NumTrajs                 400
+2017-08-04 04:19:11.447965 PDT | 0Entropy                    2.72603
+2017-08-04 04:19:11.448080 PDT | 0Perplexity                15.2722
+2017-08-04 04:19:11.448184 PDT | 0StdReturn               3787.42
+2017-08-04 04:19:11.448287 PDT | 0MaxReturn              21600
+2017-08-04 04:19:11.448391 PDT | 0MinReturn                  0
+2017-08-04 04:19:11.448494 PDT | 0AveragePolicyStd           0.945641
+2017-08-04 04:19:11.448598 PDT | ComputeUpdatedDistTime      0.294288
+2017-08-04 04:19:11.448702 PDT | 1PolicyExecTime            34.7693
+2017-08-04 04:19:11.448805 PDT | 1EnvExecTime               34.0321
+2017-08-04 04:19:11.448908 PDT | 1ProcessExecTime            1.01642
+2017-08-04 04:19:11.449010 PDT | 1AverageReturn           5683.5
+2017-08-04 04:19:11.449114 PDT | 1ExplainedVariance          0.118439
+2017-08-04 04:19:11.449216 PDT | 1NumTrajs                 400
+2017-08-04 04:19:11.449320 PDT | 1Entropy                    2.72895
+2017-08-04 04:19:11.449423 PDT | 1Perplexity                15.3168
+2017-08-04 04:19:11.449526 PDT | 1StdReturn               7038.96
+2017-08-04 04:19:11.449629 PDT | 1MaxReturn              23000
+2017-08-04 04:19:11.449732 PDT | 1MinReturn                  0
+2017-08-04 04:19:11.449836 PDT | 1AveragePolicyStd           0.947049
+2017-08-04 04:19:11.449938 PDT | MeanKLBefore                7.45058e-10
+2017-08-04 04:19:11.450041 PDT | MeanKL                      0.00694197
+2017-08-04 04:19:11.450144 PDT | LossBefore                  6.75209e-10
+2017-08-04 04:19:11.450247 PDT | LossAfter                  -0.00423252
+2017-08-04 04:19:11.450350 PDT | dLoss                       0.00423252
+2017-08-04 04:19:11.450453 PDT | Time                     8312.16
+2017-08-04 04:19:11.450555 PDT | ItrTime                   118.787
+2017-08-04 04:19:11.450658 PDT | ----------------------  ---------------
+2017-08-04 04:19:11.450853 PDT | [SingleGoal_addedGaussNoise] itr #76 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:19:11.454877 PDT | [SingleGoal_addedGaussNoise] itr #76 | ** Step 0 **
+2017-08-04 04:19:11.455363 PDT | [SingleGoal_addedGaussNoise] itr #76 | Obtaining samples...
+2017-08-04 04:19:11.455487 PDT | [SingleGoal_addedGaussNoise] itr #76 | Obtaining samples for iteration 76...
+2017-08-04 04:19:56.487250 PDT | [SingleGoal_addedGaussNoise] itr #76 | Processing samples...
+2017-08-04 04:19:56.658760 PDT | [SingleGoal_addedGaussNoise] itr #76 | fitting baseline...
+2017-08-04 04:19:56.707452 PDT | [SingleGoal_addedGaussNoise] itr #76 | fitted
+2017-08-04 04:19:56.787438 PDT | [SingleGoal_addedGaussNoise] itr #76 | Logging diagnostics...
+2017-08-04 04:19:56.790569 PDT | [SingleGoal_addedGaussNoise] itr #76 | Computing policy updates...
+2017-08-04 04:19:57.124231 PDT | [SingleGoal_addedGaussNoise] itr #76 | ** Step 1 **
+2017-08-04 04:19:57.124437 PDT | [SingleGoal_addedGaussNoise] itr #76 | Obtaining samples...
+2017-08-04 04:19:57.124577 PDT | [SingleGoal_addedGaussNoise] itr #76 | Obtaining samples for iteration 76...
+2017-08-04 04:21:07.003919 PDT | [SingleGoal_addedGaussNoise] itr #76 | Processing samples...
+2017-08-04 04:21:07.172341 PDT | [SingleGoal_addedGaussNoise] itr #76 | fitting baseline...
+2017-08-04 04:21:07.218064 PDT | [SingleGoal_addedGaussNoise] itr #76 | fitted
+2017-08-04 04:21:07.296977 PDT | [SingleGoal_addedGaussNoise] itr #76 | Logging diagnostics...
+2017-08-04 04:21:07.300018 PDT | [SingleGoal_addedGaussNoise] itr #76 | Optimizing policy...
+2017-08-04 04:21:07.300307 PDT | [SingleGoal_addedGaussNoise] itr #76 | Computing KL before
+2017-08-04 04:21:07.360357 PDT | [SingleGoal_addedGaussNoise] itr #76 | Computing loss before
+2017-08-04 04:21:07.422576 PDT | [SingleGoal_addedGaussNoise] itr #76 | Optimizing
+2017-08-04 04:21:07.423689 PDT | [SingleGoal_addedGaussNoise] itr #76 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:21:07.423961 PDT | [SingleGoal_addedGaussNoise] itr #76 | computing loss before
+2017-08-04 04:21:07.494658 PDT | [SingleGoal_addedGaussNoise] itr #76 | performing update
+2017-08-04 04:21:07.494971 PDT | [SingleGoal_addedGaussNoise] itr #76 | computing gradient
+2017-08-04 04:21:07.660040 PDT | [SingleGoal_addedGaussNoise] itr #76 | gradient computed
+2017-08-04 04:21:07.660265 PDT | [SingleGoal_addedGaussNoise] itr #76 | computing descent direction
+2017-08-04 04:21:11.040477 PDT | [SingleGoal_addedGaussNoise] itr #76 | descent direction computed
+2017-08-04 04:21:11.165708 PDT | [SingleGoal_addedGaussNoise] itr #76 | backtrack iters: 1
+2017-08-04 04:21:11.165947 PDT | [SingleGoal_addedGaussNoise] itr #76 | computing loss after
+2017-08-04 04:21:11.166074 PDT | [SingleGoal_addedGaussNoise] itr #76 | optimization finished
+2017-08-04 04:21:11.166202 PDT | [SingleGoal_addedGaussNoise] itr #76 | Computing loss after
+2017-08-04 04:21:11.223459 PDT | [SingleGoal_addedGaussNoise] itr #76 | Computing KL after
+2017-08-04 04:21:11.276341 PDT | [SingleGoal_addedGaussNoise] itr #76 | Saving snapshot...
+2017-08-04 04:21:11.279488 PDT | [SingleGoal_addedGaussNoise] itr #76 | Saved
+2017-08-04 04:21:11.279658 PDT | [SingleGoal_addedGaussNoise] itr #76 | Saving visualization of paths
+2017-08-04 04:21:12.076309 PDT | ----------------------  ---------------
+2017-08-04 04:21:12.076486 PDT | 0PolicyExecTime             8.6685
+2017-08-04 04:21:12.076602 PDT | 0EnvExecTime               35.0678
+2017-08-04 04:21:12.076711 PDT | 0ProcessExecTime            1.13621
+2017-08-04 04:21:12.076817 PDT | 0AverageReturn           2770
+2017-08-04 04:21:12.076923 PDT | 0ExplainedVariance          0.0476651
+2017-08-04 04:21:12.077029 PDT | 0NumTrajs                 400
+2017-08-04 04:21:12.077134 PDT | 0Entropy                    2.7367
+2017-08-04 04:21:12.077238 PDT | 0Perplexity                15.436
+2017-08-04 04:21:12.077343 PDT | 0StdReturn               4856.58
+2017-08-04 04:21:12.077447 PDT | 0MaxReturn              20900
+2017-08-04 04:21:12.077551 PDT | 0MinReturn                  0
+2017-08-04 04:21:12.077655 PDT | 0AveragePolicyStd           0.950705
+2017-08-04 04:21:12.077760 PDT | ComputeUpdatedDistTime      0.333497
+2017-08-04 04:21:12.077871 PDT | 1PolicyExecTime            34.9472
+2017-08-04 04:21:12.077976 PDT | 1EnvExecTime               33.7868
+2017-08-04 04:21:12.078080 PDT | 1ProcessExecTime            0.990132
+2017-08-04 04:21:12.078184 PDT | 1AverageReturn           6336
+2017-08-04 04:21:12.078288 PDT | 1ExplainedVariance          0.21646
+2017-08-04 04:21:12.078392 PDT | 1NumTrajs                 400
+2017-08-04 04:21:12.078496 PDT | 1Entropy                    2.73451
+2017-08-04 04:21:12.078600 PDT | 1Perplexity                15.4021
+2017-08-04 04:21:12.078704 PDT | 1StdReturn               8062.26
+2017-08-04 04:21:12.078808 PDT | 1MaxReturn              22700
+2017-08-04 04:21:12.078911 PDT | 1MinReturn                  0
+2017-08-04 04:21:12.079015 PDT | 1AveragePolicyStd           0.949696
+2017-08-04 04:21:12.079119 PDT | MeanKLBefore                1.86265e-10
+2017-08-04 04:21:12.079223 PDT | MeanKL                      0.00800208
+2017-08-04 04:21:12.079326 PDT | LossBefore                 -1.46611e-09
+2017-08-04 04:21:12.079430 PDT | LossAfter                  -0.0037258
+2017-08-04 04:21:12.079533 PDT | dLoss                       0.0037258
+2017-08-04 04:21:12.079636 PDT | Time                     8432.87
+2017-08-04 04:21:12.079739 PDT | ItrTime                   119.829
+2017-08-04 04:21:12.079842 PDT | ----------------------  ---------------
+2017-08-04 04:21:12.080043 PDT | [SingleGoal_addedGaussNoise] itr #77 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:21:12.083978 PDT | [SingleGoal_addedGaussNoise] itr #77 | ** Step 0 **
+2017-08-04 04:21:12.084405 PDT | [SingleGoal_addedGaussNoise] itr #77 | Obtaining samples...
+2017-08-04 04:21:12.084529 PDT | [SingleGoal_addedGaussNoise] itr #77 | Obtaining samples for iteration 77...
+2017-08-04 04:21:56.825829 PDT | [SingleGoal_addedGaussNoise] itr #77 | Processing samples...
+2017-08-04 04:21:56.992769 PDT | [SingleGoal_addedGaussNoise] itr #77 | fitting baseline...
+2017-08-04 04:21:57.039583 PDT | [SingleGoal_addedGaussNoise] itr #77 | fitted
+2017-08-04 04:21:57.119535 PDT | [SingleGoal_addedGaussNoise] itr #77 | Logging diagnostics...
+2017-08-04 04:21:57.122670 PDT | [SingleGoal_addedGaussNoise] itr #77 | Computing policy updates...
+2017-08-04 04:21:58.305600 PDT | [SingleGoal_addedGaussNoise] itr #77 | ** Step 1 **
+2017-08-04 04:21:58.305781 PDT | [SingleGoal_addedGaussNoise] itr #77 | Obtaining samples...
+2017-08-04 04:21:58.305898 PDT | [SingleGoal_addedGaussNoise] itr #77 | Obtaining samples for iteration 77...
+2017-08-04 04:23:07.951591 PDT | [SingleGoal_addedGaussNoise] itr #77 | Processing samples...
+2017-08-04 04:23:08.110075 PDT | [SingleGoal_addedGaussNoise] itr #77 | fitting baseline...
+2017-08-04 04:23:08.155724 PDT | [SingleGoal_addedGaussNoise] itr #77 | fitted
+2017-08-04 04:23:08.216862 PDT | [SingleGoal_addedGaussNoise] itr #77 | Logging diagnostics...
+2017-08-04 04:23:08.220004 PDT | [SingleGoal_addedGaussNoise] itr #77 | Optimizing policy...
+2017-08-04 04:23:08.220316 PDT | [SingleGoal_addedGaussNoise] itr #77 | Computing KL before
+2017-08-04 04:23:08.284009 PDT | [SingleGoal_addedGaussNoise] itr #77 | Computing loss before
+2017-08-04 04:23:08.347564 PDT | [SingleGoal_addedGaussNoise] itr #77 | Optimizing
+2017-08-04 04:23:08.348464 PDT | [SingleGoal_addedGaussNoise] itr #77 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:23:08.348632 PDT | [SingleGoal_addedGaussNoise] itr #77 | computing loss before
+2017-08-04 04:23:08.412853 PDT | [SingleGoal_addedGaussNoise] itr #77 | performing update
+2017-08-04 04:23:08.413360 PDT | [SingleGoal_addedGaussNoise] itr #77 | computing gradient
+2017-08-04 04:23:08.582388 PDT | [SingleGoal_addedGaussNoise] itr #77 | gradient computed
+2017-08-04 04:23:08.582830 PDT | [SingleGoal_addedGaussNoise] itr #77 | computing descent direction
+2017-08-04 04:23:11.958741 PDT | [SingleGoal_addedGaussNoise] itr #77 | descent direction computed
+2017-08-04 04:23:12.026605 PDT | [SingleGoal_addedGaussNoise] itr #77 | backtrack iters: 0
+2017-08-04 04:23:12.026969 PDT | [SingleGoal_addedGaussNoise] itr #77 | computing loss after
+2017-08-04 04:23:12.027184 PDT | [SingleGoal_addedGaussNoise] itr #77 | optimization finished
+2017-08-04 04:23:12.027373 PDT | [SingleGoal_addedGaussNoise] itr #77 | Computing loss after
+2017-08-04 04:23:12.087424 PDT | [SingleGoal_addedGaussNoise] itr #77 | Computing KL after
+2017-08-04 04:23:12.147789 PDT | [SingleGoal_addedGaussNoise] itr #77 | Saving snapshot...
+2017-08-04 04:23:12.151583 PDT | [SingleGoal_addedGaussNoise] itr #77 | Saved
+2017-08-04 04:23:12.151819 PDT | [SingleGoal_addedGaussNoise] itr #77 | Saving visualization of paths
+2017-08-04 04:23:12.947214 PDT | ----------------------  ---------------
+2017-08-04 04:23:12.947388 PDT | 0PolicyExecTime             8.69518
+2017-08-04 04:23:12.947506 PDT | 0EnvExecTime               34.8267
+2017-08-04 04:23:12.947674 PDT | 0ProcessExecTime            1.06155
+2017-08-04 04:23:12.947782 PDT | 0AverageReturn           3344
+2017-08-04 04:23:12.947888 PDT | 0ExplainedVariance          0.0481792
+2017-08-04 04:23:12.947998 PDT | 0NumTrajs                 400
+2017-08-04 04:23:12.948136 PDT | 0Entropy                    2.7391
+2017-08-04 04:23:12.949768 PDT | 0Perplexity                15.4731
+2017-08-04 04:23:12.950040 PDT | 0StdReturn               5196.33
+2017-08-04 04:23:12.950276 PDT | 0MaxReturn              21500
+2017-08-04 04:23:12.950481 PDT | 0MinReturn                  0
+2017-08-04 04:23:12.950721 PDT | 0AveragePolicyStd           0.951824
+2017-08-04 04:23:12.950915 PDT | ComputeUpdatedDistTime      1.18276
+2017-08-04 04:23:12.951106 PDT | 1PolicyExecTime            34.7356
+2017-08-04 04:23:12.951331 PDT | 1EnvExecTime               33.7168
+2017-08-04 04:23:12.951527 PDT | 1ProcessExecTime            1.03871
+2017-08-04 04:23:12.951843 PDT | 1AverageReturn           7216
+2017-08-04 04:23:12.952348 PDT | 1ExplainedVariance          0.21617
+2017-08-04 04:23:12.952924 PDT | 1NumTrajs                 400
+2017-08-04 04:23:12.953435 PDT | 1Entropy                    2.73875
+2017-08-04 04:23:12.953713 PDT | 1Perplexity                15.4676
+2017-08-04 04:23:12.953980 PDT | 1StdReturn               7994.25
+2017-08-04 04:23:12.954244 PDT | 1MaxReturn              22500
+2017-08-04 04:23:12.954507 PDT | 1MinReturn                  0
+2017-08-04 04:23:12.954768 PDT | 1AveragePolicyStd           0.951681
+2017-08-04 04:23:12.955030 PDT | MeanKLBefore               -1.546e-08
+2017-08-04 04:23:12.955291 PDT | MeanKL                      0.00883522
+2017-08-04 04:23:12.955552 PDT | LossBefore                 -1.67638e-09
+2017-08-04 04:23:12.955814 PDT | LossAfter                  -0.00382974
+2017-08-04 04:23:12.956092 PDT | dLoss                       0.00382974
+2017-08-04 04:23:12.956403 PDT | Time                     8553.74
+2017-08-04 04:23:12.956668 PDT | ItrTime                   120.072
+2017-08-04 04:23:12.956932 PDT | ----------------------  ---------------
+2017-08-04 04:23:12.957413 PDT | [SingleGoal_addedGaussNoise] itr #78 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:23:12.965096 PDT | [SingleGoal_addedGaussNoise] itr #78 | ** Step 0 **
+2017-08-04 04:23:12.965873 PDT | [SingleGoal_addedGaussNoise] itr #78 | Obtaining samples...
+2017-08-04 04:23:12.966170 PDT | [SingleGoal_addedGaussNoise] itr #78 | Obtaining samples for iteration 78...
+2017-08-04 04:23:58.473834 PDT | [SingleGoal_addedGaussNoise] itr #78 | Processing samples...
+2017-08-04 04:23:58.664731 PDT | [SingleGoal_addedGaussNoise] itr #78 | fitting baseline...
+2017-08-04 04:23:58.716865 PDT | [SingleGoal_addedGaussNoise] itr #78 | fitted
+2017-08-04 04:23:58.801719 PDT | [SingleGoal_addedGaussNoise] itr #78 | Logging diagnostics...
+2017-08-04 04:23:58.806490 PDT | [SingleGoal_addedGaussNoise] itr #78 | Computing policy updates...
+2017-08-04 04:23:59.137372 PDT | [SingleGoal_addedGaussNoise] itr #78 | ** Step 1 **
+2017-08-04 04:23:59.137568 PDT | [SingleGoal_addedGaussNoise] itr #78 | Obtaining samples...
+2017-08-04 04:23:59.137692 PDT | [SingleGoal_addedGaussNoise] itr #78 | Obtaining samples for iteration 78...
+2017-08-04 04:25:10.318851 PDT | [SingleGoal_addedGaussNoise] itr #78 | Processing samples...
+2017-08-04 04:25:10.492479 PDT | [SingleGoal_addedGaussNoise] itr #78 | fitting baseline...
+2017-08-04 04:25:10.539090 PDT | [SingleGoal_addedGaussNoise] itr #78 | fitted
+2017-08-04 04:25:10.619135 PDT | [SingleGoal_addedGaussNoise] itr #78 | Logging diagnostics...
+2017-08-04 04:25:10.622230 PDT | [SingleGoal_addedGaussNoise] itr #78 | Optimizing policy...
+2017-08-04 04:25:10.622527 PDT | [SingleGoal_addedGaussNoise] itr #78 | Computing KL before
+2017-08-04 04:25:10.682462 PDT | [SingleGoal_addedGaussNoise] itr #78 | Computing loss before
+2017-08-04 04:25:10.744044 PDT | [SingleGoal_addedGaussNoise] itr #78 | Optimizing
+2017-08-04 04:25:10.744808 PDT | [SingleGoal_addedGaussNoise] itr #78 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:25:10.744957 PDT | [SingleGoal_addedGaussNoise] itr #78 | computing loss before
+2017-08-04 04:25:10.811231 PDT | [SingleGoal_addedGaussNoise] itr #78 | performing update
+2017-08-04 04:25:10.811475 PDT | [SingleGoal_addedGaussNoise] itr #78 | computing gradient
+2017-08-04 04:25:10.980322 PDT | [SingleGoal_addedGaussNoise] itr #78 | gradient computed
+2017-08-04 04:25:10.980711 PDT | [SingleGoal_addedGaussNoise] itr #78 | computing descent direction
+2017-08-04 04:25:14.359605 PDT | [SingleGoal_addedGaussNoise] itr #78 | descent direction computed
+2017-08-04 04:25:14.491349 PDT | [SingleGoal_addedGaussNoise] itr #78 | backtrack iters: 1
+2017-08-04 04:25:14.491624 PDT | [SingleGoal_addedGaussNoise] itr #78 | computing loss after
+2017-08-04 04:25:14.491774 PDT | [SingleGoal_addedGaussNoise] itr #78 | optimization finished
+2017-08-04 04:25:14.491921 PDT | [SingleGoal_addedGaussNoise] itr #78 | Computing loss after
+2017-08-04 04:25:14.552562 PDT | [SingleGoal_addedGaussNoise] itr #78 | Computing KL after
+2017-08-04 04:25:14.614097 PDT | [SingleGoal_addedGaussNoise] itr #78 | Saving snapshot...
+2017-08-04 04:25:14.622263 PDT | [SingleGoal_addedGaussNoise] itr #78 | Saved
+2017-08-04 04:25:14.622741 PDT | [SingleGoal_addedGaussNoise] itr #78 | Saving visualization of paths
+2017-08-04 04:25:15.421292 PDT | ----------------------  ---------------
+2017-08-04 04:25:15.421468 PDT | 0PolicyExecTime             9.13962
+2017-08-04 04:25:15.421583 PDT | 0EnvExecTime               35.1006
+2017-08-04 04:25:15.421701 PDT | 0ProcessExecTime            1.10463
+2017-08-04 04:25:15.421805 PDT | 0AverageReturn           2581.5
+2017-08-04 04:25:15.421910 PDT | 0ExplainedVariance          0.0566797
+2017-08-04 04:25:15.422014 PDT | 0NumTrajs                 400
+2017-08-04 04:25:15.422118 PDT | 0Entropy                    2.74281
+2017-08-04 04:25:15.422221 PDT | 0Perplexity                15.5306
+2017-08-04 04:25:15.422324 PDT | 0StdReturn               4330.88
+2017-08-04 04:25:15.422427 PDT | 0MaxReturn              20600
+2017-08-04 04:25:15.422530 PDT | 0MinReturn                  0
+2017-08-04 04:25:15.422633 PDT | 0AveragePolicyStd           0.953602
+2017-08-04 04:25:15.422737 PDT | ComputeUpdatedDistTime      0.330594
+2017-08-04 04:25:15.422840 PDT | 1PolicyExecTime            35.3313
+2017-08-04 04:25:15.422944 PDT | 1EnvExecTime               34.6649
+2017-08-04 04:25:15.423046 PDT | 1ProcessExecTime            1.02765
+2017-08-04 04:25:15.423149 PDT | 1AverageReturn           8021.25
+2017-08-04 04:25:15.423252 PDT | 1ExplainedVariance          0.232709
+2017-08-04 04:25:15.423354 PDT | 1NumTrajs                 400
+2017-08-04 04:25:15.423457 PDT | 1Entropy                    2.74399
+2017-08-04 04:25:15.423559 PDT | 1Perplexity                15.549
+2017-08-04 04:25:15.423661 PDT | 1StdReturn               7814.85
+2017-08-04 04:25:15.423763 PDT | 1MaxReturn              22900
+2017-08-04 04:25:15.423866 PDT | 1MinReturn                  0
+2017-08-04 04:25:15.423968 PDT | 1AveragePolicyStd           0.954187
+2017-08-04 04:25:15.424082 PDT | MeanKLBefore               -1.86265e-09
+2017-08-04 04:25:15.424186 PDT | MeanKL                      0.0071875
+2017-08-04 04:25:15.424288 PDT | LossBefore                 -1.49303e-09
+2017-08-04 04:25:15.424397 PDT | LossAfter                  -0.00346318
+2017-08-04 04:25:15.424501 PDT | dLoss                       0.00346318
+2017-08-04 04:25:15.424604 PDT | Time                     8676.21
+2017-08-04 04:25:15.424706 PDT | ItrTime                   121.665
+2017-08-04 04:25:15.424808 PDT | ----------------------  ---------------
+2017-08-04 04:25:15.425007 PDT | [SingleGoal_addedGaussNoise] itr #79 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:25:15.429072 PDT | [SingleGoal_addedGaussNoise] itr #79 | ** Step 0 **
+2017-08-04 04:25:15.429370 PDT | [SingleGoal_addedGaussNoise] itr #79 | Obtaining samples...
+2017-08-04 04:25:15.429698 PDT | [SingleGoal_addedGaussNoise] itr #79 | Obtaining samples for iteration 79...
+2017-08-04 04:25:59.982490 PDT | [SingleGoal_addedGaussNoise] itr #79 | Processing samples...
+2017-08-04 04:26:00.353920 PDT | [SingleGoal_addedGaussNoise] itr #79 | fitting baseline...
+2017-08-04 04:26:00.403304 PDT | [SingleGoal_addedGaussNoise] itr #79 | fitted
+2017-08-04 04:26:00.485536 PDT | [SingleGoal_addedGaussNoise] itr #79 | Logging diagnostics...
+2017-08-04 04:26:00.488650 PDT | [SingleGoal_addedGaussNoise] itr #79 | Computing policy updates...
+2017-08-04 04:26:00.932953 PDT | [SingleGoal_addedGaussNoise] itr #79 | ** Step 1 **
+2017-08-04 04:26:00.933251 PDT | [SingleGoal_addedGaussNoise] itr #79 | Obtaining samples...
+2017-08-04 04:26:00.933485 PDT | [SingleGoal_addedGaussNoise] itr #79 | Obtaining samples for iteration 79...
+2017-08-04 04:27:10.175127 PDT | [SingleGoal_addedGaussNoise] itr #79 | Processing samples...
+2017-08-04 04:27:10.361144 PDT | [SingleGoal_addedGaussNoise] itr #79 | fitting baseline...
+2017-08-04 04:27:10.404902 PDT | [SingleGoal_addedGaussNoise] itr #79 | fitted
+2017-08-04 04:27:10.481413 PDT | [SingleGoal_addedGaussNoise] itr #79 | Logging diagnostics...
+2017-08-04 04:27:10.485098 PDT | [SingleGoal_addedGaussNoise] itr #79 | Optimizing policy...
+2017-08-04 04:27:10.485375 PDT | [SingleGoal_addedGaussNoise] itr #79 | Computing KL before
+2017-08-04 04:27:10.536176 PDT | [SingleGoal_addedGaussNoise] itr #79 | Computing loss before
+2017-08-04 04:27:10.587129 PDT | [SingleGoal_addedGaussNoise] itr #79 | Optimizing
+2017-08-04 04:27:10.587813 PDT | [SingleGoal_addedGaussNoise] itr #79 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:27:10.587950 PDT | [SingleGoal_addedGaussNoise] itr #79 | computing loss before
+2017-08-04 04:27:10.640435 PDT | [SingleGoal_addedGaussNoise] itr #79 | performing update
+2017-08-04 04:27:10.640826 PDT | [SingleGoal_addedGaussNoise] itr #79 | computing gradient
+2017-08-04 04:27:10.793043 PDT | [SingleGoal_addedGaussNoise] itr #79 | gradient computed
+2017-08-04 04:27:10.793422 PDT | [SingleGoal_addedGaussNoise] itr #79 | computing descent direction
+2017-08-04 04:27:14.101623 PDT | [SingleGoal_addedGaussNoise] itr #79 | descent direction computed
+2017-08-04 04:27:14.225471 PDT | [SingleGoal_addedGaussNoise] itr #79 | backtrack iters: 1
+2017-08-04 04:27:14.225803 PDT | [SingleGoal_addedGaussNoise] itr #79 | computing loss after
+2017-08-04 04:27:14.226018 PDT | [SingleGoal_addedGaussNoise] itr #79 | optimization finished
+2017-08-04 04:27:14.226234 PDT | [SingleGoal_addedGaussNoise] itr #79 | Computing loss after
+2017-08-04 04:27:14.286467 PDT | [SingleGoal_addedGaussNoise] itr #79 | Computing KL after
+2017-08-04 04:27:14.340652 PDT | [SingleGoal_addedGaussNoise] itr #79 | Saving snapshot...
+2017-08-04 04:27:14.343718 PDT | [SingleGoal_addedGaussNoise] itr #79 | Saved
+2017-08-04 04:27:14.343884 PDT | [SingleGoal_addedGaussNoise] itr #79 | Saving visualization of paths
+2017-08-04 04:27:15.089566 PDT | ----------------------  ---------------
+2017-08-04 04:27:15.089724 PDT | 0PolicyExecTime             9.00339
+2017-08-04 04:27:15.089834 PDT | 0EnvExecTime               34.2873
+2017-08-04 04:27:15.089942 PDT | 0ProcessExecTime            1.1054
+2017-08-04 04:27:15.090037 PDT | 0AverageReturn           2801.25
+2017-08-04 04:27:15.090132 PDT | 0ExplainedVariance          0.0396129
+2017-08-04 04:27:15.090234 PDT | 0NumTrajs                 400
+2017-08-04 04:27:15.090331 PDT | 0Entropy                    2.7518
+2017-08-04 04:27:15.090426 PDT | 0Perplexity                15.6708
+2017-08-04 04:27:15.090520 PDT | 0StdReturn               5334.24
+2017-08-04 04:27:15.090615 PDT | 0MaxReturn              20800
+2017-08-04 04:27:15.090709 PDT | 0MinReturn                  0
+2017-08-04 04:27:15.090804 PDT | 0AveragePolicyStd           0.95816
+2017-08-04 04:27:15.090899 PDT | ComputeUpdatedDistTime      0.444129
+2017-08-04 04:27:15.091002 PDT | 1PolicyExecTime            34.5154
+2017-08-04 04:27:15.091096 PDT | 1EnvExecTime               33.5131
+2017-08-04 04:27:15.091191 PDT | 1ProcessExecTime            1.05942
+2017-08-04 04:27:15.091285 PDT | 1AverageReturn           5096.75
+2017-08-04 04:27:15.091379 PDT | 1ExplainedVariance          0.0946215
+2017-08-04 04:27:15.091473 PDT | 1NumTrajs                 400
+2017-08-04 04:27:15.091567 PDT | 1Entropy                    2.75465
+2017-08-04 04:27:15.091661 PDT | 1Perplexity                15.7155
+2017-08-04 04:27:15.091755 PDT | 1StdReturn               6709.62
+2017-08-04 04:27:15.091850 PDT | 1MaxReturn              22500
+2017-08-04 04:27:15.091944 PDT | 1MinReturn                  0
+2017-08-04 04:27:15.092067 PDT | 1AveragePolicyStd           0.959574
+2017-08-04 04:27:15.092163 PDT | MeanKLBefore                4.19095e-10
+2017-08-04 04:27:15.092258 PDT | MeanKL                      0.00669782
+2017-08-04 04:27:15.092352 PDT | LossBefore                 -1.79862e-09
+2017-08-04 04:27:15.092446 PDT | LossAfter                  -0.00375086
+2017-08-04 04:27:15.092540 PDT | dLoss                       0.00375086
+2017-08-04 04:27:15.092634 PDT | Time                     8795.93
+2017-08-04 04:27:15.092728 PDT | ItrTime                   118.919
+2017-08-04 04:27:15.092822 PDT | ----------------------  ---------------
+2017-08-04 04:27:15.092999 PDT | [SingleGoal_addedGaussNoise] itr #80 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:27:15.096492 PDT | [SingleGoal_addedGaussNoise] itr #80 | ** Step 0 **
+2017-08-04 04:27:15.096884 PDT | [SingleGoal_addedGaussNoise] itr #80 | Obtaining samples...
+2017-08-04 04:27:15.096997 PDT | [SingleGoal_addedGaussNoise] itr #80 | Obtaining samples for iteration 80...
+2017-08-04 04:27:58.146567 PDT | [SingleGoal_addedGaussNoise] itr #80 | Processing samples...
+2017-08-04 04:27:58.302673 PDT | [SingleGoal_addedGaussNoise] itr #80 | fitting baseline...
+2017-08-04 04:27:58.349286 PDT | [SingleGoal_addedGaussNoise] itr #80 | fitted
+2017-08-04 04:27:58.428593 PDT | [SingleGoal_addedGaussNoise] itr #80 | Logging diagnostics...
+2017-08-04 04:27:58.431906 PDT | [SingleGoal_addedGaussNoise] itr #80 | Computing policy updates...
+2017-08-04 04:27:58.764072 PDT | [SingleGoal_addedGaussNoise] itr #80 | ** Step 1 **
+2017-08-04 04:27:58.764266 PDT | [SingleGoal_addedGaussNoise] itr #80 | Obtaining samples...
+2017-08-04 04:27:58.764393 PDT | [SingleGoal_addedGaussNoise] itr #80 | Obtaining samples for iteration 80...
+2017-08-04 04:29:07.971576 PDT | [SingleGoal_addedGaussNoise] itr #80 | Processing samples...
+2017-08-04 04:29:08.136305 PDT | [SingleGoal_addedGaussNoise] itr #80 | fitting baseline...
+2017-08-04 04:29:08.184073 PDT | [SingleGoal_addedGaussNoise] itr #80 | fitted
+2017-08-04 04:29:08.265183 PDT | [SingleGoal_addedGaussNoise] itr #80 | Logging diagnostics...
+2017-08-04 04:29:08.268196 PDT | [SingleGoal_addedGaussNoise] itr #80 | Optimizing policy...
+2017-08-04 04:29:08.268539 PDT | [SingleGoal_addedGaussNoise] itr #80 | Computing KL before
+2017-08-04 04:29:08.327792 PDT | [SingleGoal_addedGaussNoise] itr #80 | Computing loss before
+2017-08-04 04:29:08.389841 PDT | [SingleGoal_addedGaussNoise] itr #80 | Optimizing
+2017-08-04 04:29:08.390624 PDT | [SingleGoal_addedGaussNoise] itr #80 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:29:08.390785 PDT | [SingleGoal_addedGaussNoise] itr #80 | computing loss before
+2017-08-04 04:29:08.452420 PDT | [SingleGoal_addedGaussNoise] itr #80 | performing update
+2017-08-04 04:29:08.452664 PDT | [SingleGoal_addedGaussNoise] itr #80 | computing gradient
+2017-08-04 04:29:08.617080 PDT | [SingleGoal_addedGaussNoise] itr #80 | gradient computed
+2017-08-04 04:29:08.617475 PDT | [SingleGoal_addedGaussNoise] itr #80 | computing descent direction
+2017-08-04 04:29:11.956892 PDT | [SingleGoal_addedGaussNoise] itr #80 | descent direction computed
+2017-08-04 04:29:12.076445 PDT | [SingleGoal_addedGaussNoise] itr #80 | backtrack iters: 1
+2017-08-04 04:29:12.076711 PDT | [SingleGoal_addedGaussNoise] itr #80 | computing loss after
+2017-08-04 04:29:12.076857 PDT | [SingleGoal_addedGaussNoise] itr #80 | optimization finished
+2017-08-04 04:29:12.077065 PDT | [SingleGoal_addedGaussNoise] itr #80 | Computing loss after
+2017-08-04 04:29:12.131067 PDT | [SingleGoal_addedGaussNoise] itr #80 | Computing KL after
+2017-08-04 04:29:12.184932 PDT | [SingleGoal_addedGaussNoise] itr #80 | Saving snapshot...
+2017-08-04 04:29:12.187494 PDT | [SingleGoal_addedGaussNoise] itr #80 | Saved
+2017-08-04 04:29:12.187650 PDT | [SingleGoal_addedGaussNoise] itr #80 | Saving visualization of paths
+2017-08-04 04:29:12.903533 PDT | ----------------------  ---------------
+2017-08-04 04:29:12.903691 PDT | 0PolicyExecTime             8.38779
+2017-08-04 04:29:12.903796 PDT | 0EnvExecTime               33.4755
+2017-08-04 04:29:12.903899 PDT | 0ProcessExecTime            1.03612
+2017-08-04 04:29:12.904000 PDT | 0AverageReturn           2160.25
+2017-08-04 04:29:12.904098 PDT | 0ExplainedVariance          0.0259821
+2017-08-04 04:29:12.904194 PDT | 0NumTrajs                 400
+2017-08-04 04:29:12.904289 PDT | 0Entropy                    2.73971
+2017-08-04 04:29:12.904384 PDT | 0Perplexity                15.4826
+2017-08-04 04:29:12.904483 PDT | 0StdReturn               4417.5
+2017-08-04 04:29:12.904578 PDT | 0MaxReturn              20900
+2017-08-04 04:29:12.904672 PDT | 0MinReturn                  0
+2017-08-04 04:29:12.904766 PDT | 0AveragePolicyStd           0.952522
+2017-08-04 04:29:12.904860 PDT | ComputeUpdatedDistTime      0.331987
+2017-08-04 04:29:12.904953 PDT | 1PolicyExecTime            34.5064
+2017-08-04 04:29:12.905047 PDT | 1EnvExecTime               33.5244
+2017-08-04 04:29:12.905140 PDT | 1ProcessExecTime            1.02425
+2017-08-04 04:29:12.905234 PDT | 1AverageReturn           5106.5
+2017-08-04 04:29:12.905328 PDT | 1ExplainedVariance          0.101911
+2017-08-04 04:29:12.905422 PDT | 1NumTrajs                 400
+2017-08-04 04:29:12.905516 PDT | 1Entropy                    2.73819
+2017-08-04 04:29:12.905610 PDT | 1Perplexity                15.4589
+2017-08-04 04:29:12.905704 PDT | 1StdReturn               6450.2
+2017-08-04 04:29:12.905797 PDT | 1MaxReturn              22600
+2017-08-04 04:29:12.905891 PDT | 1MinReturn                  0
+2017-08-04 04:29:12.905985 PDT | 1AveragePolicyStd           0.951841
+2017-08-04 04:29:12.906080 PDT | MeanKLBefore                4.65574e-11
+2017-08-04 04:29:12.906174 PDT | MeanKL                      0.00756845
+2017-08-04 04:29:12.906268 PDT | LossBefore                 -6.97037e-10
+2017-08-04 04:29:12.906362 PDT | LossAfter                  -0.00386189
+2017-08-04 04:29:12.906455 PDT | dLoss                       0.00386189
+2017-08-04 04:29:12.906549 PDT | Time                     8913.78
+2017-08-04 04:29:12.906642 PDT | ItrTime                   117.095
+2017-08-04 04:29:12.906736 PDT | ----------------------  ---------------
+2017-08-04 04:29:12.906912 PDT | [SingleGoal_addedGaussNoise] itr #81 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:29:12.910477 PDT | [SingleGoal_addedGaussNoise] itr #81 | ** Step 0 **
+2017-08-04 04:29:12.910937 PDT | [SingleGoal_addedGaussNoise] itr #81 | Obtaining samples...
+2017-08-04 04:29:12.911051 PDT | [SingleGoal_addedGaussNoise] itr #81 | Obtaining samples for iteration 81...
+2017-08-04 04:29:57.226528 PDT | [SingleGoal_addedGaussNoise] itr #81 | Processing samples...
+2017-08-04 04:29:57.490410 PDT | [SingleGoal_addedGaussNoise] itr #81 | fitting baseline...
+2017-08-04 04:29:57.538439 PDT | [SingleGoal_addedGaussNoise] itr #81 | fitted
+2017-08-04 04:29:57.619726 PDT | [SingleGoal_addedGaussNoise] itr #81 | Logging diagnostics...
+2017-08-04 04:29:57.622906 PDT | [SingleGoal_addedGaussNoise] itr #81 | Computing policy updates...
+2017-08-04 04:29:57.960022 PDT | [SingleGoal_addedGaussNoise] itr #81 | ** Step 1 **
+2017-08-04 04:29:57.960226 PDT | [SingleGoal_addedGaussNoise] itr #81 | Obtaining samples...
+2017-08-04 04:29:57.960352 PDT | [SingleGoal_addedGaussNoise] itr #81 | Obtaining samples for iteration 81...
+2017-08-04 04:31:07.361268 PDT | [SingleGoal_addedGaussNoise] itr #81 | Processing samples...
+2017-08-04 04:31:07.576073 PDT | [SingleGoal_addedGaussNoise] itr #81 | fitting baseline...
+2017-08-04 04:31:07.622942 PDT | [SingleGoal_addedGaussNoise] itr #81 | fitted
+2017-08-04 04:31:07.700308 PDT | [SingleGoal_addedGaussNoise] itr #81 | Logging diagnostics...
+2017-08-04 04:31:07.703666 PDT | [SingleGoal_addedGaussNoise] itr #81 | Optimizing policy...
+2017-08-04 04:31:07.703951 PDT | [SingleGoal_addedGaussNoise] itr #81 | Computing KL before
+2017-08-04 04:31:07.761853 PDT | [SingleGoal_addedGaussNoise] itr #81 | Computing loss before
+2017-08-04 04:31:07.822806 PDT | [SingleGoal_addedGaussNoise] itr #81 | Optimizing
+2017-08-04 04:31:07.823606 PDT | [SingleGoal_addedGaussNoise] itr #81 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:31:07.823836 PDT | [SingleGoal_addedGaussNoise] itr #81 | computing loss before
+2017-08-04 04:31:07.890421 PDT | [SingleGoal_addedGaussNoise] itr #81 | performing update
+2017-08-04 04:31:07.890628 PDT | [SingleGoal_addedGaussNoise] itr #81 | computing gradient
+2017-08-04 04:31:08.054952 PDT | [SingleGoal_addedGaussNoise] itr #81 | gradient computed
+2017-08-04 04:31:08.055213 PDT | [SingleGoal_addedGaussNoise] itr #81 | computing descent direction
+2017-08-04 04:31:11.431336 PDT | [SingleGoal_addedGaussNoise] itr #81 | descent direction computed
+2017-08-04 04:31:11.486955 PDT | [SingleGoal_addedGaussNoise] itr #81 | backtrack iters: 0
+2017-08-04 04:31:11.487187 PDT | [SingleGoal_addedGaussNoise] itr #81 | computing loss after
+2017-08-04 04:31:11.487308 PDT | [SingleGoal_addedGaussNoise] itr #81 | optimization finished
+2017-08-04 04:31:11.487434 PDT | [SingleGoal_addedGaussNoise] itr #81 | Computing loss after
+2017-08-04 04:31:11.537689 PDT | [SingleGoal_addedGaussNoise] itr #81 | Computing KL after
+2017-08-04 04:31:11.586886 PDT | [SingleGoal_addedGaussNoise] itr #81 | Saving snapshot...
+2017-08-04 04:31:11.590599 PDT | [SingleGoal_addedGaussNoise] itr #81 | Saved
+2017-08-04 04:31:11.590957 PDT | [SingleGoal_addedGaussNoise] itr #81 | Saving visualization of paths
+2017-08-04 04:31:12.396176 PDT | ----------------------  ---------------
+2017-08-04 04:31:12.396353 PDT | 0PolicyExecTime             8.54884
+2017-08-04 04:31:12.396469 PDT | 0EnvExecTime               34.5413
+2017-08-04 04:31:12.396577 PDT | 0ProcessExecTime            1.06959
+2017-08-04 04:31:12.396682 PDT | 0AverageReturn           2753
+2017-08-04 04:31:12.396786 PDT | 0ExplainedVariance          0.031828
+2017-08-04 04:31:12.396891 PDT | 0NumTrajs                 400
+2017-08-04 04:31:12.396995 PDT | 0Entropy                    2.75066
+2017-08-04 04:31:12.397098 PDT | 0Perplexity                15.6529
+2017-08-04 04:31:12.397202 PDT | 0StdReturn               5314.27
+2017-08-04 04:31:12.397307 PDT | 0MaxReturn              22300
+2017-08-04 04:31:12.397411 PDT | 0MinReturn                  0
+2017-08-04 04:31:12.397514 PDT | 0AveragePolicyStd           0.957743
+2017-08-04 04:31:12.397618 PDT | ComputeUpdatedDistTime      0.336936
+2017-08-04 04:31:12.397723 PDT | 1PolicyExecTime            33.8467
+2017-08-04 04:31:12.397827 PDT | 1EnvExecTime               34.3826
+2017-08-04 04:31:12.397931 PDT | 1ProcessExecTime            1.01589
+2017-08-04 04:31:12.398035 PDT | 1AverageReturn           6495
+2017-08-04 04:31:12.398139 PDT | 1ExplainedVariance          0.135114
+2017-08-04 04:31:12.398242 PDT | 1NumTrajs                 400
+2017-08-04 04:31:12.398346 PDT | 1Entropy                    2.75327
+2017-08-04 04:31:12.398456 PDT | 1Perplexity                15.6939
+2017-08-04 04:31:12.398562 PDT | 1StdReturn               8073.64
+2017-08-04 04:31:12.398666 PDT | 1MaxReturn              22900
+2017-08-04 04:31:12.398769 PDT | 1MinReturn                  0
+2017-08-04 04:31:12.398872 PDT | 1AveragePolicyStd           0.959032
+2017-08-04 04:31:12.398976 PDT | MeanKLBefore               -3.86499e-09
+2017-08-04 04:31:12.399081 PDT | MeanKL                      0.00756422
+2017-08-04 04:31:12.399185 PDT | LossBefore                 -1.26893e-09
+2017-08-04 04:31:12.399288 PDT | LossAfter                  -0.00434395
+2017-08-04 04:31:12.399391 PDT | dLoss                       0.00434395
+2017-08-04 04:31:12.399494 PDT | Time                     9033.18
+2017-08-04 04:31:12.399598 PDT | ItrTime                   118.684
+2017-08-04 04:31:12.399700 PDT | ----------------------  ---------------
+2017-08-04 04:31:12.399895 PDT | [SingleGoal_addedGaussNoise] itr #82 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:31:12.403901 PDT | [SingleGoal_addedGaussNoise] itr #82 | ** Step 0 **
+2017-08-04 04:31:12.404294 PDT | [SingleGoal_addedGaussNoise] itr #82 | Obtaining samples...
+2017-08-04 04:31:12.404424 PDT | [SingleGoal_addedGaussNoise] itr #82 | Obtaining samples for iteration 82...
+2017-08-04 04:31:58.899183 PDT | [SingleGoal_addedGaussNoise] itr #82 | Processing samples...
+2017-08-04 04:31:59.058310 PDT | [SingleGoal_addedGaussNoise] itr #82 | fitting baseline...
+2017-08-04 04:31:59.102483 PDT | [SingleGoal_addedGaussNoise] itr #82 | fitted
+2017-08-04 04:31:59.181264 PDT | [SingleGoal_addedGaussNoise] itr #82 | Logging diagnostics...
+2017-08-04 04:31:59.184437 PDT | [SingleGoal_addedGaussNoise] itr #82 | Computing policy updates...
+2017-08-04 04:31:59.515027 PDT | [SingleGoal_addedGaussNoise] itr #82 | ** Step 1 **
+2017-08-04 04:31:59.515221 PDT | [SingleGoal_addedGaussNoise] itr #82 | Obtaining samples...
+2017-08-04 04:31:59.515346 PDT | [SingleGoal_addedGaussNoise] itr #82 | Obtaining samples for iteration 82...
+2017-08-04 04:33:09.331210 PDT | [SingleGoal_addedGaussNoise] itr #82 | Processing samples...
+2017-08-04 04:33:09.481729 PDT | [SingleGoal_addedGaussNoise] itr #82 | fitting baseline...
+2017-08-04 04:33:09.528658 PDT | [SingleGoal_addedGaussNoise] itr #82 | fitted
+2017-08-04 04:33:09.609085 PDT | [SingleGoal_addedGaussNoise] itr #82 | Logging diagnostics...
+2017-08-04 04:33:09.612210 PDT | [SingleGoal_addedGaussNoise] itr #82 | Optimizing policy...
+2017-08-04 04:33:09.612527 PDT | [SingleGoal_addedGaussNoise] itr #82 | Computing KL before
+2017-08-04 04:33:09.672236 PDT | [SingleGoal_addedGaussNoise] itr #82 | Computing loss before
+2017-08-04 04:33:09.733631 PDT | [SingleGoal_addedGaussNoise] itr #82 | Optimizing
+2017-08-04 04:33:09.734616 PDT | [SingleGoal_addedGaussNoise] itr #82 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:33:09.734885 PDT | [SingleGoal_addedGaussNoise] itr #82 | computing loss before
+2017-08-04 04:33:09.797684 PDT | [SingleGoal_addedGaussNoise] itr #82 | performing update
+2017-08-04 04:33:09.797932 PDT | [SingleGoal_addedGaussNoise] itr #82 | computing gradient
+2017-08-04 04:33:09.957900 PDT | [SingleGoal_addedGaussNoise] itr #82 | gradient computed
+2017-08-04 04:33:09.958326 PDT | [SingleGoal_addedGaussNoise] itr #82 | computing descent direction
+2017-08-04 04:33:13.344454 PDT | [SingleGoal_addedGaussNoise] itr #82 | descent direction computed
+2017-08-04 04:33:13.461400 PDT | [SingleGoal_addedGaussNoise] itr #82 | backtrack iters: 1
+2017-08-04 04:33:13.461777 PDT | [SingleGoal_addedGaussNoise] itr #82 | computing loss after
+2017-08-04 04:33:13.462014 PDT | [SingleGoal_addedGaussNoise] itr #82 | optimization finished
+2017-08-04 04:33:13.462243 PDT | [SingleGoal_addedGaussNoise] itr #82 | Computing loss after
+2017-08-04 04:33:13.525366 PDT | [SingleGoal_addedGaussNoise] itr #82 | Computing KL after
+2017-08-04 04:33:13.590440 PDT | [SingleGoal_addedGaussNoise] itr #82 | Saving snapshot...
+2017-08-04 04:33:13.594747 PDT | [SingleGoal_addedGaussNoise] itr #82 | Saved
+2017-08-04 04:33:13.594934 PDT | [SingleGoal_addedGaussNoise] itr #82 | Saving visualization of paths
+2017-08-04 04:33:14.315709 PDT | ----------------------  --------------
+2017-08-04 04:33:14.315864 PDT | 0PolicyExecTime             8.90743
+2017-08-04 04:33:14.315965 PDT | 0EnvExecTime               36.3285
+2017-08-04 04:33:14.316070 PDT | 0ProcessExecTime            1.09649
+2017-08-04 04:33:14.316164 PDT | 0AverageReturn           3240
+2017-08-04 04:33:14.316257 PDT | 0ExplainedVariance          0.0573585
+2017-08-04 04:33:14.316349 PDT | 0NumTrajs                 400
+2017-08-04 04:33:14.316441 PDT | 0Entropy                    2.7433
+2017-08-04 04:33:14.316531 PDT | 0Perplexity                15.5382
+2017-08-04 04:33:14.316622 PDT | 0StdReturn               5152.81
+2017-08-04 04:33:14.316712 PDT | 0MaxReturn              21600
+2017-08-04 04:33:14.316803 PDT | 0MinReturn                  0
+2017-08-04 04:33:14.316894 PDT | 0AveragePolicyStd           0.953956
+2017-08-04 04:33:14.316984 PDT | ComputeUpdatedDistTime      0.330412
+2017-08-04 04:33:14.317075 PDT | 1PolicyExecTime            34.8602
+2017-08-04 04:33:14.317166 PDT | 1EnvExecTime               33.7871
+2017-08-04 04:33:14.317256 PDT | 1ProcessExecTime            1.01381
+2017-08-04 04:33:14.317347 PDT | 1AverageReturn           6122
+2017-08-04 04:33:14.317437 PDT | 1ExplainedVariance          0.136245
+2017-08-04 04:33:14.317528 PDT | 1NumTrajs                 400
+2017-08-04 04:33:14.317618 PDT | 1Entropy                    2.73733
+2017-08-04 04:33:14.317709 PDT | 1Perplexity                15.4458
+2017-08-04 04:33:14.317822 PDT | 1StdReturn               7458.65
+2017-08-04 04:33:14.317913 PDT | 1MaxReturn              22200
+2017-08-04 04:33:14.318003 PDT | 1MinReturn                  0
+2017-08-04 04:33:14.318094 PDT | 1AveragePolicyStd           0.951142
+2017-08-04 04:33:14.318194 PDT | MeanKLBefore               -3.4459e-09
+2017-08-04 04:33:14.318284 PDT | MeanKL                      0.00690869
+2017-08-04 04:33:14.318376 PDT | LossBefore                 -1.5425e-10
+2017-08-04 04:33:14.318466 PDT | LossAfter                  -0.0034537
+2017-08-04 04:33:14.318557 PDT | dLoss                       0.0034537
+2017-08-04 04:33:14.318647 PDT | Time                     9155.18
+2017-08-04 04:33:14.318754 PDT | ItrTime                   121.195
+2017-08-04 04:33:14.318851 PDT | ----------------------  --------------
+2017-08-04 04:33:14.319023 PDT | [SingleGoal_addedGaussNoise] itr #83 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:33:14.322552 PDT | [SingleGoal_addedGaussNoise] itr #83 | ** Step 0 **
+2017-08-04 04:33:14.323010 PDT | [SingleGoal_addedGaussNoise] itr #83 | Obtaining samples...
+2017-08-04 04:33:14.323119 PDT | [SingleGoal_addedGaussNoise] itr #83 | Obtaining samples for iteration 83...
+2017-08-04 04:33:58.846954 PDT | [SingleGoal_addedGaussNoise] itr #83 | Processing samples...
+2017-08-04 04:33:59.001870 PDT | [SingleGoal_addedGaussNoise] itr #83 | fitting baseline...
+2017-08-04 04:33:59.049133 PDT | [SingleGoal_addedGaussNoise] itr #83 | fitted
+2017-08-04 04:33:59.130516 PDT | [SingleGoal_addedGaussNoise] itr #83 | Logging diagnostics...
+2017-08-04 04:33:59.133693 PDT | [SingleGoal_addedGaussNoise] itr #83 | Computing policy updates...
+2017-08-04 04:33:59.456868 PDT | [SingleGoal_addedGaussNoise] itr #83 | ** Step 1 **
+2017-08-04 04:33:59.457061 PDT | [SingleGoal_addedGaussNoise] itr #83 | Obtaining samples...
+2017-08-04 04:33:59.457188 PDT | [SingleGoal_addedGaussNoise] itr #83 | Obtaining samples for iteration 83...
+2017-08-04 04:35:08.640676 PDT | [SingleGoal_addedGaussNoise] itr #83 | Processing samples...
+2017-08-04 04:35:08.805922 PDT | [SingleGoal_addedGaussNoise] itr #83 | fitting baseline...
+2017-08-04 04:35:08.852907 PDT | [SingleGoal_addedGaussNoise] itr #83 | fitted
+2017-08-04 04:35:08.932944 PDT | [SingleGoal_addedGaussNoise] itr #83 | Logging diagnostics...
+2017-08-04 04:35:08.936298 PDT | [SingleGoal_addedGaussNoise] itr #83 | Optimizing policy...
+2017-08-04 04:35:08.936606 PDT | [SingleGoal_addedGaussNoise] itr #83 | Computing KL before
+2017-08-04 04:35:08.998068 PDT | [SingleGoal_addedGaussNoise] itr #83 | Computing loss before
+2017-08-04 04:35:09.061608 PDT | [SingleGoal_addedGaussNoise] itr #83 | Optimizing
+2017-08-04 04:35:09.062411 PDT | [SingleGoal_addedGaussNoise] itr #83 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:35:09.062558 PDT | [SingleGoal_addedGaussNoise] itr #83 | computing loss before
+2017-08-04 04:35:09.128109 PDT | [SingleGoal_addedGaussNoise] itr #83 | performing update
+2017-08-04 04:35:09.128454 PDT | [SingleGoal_addedGaussNoise] itr #83 | computing gradient
+2017-08-04 04:35:09.302892 PDT | [SingleGoal_addedGaussNoise] itr #83 | gradient computed
+2017-08-04 04:35:09.303134 PDT | [SingleGoal_addedGaussNoise] itr #83 | computing descent direction
+2017-08-04 04:35:12.643648 PDT | [SingleGoal_addedGaussNoise] itr #83 | descent direction computed
+2017-08-04 04:35:12.707786 PDT | [SingleGoal_addedGaussNoise] itr #83 | backtrack iters: 0
+2017-08-04 04:35:12.708216 PDT | [SingleGoal_addedGaussNoise] itr #83 | computing loss after
+2017-08-04 04:35:12.708469 PDT | [SingleGoal_addedGaussNoise] itr #83 | optimization finished
+2017-08-04 04:35:12.708752 PDT | [SingleGoal_addedGaussNoise] itr #83 | Computing loss after
+2017-08-04 04:35:12.775014 PDT | [SingleGoal_addedGaussNoise] itr #83 | Computing KL after
+2017-08-04 04:35:12.833792 PDT | [SingleGoal_addedGaussNoise] itr #83 | Saving snapshot...
+2017-08-04 04:35:12.836777 PDT | [SingleGoal_addedGaussNoise] itr #83 | Saved
+2017-08-04 04:35:12.836966 PDT | [SingleGoal_addedGaussNoise] itr #83 | Saving visualization of paths
+2017-08-04 04:35:13.605963 PDT | ----------------------  ---------------
+2017-08-04 04:35:13.606117 PDT | 0PolicyExecTime             8.96916
+2017-08-04 04:35:13.606217 PDT | 0EnvExecTime               34.352
+2017-08-04 04:35:13.606311 PDT | 0ProcessExecTime            1.0472
+2017-08-04 04:35:13.606403 PDT | 0AverageReturn           1802.5
+2017-08-04 04:35:13.606494 PDT | 0ExplainedVariance          0.0375662
+2017-08-04 04:35:13.606586 PDT | 0NumTrajs                 400
+2017-08-04 04:35:13.606677 PDT | 0Entropy                    2.74147
+2017-08-04 04:35:13.606767 PDT | 0Perplexity                15.5098
+2017-08-04 04:35:13.606858 PDT | 0StdReturn               3535.7
+2017-08-04 04:35:13.606949 PDT | 0MaxReturn              21000
+2017-08-04 04:35:13.607039 PDT | 0MinReturn                  0
+2017-08-04 04:35:13.607129 PDT | 0AveragePolicyStd           0.953102
+2017-08-04 04:35:13.607220 PDT | ComputeUpdatedDistTime      0.323007
+2017-08-04 04:35:13.607310 PDT | 1PolicyExecTime            33.523
+2017-08-04 04:35:13.607400 PDT | 1EnvExecTime               34.5076
+2017-08-04 04:35:13.607490 PDT | 1ProcessExecTime            0.996867
+2017-08-04 04:35:13.607580 PDT | 1AverageReturn           5745.5
+2017-08-04 04:35:13.607670 PDT | 1ExplainedVariance          0.0933664
+2017-08-04 04:35:13.607760 PDT | 1NumTrajs                 400
+2017-08-04 04:35:13.607850 PDT | 1Entropy                    2.74345
+2017-08-04 04:35:13.607940 PDT | 1Perplexity                15.5405
+2017-08-04 04:35:13.608039 PDT | 1StdReturn               7055.94
+2017-08-04 04:35:13.608130 PDT | 1MaxReturn              22700
+2017-08-04 04:35:13.608220 PDT | 1MinReturn                  0
+2017-08-04 04:35:13.608310 PDT | 1AveragePolicyStd           0.954058
+2017-08-04 04:35:13.608399 PDT | MeanKLBefore               -1.02446e-09
+2017-08-04 04:35:13.608490 PDT | MeanKL                      0.0099546
+2017-08-04 04:35:13.608579 PDT | LossBefore                  9.83709e-10
+2017-08-04 04:35:13.608670 PDT | LossAfter                  -0.00536691
+2017-08-04 04:35:13.608760 PDT | dLoss                       0.00536691
+2017-08-04 04:35:13.608850 PDT | Time                     9274.43
+2017-08-04 04:35:13.608940 PDT | ItrTime                   118.518
+2017-08-04 04:35:13.609030 PDT | ----------------------  ---------------
+2017-08-04 04:35:13.609200 PDT | [SingleGoal_addedGaussNoise] itr #84 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:35:13.612680 PDT | [SingleGoal_addedGaussNoise] itr #84 | ** Step 0 **
+2017-08-04 04:35:13.613007 PDT | [SingleGoal_addedGaussNoise] itr #84 | Obtaining samples...
+2017-08-04 04:35:13.613115 PDT | [SingleGoal_addedGaussNoise] itr #84 | Obtaining samples for iteration 84...
+2017-08-04 04:35:57.396528 PDT | [SingleGoal_addedGaussNoise] itr #84 | Processing samples...
+2017-08-04 04:35:57.551912 PDT | [SingleGoal_addedGaussNoise] itr #84 | fitting baseline...
+2017-08-04 04:35:57.598091 PDT | [SingleGoal_addedGaussNoise] itr #84 | fitted
+2017-08-04 04:35:57.678116 PDT | [SingleGoal_addedGaussNoise] itr #84 | Logging diagnostics...
+2017-08-04 04:35:57.681270 PDT | [SingleGoal_addedGaussNoise] itr #84 | Computing policy updates...
+2017-08-04 04:35:57.995576 PDT | [SingleGoal_addedGaussNoise] itr #84 | ** Step 1 **
+2017-08-04 04:35:57.995768 PDT | [SingleGoal_addedGaussNoise] itr #84 | Obtaining samples...
+2017-08-04 04:35:57.995889 PDT | [SingleGoal_addedGaussNoise] itr #84 | Obtaining samples for iteration 84...
+2017-08-04 04:37:05.110459 PDT | [SingleGoal_addedGaussNoise] itr #84 | Processing samples...
+2017-08-04 04:37:05.296213 PDT | [SingleGoal_addedGaussNoise] itr #84 | fitting baseline...
+2017-08-04 04:37:05.342848 PDT | [SingleGoal_addedGaussNoise] itr #84 | fitted
+2017-08-04 04:37:05.446493 PDT | [SingleGoal_addedGaussNoise] itr #84 | Logging diagnostics...
+2017-08-04 04:37:05.451459 PDT | [SingleGoal_addedGaussNoise] itr #84 | Optimizing policy...
+2017-08-04 04:37:05.451959 PDT | [SingleGoal_addedGaussNoise] itr #84 | Computing KL before
+2017-08-04 04:37:05.521415 PDT | [SingleGoal_addedGaussNoise] itr #84 | Computing loss before
+2017-08-04 04:37:05.597643 PDT | [SingleGoal_addedGaussNoise] itr #84 | Optimizing
+2017-08-04 04:37:05.598885 PDT | [SingleGoal_addedGaussNoise] itr #84 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:37:05.599121 PDT | [SingleGoal_addedGaussNoise] itr #84 | computing loss before
+2017-08-04 04:37:05.656589 PDT | [SingleGoal_addedGaussNoise] itr #84 | performing update
+2017-08-04 04:37:05.656968 PDT | [SingleGoal_addedGaussNoise] itr #84 | computing gradient
+2017-08-04 04:37:05.860753 PDT | [SingleGoal_addedGaussNoise] itr #84 | gradient computed
+2017-08-04 04:37:05.861039 PDT | [SingleGoal_addedGaussNoise] itr #84 | computing descent direction
+2017-08-04 04:37:10.328594 PDT | [SingleGoal_addedGaussNoise] itr #84 | descent direction computed
+2017-08-04 04:37:10.448630 PDT | [SingleGoal_addedGaussNoise] itr #84 | backtrack iters: 1
+2017-08-04 04:37:10.449062 PDT | [SingleGoal_addedGaussNoise] itr #84 | computing loss after
+2017-08-04 04:37:10.449319 PDT | [SingleGoal_addedGaussNoise] itr #84 | optimization finished
+2017-08-04 04:37:10.449571 PDT | [SingleGoal_addedGaussNoise] itr #84 | Computing loss after
+2017-08-04 04:37:10.510366 PDT | [SingleGoal_addedGaussNoise] itr #84 | Computing KL after
+2017-08-04 04:37:10.568457 PDT | [SingleGoal_addedGaussNoise] itr #84 | Saving snapshot...
+2017-08-04 04:37:10.571747 PDT | [SingleGoal_addedGaussNoise] itr #84 | Saved
+2017-08-04 04:37:10.571943 PDT | [SingleGoal_addedGaussNoise] itr #84 | Saving visualization of paths
+2017-08-04 04:37:11.296086 PDT | ----------------------  ---------------
+2017-08-04 04:37:11.296255 PDT | 0PolicyExecTime             8.89069
+2017-08-04 04:37:11.296366 PDT | 0EnvExecTime               33.6766
+2017-08-04 04:37:11.296476 PDT | 0ProcessExecTime            1.06345
+2017-08-04 04:37:11.296578 PDT | 0AverageReturn           2439
+2017-08-04 04:37:11.296680 PDT | 0ExplainedVariance          0.0358858
+2017-08-04 04:37:11.296783 PDT | 0NumTrajs                 400
+2017-08-04 04:37:11.296882 PDT | 0Entropy                    2.74436
+2017-08-04 04:37:11.296985 PDT | 0Perplexity                15.5547
+2017-08-04 04:37:11.297084 PDT | 0StdReturn               4707.39
+2017-08-04 04:37:11.297182 PDT | 0MaxReturn              22700
+2017-08-04 04:37:11.297280 PDT | 0MinReturn                  0
+2017-08-04 04:37:11.297379 PDT | 0AveragePolicyStd           0.954447
+2017-08-04 04:37:11.297484 PDT | ComputeUpdatedDistTime      0.314142
+2017-08-04 04:37:11.297584 PDT | 1PolicyExecTime            33.528
+2017-08-04 04:37:11.297683 PDT | 1EnvExecTime               32.4452
+2017-08-04 04:37:11.297781 PDT | 1ProcessExecTime            0.99335
+2017-08-04 04:37:11.297880 PDT | 1AverageReturn           5253
+2017-08-04 04:37:11.297978 PDT | 1ExplainedVariance          0.0747749
+2017-08-04 04:37:11.298082 PDT | 1NumTrajs                 400
+2017-08-04 04:37:11.298181 PDT | 1Entropy                    2.74668
+2017-08-04 04:37:11.298280 PDT | 1Perplexity                15.5907
+2017-08-04 04:37:11.298379 PDT | 1StdReturn               6917.18
+2017-08-04 04:37:11.298478 PDT | 1MaxReturn              22300
+2017-08-04 04:37:11.298577 PDT | 1MinReturn                  0
+2017-08-04 04:37:11.298676 PDT | 1AveragePolicyStd           0.955581
+2017-08-04 04:37:11.298774 PDT | MeanKLBefore                4.37721e-09
+2017-08-04 04:37:11.298872 PDT | MeanKL                      0.00724288
+2017-08-04 04:37:11.298971 PDT | LossBefore                 -1.68802e-09
+2017-08-04 04:37:11.299070 PDT | LossAfter                  -0.00368571
+2017-08-04 04:37:11.299175 PDT | dLoss                       0.0036857
+2017-08-04 04:37:11.299273 PDT | Time                     9392.16
+2017-08-04 04:37:11.299371 PDT | ItrTime                   116.963
+2017-08-04 04:37:11.299469 PDT | ----------------------  ---------------
+2017-08-04 04:37:11.299654 PDT | [SingleGoal_addedGaussNoise] itr #85 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:37:11.303392 PDT | [SingleGoal_addedGaussNoise] itr #85 | ** Step 0 **
+2017-08-04 04:37:11.303743 PDT | [SingleGoal_addedGaussNoise] itr #85 | Obtaining samples...
+2017-08-04 04:37:11.303860 PDT | [SingleGoal_addedGaussNoise] itr #85 | Obtaining samples for iteration 85...
+2017-08-04 04:37:53.637178 PDT | [SingleGoal_addedGaussNoise] itr #85 | Processing samples...
+2017-08-04 04:37:53.783259 PDT | [SingleGoal_addedGaussNoise] itr #85 | fitting baseline...
+2017-08-04 04:37:53.829952 PDT | [SingleGoal_addedGaussNoise] itr #85 | fitted
+2017-08-04 04:37:53.910239 PDT | [SingleGoal_addedGaussNoise] itr #85 | Logging diagnostics...
+2017-08-04 04:37:53.913442 PDT | [SingleGoal_addedGaussNoise] itr #85 | Computing policy updates...
+2017-08-04 04:37:55.170504 PDT | [SingleGoal_addedGaussNoise] itr #85 | ** Step 1 **
+2017-08-04 04:37:55.170681 PDT | [SingleGoal_addedGaussNoise] itr #85 | Obtaining samples...
+2017-08-04 04:37:55.170794 PDT | [SingleGoal_addedGaussNoise] itr #85 | Obtaining samples for iteration 85...
+2017-08-04 04:39:05.473225 PDT | [SingleGoal_addedGaussNoise] itr #85 | Processing samples...
+2017-08-04 04:39:05.628634 PDT | [SingleGoal_addedGaussNoise] itr #85 | fitting baseline...
+2017-08-04 04:39:05.676232 PDT | [SingleGoal_addedGaussNoise] itr #85 | fitted
+2017-08-04 04:39:05.755124 PDT | [SingleGoal_addedGaussNoise] itr #85 | Logging diagnostics...
+2017-08-04 04:39:05.758206 PDT | [SingleGoal_addedGaussNoise] itr #85 | Optimizing policy...
+2017-08-04 04:39:05.758499 PDT | [SingleGoal_addedGaussNoise] itr #85 | Computing KL before
+2017-08-04 04:39:05.819938 PDT | [SingleGoal_addedGaussNoise] itr #85 | Computing loss before
+2017-08-04 04:39:05.883324 PDT | [SingleGoal_addedGaussNoise] itr #85 | Optimizing
+2017-08-04 04:39:05.884279 PDT | [SingleGoal_addedGaussNoise] itr #85 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:39:05.884499 PDT | [SingleGoal_addedGaussNoise] itr #85 | computing loss before
+2017-08-04 04:39:05.947648 PDT | [SingleGoal_addedGaussNoise] itr #85 | performing update
+2017-08-04 04:39:05.947888 PDT | [SingleGoal_addedGaussNoise] itr #85 | computing gradient
+2017-08-04 04:39:06.102444 PDT | [SingleGoal_addedGaussNoise] itr #85 | gradient computed
+2017-08-04 04:39:06.102688 PDT | [SingleGoal_addedGaussNoise] itr #85 | computing descent direction
+2017-08-04 04:39:09.424974 PDT | [SingleGoal_addedGaussNoise] itr #85 | descent direction computed
+2017-08-04 04:39:09.543004 PDT | [SingleGoal_addedGaussNoise] itr #85 | backtrack iters: 1
+2017-08-04 04:39:09.543413 PDT | [SingleGoal_addedGaussNoise] itr #85 | computing loss after
+2017-08-04 04:39:09.543694 PDT | [SingleGoal_addedGaussNoise] itr #85 | optimization finished
+2017-08-04 04:39:09.543975 PDT | [SingleGoal_addedGaussNoise] itr #85 | Computing loss after
+2017-08-04 04:39:09.606462 PDT | [SingleGoal_addedGaussNoise] itr #85 | Computing KL after
+2017-08-04 04:39:09.664103 PDT | [SingleGoal_addedGaussNoise] itr #85 | Saving snapshot...
+2017-08-04 04:39:09.668838 PDT | [SingleGoal_addedGaussNoise] itr #85 | Saved
+2017-08-04 04:39:09.669039 PDT | [SingleGoal_addedGaussNoise] itr #85 | Saving visualization of paths
+2017-08-04 04:39:10.397713 PDT | ----------------------  ---------------
+2017-08-04 04:39:10.397867 PDT | 0PolicyExecTime             8.29157
+2017-08-04 04:39:10.397972 PDT | 0EnvExecTime               32.873
+2017-08-04 04:39:10.398071 PDT | 0ProcessExecTime            1.01953
+2017-08-04 04:39:10.398168 PDT | 0AverageReturn           2766.25
+2017-08-04 04:39:10.398264 PDT | 0ExplainedVariance          0.0341042
+2017-08-04 04:39:10.398361 PDT | 0NumTrajs                 400
+2017-08-04 04:39:10.398457 PDT | 0Entropy                    2.73904
+2017-08-04 04:39:10.398552 PDT | 0Perplexity                15.4721
+2017-08-04 04:39:10.398647 PDT | 0StdReturn               5078.81
+2017-08-04 04:39:10.398742 PDT | 0MaxReturn              21600
+2017-08-04 04:39:10.398837 PDT | 0MinReturn                  0
+2017-08-04 04:39:10.398932 PDT | 0AveragePolicyStd           0.951872
+2017-08-04 04:39:10.399028 PDT | ComputeUpdatedDistTime      1.2569
+2017-08-04 04:39:10.399122 PDT | 1PolicyExecTime            34.184
+2017-08-04 04:39:10.399217 PDT | 1EnvExecTime               34.8811
+2017-08-04 04:39:10.399312 PDT | 1ProcessExecTime            1.07963
+2017-08-04 04:39:10.399407 PDT | 1AverageReturn           4659
+2017-08-04 04:39:10.399501 PDT | 1ExplainedVariance          0.121453
+2017-08-04 04:39:10.399596 PDT | 1NumTrajs                 400
+2017-08-04 04:39:10.399690 PDT | 1Entropy                    2.74207
+2017-08-04 04:39:10.399785 PDT | 1Perplexity                15.5191
+2017-08-04 04:39:10.399879 PDT | 1StdReturn               6439.24
+2017-08-04 04:39:10.399974 PDT | 1MaxReturn              22400
+2017-08-04 04:39:10.400078 PDT | 1MinReturn                  0
+2017-08-04 04:39:10.400174 PDT | 1AveragePolicyStd           0.953376
+2017-08-04 04:39:10.400269 PDT | MeanKLBefore                2.6077e-09
+2017-08-04 04:39:10.400364 PDT | MeanKL                      0.00690281
+2017-08-04 04:39:10.400459 PDT | LossBefore                  3.60887e-10
+2017-08-04 04:39:10.400553 PDT | LossAfter                  -0.00407705
+2017-08-04 04:39:10.400647 PDT | dLoss                       0.00407705
+2017-08-04 04:39:10.400742 PDT | Time                     9511.26
+2017-08-04 04:39:10.400836 PDT | ItrTime                   118.369
+2017-08-04 04:39:10.400930 PDT | ----------------------  ---------------
+2017-08-04 04:39:10.401107 PDT | [SingleGoal_addedGaussNoise] itr #86 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:39:10.404589 PDT | [SingleGoal_addedGaussNoise] itr #86 | ** Step 0 **
+2017-08-04 04:39:10.405005 PDT | [SingleGoal_addedGaussNoise] itr #86 | Obtaining samples...
+2017-08-04 04:39:10.405119 PDT | [SingleGoal_addedGaussNoise] itr #86 | Obtaining samples for iteration 86...
+2017-08-04 04:39:54.793791 PDT | [SingleGoal_addedGaussNoise] itr #86 | Processing samples...
+2017-08-04 04:39:54.946352 PDT | [SingleGoal_addedGaussNoise] itr #86 | fitting baseline...
+2017-08-04 04:39:54.994944 PDT | [SingleGoal_addedGaussNoise] itr #86 | fitted
+2017-08-04 04:39:55.074077 PDT | [SingleGoal_addedGaussNoise] itr #86 | Logging diagnostics...
+2017-08-04 04:39:55.077218 PDT | [SingleGoal_addedGaussNoise] itr #86 | Computing policy updates...
+2017-08-04 04:39:55.402785 PDT | [SingleGoal_addedGaussNoise] itr #86 | ** Step 1 **
+2017-08-04 04:39:55.402978 PDT | [SingleGoal_addedGaussNoise] itr #86 | Obtaining samples...
+2017-08-04 04:39:55.403104 PDT | [SingleGoal_addedGaussNoise] itr #86 | Obtaining samples for iteration 86...
+2017-08-04 04:41:04.657501 PDT | [SingleGoal_addedGaussNoise] itr #86 | Processing samples...
+2017-08-04 04:41:04.819832 PDT | [SingleGoal_addedGaussNoise] itr #86 | fitting baseline...
+2017-08-04 04:41:04.867463 PDT | [SingleGoal_addedGaussNoise] itr #86 | fitted
+2017-08-04 04:41:04.947842 PDT | [SingleGoal_addedGaussNoise] itr #86 | Logging diagnostics...
+2017-08-04 04:41:04.950948 PDT | [SingleGoal_addedGaussNoise] itr #86 | Optimizing policy...
+2017-08-04 04:41:04.951239 PDT | [SingleGoal_addedGaussNoise] itr #86 | Computing KL before
+2017-08-04 04:41:05.012361 PDT | [SingleGoal_addedGaussNoise] itr #86 | Computing loss before
+2017-08-04 04:41:05.075696 PDT | [SingleGoal_addedGaussNoise] itr #86 | Optimizing
+2017-08-04 04:41:05.076725 PDT | [SingleGoal_addedGaussNoise] itr #86 | Start CG optimization: #parameters: 1412, #inputs: 6000, #subsample_inputs: 6000
+2017-08-04 04:41:05.076928 PDT | [SingleGoal_addedGaussNoise] itr #86 | computing loss before
+2017-08-04 04:41:05.140242 PDT | [SingleGoal_addedGaussNoise] itr #86 | performing update
+2017-08-04 04:41:05.140477 PDT | [SingleGoal_addedGaussNoise] itr #86 | computing gradient
+2017-08-04 04:41:05.303318 PDT | [SingleGoal_addedGaussNoise] itr #86 | gradient computed
+2017-08-04 04:41:05.303541 PDT | [SingleGoal_addedGaussNoise] itr #86 | computing descent direction
+2017-08-04 04:41:08.639793 PDT | [SingleGoal_addedGaussNoise] itr #86 | descent direction computed
+2017-08-04 04:41:08.758974 PDT | [SingleGoal_addedGaussNoise] itr #86 | backtrack iters: 1
+2017-08-04 04:41:08.759227 PDT | [SingleGoal_addedGaussNoise] itr #86 | computing loss after
+2017-08-04 04:41:08.759395 PDT | [SingleGoal_addedGaussNoise] itr #86 | optimization finished
+2017-08-04 04:41:08.759532 PDT | [SingleGoal_addedGaussNoise] itr #86 | Computing loss after
+2017-08-04 04:41:08.815318 PDT | [SingleGoal_addedGaussNoise] itr #86 | Computing KL after
+2017-08-04 04:41:08.869662 PDT | [SingleGoal_addedGaussNoise] itr #86 | Saving snapshot...
+2017-08-04 04:41:08.872502 PDT | [SingleGoal_addedGaussNoise] itr #86 | Saved
+2017-08-04 04:41:08.872698 PDT | [SingleGoal_addedGaussNoise] itr #86 | Saving visualization of paths
+2017-08-04 04:41:09.613286 PDT | ----------------------  ---------------
+2017-08-04 04:41:09.613447 PDT | 0PolicyExecTime             8.57358
+2017-08-04 04:41:09.613552 PDT | 0EnvExecTime               34.6339
+2017-08-04 04:41:09.613650 PDT | 0ProcessExecTime            1.02472
+2017-08-04 04:41:09.613746 PDT | 0AverageReturn           2541.25
+2017-08-04 04:41:09.613841 PDT | 0ExplainedVariance          0.0290404
+2017-08-04 04:41:09.613936 PDT | 0NumTrajs                 400
+2017-08-04 04:41:09.614031 PDT | 0Entropy                    2.73374
+2017-08-04 04:41:09.614126 PDT | 0Perplexity                15.3903
+2017-08-04 04:41:09.614220 PDT | 0StdReturn               4453.71
+2017-08-04 04:41:09.614314 PDT | 0MaxReturn              21000
+2017-08-04 04:41:09.614408 PDT | 0MinReturn                  0
+2017-08-04 04:41:09.614502 PDT | 0AveragePolicyStd           0.949513
+2017-08-04 04:41:09.614597 PDT | ComputeUpdatedDistTime      0.325402
+2017-08-04 04:41:09.614691 PDT | 1PolicyExecTime            33.8813
+2017-08-04 04:41:09.614785 PDT | 1EnvExecTime               34.1546
+2017-08-04 04:41:09.614878 PDT | 1ProcessExecTime            1.06333
+2017-08-04 04:41:09.614990 PDT | 1AverageReturn           6119.25
+2017-08-04 04:41:09.615086 PDT | 1ExplainedVariance          0.146652
+2017-08-04 04:41:09.615181 PDT | 1NumTrajs                 400
+2017-08-04 04:41:09.615276 PDT | 1Entropy                    2.73519
+2017-08-04 04:41:09.615371 PDT | 1Perplexity                15.4127
+2017-08-04 04:41:09.615466 PDT | 1StdReturn               6933.65
+2017-08-04 04:41:09.615560 PDT | 1MaxReturn              22500
+2017-08-04 04:41:09.615655 PDT | 1MinReturn                  0
+2017-08-04 04:41:09.615749 PDT | 1AveragePolicyStd           0.950198
+2017-08-04 04:41:09.615843 PDT | MeanKLBefore                4.00469e-09
+2017-08-04 04:41:09.615943 PDT | MeanKL                      0.00681922
+2017-08-04 04:41:09.616048 PDT | LossBefore                 -1.19326e-09
+2017-08-04 04:41:09.616143 PDT | LossAfter                  -0.00346287
+2017-08-04 04:41:09.616238 PDT | dLoss                       0.00346287
+2017-08-04 04:41:09.616333 PDT | Time                     9630.46
+2017-08-04 04:41:09.616426 PDT | ItrTime                   118.472
+2017-08-04 04:41:09.616521 PDT | ----------------------  ---------------
+2017-08-04 04:41:09.616699 PDT | [SingleGoal_addedGaussNoise] itr #87 | Sampling set of tasks/goals for this meta-batch...
+2017-08-04 04:41:09.620317 PDT | [SingleGoal_addedGaussNoise] itr #87 | ** Step 0 **
+2017-08-04 04:41:09.620745 PDT | [SingleGoal_addedGaussNoise] itr #87 | Obtaining samples...
+2017-08-04 04:41:09.621156 PDT | [SingleGoal_addedGaussNoise] itr #87 | Obtaining samples for iteration 87...
