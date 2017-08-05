@@ -1,0 +1,69 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAsAAABwcm94eV9jbGFzc3EKY3NhbmRib3gucm9ja3kudGYuYWxnb3MudnBnClZQRwpxC1gGAAAAa3dhcmdzcQx9cQ0oWA4AAABvcHRpbWl6ZXJfYXJnc3EOfXEPKFgSAAAAaW5pdF9sZWFybmluZ19yYXRlcRBHP+AAAAAAAABYEQAAAHRmX29wdGltaXplcl9hcmdzcRF9cRJYDQAAAGxlYXJuaW5nX3JhdGVxE0c/0AAAAAAAAHNYEAAAAHRmX29wdGltaXplcl9jbHNxFGN0ZW5zb3JmbG93LnB5dGhvbi50cmFpbmluZy5ncmFkaWVudF9kZXNjZW50CkdyYWRpZW50RGVzY2VudE9wdGltaXplcgpxFXVYBQAAAG5faXRycRZLB1gGAAAAcG9saWN5cRdOWAoAAABiYXRjaF9zaXplcRhN6ANYCAAAAGJhc2VsaW5lcRloBimBcRp9cRsoaAkpaApjcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxHGgMfXEdWAgAAABlbnZfc3BlY3EeY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxHymBcSB9cSEoWAoAAABfYXR0cl9uYW1lcSJYBAAAAHNwZWNxI1gEAAAAX29ianEkaAYpgXElfXEmKGgJKWgKY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnEnaAx9cShYCwAAAHdyYXBwZWRfZW52cSloBimBcSp9cSsoaAkpaApjcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnEsaAx9cS1YAwAAAGVudnEuaAYpgXEvfXEwKGgJKWgKY3JsbGFiLmVudnMubXVqb2NvLl80d2F5Ck1hemVFbnYKcTFoDH1xMlgEAAAAZ29hbHEzXXE0KGNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnE1Y251bXB5CmR0eXBlCnE2WAIAAABmOHE3SwBLAYdxOFJxOShLA1gBAAAAPHE6Tk5OSv////9K/////0sAdHE7YkMIzczMzMzM7L9xPIZxPVJxPmg1aDlDCM3MzMzMzOy/cT+GcUBScUFlc3Vic3Vic3VidWJzdWJoLmglWA8AAABtYXhfcGF0aF9sZW5ndGhxQksyWAsAAABsb2FkX3BvbGljeXFDWCcAAABkYXRhL2xvY2FsLzR3YXkvbmVnT25lc05vaXNlL2l0cl85OS5wa2xxRHV1YlgFAAAAdHJhaW5xRSl9cUZ0cUd1Yi4=",
+  "exp_name": "negOnesNoise_point_3",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.vpg.VPG",
+      "batch_size": 1000,
+      "load_policy": "data/local/4way/negOnesNoise/itr_99.pkl",
+      "max_path_length": 50,
+      "n_itr": 7,
+      "optimizer_args": {
+        "init_learning_rate": 0.5,
+        "tf_optimizer_args": {
+          "learning_rate": 0.25
+        },
+        "tf_optimizer_cls": {
+          "$class": "tensorflow.python.training.gradient_descent.GradientDescentOptimizer"
+        }
+      }
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco._4way.MazeEnv",
+              "goal": [
+                -0.9,
+                -0.9
+              ]
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.mujoco._4way.MazeEnv",
+          "goal": [
+            -0.9,
+            -0.9
+          ]
+        }
+      }
+    },
+    "policy": null
+  },
+  "log_dir": "/home/russellm/rllab/data/local/4wayTest/negOnesNoise_point_3",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 4,
+  "snapshot_gap": 1,
+  "snapshot_mode": "all",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}
