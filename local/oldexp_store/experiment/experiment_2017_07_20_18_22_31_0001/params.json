@@ -1,0 +1,72 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAYAAABrd2FyZ3NxB31xCChYDwAAAG1heF9wYXRoX2xlbmd0aHEJS2RYAwAAAGVudnEKaAQpgXELfXEMKGgHfXENWAsAAAB3cmFwcGVkX2VudnEOaAQpgXEPfXEQKGgHfXERaApoBCmBcRJ9cRMoaAd9cRRYCwAAAHByb3h5X2NsYXNzcRVjcmxsYWIuZW52cy5ib3gyZC5jYXJ0cG9sZV9lbnYKQ2FydHBvbGVFbnYKcRZYBAAAAGFyZ3NxFyl1YnNoFWNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcRhoFyl1YnNoFWNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxGWgXKXViWAoAAABiYXRjaF9zaXplcRpNoA9YCAAAAGJhc2VsaW5lcRtoBCmBcRx9cR0oaAd9cR5YCAAAAGVudl9zcGVjcR9jcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEgKYFxIX1xIihYCgAAAF9hdHRyX25hbWVxI1gEAAAAc3BlY3EkWAQAAABfb2JqcSVoC3Vic2gVY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcSZoFyl1YlgGAAAAcG9saWN5cSdoBCmBcSh9cSkoaAd9cSooWAwAAABoaWRkZW5fc2l6ZXNxK0sgSyCGcSxYBAAAAG5hbWVxLWgnaB9oICmBcS59cS8oaCNoJGglaAt1YnVoFWNzYW5kYm94LnJvY2t5LnRmLnBvbGljaWVzLmdhdXNzaWFuX21scF9wb2xpY3kKR2F1c3NpYW5NTFBQb2xpY3kKcTBoFyl1YlgFAAAAbl9pdHJxMUsoWAgAAABkaXNjb3VudHEyRz/vrhR64UeuWAkAAABzdGVwX3NpemVxM0c/hHrhR64Ue3VoFWNzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnRycG8KVFJQTwpxNGgXKXViWAUAAAB0cmFpbnE1KX1xNnRxN1gIAAAAX19rd2FyZ3NxOH1xOXViLg==",
+  "exp_name": "experiment_2017_07_20_18_22_31_0001",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.trpo.TRPO",
+      "batch_size": 4000,
+      "discount": 0.99,
+      "max_path_length": 100,
+      "n_itr": 40,
+      "step_size": 0.01
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.box2d.cartpole_env.CartpoleEnv"
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.box2d.cartpole_env.CartpoleEnv"
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.gaussian_mlp_policy.GaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.box2d.cartpole_env.CartpoleEnv"
+            }
+          }
+        }
+      },
+      "hidden_sizes": [
+        32,
+        32
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/russellm/rllab/data/local/experiment/experiment_2017_07_20_18_22_31_0001",
+  "log_tabular_only": false,
+  "n_parallel": 4,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "all",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}
