@@ -1,573 +1,1894 @@
-2017-08-07 18:13:18.937699 PDT | [point_3] Populating workers...
-2017-08-07 18:13:18.937942 PDT | [point_3] Populated
-2017-08-07 18:13:18.938084 PDT | [point_3] itr #0 | Obtaining samples...
-2017-08-07 18:13:20.086778 PDT | [point_3] itr #0 | Processing samples...
-2017-08-07 18:13:20.087178 PDT | [point_3] itr #0 | fitting baseline...
-2017-08-07 18:13:20.090399 PDT | [point_3] itr #0 | fitted
-2017-08-07 18:13:20.092317 PDT | [point_3] itr #0 | Logging diagnostics...
-2017-08-07 18:13:20.092591 PDT | [point_3] itr #0 | Optimizing policy...
-2017-08-07 18:13:20.092738 PDT | [point_3] itr #0 | optimizing policy
-2017-08-07 18:13:20.121296 PDT | [point_3] itr #0 | Saving snapshot...
-2017-08-07 18:13:20.126017 PDT | [point_3] itr #0 | Saved
-2017-08-07 18:13:20.127056 PDT | -----------------  ------------
-2017-08-07 18:13:20.127261 PDT | TotalExecTime        1.14791
-2017-08-07 18:13:20.127460 PDT | AverageReturn       40
-2017-08-07 18:13:20.127639 PDT | ExplainedVariance    0.48849
-2017-08-07 18:13:20.127831 PDT | NumTrajs            20
-2017-08-07 18:13:20.128003 PDT | Entropy              2.7552
-2017-08-07 18:13:20.128175 PDT | Perplexity          15.7242
-2017-08-07 18:13:20.128347 PDT | StdReturn           96.9536
-2017-08-07 18:13:20.128518 PDT | MaxReturn          300
-2017-08-07 18:13:20.128689 PDT | MinReturn            0
-2017-08-07 18:13:20.128860 PDT | AveragePolicyStd     0.959782
-2017-08-07 18:13:20.129031 PDT | LossBefore          -0.00755896
-2017-08-07 18:13:20.129203 PDT | LossAfter           -0.10995
-2017-08-07 18:13:20.129373 PDT | MeanKL               0.588992
-2017-08-07 18:13:20.129545 PDT | MaxKL                1.38442
-2017-08-07 18:13:20.129716 PDT | Time                 1.18816
-2017-08-07 18:13:20.129887 PDT | ItrTime              1.18816
-2017-08-07 18:13:20.130059 PDT | -----------------  ------------
-2017-08-07 18:13:20.130370 PDT | [point_3] itr #1 | Obtaining samples...
-2017-08-07 18:13:21.070254 PDT | [point_3] itr #1 | Processing samples...
-2017-08-07 18:13:21.070639 PDT | [point_3] itr #1 | fitting baseline...
-2017-08-07 18:13:21.071629 PDT | [point_3] itr #1 | fitted
-2017-08-07 18:13:21.073389 PDT | [point_3] itr #1 | Logging diagnostics...
-2017-08-07 18:13:21.073653 PDT | [point_3] itr #1 | Optimizing policy...
-2017-08-07 18:13:21.073795 PDT | [point_3] itr #1 | optimizing policy
-2017-08-07 18:13:21.102285 PDT | [point_3] itr #1 | Saving snapshot...
-2017-08-07 18:13:21.111769 PDT | [point_3] itr #1 | Saved
-2017-08-07 18:13:21.112800 PDT | -----------------  ------------
-2017-08-07 18:13:21.113001 PDT | TotalExecTime         0.939016
-2017-08-07 18:13:21.115443 PDT | AverageReturn      1095
-2017-08-07 18:13:21.115627 PDT | ExplainedVariance     0.648038
-2017-08-07 18:13:21.115804 PDT | NumTrajs             20
-2017-08-07 18:13:21.115977 PDT | Entropy               2.74764
-2017-08-07 18:13:21.116148 PDT | Perplexity           15.6058
-2017-08-07 18:13:21.116360 PDT | StdReturn           876.627
-2017-08-07 18:13:21.116549 PDT | MaxReturn          2400
-2017-08-07 18:13:21.116778 PDT | MinReturn             0
-2017-08-07 18:13:21.119153 PDT | AveragePolicyStd      0.955933
-2017-08-07 18:13:21.119376 PDT | LossBefore           -0.0530506
-2017-08-07 18:13:21.119567 PDT | LossAfter            -0.121062
-2017-08-07 18:13:21.119742 PDT | MeanKL                0.137728
-2017-08-07 18:13:21.119916 PDT | MaxKL                 0.37623
-2017-08-07 18:13:21.120091 PDT | Time                  2.17392
-2017-08-07 18:13:21.122674 PDT | ItrTime               0.981643
-2017-08-07 18:13:21.122981 PDT | -----------------  ------------
-2017-08-07 18:13:21.123355 PDT | [point_3] itr #2 | Obtaining samples...
-2017-08-07 18:13:22.076490 PDT | [point_3] itr #2 | Processing samples...
-2017-08-07 18:13:22.077085 PDT | [point_3] itr #2 | fitting baseline...
-2017-08-07 18:13:22.088318 PDT | [point_3] itr #2 | fitted
-2017-08-07 18:13:22.091453 PDT | [point_3] itr #2 | Logging diagnostics...
-2017-08-07 18:13:22.094494 PDT | [point_3] itr #2 | Optimizing policy...
-2017-08-07 18:13:22.095115 PDT | [point_3] itr #2 | optimizing policy
-2017-08-07 18:13:22.108205 PDT | [point_3] itr #2 | Saving snapshot...
-2017-08-07 18:13:22.112261 PDT | [point_3] itr #2 | Saved
-2017-08-07 18:13:22.112871 PDT | -----------------  -----------
-2017-08-07 18:13:22.113001 PDT | TotalExecTime         0.947587
-2017-08-07 18:13:22.113110 PDT | AverageReturn      2165
-2017-08-07 18:13:22.113215 PDT | ExplainedVariance     0.94401
-2017-08-07 18:13:22.113318 PDT | NumTrajs             20
-2017-08-07 18:13:22.113421 PDT | Entropy               2.72112
-2017-08-07 18:13:22.113523 PDT | Perplexity           15.1973
-2017-08-07 18:13:22.113624 PDT | StdReturn           279.777
-2017-08-07 18:13:22.113757 PDT | MaxReturn          2600
-2017-08-07 18:13:22.113923 PDT | MinReturn          1700
-2017-08-07 18:13:22.114088 PDT | AveragePolicyStd      0.94335
-2017-08-07 18:13:22.114253 PDT | LossBefore           -0.103567
-2017-08-07 18:13:22.114418 PDT | LossAfter            -0.17341
-2017-08-07 18:13:22.114583 PDT | MeanKL                0.257668
-2017-08-07 18:13:22.114744 PDT | MaxKL                 0.857301
-2017-08-07 18:13:22.114910 PDT | Time                  3.17433
-2017-08-07 18:13:22.115072 PDT | ItrTime               0.989065
-2017-08-07 18:13:22.115234 PDT | -----------------  -----------
-2017-08-07 18:13:22.115489 PDT | [point_3] itr #3 | Obtaining samples...
-2017-08-07 18:13:24.430054 PDT | [point_3] itr #3 | Processing samples...
-2017-08-07 18:13:24.430410 PDT | [point_3] itr #3 | fitting baseline...
-2017-08-07 18:13:24.459495 PDT | [point_3] itr #3 | fitted
-2017-08-07 18:13:24.463085 PDT | [point_3] itr #3 | Logging diagnostics...
-2017-08-07 18:13:24.466477 PDT | [point_3] itr #3 | Optimizing policy...
-2017-08-07 18:13:24.467193 PDT | [point_3] itr #3 | optimizing policy
-2017-08-07 18:13:24.475866 PDT | [point_3] itr #3 | Saving snapshot...
-2017-08-07 18:13:24.480628 PDT | [point_3] itr #3 | Saved
-2017-08-07 18:13:24.483792 PDT | -----------------  ------------
-2017-08-07 18:13:24.485256 PDT | TotalExecTime         2.308
-2017-08-07 18:13:24.487498 PDT | AverageReturn      2095
-2017-08-07 18:13:24.488041 PDT | ExplainedVariance     0.942292
-2017-08-07 18:13:24.489392 PDT | NumTrajs             20
-2017-08-07 18:13:24.489984 PDT | Entropy               2.66933
-2017-08-07 18:13:24.490567 PDT | Perplexity           14.4304
-2017-08-07 18:13:24.491150 PDT | StdReturn           409.237
-2017-08-07 18:13:24.492054 PDT | MaxReturn          2600
-2017-08-07 18:13:24.492635 PDT | MinReturn          1000
-2017-08-07 18:13:24.493247 PDT | AveragePolicyStd      0.9192
-2017-08-07 18:13:24.494024 PDT | LossBefore           -0.0565212
-2017-08-07 18:13:24.494596 PDT | LossAfter            -0.191417
-2017-08-07 18:13:24.495413 PDT | MeanKL                0.484237
-2017-08-07 18:13:24.496026 PDT | MaxKL                 1.39455
-2017-08-07 18:13:24.496603 PDT | Time                  5.54482
-2017-08-07 18:13:24.497198 PDT | ItrTime               2.36742
-2017-08-07 18:13:24.497794 PDT | -----------------  ------------
-2017-08-07 18:13:24.499044 PDT | [point_3] itr #4 | Obtaining samples...
-2017-08-07 18:13:25.241424 PDT | [point_3] itr #4 | Processing samples...
-2017-08-07 18:13:25.241804 PDT | [point_3] itr #4 | fitting baseline...
-2017-08-07 18:13:25.263765 PDT | [point_3] itr #4 | fitted
-2017-08-07 18:13:25.272579 PDT | [point_3] itr #4 | Logging diagnostics...
-2017-08-07 18:13:25.273439 PDT | [point_3] itr #4 | Optimizing policy...
-2017-08-07 18:13:25.273624 PDT | [point_3] itr #4 | optimizing policy
-2017-08-07 18:13:25.284440 PDT | [point_3] itr #4 | Saving snapshot...
-2017-08-07 18:13:25.288928 PDT | [point_3] itr #4 | Saved
-2017-08-07 18:13:25.289997 PDT | -----------------  ------------
-2017-08-07 18:13:25.290263 PDT | TotalExecTime         0.740545
-2017-08-07 18:13:25.290655 PDT | AverageReturn      2515
-2017-08-07 18:13:25.291117 PDT | ExplainedVariance     0.990517
-2017-08-07 18:13:25.291542 PDT | NumTrajs             20
-2017-08-07 18:13:25.292092 PDT | Entropy               2.64107
-2017-08-07 18:13:25.292520 PDT | Perplexity           14.0283
-2017-08-07 18:13:25.292957 PDT | StdReturn           142.39
-2017-08-07 18:13:25.293383 PDT | MaxReturn          2800
-2017-08-07 18:13:25.293814 PDT | MinReturn          2200
-2017-08-07 18:13:25.294246 PDT | AveragePolicyStd      0.906311
-2017-08-07 18:13:25.294667 PDT | LossBefore           -0.0466445
-2017-08-07 18:13:25.295112 PDT | LossAfter            -0.0893315
-2017-08-07 18:13:25.295534 PDT | MeanKL                0.263197
-2017-08-07 18:13:25.295968 PDT | MaxKL                 0.908047
-2017-08-07 18:13:25.296391 PDT | Time                  6.35113
-2017-08-07 18:13:25.296813 PDT | ItrTime               0.790181
-2017-08-07 18:13:25.297236 PDT | -----------------  ------------
-2017-08-07 18:13:25.297756 PDT | [point_3] itr #5 | Obtaining samples...
-2017-08-07 18:13:26.145542 PDT | [point_3] itr #5 | Processing samples...
-2017-08-07 18:13:26.145885 PDT | [point_3] itr #5 | fitting baseline...
-2017-08-07 18:13:26.160123 PDT | [point_3] itr #5 | fitted
-2017-08-07 18:13:26.166492 PDT | [point_3] itr #5 | Logging diagnostics...
-2017-08-07 18:13:26.169578 PDT | [point_3] itr #5 | Optimizing policy...
-2017-08-07 18:13:26.171192 PDT | [point_3] itr #5 | optimizing policy
-2017-08-07 18:13:26.178382 PDT | [point_3] itr #5 | Saving snapshot...
-2017-08-07 18:13:26.182757 PDT | [point_3] itr #5 | Saved
-2017-08-07 18:13:26.185579 PDT | -----------------  ------------
-2017-08-07 18:13:26.186844 PDT | TotalExecTime         0.846391
-2017-08-07 18:13:26.187302 PDT | AverageReturn      2535
-2017-08-07 18:13:26.187811 PDT | ExplainedVariance     0.991407
-2017-08-07 18:13:26.188304 PDT | NumTrajs             20
-2017-08-07 18:13:26.188793 PDT | Entropy               2.61775
-2017-08-07 18:13:26.189269 PDT | Perplexity           13.7049
-2017-08-07 18:13:26.189732 PDT | StdReturn           142.39
-2017-08-07 18:13:26.190178 PDT | MaxReturn          2700
-2017-08-07 18:13:26.190653 PDT | MinReturn          2300
-2017-08-07 18:13:26.191135 PDT | AveragePolicyStd      0.89605
-2017-08-07 18:13:26.191641 PDT | LossBefore           -0.0312461
-2017-08-07 18:13:26.192154 PDT | LossAfter            -0.0645566
-2017-08-07 18:13:26.192675 PDT | MeanKL                0.166148
-2017-08-07 18:13:26.193202 PDT | MaxKL                 0.506278
-2017-08-07 18:13:26.193720 PDT | Time                  7.24674
-2017-08-07 18:13:26.194235 PDT | ItrTime               0.887075
-2017-08-07 18:13:26.194751 PDT | -----------------  ------------
-2017-08-07 18:13:26.195358 PDT | [point_3] itr #6 | Obtaining samples...
-2017-08-07 18:13:26.903628 PDT | [point_3] itr #6 | Processing samples...
-2017-08-07 18:13:26.903992 PDT | [point_3] itr #6 | fitting baseline...
-2017-08-07 18:13:26.904974 PDT | [point_3] itr #6 | fitted
-2017-08-07 18:13:26.907509 PDT | [point_3] itr #6 | Logging diagnostics...
-2017-08-07 18:13:26.907859 PDT | [point_3] itr #6 | Optimizing policy...
-2017-08-07 18:13:26.908047 PDT | [point_3] itr #6 | optimizing policy
-2017-08-07 18:13:26.924453 PDT | [point_3] itr #6 | Saving snapshot...
-2017-08-07 18:13:26.929377 PDT | [point_3] itr #6 | Saved
-2017-08-07 18:13:26.930368 PDT | -----------------  ------------
-2017-08-07 18:13:26.930569 PDT | TotalExecTime         0.706789
-2017-08-07 18:13:26.930818 PDT | AverageReturn      2625
-2017-08-07 18:13:26.931062 PDT | ExplainedVariance     0.992878
-2017-08-07 18:13:26.931303 PDT | NumTrajs             20
-2017-08-07 18:13:26.931562 PDT | Entropy               2.60213
-2017-08-07 18:13:26.931802 PDT | Perplexity           13.4924
-2017-08-07 18:13:26.932041 PDT | StdReturn           121.963
-2017-08-07 18:13:26.932280 PDT | MaxReturn          2800
-2017-08-07 18:13:26.932518 PDT | MinReturn          2300
-2017-08-07 18:13:26.932756 PDT | AveragePolicyStd      0.889189
-2017-08-07 18:13:26.932993 PDT | LossBefore           -0.03087
-2017-08-07 18:13:26.933230 PDT | LossAfter            -0.0424448
-2017-08-07 18:13:26.933468 PDT | MeanKL                0.0657022
-2017-08-07 18:13:26.933705 PDT | MaxKL                 0.273805
-2017-08-07 18:13:26.933942 PDT | Time                  7.99151
-2017-08-07 18:13:26.934179 PDT | ItrTime               0.734246
-2017-08-07 18:13:26.934416 PDT | -----------------  ------------
-2017-08-07 18:16:46.358678 PDT | [point_3] Populating workers...
-2017-08-07 18:16:46.358892 PDT | [point_3] Populated
-2017-08-07 18:16:46.359046 PDT | [point_3] itr #0 | Obtaining samples...
-2017-08-07 18:16:47.570548 PDT | [point_3] itr #0 | Processing samples...
-2017-08-07 18:16:47.571273 PDT | [point_3] itr #0 | fitting baseline...
-2017-08-07 18:16:47.576426 PDT | [point_3] itr #0 | fitted
-2017-08-07 18:16:47.581755 PDT | [point_3] itr #0 | Logging diagnostics...
-2017-08-07 18:16:47.582400 PDT | [point_3] itr #0 | Optimizing policy...
-2017-08-07 18:16:47.582752 PDT | [point_3] itr #0 | optimizing policy
-2017-08-07 18:16:47.633963 PDT | [point_3] itr #0 | Saving snapshot...
-2017-08-07 18:16:47.641536 PDT | [point_3] itr #0 | Saved
-2017-08-07 18:16:47.642856 PDT | -----------------  ------------
-2017-08-07 18:16:47.643208 PDT | TotalExecTime        1.21061
-2017-08-07 18:16:47.643398 PDT | AverageReturn       40
-2017-08-07 18:16:47.643585 PDT | ExplainedVariance    0.48849
-2017-08-07 18:16:47.643759 PDT | NumTrajs            20
-2017-08-07 18:16:47.643930 PDT | Entropy              2.7552
-2017-08-07 18:16:47.644102 PDT | Perplexity          15.7242
-2017-08-07 18:16:47.644280 PDT | StdReturn           96.9536
-2017-08-07 18:16:47.644548 PDT | MaxReturn          300
-2017-08-07 18:16:47.644822 PDT | MinReturn            0
-2017-08-07 18:16:47.645099 PDT | AveragePolicyStd     0.959782
-2017-08-07 18:16:47.645400 PDT | LossBefore          -0.00755897
-2017-08-07 18:16:47.645570 PDT | LossAfter           -0.10995
-2017-08-07 18:16:47.645741 PDT | MeanKL               0.588992
-2017-08-07 18:16:47.645910 PDT | MaxKL                1.38442
-2017-08-07 18:16:47.646117 PDT | Time                 1.28273
-2017-08-07 18:16:47.646369 PDT | ItrTime              1.28273
-2017-08-07 18:16:47.646623 PDT | -----------------  ------------
-2017-08-07 18:16:47.648009 PDT | [point_3] itr #1 | Obtaining samples...
-2017-08-07 18:16:48.621014 PDT | [point_3] itr #1 | Processing samples...
-2017-08-07 18:16:48.621430 PDT | [point_3] itr #1 | fitting baseline...
-2017-08-07 18:16:48.623958 PDT | [point_3] itr #1 | fitted
-2017-08-07 18:16:48.628304 PDT | [point_3] itr #1 | Logging diagnostics...
-2017-08-07 18:16:48.628855 PDT | [point_3] itr #1 | Optimizing policy...
-2017-08-07 18:16:48.629189 PDT | [point_3] itr #1 | optimizing policy
-2017-08-07 18:16:48.702654 PDT | [point_3] itr #1 | Saving snapshot...
-2017-08-07 18:16:48.706000 PDT | [point_3] itr #1 | Saved
-2017-08-07 18:16:48.706701 PDT | -----------------  ------------
-2017-08-07 18:16:48.706842 PDT | TotalExecTime         0.971838
-2017-08-07 18:16:48.706959 PDT | AverageReturn      1095
-2017-08-07 18:16:48.707070 PDT | ExplainedVariance     0.648038
-2017-08-07 18:16:48.707180 PDT | NumTrajs             20
-2017-08-07 18:16:48.707288 PDT | Entropy               2.74764
-2017-08-07 18:16:48.707417 PDT | Perplexity           15.6058
-2017-08-07 18:16:48.707538 PDT | StdReturn           876.627
-2017-08-07 18:16:48.707652 PDT | MaxReturn          2400
-2017-08-07 18:16:48.707760 PDT | MinReturn             0
-2017-08-07 18:16:48.707867 PDT | AveragePolicyStd      0.955933
-2017-08-07 18:16:48.707974 PDT | LossBefore           -0.0530506
-2017-08-07 18:16:48.708082 PDT | LossAfter            -0.121062
-2017-08-07 18:16:48.708189 PDT | MeanKL                0.137728
-2017-08-07 18:16:48.708297 PDT | MaxKL                 0.37623
-2017-08-07 18:16:48.708403 PDT | Time                  2.34717
-2017-08-07 18:16:48.708509 PDT | ItrTime               1.05822
-2017-08-07 18:16:48.708615 PDT | -----------------  ------------
-2017-08-07 18:16:48.708813 PDT | [point_3] itr #2 | Obtaining samples...
-2017-08-07 18:16:49.687869 PDT | [point_3] itr #2 | Processing samples...
-2017-08-07 18:16:49.688502 PDT | [point_3] itr #2 | fitting baseline...
-2017-08-07 18:16:49.690836 PDT | [point_3] itr #2 | fitted
-2017-08-07 18:16:49.694691 PDT | [point_3] itr #2 | Logging diagnostics...
-2017-08-07 18:16:49.695040 PDT | [point_3] itr #2 | Optimizing policy...
-2017-08-07 18:16:49.695184 PDT | [point_3] itr #2 | optimizing policy
-2017-08-07 18:16:49.736098 PDT | [point_3] itr #2 | Saving snapshot...
-2017-08-07 18:16:49.741396 PDT | [point_3] itr #2 | Saved
-2017-08-07 18:16:49.742673 PDT | -----------------  -----------
-2017-08-07 18:16:49.743024 PDT | TotalExecTime         0.97823
-2017-08-07 18:16:49.743354 PDT | AverageReturn      2165
-2017-08-07 18:16:49.743683 PDT | ExplainedVariance     0.94401
-2017-08-07 18:16:49.743884 PDT | NumTrajs             20
-2017-08-07 18:16:49.744017 PDT | Entropy               2.72112
-2017-08-07 18:16:49.744153 PDT | Perplexity           15.1973
-2017-08-07 18:16:49.744312 PDT | StdReturn           279.777
-2017-08-07 18:16:49.744439 PDT | MaxReturn          2600
-2017-08-07 18:16:49.744564 PDT | MinReturn          1700
-2017-08-07 18:16:49.744702 PDT | AveragePolicyStd      0.94335
-2017-08-07 18:16:49.744841 PDT | LossBefore           -0.103567
-2017-08-07 18:16:49.744977 PDT | LossAfter            -0.17341
-2017-08-07 18:16:49.745108 PDT | MeanKL                0.257667
-2017-08-07 18:16:49.745247 PDT | MaxKL                 0.8573
-2017-08-07 18:16:49.745373 PDT | Time                  3.38273
-2017-08-07 18:16:49.745497 PDT | ItrTime               1.03297
-2017-08-07 18:16:49.745726 PDT | -----------------  -----------
-2017-08-07 18:16:49.746087 PDT | [point_3] itr #3 | Obtaining samples...
-2017-08-07 18:16:50.735085 PDT | [point_3] itr #3 | Processing samples...
-2017-08-07 18:16:50.735486 PDT | [point_3] itr #3 | fitting baseline...
-2017-08-07 18:16:50.748395 PDT | [point_3] itr #3 | fitted
-2017-08-07 18:16:50.754905 PDT | [point_3] itr #3 | Logging diagnostics...
-2017-08-07 18:16:50.755739 PDT | [point_3] itr #3 | Optimizing policy...
-2017-08-07 18:16:50.755939 PDT | [point_3] itr #3 | optimizing policy
-2017-08-07 18:16:50.764568 PDT | [point_3] itr #3 | Saving snapshot...
-2017-08-07 18:16:50.769110 PDT | [point_3] itr #3 | Saved
-2017-08-07 18:16:50.769787 PDT | -----------------  ------------
-2017-08-07 18:16:50.769931 PDT | TotalExecTime         0.987285
-2017-08-07 18:16:50.770122 PDT | AverageReturn      2095
-2017-08-07 18:16:50.770251 PDT | ExplainedVariance     0.942292
-2017-08-07 18:16:50.770377 PDT | NumTrajs             20
-2017-08-07 18:16:50.770515 PDT | Entropy               2.66933
-2017-08-07 18:16:50.770669 PDT | Perplexity           14.4304
-2017-08-07 18:16:50.770795 PDT | StdReturn           409.237
-2017-08-07 18:16:50.770919 PDT | MaxReturn          2600
-2017-08-07 18:16:50.771195 PDT | MinReturn          1000
-2017-08-07 18:16:50.771689 PDT | AveragePolicyStd      0.9192
-2017-08-07 18:16:50.771820 PDT | LossBefore           -0.0565214
-2017-08-07 18:16:50.771955 PDT | LossAfter            -0.191417
-2017-08-07 18:16:50.772130 PDT | MeanKL                0.484238
-2017-08-07 18:16:50.772257 PDT | MaxKL                 1.39455
-2017-08-07 18:16:50.772382 PDT | Time                  4.41028
-2017-08-07 18:16:50.772506 PDT | ItrTime               1.02325
-2017-08-07 18:16:50.772638 PDT | -----------------  ------------
-2017-08-07 18:16:50.772834 PDT | [point_3] itr #4 | Obtaining samples...
-2017-08-07 18:16:51.830316 PDT | [point_3] itr #4 | Processing samples...
-2017-08-07 18:16:51.830858 PDT | [point_3] itr #4 | fitting baseline...
-2017-08-07 18:16:51.844185 PDT | [point_3] itr #4 | fitted
-2017-08-07 18:16:51.847134 PDT | [point_3] itr #4 | Logging diagnostics...
-2017-08-07 18:16:51.851098 PDT | [point_3] itr #4 | Optimizing policy...
-2017-08-07 18:16:51.851309 PDT | [point_3] itr #4 | optimizing policy
-2017-08-07 18:16:51.863272 PDT | [point_3] itr #4 | Saving snapshot...
-2017-08-07 18:16:51.872149 PDT | [point_3] itr #4 | Saved
-2017-08-07 18:16:51.873810 PDT | -----------------  ------------
-2017-08-07 18:16:51.874275 PDT | TotalExecTime         1.05644
-2017-08-07 18:16:51.874707 PDT | AverageReturn      2515
-2017-08-07 18:16:51.875066 PDT | ExplainedVariance     0.990517
-2017-08-07 18:16:51.875248 PDT | NumTrajs             20
-2017-08-07 18:16:51.875554 PDT | Entropy               2.64107
-2017-08-07 18:16:51.876368 PDT | Perplexity           14.0283
-2017-08-07 18:16:51.876695 PDT | StdReturn           142.39
-2017-08-07 18:16:51.877021 PDT | MaxReturn          2800
-2017-08-07 18:16:51.877357 PDT | MinReturn          2200
-2017-08-07 18:16:51.877689 PDT | AveragePolicyStd      0.906311
-2017-08-07 18:16:51.878013 PDT | LossBefore           -0.0466444
-2017-08-07 18:16:51.878341 PDT | LossAfter            -0.0893313
-2017-08-07 18:16:51.878662 PDT | MeanKL                0.263197
-2017-08-07 18:16:51.878991 PDT | MaxKL                 0.908045
-2017-08-07 18:16:51.879313 PDT | Time                  5.51358
-2017-08-07 18:16:51.879647 PDT | ItrTime               1.09979
-2017-08-07 18:16:51.879975 PDT | -----------------  ------------
-2017-08-07 18:16:51.880414 PDT | [point_3] itr #5 | Obtaining samples...
-2017-08-07 18:16:52.708588 PDT | [point_3] itr #5 | Processing samples...
-2017-08-07 18:16:52.708960 PDT | [point_3] itr #5 | fitting baseline...
-2017-08-07 18:16:52.710027 PDT | [point_3] itr #5 | fitted
-2017-08-07 18:16:52.712817 PDT | [point_3] itr #5 | Logging diagnostics...
-2017-08-07 18:16:52.713266 PDT | [point_3] itr #5 | Optimizing policy...
-2017-08-07 18:16:52.713537 PDT | [point_3] itr #5 | optimizing policy
-2017-08-07 18:16:52.724552 PDT | [point_3] itr #5 | Saving snapshot...
-2017-08-07 18:16:52.729052 PDT | [point_3] itr #5 | Saved
-2017-08-07 18:16:52.730191 PDT | -----------------  ------------
-2017-08-07 18:16:52.730467 PDT | TotalExecTime         0.826221
-2017-08-07 18:16:52.730718 PDT | AverageReturn      2535
-2017-08-07 18:16:52.730964 PDT | ExplainedVariance     0.991407
-2017-08-07 18:16:52.731209 PDT | NumTrajs             20
-2017-08-07 18:16:52.731500 PDT | Entropy               2.61775
-2017-08-07 18:16:52.731748 PDT | Perplexity           13.7049
-2017-08-07 18:16:52.731992 PDT | StdReturn           142.39
-2017-08-07 18:16:52.732237 PDT | MaxReturn          2700
-2017-08-07 18:16:52.732481 PDT | MinReturn          2300
-2017-08-07 18:16:52.732724 PDT | AveragePolicyStd      0.89605
-2017-08-07 18:16:52.732967 PDT | LossBefore           -0.0312461
-2017-08-07 18:16:52.733209 PDT | LossAfter            -0.0645567
-2017-08-07 18:16:52.733452 PDT | MeanKL                0.166148
-2017-08-07 18:16:52.733694 PDT | MaxKL                 0.506278
-2017-08-07 18:16:52.735314 PDT | Time                  6.3703
-2017-08-07 18:16:52.735600 PDT | ItrTime               0.848947
-2017-08-07 18:16:52.735852 PDT | -----------------  ------------
-2017-08-07 18:16:52.736204 PDT | [point_3] itr #6 | Obtaining samples...
-2017-08-07 18:16:53.771343 PDT | [point_3] itr #6 | Processing samples...
-2017-08-07 18:16:53.771739 PDT | [point_3] itr #6 | fitting baseline...
-2017-08-07 18:16:53.774112 PDT | [point_3] itr #6 | fitted
-2017-08-07 18:16:53.776943 PDT | [point_3] itr #6 | Logging diagnostics...
-2017-08-07 18:16:53.777411 PDT | [point_3] itr #6 | Optimizing policy...
-2017-08-07 18:16:53.777691 PDT | [point_3] itr #6 | optimizing policy
-2017-08-07 18:16:53.791743 PDT | [point_3] itr #6 | Saving snapshot...
-2017-08-07 18:16:53.800060 PDT | [point_3] itr #6 | Saved
-2017-08-07 18:16:53.801145 PDT | -----------------  ------------
-2017-08-07 18:16:53.801420 PDT | TotalExecTime         1.03405
-2017-08-07 18:16:53.801674 PDT | AverageReturn      2625
-2017-08-07 18:16:53.801920 PDT | ExplainedVariance     0.992878
-2017-08-07 18:16:53.802164 PDT | NumTrajs             20
-2017-08-07 18:16:53.802408 PDT | Entropy               2.60213
-2017-08-07 18:16:53.802652 PDT | Perplexity           13.4924
-2017-08-07 18:16:53.802895 PDT | StdReturn           121.963
-2017-08-07 18:16:53.803137 PDT | MaxReturn          2800
-2017-08-07 18:16:53.803380 PDT | MinReturn          2300
-2017-08-07 18:16:53.803636 PDT | AveragePolicyStd      0.889189
-2017-08-07 18:16:53.803878 PDT | LossBefore           -0.0308701
-2017-08-07 18:16:53.804120 PDT | LossAfter            -0.0424448
-2017-08-07 18:16:53.804361 PDT | MeanKL                0.0657022
-2017-08-07 18:16:53.804712 PDT | MaxKL                 0.273804
-2017-08-07 18:16:53.804957 PDT | Time                  7.44131
-2017-08-07 18:16:53.805200 PDT | ItrTime               1.06416
-2017-08-07 18:16:53.805442 PDT | -----------------  ------------
-2017-08-07 22:37:05.132984 PDT | [point_3] Populating workers...
-2017-08-07 22:37:05.133314 PDT | [point_3] Populated
-2017-08-07 22:37:05.133548 PDT | [point_3] itr #0 | Obtaining samples...
-2017-08-07 22:38:28.352931 PDT | [point_3] itr #0 | Processing samples...
-2017-08-07 22:38:28.369603 PDT | [point_3] itr #0 | fitting baseline...
-2017-08-07 22:38:28.431959 PDT | [point_3] itr #0 | fitted
-2017-08-07 22:38:28.535266 PDT | [point_3] itr #0 | Logging diagnostics...
-2017-08-07 22:38:28.539813 PDT | [point_3] itr #0 | Optimizing policy...
-2017-08-07 22:38:28.539951 PDT | [point_3] itr #0 | optimizing policy
-2017-08-07 22:38:28.602640 PDT | [point_3] itr #0 | Saving snapshot...
-2017-08-07 22:38:28.605829 PDT | [point_3] itr #0 | Saved
-2017-08-07 22:38:28.606543 PDT | -----------------  -------------
-2017-08-07 22:38:28.606665 PDT | TotalExecTime        83.2186
-2017-08-07 22:38:28.606768 PDT | AverageReturn        47
-2017-08-07 22:38:28.606877 PDT | ExplainedVariance     0.279033
-2017-08-07 22:38:28.607011 PDT | NumTrajs           2000
-2017-08-07 22:38:28.607185 PDT | Entropy               2.7552
-2017-08-07 22:38:28.607290 PDT | Perplexity           15.7242
-2017-08-07 22:38:28.607382 PDT | StdReturn           203.177
-2017-08-07 22:38:28.607486 PDT | MaxReturn          1900
-2017-08-07 22:38:28.607578 PDT | MinReturn             0
-2017-08-07 22:38:28.607683 PDT | AveragePolicyStd      0.959782
-2017-08-07 22:38:28.607773 PDT | LossBefore            0.00343612
-2017-08-07 22:38:28.607863 PDT | LossAfter            -0.0420712
-2017-08-07 22:38:28.607952 PDT | MeanKL                0.268627
-2017-08-07 22:38:28.608042 PDT | MaxKL                 1.14264
-2017-08-07 22:38:28.608131 PDT | Time                 83.4725
-2017-08-07 22:38:28.608220 PDT | ItrTime              83.4725
-2017-08-07 22:38:28.608309 PDT | -----------------  -------------
-2017-08-07 22:38:28.608491 PDT | [point_3] itr #1 | Obtaining samples...
-2017-08-07 22:39:52.455130 PDT | [point_3] itr #1 | Processing samples...
-2017-08-07 22:39:52.470278 PDT | [point_3] itr #1 | fitting baseline...
-2017-08-07 22:39:52.531902 PDT | [point_3] itr #1 | fitted
-2017-08-07 22:39:52.661279 PDT | [point_3] itr #1 | Logging diagnostics...
-2017-08-07 22:39:52.666155 PDT | [point_3] itr #1 | Optimizing policy...
-2017-08-07 22:39:52.666283 PDT | [point_3] itr #1 | optimizing policy
-2017-08-07 22:39:52.722048 PDT | [point_3] itr #1 | Saving snapshot...
-2017-08-07 22:39:52.725858 PDT | [point_3] itr #1 | Saved
-2017-08-07 22:39:52.726640 PDT | -----------------  ------------
-2017-08-07 22:39:52.726866 PDT | TotalExecTime        83.846
-2017-08-07 22:39:52.727074 PDT | AverageReturn      1296.5
-2017-08-07 22:39:52.727290 PDT | ExplainedVariance     0.681118
-2017-08-07 22:39:52.727401 PDT | NumTrajs           2000
-2017-08-07 22:39:52.727500 PDT | Entropy               2.75864
-2017-08-07 22:39:52.727620 PDT | Perplexity           15.7784
-2017-08-07 22:39:52.727827 PDT | StdReturn           663.406
-2017-08-07 22:39:52.728031 PDT | MaxReturn          2700
-2017-08-07 22:39:52.728226 PDT | MinReturn             0
-2017-08-07 22:39:52.728327 PDT | AveragePolicyStd      0.961393
-2017-08-07 22:39:52.728420 PDT | LossBefore           -0.0318057
-2017-08-07 22:39:52.728591 PDT | LossAfter            -0.0794636
-2017-08-07 22:39:52.728797 PDT | MeanKL                0.176005
-2017-08-07 22:39:52.729001 PDT | MaxKL                 0.57854
-2017-08-07 22:39:52.729154 PDT | Time                167.593
-2017-08-07 22:39:52.729251 PDT | ItrTime              84.1176
-2017-08-07 22:39:52.729344 PDT | -----------------  ------------
-2017-08-07 22:39:52.729601 PDT | [point_3] itr #2 | Obtaining samples...
-2017-08-07 22:41:16.685475 PDT | [point_3] itr #2 | Processing samples...
-2017-08-07 22:41:16.706590 PDT | [point_3] itr #2 | fitting baseline...
-2017-08-07 22:41:16.767931 PDT | [point_3] itr #2 | fitted
-2017-08-07 22:41:16.903683 PDT | [point_3] itr #2 | Logging diagnostics...
-2017-08-07 22:41:16.909819 PDT | [point_3] itr #2 | Optimizing policy...
-2017-08-07 22:41:16.909977 PDT | [point_3] itr #2 | optimizing policy
-2017-08-07 22:41:16.951677 PDT | [point_3] itr #2 | Saving snapshot...
-2017-08-07 22:41:16.954851 PDT | [point_3] itr #2 | Saved
-2017-08-07 22:41:16.955559 PDT | -----------------  ------------
-2017-08-07 22:41:16.955684 PDT | TotalExecTime        83.9548
-2017-08-07 22:41:16.955796 PDT | AverageReturn      2002.9
-2017-08-07 22:41:16.955942 PDT | ExplainedVariance     0.8557
-2017-08-07 22:41:16.956092 PDT | NumTrajs           2000
-2017-08-07 22:41:16.956219 PDT | Entropy               2.74274
-2017-08-07 22:41:16.956319 PDT | Perplexity           15.5294
-2017-08-07 22:41:16.956416 PDT | StdReturn           477.066
-2017-08-07 22:41:16.956521 PDT | MaxReturn          2900
-2017-08-07 22:41:16.956703 PDT | MinReturn             0
-2017-08-07 22:41:16.956868 PDT | AveragePolicyStd      0.95374
-2017-08-07 22:41:16.956971 PDT | LossBefore           -0.0462468
-2017-08-07 22:41:16.957067 PDT | LossAfter            -0.085519
-2017-08-07 22:41:16.957164 PDT | MeanKL                0.162947
-2017-08-07 22:41:16.957260 PDT | MaxKL                 0.55908
-2017-08-07 22:41:16.957355 PDT | Time                251.821
-2017-08-07 22:41:16.957452 PDT | ItrTime              84.2254
-2017-08-07 22:41:16.957548 PDT | -----------------  ------------
-2017-08-07 22:41:16.957709 PDT | [point_3] itr #3 | Obtaining samples...
-2017-08-07 22:42:41.158696 PDT | [point_3] itr #3 | Processing samples...
-2017-08-07 22:42:41.181024 PDT | [point_3] itr #3 | fitting baseline...
-2017-08-07 22:42:41.253763 PDT | [point_3] itr #3 | fitted
-2017-08-07 22:42:41.429312 PDT | [point_3] itr #3 | Logging diagnostics...
-2017-08-07 22:42:41.436072 PDT | [point_3] itr #3 | Optimizing policy...
-2017-08-07 22:42:41.436241 PDT | [point_3] itr #3 | optimizing policy
-2017-08-07 22:42:41.477534 PDT | [point_3] itr #3 | Saving snapshot...
-2017-08-07 22:42:41.480509 PDT | [point_3] itr #3 | Saved
-2017-08-07 22:42:41.481135 PDT | -----------------  ------------
-2017-08-07 22:42:41.481267 PDT | TotalExecTime        84.2002
-2017-08-07 22:42:41.481445 PDT | AverageReturn      2341.65
-2017-08-07 22:42:41.481568 PDT | ExplainedVariance     0.962517
-2017-08-07 22:42:41.481689 PDT | NumTrajs           2000
-2017-08-07 22:42:41.481808 PDT | Entropy               2.71961
-2017-08-07 22:42:41.481925 PDT | Perplexity           15.1744
-2017-08-07 22:42:41.482044 PDT | StdReturn           296.598
-2017-08-07 22:42:41.482162 PDT | MaxReturn          2900
-2017-08-07 22:42:41.482278 PDT | MinReturn             0
-2017-08-07 22:42:41.482398 PDT | AveragePolicyStd      0.942734
-2017-08-07 22:42:41.482515 PDT | LossBefore           -0.0542426
-2017-08-07 22:42:41.482632 PDT | LossAfter            -0.0813362
-2017-08-07 22:42:41.482749 PDT | MeanKL                0.119226
-2017-08-07 22:42:41.482866 PDT | MaxKL                 0.379746
-2017-08-07 22:42:41.482983 PDT | Time                336.347
-2017-08-07 22:42:41.483099 PDT | ItrTime              84.523
-2017-08-07 22:42:41.483216 PDT | -----------------  ------------
-2017-08-07 22:42:41.483412 PDT | [point_3] itr #4 | Obtaining samples...
-2017-08-07 22:44:05.759306 PDT | [point_3] itr #4 | Processing samples...
-2017-08-07 22:44:05.775285 PDT | [point_3] itr #4 | fitting baseline...
-2017-08-07 22:44:05.846115 PDT | [point_3] itr #4 | fitted
-2017-08-07 22:44:05.983110 PDT | [point_3] itr #4 | Logging diagnostics...
-2017-08-07 22:44:05.988417 PDT | [point_3] itr #4 | Optimizing policy...
-2017-08-07 22:44:05.988557 PDT | [point_3] itr #4 | optimizing policy
-2017-08-07 22:44:06.029399 PDT | [point_3] itr #4 | Saving snapshot...
-2017-08-07 22:44:06.032517 PDT | [point_3] itr #4 | Saved
-2017-08-07 22:44:06.033254 PDT | -----------------  ------------
-2017-08-07 22:44:06.033383 PDT | TotalExecTime        84.2752
-2017-08-07 22:44:06.033495 PDT | AverageReturn      2489.95
-2017-08-07 22:44:06.033644 PDT | ExplainedVariance     0.982134
-2017-08-07 22:44:06.033807 PDT | NumTrajs           2000
-2017-08-07 22:44:06.033943 PDT | Entropy               2.69249
-2017-08-07 22:44:06.034042 PDT | Perplexity           14.7684
-2017-08-07 22:44:06.034140 PDT | StdReturn           222.315
-2017-08-07 22:44:06.034243 PDT | MaxReturn          2900
-2017-08-07 22:44:06.034342 PDT | MinReturn           800
-2017-08-07 22:44:06.034438 PDT | AveragePolicyStd      0.930023
-2017-08-07 22:44:06.034535 PDT | LossBefore           -0.046488
-2017-08-07 22:44:06.034698 PDT | LossAfter            -0.0644803
-2017-08-07 22:44:06.034860 PDT | MeanKL                0.0752305
-2017-08-07 22:44:06.034960 PDT | MaxKL                 0.232883
-2017-08-07 22:44:06.035057 PDT | Time                420.899
-2017-08-07 22:44:06.035154 PDT | ItrTime              84.5493
-2017-08-07 22:44:06.035250 PDT | -----------------  ------------
-2017-08-07 22:44:06.035640 PDT | [point_3] itr #5 | Obtaining samples...
-2017-08-07 22:45:30.247805 PDT | [point_3] itr #5 | Processing samples...
-2017-08-07 22:45:30.265313 PDT | [point_3] itr #5 | fitting baseline...
-2017-08-07 22:45:30.315722 PDT | [point_3] itr #5 | fitted
-2017-08-07 22:45:30.470757 PDT | [point_3] itr #5 | Logging diagnostics...
-2017-08-07 22:45:30.476529 PDT | [point_3] itr #5 | Optimizing policy...
-2017-08-07 22:45:30.476767 PDT | [point_3] itr #5 | optimizing policy
-2017-08-07 22:45:30.525090 PDT | [point_3] itr #5 | Saving snapshot...
-2017-08-07 22:45:30.528474 PDT | [point_3] itr #5 | Saved
-2017-08-07 22:45:30.529082 PDT | -----------------  ------------
-2017-08-07 22:45:30.529210 PDT | TotalExecTime        84.2114
-2017-08-07 22:45:30.529323 PDT | AverageReturn      2563.35
-2017-08-07 22:45:30.529428 PDT | ExplainedVariance     0.98884
-2017-08-07 22:45:30.529543 PDT | NumTrajs           2000
-2017-08-07 22:45:30.529646 PDT | Entropy               2.66925
-2017-08-07 22:45:30.529748 PDT | Perplexity           14.4291
-2017-08-07 22:45:30.529849 PDT | StdReturn           175.476
-2017-08-07 22:45:30.529951 PDT | MaxReturn          3000
-2017-08-07 22:45:30.530053 PDT | MinReturn          1500
-2017-08-07 22:45:30.530154 PDT | AveragePolicyStd      0.919245
-2017-08-07 22:45:30.530256 PDT | LossBefore           -0.0449955
-2017-08-07 22:45:30.530358 PDT | LossAfter            -0.0558315
-2017-08-07 22:45:30.530473 PDT | MeanKL                0.0459578
-2017-08-07 22:45:30.530575 PDT | MaxKL                 0.138436
-2017-08-07 22:45:30.530678 PDT | Time                505.395
-2017-08-07 22:45:30.530779 PDT | ItrTime              84.493
-2017-08-07 22:45:30.530880 PDT | -----------------  ------------
-2017-08-07 22:45:30.531052 PDT | [point_3] itr #6 | Obtaining samples...
-2017-08-07 22:46:54.579400 PDT | [point_3] itr #6 | Processing samples...
-2017-08-07 22:46:54.598111 PDT | [point_3] itr #6 | fitting baseline...
-2017-08-07 22:46:54.658210 PDT | [point_3] itr #6 | fitted
-2017-08-07 22:46:54.776259 PDT | [point_3] itr #6 | Logging diagnostics...
-2017-08-07 22:46:54.781505 PDT | [point_3] itr #6 | Optimizing policy...
-2017-08-07 22:46:54.781638 PDT | [point_3] itr #6 | optimizing policy
-2017-08-07 22:46:54.829812 PDT | [point_3] itr #6 | Saving snapshot...
-2017-08-07 22:46:54.832807 PDT | [point_3] itr #6 | Saved
-2017-08-07 22:46:54.833409 PDT | -----------------  ------------
-2017-08-07 22:46:54.833531 PDT | TotalExecTime        84.0474
-2017-08-07 22:46:54.833638 PDT | AverageReturn      2601.9
-2017-08-07 22:46:54.833737 PDT | ExplainedVariance     0.990391
-2017-08-07 22:46:54.833834 PDT | NumTrajs           2000
-2017-08-07 22:46:54.833931 PDT | Entropy               2.64675
-2017-08-07 22:46:54.834028 PDT | Perplexity           14.1081
-2017-08-07 22:46:54.834125 PDT | StdReturn           163.94
-2017-08-07 22:46:54.834222 PDT | MaxReturn          3000
-2017-08-07 22:46:54.834318 PDT | MinReturn           800
-2017-08-07 22:46:54.834414 PDT | AveragePolicyStd      0.908944
-2017-08-07 22:46:54.834510 PDT | LossBefore           -0.0330378
-2017-08-07 22:46:54.834607 PDT | LossAfter            -0.0388007
-2017-08-07 22:46:54.834703 PDT | MeanKL                0.025071
-2017-08-07 22:46:54.834798 PDT | MaxKL                 0.0722732
-2017-08-07 22:46:54.834893 PDT | Time                589.699
-2017-08-07 22:46:54.834989 PDT | ItrTime              84.3019
-2017-08-07 22:46:54.835085 PDT | -----------------  ------------
+2017-08-09 20:07:34.414110 PDT | [point_3] Populating workers...
+2017-08-09 20:07:34.414468 PDT | [point_3] Populated
+2017-08-09 20:07:34.414606 PDT | [point_3] itr #0 | Obtaining samples...
+2017-08-09 20:09:56.698161 PDT | [point_3] itr #0 | Processing samples...
+2017-08-09 20:09:56.722557 PDT | [point_3] itr #0 | fitting baseline...
+2017-08-09 20:09:56.836381 PDT | [point_3] itr #0 | fitted
+2017-08-09 20:09:56.986885 PDT | [point_3] itr #0 | Logging diagnostics...
+2017-08-09 20:09:56.993667 PDT | [point_3] itr #0 | Optimizing policy...
+2017-08-09 20:09:56.993957 PDT | [point_3] itr #0 | optimizing policy
+2017-08-09 20:09:57.071038 PDT | [point_3] itr #0 | Saving snapshot...
+2017-08-09 20:09:57.074071 PDT | [point_3] itr #0 | Saved
+2017-08-09 20:09:57.074720 PDT | -----------------  --------------
+2017-08-09 20:09:57.074890 PDT | TotalExecTime       142.283
+2017-08-09 20:09:57.075091 PDT | AverageReturn        18.6
+2017-08-09 20:09:57.075267 PDT | ExplainedVariance     0.240347
+2017-08-09 20:09:57.075378 PDT | NumTrajs           2000
+2017-08-09 20:09:57.075480 PDT | Entropy               2.82159
+2017-08-09 20:09:57.075580 PDT | Perplexity           16.8035
+2017-08-09 20:09:57.075680 PDT | StdReturn           136.982
+2017-08-09 20:09:57.075788 PDT | MaxReturn          1500
+2017-08-09 20:09:57.075965 PDT | MinReturn             0
+2017-08-09 20:09:57.076067 PDT | AveragePolicyStd      0.991891
+2017-08-09 20:09:57.076208 PDT | LossBefore            0.00282546
+2017-08-09 20:09:57.076409 PDT | LossAfter            -0.000977784
+2017-08-09 20:09:57.076625 PDT | MeanKL                0.00431447
+2017-08-09 20:09:57.076813 PDT | MaxKL                 0.0229278
+2017-08-09 20:09:57.076979 PDT | Time                142.66
+2017-08-09 20:09:57.077145 PDT | ItrTime             142.66
+2017-08-09 20:09:57.077271 PDT | -----------------  --------------
+2017-08-09 20:09:57.077594 PDT | [point_3] itr #1 | Obtaining samples...
+2017-08-09 20:12:18.990875 PDT | [point_3] itr #1 | Processing samples...
+2017-08-09 20:12:19.012250 PDT | [point_3] itr #1 | fitting baseline...
+2017-08-09 20:12:19.082093 PDT | [point_3] itr #1 | fitted
+2017-08-09 20:12:19.224298 PDT | [point_3] itr #1 | Logging diagnostics...
+2017-08-09 20:12:19.232132 PDT | [point_3] itr #1 | Optimizing policy...
+2017-08-09 20:12:19.232401 PDT | [point_3] itr #1 | optimizing policy
+2017-08-09 20:12:19.297921 PDT | [point_3] itr #1 | Saving snapshot...
+2017-08-09 20:12:19.304877 PDT | [point_3] itr #1 | Saved
+2017-08-09 20:12:19.305634 PDT | -----------------  -------------
+2017-08-09 20:12:19.305787 PDT | TotalExecTime       141.912
+2017-08-09 20:12:19.306029 PDT | AverageReturn        56.65
+2017-08-09 20:12:19.306265 PDT | ExplainedVariance     0.339006
+2017-08-09 20:12:19.306510 PDT | NumTrajs           2000
+2017-08-09 20:12:19.306749 PDT | Entropy               2.82441
+2017-08-09 20:12:19.306987 PDT | Perplexity           16.8511
+2017-08-09 20:12:19.307145 PDT | StdReturn           244.348
+2017-08-09 20:12:19.307282 PDT | MaxReturn          2100
+2017-08-09 20:12:19.307417 PDT | MinReturn             0
+2017-08-09 20:12:19.307653 PDT | AveragePolicyStd      0.993302
+2017-08-09 20:12:19.307905 PDT | LossBefore           -0.00392492
+2017-08-09 20:12:19.308142 PDT | LossAfter            -0.00804457
+2017-08-09 20:12:19.308386 PDT | MeanKL                0.00274943
+2017-08-09 20:12:19.308626 PDT | MaxKL                 0.0133622
+2017-08-09 20:12:19.308849 PDT | Time                284.89
+2017-08-09 20:12:19.309090 PDT | ItrTime             142.227
+2017-08-09 20:12:19.309323 PDT | -----------------  -------------
+2017-08-09 20:12:19.309663 PDT | [point_3] itr #2 | Obtaining samples...
+2017-08-09 20:14:41.602135 PDT | [point_3] itr #2 | Processing samples...
+2017-08-09 20:14:41.624879 PDT | [point_3] itr #2 | fitting baseline...
+2017-08-09 20:14:41.693724 PDT | [point_3] itr #2 | fitted
+2017-08-09 20:14:41.868799 PDT | [point_3] itr #2 | Logging diagnostics...
+2017-08-09 20:14:41.875453 PDT | [point_3] itr #2 | Optimizing policy...
+2017-08-09 20:14:41.875748 PDT | [point_3] itr #2 | optimizing policy
+2017-08-09 20:14:41.924568 PDT | [point_3] itr #2 | Saving snapshot...
+2017-08-09 20:14:41.929336 PDT | [point_3] itr #2 | Saved
+2017-08-09 20:14:41.930206 PDT | -----------------  -------------
+2017-08-09 20:14:41.930334 PDT | TotalExecTime       142.291
+2017-08-09 20:14:41.930453 PDT | AverageReturn        97.4
+2017-08-09 20:14:41.930590 PDT | ExplainedVariance     0.39118
+2017-08-09 20:14:41.930740 PDT | NumTrajs           2000
+2017-08-09 20:14:41.930903 PDT | Entropy               2.82245
+2017-08-09 20:14:41.931043 PDT | Perplexity           16.818
+2017-08-09 20:14:41.931159 PDT | StdReturn           321.75
+2017-08-09 20:14:41.931257 PDT | MaxReturn          2100
+2017-08-09 20:14:41.931353 PDT | MinReturn             0
+2017-08-09 20:14:41.931449 PDT | AveragePolicyStd      0.99233
+2017-08-09 20:14:41.931546 PDT | LossBefore           -0.00201078
+2017-08-09 20:14:41.931643 PDT | LossAfter            -0.00870585
+2017-08-09 20:14:41.931778 PDT | MeanKL                0.0050937
+2017-08-09 20:14:41.931986 PDT | MaxKL                 0.0223157
+2017-08-09 20:14:41.932199 PDT | Time                427.515
+2017-08-09 20:14:41.932377 PDT | ItrTime             142.62
+2017-08-09 20:14:41.932595 PDT | -----------------  -------------
+2017-08-09 20:14:41.932908 PDT | [point_3] itr #3 | Obtaining samples...
+2017-08-09 20:17:02.532619 PDT | [point_3] itr #3 | Processing samples...
+2017-08-09 20:17:02.560841 PDT | [point_3] itr #3 | fitting baseline...
+2017-08-09 20:17:02.632161 PDT | [point_3] itr #3 | fitted
+2017-08-09 20:17:02.795373 PDT | [point_3] itr #3 | Logging diagnostics...
+2017-08-09 20:17:02.800828 PDT | [point_3] itr #3 | Optimizing policy...
+2017-08-09 20:17:02.800995 PDT | [point_3] itr #3 | optimizing policy
+2017-08-09 20:17:02.848347 PDT | [point_3] itr #3 | Saving snapshot...
+2017-08-09 20:17:02.853500 PDT | [point_3] itr #3 | Saved
+2017-08-09 20:17:02.854459 PDT | -----------------  -------------
+2017-08-09 20:17:02.854646 PDT | TotalExecTime       140.599
+2017-08-09 20:17:02.854812 PDT | AverageReturn       214.65
+2017-08-09 20:17:02.854976 PDT | ExplainedVariance     0.444146
+2017-08-09 20:17:02.855138 PDT | NumTrajs           2000
+2017-08-09 20:17:02.855297 PDT | Entropy               2.82145
+2017-08-09 20:17:02.855457 PDT | Perplexity           16.8011
+2017-08-09 20:17:02.855617 PDT | StdReturn           451.055
+2017-08-09 20:17:02.855777 PDT | MaxReturn          2100
+2017-08-09 20:17:02.856489 PDT | MinReturn             0
+2017-08-09 20:17:02.856746 PDT | AveragePolicyStd      0.99184
+2017-08-09 20:17:02.856999 PDT | LossBefore           -0.0101799
+2017-08-09 20:17:02.857265 PDT | LossAfter            -0.0203564
+2017-08-09 20:17:02.859367 PDT | MeanKL                0.00902206
+2017-08-09 20:17:02.859567 PDT | MaxKL                 0.0360197
+2017-08-09 20:17:02.859771 PDT | Time                568.439
+2017-08-09 20:17:02.860014 PDT | ItrTime             140.921
+2017-08-09 20:17:02.860239 PDT | -----------------  -------------
+2017-08-09 20:17:02.860580 PDT | [point_3] itr #4 | Obtaining samples...
+2017-08-09 20:19:01.335356 PDT | [point_3] itr #4 | Processing samples...
+2017-08-09 20:19:01.357447 PDT | [point_3] itr #4 | fitting baseline...
+2017-08-09 20:19:01.413519 PDT | [point_3] itr #4 | fitted
+2017-08-09 20:19:01.563227 PDT | [point_3] itr #4 | Logging diagnostics...
+2017-08-09 20:19:01.569322 PDT | [point_3] itr #4 | Optimizing policy...
+2017-08-09 20:19:01.569500 PDT | [point_3] itr #4 | optimizing policy
+2017-08-09 20:19:01.615873 PDT | [point_3] itr #4 | Saving snapshot...
+2017-08-09 20:19:01.619217 PDT | [point_3] itr #4 | Saved
+2017-08-09 20:19:01.619950 PDT | -----------------  ------------
+2017-08-09 20:19:01.620146 PDT | TotalExecTime       118.473
+2017-08-09 20:19:01.620326 PDT | AverageReturn       440.8
+2017-08-09 20:19:01.620453 PDT | ExplainedVariance     0.512978
+2017-08-09 20:19:01.620603 PDT | NumTrajs           2000
+2017-08-09 20:19:01.620794 PDT | Entropy               2.81636
+2017-08-09 20:19:01.620971 PDT | Perplexity           16.7158
+2017-08-09 20:19:01.621086 PDT | StdReturn           607.968
+2017-08-09 20:19:01.621209 PDT | MaxReturn          2500
+2017-08-09 20:19:01.621315 PDT | MinReturn             0
+2017-08-09 20:19:01.621417 PDT | AveragePolicyStd      0.989332
+2017-08-09 20:19:01.621566 PDT | LossBefore           -0.0134544
+2017-08-09 20:19:01.621672 PDT | LossAfter            -0.0308827
+2017-08-09 20:19:01.621774 PDT | MeanKL                0.0183391
+2017-08-09 20:19:01.621876 PDT | MaxKL                 0.0667266
+2017-08-09 20:19:01.621990 PDT | Time                687.205
+2017-08-09 20:19:01.622092 PDT | ItrTime             118.759
+2017-08-09 20:19:01.622229 PDT | -----------------  ------------
+2017-08-09 20:19:01.622499 PDT | [point_3] itr #5 | Obtaining samples...
+2017-08-09 20:20:59.116336 PDT | [point_3] itr #5 | Processing samples...
+2017-08-09 20:20:59.137048 PDT | [point_3] itr #5 | fitting baseline...
+2017-08-09 20:20:59.205527 PDT | [point_3] itr #5 | fitted
+2017-08-09 20:20:59.391074 PDT | [point_3] itr #5 | Logging diagnostics...
+2017-08-09 20:20:59.398173 PDT | [point_3] itr #5 | Optimizing policy...
+2017-08-09 20:20:59.398354 PDT | [point_3] itr #5 | optimizing policy
+2017-08-09 20:20:59.443933 PDT | [point_3] itr #5 | Saving snapshot...
+2017-08-09 20:20:59.447003 PDT | [point_3] itr #5 | Saved
+2017-08-09 20:20:59.447630 PDT | -----------------  ------------
+2017-08-09 20:20:59.447771 PDT | TotalExecTime       117.493
+2017-08-09 20:20:59.447903 PDT | AverageReturn       818.45
+2017-08-09 20:20:59.448017 PDT | ExplainedVariance     0.602517
+2017-08-09 20:20:59.448121 PDT | NumTrajs           2000
+2017-08-09 20:20:59.448230 PDT | Entropy               2.80963
+2017-08-09 20:20:59.448375 PDT | Perplexity           16.6038
+2017-08-09 20:20:59.448479 PDT | StdReturn           703.047
+2017-08-09 20:20:59.448589 PDT | MaxReturn          2700
+2017-08-09 20:20:59.448699 PDT | MinReturn             0
+2017-08-09 20:20:59.448800 PDT | AveragePolicyStd      0.986012
+2017-08-09 20:20:59.448903 PDT | LossBefore           -0.0253717
+2017-08-09 20:20:59.449005 PDT | LossAfter            -0.0474222
+2017-08-09 20:20:59.449112 PDT | MeanKL                0.026871
+2017-08-09 20:20:59.449227 PDT | MaxKL                 0.0867948
+2017-08-09 20:20:59.449329 PDT | Time                805.033
+2017-08-09 20:20:59.449431 PDT | ItrTime             117.825
+2017-08-09 20:20:59.449532 PDT | -----------------  ------------
+2017-08-09 20:20:59.449700 PDT | [point_3] itr #6 | Obtaining samples...
+2017-08-09 20:22:56.963217 PDT | [point_3] itr #6 | Processing samples...
+2017-08-09 20:22:56.984588 PDT | [point_3] itr #6 | fitting baseline...
+2017-08-09 20:22:57.043680 PDT | [point_3] itr #6 | fitted
+2017-08-09 20:22:57.211822 PDT | [point_3] itr #6 | Logging diagnostics...
+2017-08-09 20:22:57.218576 PDT | [point_3] itr #6 | Optimizing policy...
+2017-08-09 20:22:57.218755 PDT | [point_3] itr #6 | optimizing policy
+2017-08-09 20:22:57.264162 PDT | [point_3] itr #6 | Saving snapshot...
+2017-08-09 20:22:57.267299 PDT | [point_3] itr #6 | Saved
+2017-08-09 20:22:57.268008 PDT | -----------------  ------------
+2017-08-09 20:22:57.268138 PDT | TotalExecTime       117.513
+2017-08-09 20:22:57.268249 PDT | AverageReturn      1285.85
+2017-08-09 20:22:57.268351 PDT | ExplainedVariance     0.705556
+2017-08-09 20:22:57.268480 PDT | NumTrajs           2000
+2017-08-09 20:22:57.268630 PDT | Entropy               2.79694
+2017-08-09 20:22:57.268797 PDT | Perplexity           16.3945
+2017-08-09 20:22:57.268944 PDT | StdReturn           658.912
+2017-08-09 20:22:57.269058 PDT | MaxReturn          2800
+2017-08-09 20:22:57.269244 PDT | MinReturn             0
+2017-08-09 20:22:57.269448 PDT | AveragePolicyStd      0.979763
+2017-08-09 20:22:57.269584 PDT | LossBefore           -0.0404961
+2017-08-09 20:22:57.269791 PDT | LossAfter            -0.0668745
+2017-08-09 20:22:57.270002 PDT | MeanKL                0.0367099
+2017-08-09 20:22:57.270215 PDT | MaxKL                 0.119552
+2017-08-09 20:22:57.270355 PDT | Time                922.853
+2017-08-09 20:22:57.270459 PDT | ItrTime             117.818
+2017-08-09 20:22:57.270559 PDT | -----------------  ------------
+2017-08-09 20:22:57.270731 PDT | [point_3] itr #7 | Obtaining samples...
+2017-08-09 20:24:54.487782 PDT | [point_3] itr #7 | Processing samples...
+2017-08-09 20:24:54.509341 PDT | [point_3] itr #7 | fitting baseline...
+2017-08-09 20:24:54.580092 PDT | [point_3] itr #7 | fitted
+2017-08-09 20:24:54.741077 PDT | [point_3] itr #7 | Logging diagnostics...
+2017-08-09 20:24:54.747115 PDT | [point_3] itr #7 | Optimizing policy...
+2017-08-09 20:24:54.747284 PDT | [point_3] itr #7 | optimizing policy
+2017-08-09 20:24:54.794858 PDT | [point_3] itr #7 | Saving snapshot...
+2017-08-09 20:24:54.798100 PDT | [point_3] itr #7 | Saved
+2017-08-09 20:24:54.798829 PDT | -----------------  ------------
+2017-08-09 20:24:54.799020 PDT | TotalExecTime       117.216
+2017-08-09 20:24:54.799147 PDT | AverageReturn      1699.85
+2017-08-09 20:24:54.799346 PDT | ExplainedVariance     0.81185
+2017-08-09 20:24:54.799574 PDT | NumTrajs           2000
+2017-08-09 20:24:54.799789 PDT | Entropy               2.7767
+2017-08-09 20:24:54.799969 PDT | Perplexity           16.0658
+2017-08-09 20:24:54.800095 PDT | StdReturn           525.951
+2017-08-09 20:24:54.800220 PDT | MaxReturn          2900
+2017-08-09 20:24:54.800438 PDT | MinReturn             0
+2017-08-09 20:24:54.800654 PDT | AveragePolicyStd      0.969884
+2017-08-09 20:24:54.800868 PDT | LossBefore           -0.0510989
+2017-08-09 20:24:54.800994 PDT | LossAfter            -0.0769728
+2017-08-09 20:24:54.801115 PDT | MeanKL                0.0413987
+2017-08-09 20:24:54.801223 PDT | MaxKL                 0.128769
+2017-08-09 20:24:54.801330 PDT | Time               1040.38
+2017-08-09 20:24:54.801500 PDT | ItrTime             117.528
+2017-08-09 20:24:54.801719 PDT | -----------------  ------------
+2017-08-09 20:24:54.802039 PDT | [point_3] itr #8 | Obtaining samples...
+2017-08-09 20:26:40.566409 PDT | [point_3] itr #8 | Processing samples...
+2017-08-09 20:26:40.589794 PDT | [point_3] itr #8 | fitting baseline...
+2017-08-09 20:26:40.656601 PDT | [point_3] itr #8 | fitted
+2017-08-09 20:26:40.793685 PDT | [point_3] itr #8 | Logging diagnostics...
+2017-08-09 20:26:40.799248 PDT | [point_3] itr #8 | Optimizing policy...
+2017-08-09 20:26:40.799410 PDT | [point_3] itr #8 | optimizing policy
+2017-08-09 20:26:40.843690 PDT | [point_3] itr #8 | Saving snapshot...
+2017-08-09 20:26:40.848250 PDT | [point_3] itr #8 | Saved
+2017-08-09 20:26:40.849091 PDT | -----------------  ------------
+2017-08-09 20:26:40.849291 PDT | TotalExecTime       105.763
+2017-08-09 20:26:40.849525 PDT | AverageReturn      1992.5
+2017-08-09 20:26:40.849749 PDT | ExplainedVariance     0.888198
+2017-08-09 20:26:40.849910 PDT | NumTrajs           2000
+2017-08-09 20:26:40.850020 PDT | Entropy               2.75115
+2017-08-09 20:26:40.850126 PDT | Perplexity           15.6606
+2017-08-09 20:26:40.850276 PDT | StdReturn           436.502
+2017-08-09 20:26:40.850501 PDT | MaxReturn          2800
+2017-08-09 20:26:40.850721 PDT | MinReturn             0
+2017-08-09 20:26:40.850917 PDT | AveragePolicyStd      0.957573
+2017-08-09 20:26:40.851028 PDT | LossBefore           -0.0480583
+2017-08-09 20:26:40.851133 PDT | LossAfter            -0.073939
+2017-08-09 20:26:40.851235 PDT | MeanKL                0.0472562
+2017-08-09 20:26:40.851338 PDT | MaxKL                 0.149166
+2017-08-09 20:26:40.851441 PDT | Time               1146.43
+2017-08-09 20:26:40.851543 PDT | ItrTime             106.046
+2017-08-09 20:26:40.851644 PDT | -----------------  ------------
+2017-08-09 20:26:40.851815 PDT | [point_3] itr #9 | Obtaining samples...
+2017-08-09 20:28:15.455371 PDT | [point_3] itr #9 | Processing samples...
+2017-08-09 20:28:15.473326 PDT | [point_3] itr #9 | fitting baseline...
+2017-08-09 20:28:15.542840 PDT | [point_3] itr #9 | fitted
+2017-08-09 20:28:15.695394 PDT | [point_3] itr #9 | Logging diagnostics...
+2017-08-09 20:28:15.701585 PDT | [point_3] itr #9 | Optimizing policy...
+2017-08-09 20:28:15.701735 PDT | [point_3] itr #9 | optimizing policy
+2017-08-09 20:28:15.745526 PDT | [point_3] itr #9 | Saving snapshot...
+2017-08-09 20:28:15.750179 PDT | [point_3] itr #9 | Saved
+2017-08-09 20:28:15.751034 PDT | -----------------  ------------
+2017-08-09 20:28:15.751260 PDT | TotalExecTime        94.6025
+2017-08-09 20:28:15.751457 PDT | AverageReturn      2214.1
+2017-08-09 20:28:15.751617 PDT | ExplainedVariance     0.934005
+2017-08-09 20:28:15.751752 PDT | NumTrajs           2000
+2017-08-09 20:28:15.751914 PDT | Entropy               2.72712
+2017-08-09 20:28:15.752047 PDT | Perplexity           15.2888
+2017-08-09 20:28:15.752179 PDT | StdReturn           339.162
+2017-08-09 20:28:15.752310 PDT | MaxReturn          2900
+2017-08-09 20:28:15.752441 PDT | MinReturn             0
+2017-08-09 20:28:15.752570 PDT | AveragePolicyStd      0.946142
+2017-08-09 20:28:15.752703 PDT | LossBefore           -0.0470871
+2017-08-09 20:28:15.752845 PDT | LossAfter            -0.0655103
+2017-08-09 20:28:15.752976 PDT | MeanKL                0.0373791
+2017-08-09 20:28:15.753110 PDT | MaxKL                 0.111696
+2017-08-09 20:28:15.753240 PDT | Time               1241.34
+2017-08-09 20:28:15.753371 PDT | ItrTime              94.8987
+2017-08-09 20:28:15.753503 PDT | -----------------  ------------
+2017-08-09 20:28:15.753714 PDT | [point_3] itr #10 | Obtaining samples...
+2017-08-09 20:29:49.843749 PDT | [point_3] itr #10 | Processing samples...
+2017-08-09 20:29:49.867427 PDT | [point_3] itr #10 | fitting baseline...
+2017-08-09 20:29:49.943869 PDT | [point_3] itr #10 | fitted
+2017-08-09 20:29:50.124405 PDT | [point_3] itr #10 | Logging diagnostics...
+2017-08-09 20:29:50.130791 PDT | [point_3] itr #10 | Optimizing policy...
+2017-08-09 20:29:50.130974 PDT | [point_3] itr #10 | optimizing policy
+2017-08-09 20:29:50.173682 PDT | [point_3] itr #10 | Saving snapshot...
+2017-08-09 20:29:50.177080 PDT | [point_3] itr #10 | Saved
+2017-08-09 20:29:50.177715 PDT | -----------------  ------------
+2017-08-09 20:29:50.177859 PDT | TotalExecTime        94.089
+2017-08-09 20:29:50.177970 PDT | AverageReturn      2338.25
+2017-08-09 20:29:50.178082 PDT | ExplainedVariance     0.964731
+2017-08-09 20:29:50.178184 PDT | NumTrajs           2000
+2017-08-09 20:29:50.178284 PDT | Entropy               2.70357
+2017-08-09 20:29:50.178382 PDT | Perplexity           14.933
+2017-08-09 20:29:50.178479 PDT | StdReturn           267.043
+2017-08-09 20:29:50.178577 PDT | MaxReturn          2900
+2017-08-09 20:29:50.178735 PDT | MinReturn           600
+2017-08-09 20:29:50.178936 PDT | AveragePolicyStd      0.935075
+2017-08-09 20:29:50.179040 PDT | LossBefore           -0.0476662
+2017-08-09 20:29:50.179140 PDT | LossAfter            -0.0619217
+2017-08-09 20:29:50.179239 PDT | MeanKL                0.0303392
+2017-08-09 20:29:50.179338 PDT | MaxKL                 0.0875859
+2017-08-09 20:29:50.179463 PDT | Time               1335.76
+2017-08-09 20:29:50.179563 PDT | ItrTime              94.4235
+2017-08-09 20:29:50.179671 PDT | -----------------  ------------
+2017-08-09 20:29:50.179992 PDT | [point_3] itr #11 | Obtaining samples...
+2017-08-09 20:31:24.377214 PDT | [point_3] itr #11 | Processing samples...
+2017-08-09 20:31:24.394855 PDT | [point_3] itr #11 | fitting baseline...
+2017-08-09 20:31:24.452044 PDT | [point_3] itr #11 | fitted
+2017-08-09 20:31:24.628452 PDT | [point_3] itr #11 | Logging diagnostics...
+2017-08-09 20:31:24.635491 PDT | [point_3] itr #11 | Optimizing policy...
+2017-08-09 20:31:24.635723 PDT | [point_3] itr #11 | optimizing policy
+2017-08-09 20:31:24.678647 PDT | [point_3] itr #11 | Saving snapshot...
+2017-08-09 20:31:24.681741 PDT | [point_3] itr #11 | Saved
+2017-08-09 20:31:24.682362 PDT | -----------------  ------------
+2017-08-09 20:31:24.682497 PDT | TotalExecTime        94.1962
+2017-08-09 20:31:24.682615 PDT | AverageReturn      2432.95
+2017-08-09 20:31:24.682755 PDT | ExplainedVariance     0.976174
+2017-08-09 20:31:24.682934 PDT | NumTrajs           2000
+2017-08-09 20:31:24.683076 PDT | Entropy               2.67974
+2017-08-09 20:31:24.683183 PDT | Perplexity           14.5813
+2017-08-09 20:31:24.683287 PDT | StdReturn           232.872
+2017-08-09 20:31:24.683398 PDT | MaxReturn          2900
+2017-08-09 20:31:24.683520 PDT | MinReturn          1200
+2017-08-09 20:31:24.683625 PDT | AveragePolicyStd      0.924
+2017-08-09 20:31:24.683728 PDT | LossBefore           -0.0524892
+2017-08-09 20:31:24.683830 PDT | LossAfter            -0.0670692
+2017-08-09 20:31:24.683980 PDT | MeanKL                0.0357211
+2017-08-09 20:31:24.684084 PDT | MaxKL                 0.107001
+2017-08-09 20:31:24.684198 PDT | Time               1430.27
+2017-08-09 20:31:24.684357 PDT | ItrTime              94.5019
+2017-08-09 20:31:24.684508 PDT | -----------------  ------------
+2017-08-09 20:31:24.684682 PDT | [point_3] itr #12 | Obtaining samples...
+2017-08-09 20:32:58.679491 PDT | [point_3] itr #12 | Processing samples...
+2017-08-09 20:32:58.703045 PDT | [point_3] itr #12 | fitting baseline...
+2017-08-09 20:32:58.765561 PDT | [point_3] itr #12 | fitted
+2017-08-09 20:32:58.918496 PDT | [point_3] itr #12 | Logging diagnostics...
+2017-08-09 20:32:58.925652 PDT | [point_3] itr #12 | Optimizing policy...
+2017-08-09 20:32:58.925926 PDT | [point_3] itr #12 | optimizing policy
+2017-08-09 20:32:58.969423 PDT | [point_3] itr #12 | Saving snapshot...
+2017-08-09 20:32:58.973134 PDT | [point_3] itr #12 | Saved
+2017-08-09 20:32:58.974043 PDT | -----------------  ------------
+2017-08-09 20:32:58.974180 PDT | TotalExecTime        93.994
+2017-08-09 20:32:58.974293 PDT | AverageReturn      2496.55
+2017-08-09 20:32:58.974487 PDT | ExplainedVariance     0.984706
+2017-08-09 20:32:58.974709 PDT | NumTrajs           2000
+2017-08-09 20:32:58.974925 PDT | Entropy               2.6535
+2017-08-09 20:32:58.975077 PDT | Perplexity           14.2036
+2017-08-09 20:32:58.975183 PDT | StdReturn           210.126
+2017-08-09 20:32:58.975285 PDT | MaxReturn          3000
+2017-08-09 20:32:58.975387 PDT | MinReturn          1400
+2017-08-09 20:32:58.975488 PDT | AveragePolicyStd      0.911957
+2017-08-09 20:32:58.975597 PDT | LossBefore           -0.0418947
+2017-08-09 20:32:58.975811 PDT | LossAfter            -0.0560559
+2017-08-09 20:32:58.976044 PDT | MeanKL                0.040134
+2017-08-09 20:32:58.976260 PDT | MaxKL                 0.123707
+2017-08-09 20:32:58.976384 PDT | Time               1524.56
+2017-08-09 20:32:58.976489 PDT | ItrTime              94.2887
+2017-08-09 20:32:58.976594 PDT | -----------------  ------------
+2017-08-09 20:32:58.976905 PDT | [point_3] itr #13 | Obtaining samples...
+2017-08-09 20:34:33.064528 PDT | [point_3] itr #13 | Processing samples...
+2017-08-09 20:34:33.081255 PDT | [point_3] itr #13 | fitting baseline...
+2017-08-09 20:34:33.153238 PDT | [point_3] itr #13 | fitted
+2017-08-09 20:34:33.304761 PDT | [point_3] itr #13 | Logging diagnostics...
+2017-08-09 20:34:33.310131 PDT | [point_3] itr #13 | Optimizing policy...
+2017-08-09 20:34:33.310270 PDT | [point_3] itr #13 | optimizing policy
+2017-08-09 20:34:33.353964 PDT | [point_3] itr #13 | Saving snapshot...
+2017-08-09 20:34:33.357042 PDT | [point_3] itr #13 | Saved
+2017-08-09 20:34:33.357747 PDT | -----------------  ------------
+2017-08-09 20:34:33.357883 PDT | TotalExecTime        94.0867
+2017-08-09 20:34:33.358033 PDT | AverageReturn      2550.95
+2017-08-09 20:34:33.358153 PDT | ExplainedVariance     0.987636
+2017-08-09 20:34:33.358272 PDT | NumTrajs           2000
+2017-08-09 20:34:33.358378 PDT | Entropy               2.63255
+2017-08-09 20:34:33.358481 PDT | Perplexity           13.9092
+2017-08-09 20:34:33.358584 PDT | StdReturn           190.759
+2017-08-09 20:34:33.358687 PDT | MaxReturn          3000
+2017-08-09 20:34:33.358812 PDT | MinReturn          1300
+2017-08-09 20:34:33.358932 PDT | AveragePolicyStd      0.902451
+2017-08-09 20:34:33.359052 PDT | LossBefore           -0.0422617
+2017-08-09 20:34:33.359156 PDT | LossAfter            -0.0514986
+2017-08-09 20:34:33.359261 PDT | MeanKL                0.0261951
+2017-08-09 20:34:33.359364 PDT | MaxKL                 0.0791984
+2017-08-09 20:34:33.359467 PDT | Time               1618.94
+2017-08-09 20:34:33.359586 PDT | ItrTime              94.3803
+2017-08-09 20:34:33.359703 PDT | -----------------  ------------
+2017-08-09 20:34:33.359903 PDT | [point_3] itr #14 | Obtaining samples...
+2017-08-09 20:36:07.359493 PDT | [point_3] itr #14 | Processing samples...
+2017-08-09 20:36:07.376679 PDT | [point_3] itr #14 | fitting baseline...
+2017-08-09 20:36:07.426462 PDT | [point_3] itr #14 | fitted
+2017-08-09 20:36:07.562000 PDT | [point_3] itr #14 | Logging diagnostics...
+2017-08-09 20:36:07.567382 PDT | [point_3] itr #14 | Optimizing policy...
+2017-08-09 20:36:07.567527 PDT | [point_3] itr #14 | optimizing policy
+2017-08-09 20:36:07.611093 PDT | [point_3] itr #14 | Saving snapshot...
+2017-08-09 20:36:07.614088 PDT | [point_3] itr #14 | Saved
+2017-08-09 20:36:07.614729 PDT | -----------------  ------------
+2017-08-09 20:36:07.614911 PDT | TotalExecTime        93.9989
+2017-08-09 20:36:07.615022 PDT | AverageReturn      2580.95
+2017-08-09 20:36:07.615145 PDT | ExplainedVariance     0.989204
+2017-08-09 20:36:07.615276 PDT | NumTrajs           2000
+2017-08-09 20:36:07.615403 PDT | Entropy               2.61142
+2017-08-09 20:36:07.615543 PDT | Perplexity           13.6183
+2017-08-09 20:36:07.615727 PDT | StdReturn           173.038
+2017-08-09 20:36:07.615944 PDT | MaxReturn          3000
+2017-08-09 20:36:07.616053 PDT | MinReturn          1300
+2017-08-09 20:36:07.616159 PDT | AveragePolicyStd      0.892969
+2017-08-09 20:36:07.616263 PDT | LossBefore           -0.0412864
+2017-08-09 20:36:07.616366 PDT | LossAfter            -0.0466391
+2017-08-09 20:36:07.616471 PDT | MeanKL                0.0131619
+2017-08-09 20:36:07.616573 PDT | MaxKL                 0.0333206
+2017-08-09 20:36:07.616723 PDT | Time               1713.2
+2017-08-09 20:36:07.616878 PDT | ItrTime              94.2543
+2017-08-09 20:36:07.616984 PDT | -----------------  ------------
+2017-08-09 20:36:07.617155 PDT | [point_3] itr #15 | Obtaining samples...
+2017-08-09 20:37:41.615761 PDT | [point_3] itr #15 | Processing samples...
+2017-08-09 20:37:41.632926 PDT | [point_3] itr #15 | fitting baseline...
+2017-08-09 20:37:41.694939 PDT | [point_3] itr #15 | fitted
+2017-08-09 20:37:41.869914 PDT | [point_3] itr #15 | Logging diagnostics...
+2017-08-09 20:37:41.876483 PDT | [point_3] itr #15 | Optimizing policy...
+2017-08-09 20:37:41.876643 PDT | [point_3] itr #15 | optimizing policy
+2017-08-09 20:37:41.920240 PDT | [point_3] itr #15 | Saving snapshot...
+2017-08-09 20:37:41.923587 PDT | [point_3] itr #15 | Saved
+2017-08-09 20:37:41.924376 PDT | -----------------  ------------
+2017-08-09 20:37:41.924562 PDT | TotalExecTime        93.9977
+2017-08-09 20:37:41.924739 PDT | AverageReturn      2597.35
+2017-08-09 20:37:41.924898 PDT | ExplainedVariance     0.991147
+2017-08-09 20:37:41.925064 PDT | NumTrajs           2000
+2017-08-09 20:37:41.925211 PDT | Entropy               2.59077
+2017-08-09 20:37:41.925355 PDT | Perplexity           13.3401
+2017-08-09 20:37:41.925634 PDT | StdReturn           160.337
+2017-08-09 20:37:41.925880 PDT | MaxReturn          3000
+2017-08-09 20:37:41.926029 PDT | MinReturn          1800
+2017-08-09 20:37:41.926175 PDT | AveragePolicyStd      0.883797
+2017-08-09 20:37:41.926320 PDT | LossBefore           -0.0304472
+2017-08-09 20:37:41.926487 PDT | LossAfter            -0.0350651
+2017-08-09 20:37:41.926633 PDT | MeanKL                0.0126961
+2017-08-09 20:37:41.926778 PDT | MaxKL                 0.0325421
+2017-08-09 20:37:41.926922 PDT | Time               1807.51
+2017-08-09 20:37:41.927066 PDT | ItrTime              94.3066
+2017-08-09 20:37:41.927229 PDT | -----------------  ------------
+2017-08-09 20:37:41.927472 PDT | [point_3] itr #16 | Obtaining samples...
+2017-08-09 20:39:14.736300 PDT | [point_3] itr #16 | Processing samples...
+2017-08-09 20:39:14.758342 PDT | [point_3] itr #16 | fitting baseline...
+2017-08-09 20:39:14.826549 PDT | [point_3] itr #16 | fitted
+2017-08-09 20:39:14.988077 PDT | [point_3] itr #16 | Logging diagnostics...
+2017-08-09 20:39:14.995023 PDT | [point_3] itr #16 | Optimizing policy...
+2017-08-09 20:39:14.995234 PDT | [point_3] itr #16 | optimizing policy
+2017-08-09 20:39:15.037440 PDT | [point_3] itr #16 | Saving snapshot...
+2017-08-09 20:39:15.040340 PDT | [point_3] itr #16 | Saved
+2017-08-09 20:39:15.040995 PDT | -----------------  ------------
+2017-08-09 20:39:15.041196 PDT | TotalExecTime        92.808
+2017-08-09 20:39:15.041310 PDT | AverageReturn      2615.7
+2017-08-09 20:39:15.041415 PDT | ExplainedVariance     0.99187
+2017-08-09 20:39:15.041519 PDT | NumTrajs           2000
+2017-08-09 20:39:15.041622 PDT | Entropy               2.57555
+2017-08-09 20:39:15.041725 PDT | Perplexity           13.1385
+2017-08-09 20:39:15.041839 PDT | StdReturn           149.845
+2017-08-09 20:39:15.041997 PDT | MaxReturn          3000
+2017-08-09 20:39:15.042126 PDT | MinReturn          1900
+2017-08-09 20:39:15.042229 PDT | AveragePolicyStd      0.877098
+2017-08-09 20:39:15.042330 PDT | LossBefore           -0.0286999
+2017-08-09 20:39:15.042445 PDT | LossAfter            -0.0322299
+2017-08-09 20:39:15.042581 PDT | MeanKL                0.0104523
+2017-08-09 20:39:15.042685 PDT | MaxKL                 0.0277141
+2017-08-09 20:39:15.042787 PDT | Time               1900.63
+2017-08-09 20:39:15.042889 PDT | ItrTime              93.113
+2017-08-09 20:39:15.042990 PDT | -----------------  ------------
+2017-08-09 20:39:15.043169 PDT | [point_3] itr #17 | Obtaining samples...
+2017-08-09 20:40:32.530060 PDT | [point_3] itr #17 | Processing samples...
+2017-08-09 20:40:32.546264 PDT | [point_3] itr #17 | fitting baseline...
+2017-08-09 20:40:32.598245 PDT | [point_3] itr #17 | fitted
+2017-08-09 20:40:32.728116 PDT | [point_3] itr #17 | Logging diagnostics...
+2017-08-09 20:40:32.734139 PDT | [point_3] itr #17 | Optimizing policy...
+2017-08-09 20:40:32.734324 PDT | [point_3] itr #17 | optimizing policy
+2017-08-09 20:40:32.778523 PDT | [point_3] itr #17 | Saving snapshot...
+2017-08-09 20:40:32.781326 PDT | [point_3] itr #17 | Saved
+2017-08-09 20:40:32.781967 PDT | -----------------  -------------
+2017-08-09 20:40:32.782110 PDT | TotalExecTime        77.4861
+2017-08-09 20:40:32.782246 PDT | AverageReturn      2623.95
+2017-08-09 20:40:32.782361 PDT | ExplainedVariance     0.992472
+2017-08-09 20:40:32.782475 PDT | NumTrajs           2000
+2017-08-09 20:40:32.782587 PDT | Entropy               2.5612
+2017-08-09 20:40:32.782699 PDT | Perplexity           12.9514
+2017-08-09 20:40:32.782809 PDT | StdReturn           150.67
+2017-08-09 20:40:32.782920 PDT | MaxReturn          3000
+2017-08-09 20:40:32.783030 PDT | MinReturn          1800
+2017-08-09 20:40:32.783140 PDT | AveragePolicyStd      0.870832
+2017-08-09 20:40:32.783250 PDT | LossBefore           -0.0288788
+2017-08-09 20:40:32.783360 PDT | LossAfter            -0.0317924
+2017-08-09 20:40:32.783470 PDT | MeanKL                0.00880051
+2017-08-09 20:40:32.783581 PDT | MaxKL                 0.0226588
+2017-08-09 20:40:32.783690 PDT | Time               1978.37
+2017-08-09 20:40:32.783800 PDT | ItrTime              77.7383
+2017-08-09 20:40:32.783918 PDT | -----------------  -------------
+2017-08-09 20:40:32.784097 PDT | [point_3] itr #18 | Obtaining samples...
+2017-08-09 20:41:51.608455 PDT | [point_3] itr #18 | Processing samples...
+2017-08-09 20:41:51.625936 PDT | [point_3] itr #18 | fitting baseline...
+2017-08-09 20:41:51.678709 PDT | [point_3] itr #18 | fitted
+2017-08-09 20:41:51.795215 PDT | [point_3] itr #18 | Logging diagnostics...
+2017-08-09 20:41:51.800882 PDT | [point_3] itr #18 | Optimizing policy...
+2017-08-09 20:41:51.801032 PDT | [point_3] itr #18 | optimizing policy
+2017-08-09 20:41:51.849871 PDT | [point_3] itr #18 | Saving snapshot...
+2017-08-09 20:41:51.853049 PDT | [point_3] itr #18 | Saved
+2017-08-09 20:41:51.853780 PDT | -----------------  -------------
+2017-08-09 20:41:51.853947 PDT | TotalExecTime        78.8236
+2017-08-09 20:41:51.854181 PDT | AverageReturn      2634.2
+2017-08-09 20:41:51.854423 PDT | ExplainedVariance     0.992979
+2017-08-09 20:41:51.854660 PDT | NumTrajs           2000
+2017-08-09 20:41:51.854902 PDT | Entropy               2.54676
+2017-08-09 20:41:51.855050 PDT | Perplexity           12.7657
+2017-08-09 20:41:51.855179 PDT | StdReturn           140.18
+2017-08-09 20:41:51.855305 PDT | MaxReturn          3000
+2017-08-09 20:41:51.855458 PDT | MinReturn          2200
+2017-08-09 20:41:51.855630 PDT | AveragePolicyStd      0.864568
+2017-08-09 20:41:51.855787 PDT | LossBefore           -0.0225701
+2017-08-09 20:41:51.855950 PDT | LossAfter            -0.0238906
+2017-08-09 20:41:51.856100 PDT | MeanKL                0.00342866
+2017-08-09 20:41:51.856249 PDT | MaxKL                 0.00857897
+2017-08-09 20:41:51.856399 PDT | Time               2057.44
+2017-08-09 20:41:51.856547 PDT | ItrTime              79.0691
+2017-08-09 20:41:51.856698 PDT | -----------------  -------------
+2017-08-09 20:41:51.856947 PDT | [point_3] itr #19 | Obtaining samples...
+2017-08-09 20:43:27.760839 PDT | [point_3] itr #19 | Processing samples...
+2017-08-09 20:43:27.781019 PDT | [point_3] itr #19 | fitting baseline...
+2017-08-09 20:43:27.835565 PDT | [point_3] itr #19 | fitted
+2017-08-09 20:43:27.980740 PDT | [point_3] itr #19 | Logging diagnostics...
+2017-08-09 20:43:27.986407 PDT | [point_3] itr #19 | Optimizing policy...
+2017-08-09 20:43:27.986548 PDT | [point_3] itr #19 | optimizing policy
+2017-08-09 20:43:28.034491 PDT | [point_3] itr #19 | Saving snapshot...
+2017-08-09 20:43:28.038611 PDT | [point_3] itr #19 | Saved
+2017-08-09 20:43:28.039607 PDT | -----------------  -------------
+2017-08-09 20:43:28.039807 PDT | TotalExecTime        95.903
+2017-08-09 20:43:28.039973 PDT | AverageReturn      2633.5
+2017-08-09 20:43:28.040117 PDT | ExplainedVariance     0.992756
+2017-08-09 20:43:28.040261 PDT | NumTrajs           2000
+2017-08-09 20:43:28.040403 PDT | Entropy               2.53548
+2017-08-09 20:43:28.040604 PDT | Perplexity           12.6224
+2017-08-09 20:43:28.040824 PDT | StdReturn           144.457
+2017-08-09 20:43:28.040966 PDT | MaxReturn          3000
+2017-08-09 20:43:28.041108 PDT | MinReturn          1900
+2017-08-09 20:43:28.041310 PDT | AveragePolicyStd      0.859704
+2017-08-09 20:43:28.041528 PDT | LossBefore           -0.026941
+2017-08-09 20:43:28.041673 PDT | LossAfter            -0.028856
+2017-08-09 20:43:28.041815 PDT | MeanKL                0.00595905
+2017-08-09 20:43:28.041956 PDT | MaxKL                 0.0158531
+2017-08-09 20:43:28.042193 PDT | Time               2153.62
+2017-08-09 20:43:28.042371 PDT | ItrTime              96.1819
+2017-08-09 20:43:28.042511 PDT | -----------------  -------------
+2017-08-10 23:17:41.697958 PDT | [point_3] Populating workers...
+2017-08-10 23:17:41.710178 PDT | [point_3] Populated
+2017-08-10 23:17:41.710727 PDT | [point_3] itr #0 | Obtaining samples...
+2017-08-10 23:18:17.425777 PDT | [point_3] itr #0 | Processing samples...
+2017-08-10 23:18:17.429279 PDT | [point_3] itr #0 | fitting baseline...
+2017-08-10 23:18:17.541910 PDT | [point_3] itr #0 | fitted
+2017-08-10 23:18:17.623517 PDT | [point_3] itr #0 | Logging diagnostics...
+2017-08-10 23:18:17.631395 PDT | [point_3] itr #0 | Optimizing policy...
+2017-08-10 23:18:17.631675 PDT | [point_3] itr #0 | optimizing policy
+2017-08-10 23:18:17.727932 PDT | [point_3] itr #0 | Saving snapshot...
+2017-08-10 23:18:17.734087 PDT | [point_3] itr #0 | Saved
+2017-08-10 23:18:17.741480 PDT | -----------------  -------------
+2017-08-10 23:18:17.741763 PDT | TotalExecTime        35.7131
+2017-08-10 23:18:17.743936 PDT | AverageReturn        19
+2017-08-10 23:18:17.744368 PDT | ExplainedVariance     0.278859
+2017-08-10 23:18:17.744747 PDT | NumTrajs            200
+2017-08-10 23:18:17.745128 PDT | Entropy               2.82159
+2017-08-10 23:18:17.745505 PDT | Perplexity           16.8035
+2017-08-10 23:18:17.745880 PDT | StdReturn           128.215
+2017-08-10 23:18:17.746278 PDT | MaxReturn          1300
+2017-08-10 23:18:17.746661 PDT | MinReturn             0
+2017-08-10 23:18:17.751421 PDT | AveragePolicyStd      0.991891
+2017-08-10 23:18:17.751869 PDT | LossBefore            0.0214854
+2017-08-10 23:18:17.752276 PDT | LossAfter             0.0168305
+2017-08-10 23:18:17.752639 PDT | MeanKL                0.00478329
+2017-08-10 23:18:17.753050 PDT | MaxKL                 0.020096
+2017-08-10 23:18:17.755243 PDT | Time                 36.0299
+2017-08-10 23:18:17.755636 PDT | ItrTime              36.0299
+2017-08-10 23:18:17.756066 PDT | -----------------  -------------
+2017-08-10 23:18:17.756653 PDT | [point_3] itr #1 | Obtaining samples...
+2017-08-10 23:18:53.284659 PDT | [point_3] itr #1 | Processing samples...
+2017-08-10 23:18:53.288164 PDT | [point_3] itr #1 | fitting baseline...
+2017-08-10 23:18:53.577112 PDT | [point_3] itr #1 | fitted
+2017-08-10 23:18:53.649575 PDT | [point_3] itr #1 | Logging diagnostics...
+2017-08-10 23:18:53.658329 PDT | [point_3] itr #1 | Optimizing policy...
+2017-08-10 23:18:53.658814 PDT | [point_3] itr #1 | optimizing policy
+2017-08-10 23:18:53.741983 PDT | [point_3] itr #1 | Saving snapshot...
+2017-08-10 23:18:53.747877 PDT | [point_3] itr #1 | Saved
+2017-08-10 23:18:53.751599 PDT | -----------------  -------------
+2017-08-10 23:18:53.754302 PDT | TotalExecTime        35.5247
+2017-08-10 23:18:53.756591 PDT | AverageReturn        86.5
+2017-08-10 23:18:53.757032 PDT | ExplainedVariance     0.380804
+2017-08-10 23:18:53.760506 PDT | NumTrajs            200
+2017-08-10 23:18:53.760951 PDT | Entropy               2.84307
+2017-08-10 23:18:53.761378 PDT | Perplexity           17.1685
+2017-08-10 23:18:53.761742 PDT | StdReturn           300.612
+2017-08-10 23:18:53.762156 PDT | MaxReturn          1900
+2017-08-10 23:18:53.762574 PDT | MinReturn             0
+2017-08-10 23:18:53.762943 PDT | AveragePolicyStd      1.00267
+2017-08-10 23:18:53.763344 PDT | LossBefore           -0.00288045
+2017-08-10 23:18:53.763754 PDT | LossAfter            -0.0114166
+2017-08-10 23:18:53.764149 PDT | MeanKL                0.00582749
+2017-08-10 23:18:53.764539 PDT | MaxKL                 0.0275844
+2017-08-10 23:18:53.764945 PDT | Time                 72.04
+2017-08-10 23:18:53.766740 PDT | ItrTime              35.9941
+2017-08-10 23:18:53.767142 PDT | -----------------  -------------
+2017-08-10 23:18:53.767675 PDT | [point_3] itr #2 | Obtaining samples...
+2017-08-10 23:19:29.599422 PDT | [point_3] itr #2 | Processing samples...
+2017-08-10 23:19:29.602832 PDT | [point_3] itr #2 | fitting baseline...
+2017-08-10 23:19:29.889065 PDT | [point_3] itr #2 | fitted
+2017-08-10 23:19:29.965105 PDT | [point_3] itr #2 | Logging diagnostics...
+2017-08-10 23:19:29.971435 PDT | [point_3] itr #2 | Optimizing policy...
+2017-08-10 23:19:29.971918 PDT | [point_3] itr #2 | optimizing policy
+2017-08-10 23:19:30.005379 PDT | [point_3] itr #2 | Saving snapshot...
+2017-08-10 23:19:30.017655 PDT | [point_3] itr #2 | Saved
+2017-08-10 23:19:30.025731 PDT | -----------------  -------------
+2017-08-10 23:19:30.026041 PDT | TotalExecTime        35.826
+2017-08-10 23:19:30.026266 PDT | AverageReturn       104
+2017-08-10 23:19:30.026469 PDT | ExplainedVariance     0.427114
+2017-08-10 23:19:30.026870 PDT | NumTrajs            200
+2017-08-10 23:19:30.027248 PDT | Entropy               2.84163
+2017-08-10 23:19:30.027655 PDT | Perplexity           17.1438
+2017-08-10 23:19:30.028043 PDT | StdReturn           313.024
+2017-08-10 23:19:30.028438 PDT | MaxReturn          1600
+2017-08-10 23:19:30.028787 PDT | MinReturn             0
+2017-08-10 23:19:30.029192 PDT | AveragePolicyStd      1.00193
+2017-08-10 23:19:30.029580 PDT | LossBefore           -0.00778428
+2017-08-10 23:19:30.029952 PDT | LossAfter            -0.0173687
+2017-08-10 23:19:30.034553 PDT | MeanKL                0.00733125
+2017-08-10 23:19:30.034996 PDT | MaxKL                 0.0328723
+2017-08-10 23:19:30.035427 PDT | Time                108.314
+2017-08-10 23:19:30.035818 PDT | ItrTime              36.2572
+2017-08-10 23:19:30.036171 PDT | -----------------  -------------
+2017-08-10 23:19:30.036719 PDT | [point_3] itr #3 | Obtaining samples...
+2017-08-10 23:20:05.572884 PDT | [point_3] itr #3 | Processing samples...
+2017-08-10 23:20:05.577075 PDT | [point_3] itr #3 | fitting baseline...
+2017-08-10 23:20:05.858728 PDT | [point_3] itr #3 | fitted
+2017-08-10 23:20:05.938818 PDT | [point_3] itr #3 | Logging diagnostics...
+2017-08-10 23:20:05.940192 PDT | [point_3] itr #3 | Optimizing policy...
+2017-08-10 23:20:05.940432 PDT | [point_3] itr #3 | optimizing policy
+2017-08-10 23:20:05.968315 PDT | [point_3] itr #3 | Saving snapshot...
+2017-08-10 23:20:05.980017 PDT | [point_3] itr #3 | Saved
+2017-08-10 23:20:05.987315 PDT | -----------------  -------------
+2017-08-10 23:20:05.987863 PDT | TotalExecTime        35.5342
+2017-08-10 23:20:05.994147 PDT | AverageReturn       250.5
+2017-08-10 23:20:05.994610 PDT | ExplainedVariance     0.493007
+2017-08-10 23:20:05.996210 PDT | NumTrajs            200
+2017-08-10 23:20:05.996629 PDT | Entropy               2.83774
+2017-08-10 23:20:05.997021 PDT | Perplexity           17.0772
+2017-08-10 23:20:05.997391 PDT | StdReturn           479.27
+2017-08-10 23:20:05.997796 PDT | MaxReturn          2200
+2017-08-10 23:20:05.998182 PDT | MinReturn             0
+2017-08-10 23:20:05.998554 PDT | AveragePolicyStd      0.999978
+2017-08-10 23:20:05.998930 PDT | LossBefore           -0.0121594
+2017-08-10 23:20:05.999321 PDT | LossAfter            -0.0229985
+2017-08-10 23:20:05.999719 PDT | MeanKL                0.00963353
+2017-08-10 23:20:06.000104 PDT | MaxKL                 0.0312768
+2017-08-10 23:20:06.000473 PDT | Time                144.276
+2017-08-10 23:20:06.000877 PDT | ItrTime              35.9497
+2017-08-10 23:20:06.001287 PDT | -----------------  -------------
+2017-08-10 23:20:06.001804 PDT | [point_3] itr #4 | Obtaining samples...
+2017-08-10 23:20:41.734662 PDT | [point_3] itr #4 | Processing samples...
+2017-08-10 23:20:41.737953 PDT | [point_3] itr #4 | fitting baseline...
+2017-08-10 23:20:42.020123 PDT | [point_3] itr #4 | fitted
+2017-08-10 23:20:42.093090 PDT | [point_3] itr #4 | Logging diagnostics...
+2017-08-10 23:20:42.101845 PDT | [point_3] itr #4 | Optimizing policy...
+2017-08-10 23:20:42.102355 PDT | [point_3] itr #4 | optimizing policy
+2017-08-10 23:20:42.135447 PDT | [point_3] itr #4 | Saving snapshot...
+2017-08-10 23:20:42.146952 PDT | [point_3] itr #4 | Saved
+2017-08-10 23:20:42.153644 PDT | -----------------  -------------
+2017-08-10 23:20:42.157534 PDT | TotalExecTime        35.7286
+2017-08-10 23:20:42.157985 PDT | AverageReturn       566.5
+2017-08-10 23:20:42.158383 PDT | ExplainedVariance     0.563259
+2017-08-10 23:20:42.158767 PDT | NumTrajs            200
+2017-08-10 23:20:42.159136 PDT | Entropy               2.83166
+2017-08-10 23:20:42.159540 PDT | Perplexity           16.9737
+2017-08-10 23:20:42.159947 PDT | StdReturn           674.409
+2017-08-10 23:20:42.164295 PDT | MaxReturn          2200
+2017-08-10 23:20:42.164711 PDT | MinReturn             0
+2017-08-10 23:20:42.165132 PDT | AveragePolicyStd      0.996948
+2017-08-10 23:20:42.165537 PDT | LossBefore            0.00577051
+2017-08-10 23:20:42.165931 PDT | LossAfter            -0.0160685
+2017-08-10 23:20:42.166290 PDT | MeanKL                0.0240488
+2017-08-10 23:20:42.166683 PDT | MaxKL                 0.0816279
+2017-08-10 23:20:42.167068 PDT | Time                180.44
+2017-08-10 23:20:42.167454 PDT | ItrTime              36.1493
+2017-08-10 23:20:42.167861 PDT | -----------------  -------------
+2017-08-10 23:20:42.168354 PDT | [point_3] itr #5 | Obtaining samples...
+2017-08-10 23:21:17.679902 PDT | [point_3] itr #5 | Processing samples...
+2017-08-10 23:21:17.685390 PDT | [point_3] itr #5 | fitting baseline...
+2017-08-10 23:21:17.975437 PDT | [point_3] itr #5 | fitted
+2017-08-10 23:21:18.046786 PDT | [point_3] itr #5 | Logging diagnostics...
+2017-08-10 23:21:18.052242 PDT | [point_3] itr #5 | Optimizing policy...
+2017-08-10 23:21:18.052703 PDT | [point_3] itr #5 | optimizing policy
+2017-08-10 23:21:18.087182 PDT | [point_3] itr #5 | Saving snapshot...
+2017-08-10 23:21:18.099326 PDT | [point_3] itr #5 | Saved
+2017-08-10 23:21:18.104434 PDT | -----------------  ------------
+2017-08-10 23:21:18.105183 PDT | TotalExecTime        35.5096
+2017-08-10 23:21:18.105399 PDT | AverageReturn      1039.5
+2017-08-10 23:21:18.108500 PDT | ExplainedVariance     0.646549
+2017-08-10 23:21:18.108934 PDT | NumTrajs            200
+2017-08-10 23:21:18.109322 PDT | Entropy               2.83455
+2017-08-10 23:21:18.109700 PDT | Perplexity           17.0227
+2017-08-10 23:21:18.110115 PDT | StdReturn           677.34
+2017-08-10 23:21:18.110526 PDT | MaxReturn          2300
+2017-08-10 23:21:18.110937 PDT | MinReturn             0
+2017-08-10 23:21:18.111318 PDT | AveragePolicyStd      0.998427
+2017-08-10 23:21:18.111709 PDT | LossBefore           -0.0406334
+2017-08-10 23:21:18.112077 PDT | LossAfter            -0.0604879
+2017-08-10 23:21:18.112487 PDT | MeanKL                0.02454
+2017-08-10 23:21:18.112900 PDT | MaxKL                 0.0765232
+2017-08-10 23:21:18.116511 PDT | Time                216.393
+2017-08-10 23:21:18.116946 PDT | ItrTime              35.9352
+2017-08-10 23:21:18.117366 PDT | -----------------  ------------
+2017-08-10 23:21:18.117885 PDT | [point_3] itr #6 | Obtaining samples...
+2017-08-10 23:21:53.793506 PDT | [point_3] itr #6 | Processing samples...
+2017-08-10 23:21:53.796835 PDT | [point_3] itr #6 | fitting baseline...
+2017-08-10 23:21:54.078000 PDT | [point_3] itr #6 | fitted
+2017-08-10 23:21:54.153291 PDT | [point_3] itr #6 | Logging diagnostics...
+2017-08-10 23:21:54.158479 PDT | [point_3] itr #6 | Optimizing policy...
+2017-08-10 23:21:54.158943 PDT | [point_3] itr #6 | optimizing policy
+2017-08-10 23:21:54.194739 PDT | [point_3] itr #6 | Saving snapshot...
+2017-08-10 23:21:54.200684 PDT | [point_3] itr #6 | Saved
+2017-08-10 23:21:54.209000 PDT | -----------------  ------------
+2017-08-10 23:21:54.209329 PDT | TotalExecTime        35.6736
+2017-08-10 23:21:54.209567 PDT | AverageReturn      1444
+2017-08-10 23:21:54.209781 PDT | ExplainedVariance     0.728597
+2017-08-10 23:21:54.209993 PDT | NumTrajs            200
+2017-08-10 23:21:54.210256 PDT | Entropy               2.81423
+2017-08-10 23:21:54.210448 PDT | Perplexity           16.6804
+2017-08-10 23:21:54.210657 PDT | StdReturn           629.971
+2017-08-10 23:21:54.210894 PDT | MaxReturn          2600
+2017-08-10 23:21:54.211124 PDT | MinReturn             0
+2017-08-10 23:21:54.211364 PDT | AveragePolicyStd      0.988344
+2017-08-10 23:21:54.211571 PDT | LossBefore           -0.0403375
+2017-08-10 23:21:54.211794 PDT | LossAfter            -0.0686067
+2017-08-10 23:21:54.212001 PDT | MeanKL                0.0404785
+2017-08-10 23:21:54.212189 PDT | MaxKL                 0.123642
+2017-08-10 23:21:54.212421 PDT | Time                252.497
+2017-08-10 23:21:54.212658 PDT | ItrTime              36.0902
+2017-08-10 23:21:54.212881 PDT | -----------------  ------------
+2017-08-10 23:21:54.213221 PDT | [point_3] itr #7 | Obtaining samples...
+2017-08-10 23:22:29.794934 PDT | [point_3] itr #7 | Processing samples...
+2017-08-10 23:22:29.798273 PDT | [point_3] itr #7 | fitting baseline...
+2017-08-10 23:22:30.085396 PDT | [point_3] itr #7 | fitted
+2017-08-10 23:22:30.160129 PDT | [point_3] itr #7 | Logging diagnostics...
+2017-08-10 23:22:30.161646 PDT | [point_3] itr #7 | Optimizing policy...
+2017-08-10 23:22:30.166164 PDT | [point_3] itr #7 | optimizing policy
+2017-08-10 23:22:30.202515 PDT | [point_3] itr #7 | Saving snapshot...
+2017-08-10 23:22:30.210590 PDT | [point_3] itr #7 | Saved
+2017-08-10 23:22:30.216168 PDT | -----------------  ------------
+2017-08-10 23:22:30.220541 PDT | TotalExecTime        35.5799
+2017-08-10 23:22:30.220934 PDT | AverageReturn      1812.5
+2017-08-10 23:22:30.224485 PDT | ExplainedVariance     0.860015
+2017-08-10 23:22:30.224909 PDT | NumTrajs            200
+2017-08-10 23:22:30.225297 PDT | Entropy               2.79406
+2017-08-10 23:22:30.225660 PDT | Perplexity           16.3473
+2017-08-10 23:22:30.226065 PDT | StdReturn           509.405
+2017-08-10 23:22:30.226478 PDT | MaxReturn          2700
+2017-08-10 23:22:30.226869 PDT | MinReturn             0
+2017-08-10 23:22:30.227225 PDT | AveragePolicyStd      0.978368
+2017-08-10 23:22:30.228437 PDT | LossBefore           -0.0372311
+2017-08-10 23:22:30.228826 PDT | LossAfter            -0.0675586
+2017-08-10 23:22:30.229179 PDT | MeanKL                0.0505397
+2017-08-10 23:22:30.229599 PDT | MaxKL                 0.154671
+2017-08-10 23:22:30.232484 PDT | Time                288.505
+2017-08-10 23:22:30.232875 PDT | ItrTime              36.002
+2017-08-10 23:22:30.233284 PDT | -----------------  ------------
+2017-08-10 23:22:30.233832 PDT | [point_3] itr #8 | Obtaining samples...
+2017-08-10 23:23:05.780748 PDT | [point_3] itr #8 | Processing samples...
+2017-08-10 23:23:05.790288 PDT | [point_3] itr #8 | fitting baseline...
+2017-08-10 23:23:06.080271 PDT | [point_3] itr #8 | fitted
+2017-08-10 23:23:06.150380 PDT | [point_3] itr #8 | Logging diagnostics...
+2017-08-10 23:23:06.157605 PDT | [point_3] itr #8 | Optimizing policy...
+2017-08-10 23:23:06.158120 PDT | [point_3] itr #8 | optimizing policy
+2017-08-10 23:23:06.197012 PDT | [point_3] itr #8 | Saving snapshot...
+2017-08-10 23:23:06.207498 PDT | [point_3] itr #8 | Saved
+2017-08-10 23:23:06.213880 PDT | -----------------  ------------
+2017-08-10 23:23:06.216487 PDT | TotalExecTime        35.5449
+2017-08-10 23:23:06.216918 PDT | AverageReturn      2125
+2017-08-10 23:23:06.217288 PDT | ExplainedVariance     0.904646
+2017-08-10 23:23:06.217705 PDT | NumTrajs            200
+2017-08-10 23:23:06.220013 PDT | Entropy               2.77545
+2017-08-10 23:23:06.220408 PDT | Perplexity           16.0458
+2017-08-10 23:23:06.220816 PDT | StdReturn           356.616
+2017-08-10 23:23:06.221227 PDT | MaxReturn          2800
+2017-08-10 23:23:06.221615 PDT | MinReturn           800
+2017-08-10 23:23:06.221981 PDT | AveragePolicyStd      0.969319
+2017-08-10 23:23:06.222382 PDT | LossBefore           -0.0496665
+2017-08-10 23:23:06.222788 PDT | LossAfter            -0.065957
+2017-08-10 23:23:06.224450 PDT | MeanKL                0.0303119
+2017-08-10 23:23:06.224847 PDT | MaxKL                 0.0926505
+2017-08-10 23:23:06.225244 PDT | Time                324.502
+2017-08-10 23:23:06.225604 PDT | ItrTime              35.9792
+2017-08-10 23:23:06.226012 PDT | -----------------  ------------
+2017-08-10 23:23:06.226530 PDT | [point_3] itr #9 | Obtaining samples...
+2017-08-10 23:23:41.813400 PDT | [point_3] itr #9 | Processing samples...
+2017-08-10 23:23:41.818723 PDT | [point_3] itr #9 | fitting baseline...
+2017-08-10 23:23:42.103916 PDT | [point_3] itr #9 | fitted
+2017-08-10 23:23:42.179949 PDT | [point_3] itr #9 | Logging diagnostics...
+2017-08-10 23:23:42.187124 PDT | [point_3] itr #9 | Optimizing policy...
+2017-08-10 23:23:42.187628 PDT | [point_3] itr #9 | optimizing policy
+2017-08-10 23:23:42.220518 PDT | [point_3] itr #9 | Saving snapshot...
+2017-08-10 23:23:42.231726 PDT | [point_3] itr #9 | Saved
+2017-08-10 23:23:42.237408 PDT | -----------------  ------------
+2017-08-10 23:23:42.237843 PDT | TotalExecTime        35.5834
+2017-08-10 23:23:42.241025 PDT | AverageReturn      2235
+2017-08-10 23:23:42.241422 PDT | ExplainedVariance     0.946031
+2017-08-10 23:23:42.241801 PDT | NumTrajs            200
+2017-08-10 23:23:42.243563 PDT | Entropy               2.75061
+2017-08-10 23:23:42.244393 PDT | Perplexity           15.6522
+2017-08-10 23:23:42.244814 PDT | StdReturn           332.077
+2017-08-10 23:23:42.248505 PDT | MaxReturn          2800
+2017-08-10 23:23:42.248945 PDT | MinReturn          1100
+2017-08-10 23:23:42.249343 PDT | AveragePolicyStd      0.957398
+2017-08-10 23:23:42.249740 PDT | LossBefore           -0.0550471
+2017-08-10 23:23:42.250105 PDT | LossAfter            -0.0727119
+2017-08-10 23:23:42.250497 PDT | MeanKL                0.0285857
+2017-08-10 23:23:42.250869 PDT | MaxKL                 0.0692354
+2017-08-10 23:23:42.251275 PDT | Time                360.526
+2017-08-10 23:23:42.251695 PDT | ItrTime              36.01
+2017-08-10 23:23:42.252077 PDT | -----------------  ------------
+2017-08-10 23:23:42.252561 PDT | [point_3] itr #10 | Obtaining samples...
+2017-08-10 23:24:18.038515 PDT | [point_3] itr #10 | Processing samples...
+2017-08-10 23:24:18.046761 PDT | [point_3] itr #10 | fitting baseline...
+2017-08-10 23:24:18.329020 PDT | [point_3] itr #10 | fitted
+2017-08-10 23:24:18.405307 PDT | [point_3] itr #10 | Logging diagnostics...
+2017-08-10 23:24:18.406552 PDT | [point_3] itr #10 | Optimizing policy...
+2017-08-10 23:24:18.406797 PDT | [point_3] itr #10 | optimizing policy
+2017-08-10 23:24:18.442375 PDT | [point_3] itr #10 | Saving snapshot...
+2017-08-10 23:24:18.455883 PDT | [point_3] itr #10 | Saved
+2017-08-10 23:24:18.462748 PDT | -----------------  ------------
+2017-08-10 23:24:18.469981 PDT | TotalExecTime        35.784
+2017-08-10 23:24:18.470476 PDT | AverageReturn      2381
+2017-08-10 23:24:18.470880 PDT | ExplainedVariance     0.967108
+2017-08-10 23:24:18.471947 PDT | NumTrajs            200
+2017-08-10 23:24:18.472177 PDT | Entropy               2.72309
+2017-08-10 23:24:18.472401 PDT | Perplexity           15.2273
+2017-08-10 23:24:18.472607 PDT | StdReturn           288.338
+2017-08-10 23:24:18.472824 PDT | MaxReturn          2900
+2017-08-10 23:24:18.473042 PDT | MinReturn          1200
+2017-08-10 23:24:18.473225 PDT | AveragePolicyStd      0.944318
+2017-08-10 23:24:18.473435 PDT | LossBefore           -0.0561809
+2017-08-10 23:24:18.473659 PDT | LossAfter            -0.0692623
+2017-08-10 23:24:18.473871 PDT | MeanKL                0.0252263
+2017-08-10 23:24:18.474105 PDT | MaxKL                 0.0717458
+2017-08-10 23:24:18.474663 PDT | Time                396.751
+2017-08-10 23:24:18.476808 PDT | ItrTime              36.2093
+2017-08-10 23:24:18.477072 PDT | -----------------  ------------
+2017-08-10 23:24:18.477423 PDT | [point_3] itr #11 | Obtaining samples...
+2017-08-10 23:24:55.012798 PDT | [point_3] itr #11 | Processing samples...
+2017-08-10 23:24:55.016378 PDT | [point_3] itr #11 | fitting baseline...
+2017-08-10 23:24:55.302303 PDT | [point_3] itr #11 | fitted
+2017-08-10 23:24:55.377823 PDT | [point_3] itr #11 | Logging diagnostics...
+2017-08-10 23:24:55.385936 PDT | [point_3] itr #11 | Optimizing policy...
+2017-08-10 23:24:55.386470 PDT | [point_3] itr #11 | optimizing policy
+2017-08-10 23:24:55.425790 PDT | [point_3] itr #11 | Saving snapshot...
+2017-08-10 23:24:55.435254 PDT | [point_3] itr #11 | Saved
+2017-08-10 23:24:55.442802 PDT | -----------------  ------------
+2017-08-10 23:24:55.443313 PDT | TotalExecTime        36.5273
+2017-08-10 23:24:55.443745 PDT | AverageReturn      2452.5
+2017-08-10 23:24:55.446506 PDT | ExplainedVariance     0.980549
+2017-08-10 23:24:55.446900 PDT | NumTrajs            200
+2017-08-10 23:24:55.447292 PDT | Entropy               2.695
+2017-08-10 23:24:55.447651 PDT | Perplexity           14.8055
+2017-08-10 23:24:55.448038 PDT | StdReturn           235.146
+2017-08-10 23:24:55.448445 PDT | MaxReturn          2900
+2017-08-10 23:24:55.452524 PDT | MinReturn          1500
+2017-08-10 23:24:55.452959 PDT | AveragePolicyStd      0.931114
+2017-08-10 23:24:55.453316 PDT | LossBefore           -0.0584925
+2017-08-10 23:24:55.453711 PDT | LossAfter            -0.0783761
+2017-08-10 23:24:55.454107 PDT | MeanKL                0.043269
+2017-08-10 23:24:55.454483 PDT | MaxKL                 0.127727
+2017-08-10 23:24:55.454885 PDT | Time                433.728
+2017-08-10 23:24:55.455278 PDT | ItrTime              36.9613
+2017-08-10 23:24:55.455661 PDT | -----------------  ------------
+2017-08-10 23:24:55.456143 PDT | [point_3] itr #12 | Obtaining samples...
+2017-08-10 23:25:31.927603 PDT | [point_3] itr #12 | Processing samples...
+2017-08-10 23:25:31.931133 PDT | [point_3] itr #12 | fitting baseline...
+2017-08-10 23:25:31.959652 PDT | [point_3] itr #12 | fitted
+2017-08-10 23:25:32.127693 PDT | [point_3] itr #12 | Logging diagnostics...
+2017-08-10 23:25:32.134360 PDT | [point_3] itr #12 | Optimizing policy...
+2017-08-10 23:25:32.136717 PDT | [point_3] itr #12 | optimizing policy
+2017-08-10 23:25:32.189092 PDT | [point_3] itr #12 | Saving snapshot...
+2017-08-10 23:25:32.212543 PDT | [point_3] itr #12 | Saved
+2017-08-10 23:25:32.218154 PDT | -----------------  ------------
+2017-08-10 23:25:32.221131 PDT | TotalExecTime        36.4695
+2017-08-10 23:25:32.222542 PDT | AverageReturn      2504.5
+2017-08-10 23:25:32.223486 PDT | ExplainedVariance     0.985806
+2017-08-10 23:25:32.224435 PDT | NumTrajs            200
+2017-08-10 23:25:32.225484 PDT | Entropy               2.66575
+2017-08-10 23:25:32.226629 PDT | Perplexity           14.3788
+2017-08-10 23:25:32.227385 PDT | StdReturn           210.309
+2017-08-10 23:25:32.228377 PDT | MaxReturn          3000
+2017-08-10 23:25:32.230225 PDT | MinReturn          1700
+2017-08-10 23:25:32.230667 PDT | AveragePolicyStd      0.917684
+2017-08-10 23:25:32.231375 PDT | LossBefore           -0.0307185
+2017-08-10 23:25:32.232350 PDT | LossAfter            -0.0466212
+2017-08-10 23:25:32.233660 PDT | MeanKL                0.0434628
+2017-08-10 23:25:32.234621 PDT | MaxKL                 0.131587
+2017-08-10 23:25:32.235054 PDT | Time                470.503
+2017-08-10 23:25:32.236203 PDT | ItrTime              36.7578
+2017-08-10 23:25:32.237174 PDT | -----------------  ------------
+2017-08-10 23:25:32.238297 PDT | [point_3] itr #13 | Obtaining samples...
+2017-08-10 23:26:08.466595 PDT | [point_3] itr #13 | Processing samples...
+2017-08-10 23:26:08.470038 PDT | [point_3] itr #13 | fitting baseline...
+2017-08-10 23:26:08.577241 PDT | [point_3] itr #13 | fitted
+2017-08-10 23:26:08.737593 PDT | [point_3] itr #13 | Logging diagnostics...
+2017-08-10 23:26:08.745966 PDT | [point_3] itr #13 | Optimizing policy...
+2017-08-10 23:26:08.746512 PDT | [point_3] itr #13 | optimizing policy
+2017-08-10 23:26:08.809693 PDT | [point_3] itr #13 | Saving snapshot...
+2017-08-10 23:26:08.829848 PDT | [point_3] itr #13 | Saved
+2017-08-10 23:26:08.834639 PDT | -----------------  -------------
+2017-08-10 23:26:08.836177 PDT | TotalExecTime        36.2242
+2017-08-10 23:26:08.839699 PDT | AverageReturn      2562
+2017-08-10 23:26:08.842425 PDT | ExplainedVariance     0.988998
+2017-08-10 23:26:08.842919 PDT | NumTrajs            200
+2017-08-10 23:26:08.844248 PDT | Entropy               2.65039
+2017-08-10 23:26:08.844632 PDT | Perplexity           14.1596
+2017-08-10 23:26:08.845394 PDT | StdReturn           180.155
+2017-08-10 23:26:08.846144 PDT | MaxReturn          2900
+2017-08-10 23:26:08.847291 PDT | MinReturn          2000
+2017-08-10 23:26:08.847819 PDT | AveragePolicyStd      0.910685
+2017-08-10 23:26:08.848971 PDT | LossBefore           -0.0392062
+2017-08-10 23:26:08.849619 PDT | LossAfter            -0.0425564
+2017-08-10 23:26:08.850993 PDT | MeanKL                0.00391726
+2017-08-10 23:26:08.852355 PDT | MaxKL                 0.00693671
+2017-08-10 23:26:08.852724 PDT | Time                507.121
+2017-08-10 23:26:08.853119 PDT | ItrTime              36.5937
+2017-08-10 23:26:08.854358 PDT | -----------------  -------------
+2017-08-10 23:26:08.855984 PDT | [point_3] itr #14 | Obtaining samples...
+2017-08-10 23:26:44.757464 PDT | [point_3] itr #14 | Processing samples...
+2017-08-10 23:26:44.761058 PDT | [point_3] itr #14 | fitting baseline...
+2017-08-10 23:26:44.931263 PDT | [point_3] itr #14 | fitted
+2017-08-10 23:26:45.025527 PDT | [point_3] itr #14 | Logging diagnostics...
+2017-08-10 23:26:45.032521 PDT | [point_3] itr #14 | Optimizing policy...
+2017-08-10 23:26:45.038156 PDT | [point_3] itr #14 | optimizing policy
+2017-08-10 23:26:45.069356 PDT | [point_3] itr #14 | Saving snapshot...
+2017-08-10 23:26:45.086755 PDT | [point_3] itr #14 | Saved
+2017-08-10 23:26:45.088082 PDT | -----------------  ------------
+2017-08-10 23:26:45.091247 PDT | TotalExecTime        35.8975
+2017-08-10 23:26:45.093503 PDT | AverageReturn      2564
+2017-08-10 23:26:45.093951 PDT | ExplainedVariance     0.988305
+2017-08-10 23:26:45.095021 PDT | NumTrajs            200
+2017-08-10 23:26:45.095387 PDT | Entropy               2.63079
+2017-08-10 23:26:45.100712 PDT | Perplexity           13.8847
+2017-08-10 23:26:45.101123 PDT | StdReturn           189.219
+2017-08-10 23:26:45.101529 PDT | MaxReturn          2900
+2017-08-10 23:26:45.101927 PDT | MinReturn          1800
+2017-08-10 23:26:45.102308 PDT | AveragePolicyStd      0.901834
+2017-08-10 23:26:45.102697 PDT | LossBefore           -0.0467548
+2017-08-10 23:26:45.103048 PDT | LossAfter            -0.0526759
+2017-08-10 23:26:45.103446 PDT | MeanKL                0.0102748
+2017-08-10 23:26:45.103681 PDT | MaxKL                 0.0213568
+2017-08-10 23:26:45.103908 PDT | Time                543.377
+2017-08-10 23:26:45.104115 PDT | ItrTime              36.2313
+2017-08-10 23:26:45.104314 PDT | -----------------  ------------
+2017-08-10 23:26:45.104655 PDT | [point_3] itr #15 | Obtaining samples...
+2017-08-10 23:27:20.828576 PDT | [point_3] itr #15 | Processing samples...
+2017-08-10 23:27:20.834785 PDT | [point_3] itr #15 | fitting baseline...
+2017-08-10 23:27:21.080056 PDT | [point_3] itr #15 | fitted
+2017-08-10 23:27:21.168535 PDT | [point_3] itr #15 | Logging diagnostics...
+2017-08-10 23:27:21.172762 PDT | [point_3] itr #15 | Optimizing policy...
+2017-08-10 23:27:21.175038 PDT | [point_3] itr #15 | optimizing policy
+2017-08-10 23:27:21.216499 PDT | [point_3] itr #15 | Saving snapshot...
+2017-08-10 23:27:21.234500 PDT | [point_3] itr #15 | Saved
+2017-08-10 23:27:21.237308 PDT | -----------------  ------------
+2017-08-10 23:27:21.238544 PDT | TotalExecTime        35.7221
+2017-08-10 23:27:21.239605 PDT | AverageReturn      2601.5
+2017-08-10 23:27:21.239997 PDT | ExplainedVariance     0.992165
+2017-08-10 23:27:21.240368 PDT | NumTrajs            200
+2017-08-10 23:27:21.241859 PDT | Entropy               2.60741
+2017-08-10 23:27:21.242198 PDT | Perplexity           13.5639
+2017-08-10 23:27:21.242537 PDT | StdReturn           159.21
+2017-08-10 23:27:21.242885 PDT | MaxReturn          2900
+2017-08-10 23:27:21.243810 PDT | MinReturn          2000
+2017-08-10 23:27:21.244150 PDT | AveragePolicyStd      0.89141
+2017-08-10 23:27:21.244983 PDT | LossBefore           -0.035497
+2017-08-10 23:27:21.245351 PDT | LossAfter            -0.0480994
+2017-08-10 23:27:21.245925 PDT | MeanKL                0.0485474
+2017-08-10 23:27:21.246988 PDT | MaxKL                 0.170731
+2017-08-10 23:27:21.247338 PDT | Time                579.526
+2017-08-10 23:27:21.247670 PDT | ItrTime              36.1318
+2017-08-10 23:27:21.248419 PDT | -----------------  ------------
+2017-08-10 23:27:21.249204 PDT | [point_3] itr #16 | Obtaining samples...
+2017-08-10 23:27:56.736327 PDT | [point_3] itr #16 | Processing samples...
+2017-08-10 23:27:56.739864 PDT | [point_3] itr #16 | fitting baseline...
+2017-08-10 23:27:56.987682 PDT | [point_3] itr #16 | fitted
+2017-08-10 23:27:57.066731 PDT | [point_3] itr #16 | Logging diagnostics...
+2017-08-10 23:27:57.073315 PDT | [point_3] itr #16 | Optimizing policy...
+2017-08-10 23:27:57.073776 PDT | [point_3] itr #16 | optimizing policy
+2017-08-10 23:27:57.110354 PDT | [point_3] itr #16 | Saving snapshot...
+2017-08-10 23:27:57.122232 PDT | [point_3] itr #16 | Saved
+2017-08-10 23:27:57.131046 PDT | -----------------  ------------
+2017-08-10 23:27:57.132451 PDT | TotalExecTime        35.4841
+2017-08-10 23:27:57.136495 PDT | AverageReturn      2624
+2017-08-10 23:27:57.136917 PDT | ExplainedVariance     0.991163
+2017-08-10 23:27:57.137288 PDT | NumTrajs            200
+2017-08-10 23:27:57.137696 PDT | Entropy               2.58966
+2017-08-10 23:27:57.138081 PDT | Perplexity           13.3253
+2017-08-10 23:27:57.138471 PDT | StdReturn           160.698
+2017-08-10 23:27:57.138820 PDT | MaxReturn          2900
+2017-08-10 23:27:57.139227 PDT | MinReturn          2100
+2017-08-10 23:27:57.139639 PDT | AveragePolicyStd      0.883458
+2017-08-10 23:27:57.140028 PDT | LossBefore           -0.0143404
+2017-08-10 23:27:57.140409 PDT | LossAfter            -0.0204421
+2017-08-10 23:27:57.140815 PDT | MeanKL                0.0168865
+2017-08-10 23:27:57.141223 PDT | MaxKL                 0.0484426
+2017-08-10 23:27:57.141598 PDT | Time                615.416
+2017-08-10 23:27:57.144476 PDT | ItrTime              35.8771
+2017-08-10 23:27:57.144906 PDT | -----------------  ------------
+2017-08-10 23:27:57.145430 PDT | [point_3] itr #17 | Obtaining samples...
+2017-08-10 23:28:32.338553 PDT | [point_3] itr #17 | Processing samples...
+2017-08-10 23:28:32.341986 PDT | [point_3] itr #17 | fitting baseline...
+2017-08-10 23:28:32.603615 PDT | [point_3] itr #17 | fitted
+2017-08-10 23:28:32.675213 PDT | [point_3] itr #17 | Logging diagnostics...
+2017-08-10 23:28:32.683734 PDT | [point_3] itr #17 | Optimizing policy...
+2017-08-10 23:28:32.683992 PDT | [point_3] itr #17 | optimizing policy
+2017-08-10 23:28:32.715600 PDT | [point_3] itr #17 | Saving snapshot...
+2017-08-10 23:28:32.725329 PDT | [point_3] itr #17 | Saved
+2017-08-10 23:28:32.732134 PDT | -----------------  -------------
+2017-08-10 23:28:32.732609 PDT | TotalExecTime        35.1912
+2017-08-10 23:28:32.732985 PDT | AverageReturn      2617.5
+2017-08-10 23:28:32.733379 PDT | ExplainedVariance     0.991302
+2017-08-10 23:28:32.733754 PDT | NumTrajs            200
+2017-08-10 23:28:32.736119 PDT | Entropy               2.5825
+2017-08-10 23:28:32.736523 PDT | Perplexity           13.2301
+2017-08-10 23:28:32.736933 PDT | StdReturn           154.09
+2017-08-10 23:28:32.737344 PDT | MaxReturn          3000
+2017-08-10 23:28:32.737734 PDT | MinReturn          2100
+2017-08-10 23:28:32.738125 PDT | AveragePolicyStd      0.880292
+2017-08-10 23:28:32.738519 PDT | LossBefore           -0.00926498
+2017-08-10 23:28:32.738941 PDT | LossAfter            -0.0144582
+2017-08-10 23:28:32.743284 PDT | MeanKL                0.0191755
+2017-08-10 23:28:32.743737 PDT | MaxKL                 0.0538829
+2017-08-10 23:28:32.745376 PDT | Time                651.021
+2017-08-10 23:28:32.745810 PDT | ItrTime              35.5858
+2017-08-10 23:28:32.746236 PDT | -----------------  -------------
+2017-08-10 23:28:32.746768 PDT | [point_3] itr #18 | Obtaining samples...
+2017-08-10 23:29:08.105902 PDT | [point_3] itr #18 | Processing samples...
+2017-08-10 23:29:08.109337 PDT | [point_3] itr #18 | fitting baseline...
+2017-08-10 23:29:08.397559 PDT | [point_3] itr #18 | fitted
+2017-08-10 23:29:08.470948 PDT | [point_3] itr #18 | Logging diagnostics...
+2017-08-10 23:29:08.481090 PDT | [point_3] itr #18 | Optimizing policy...
+2017-08-10 23:29:08.484787 PDT | [point_3] itr #18 | optimizing policy
+2017-08-10 23:29:08.514888 PDT | [point_3] itr #18 | Saving snapshot...
+2017-08-10 23:29:08.528642 PDT | [point_3] itr #18 | Saved
+2017-08-10 23:29:08.530021 PDT | -----------------  ------------
+2017-08-10 23:29:08.530422 PDT | TotalExecTime        35.3571
+2017-08-10 23:29:08.530845 PDT | AverageReturn      2641
+2017-08-10 23:29:08.532860 PDT | ExplainedVariance     0.99278
+2017-08-10 23:29:08.533251 PDT | NumTrajs            200
+2017-08-10 23:29:08.535089 PDT | Entropy               2.57786
+2017-08-10 23:29:08.536436 PDT | Perplexity           13.169
+2017-08-10 23:29:08.536823 PDT | StdReturn           146.694
+2017-08-10 23:29:08.537201 PDT | MaxReturn          2900
+2017-08-10 23:29:08.538531 PDT | MinReturn          2200
+2017-08-10 23:29:08.538933 PDT | AveragePolicyStd      0.878251
+2017-08-10 23:29:08.539291 PDT | LossBefore           -0.0264609
+2017-08-10 23:29:08.539710 PDT | LossAfter            -0.0318921
+2017-08-10 23:29:08.540424 PDT | MeanKL                0.0156101
+2017-08-10 23:29:08.544516 PDT | MaxKL                 0.037459
+2017-08-10 23:29:08.544960 PDT | Time                686.818
+2017-08-10 23:29:08.545378 PDT | ItrTime              35.7824
+2017-08-10 23:29:08.545751 PDT | -----------------  ------------
+2017-08-10 23:29:08.546253 PDT | [point_3] itr #19 | Obtaining samples...
+2017-08-10 23:29:44.928508 PDT | [point_3] itr #19 | Processing samples...
+2017-08-10 23:29:44.931960 PDT | [point_3] itr #19 | fitting baseline...
+2017-08-10 23:29:45.226236 PDT | [point_3] itr #19 | fitted
+2017-08-10 23:29:45.301102 PDT | [point_3] itr #19 | Logging diagnostics...
+2017-08-10 23:29:45.302332 PDT | [point_3] itr #19 | Optimizing policy...
+2017-08-10 23:29:45.302568 PDT | [point_3] itr #19 | optimizing policy
+2017-08-10 23:29:45.339637 PDT | [point_3] itr #19 | Saving snapshot...
+2017-08-10 23:29:45.358325 PDT | [point_3] itr #19 | Saved
+2017-08-10 23:29:45.359486 PDT | -----------------  ------------
+2017-08-10 23:29:45.359724 PDT | TotalExecTime        36.3803
+2017-08-10 23:29:45.359927 PDT | AverageReturn      2640
+2017-08-10 23:29:45.360141 PDT | ExplainedVariance     0.991804
+2017-08-10 23:29:45.360372 PDT | NumTrajs            200
+2017-08-10 23:29:45.360549 PDT | Entropy               2.56463
+2017-08-10 23:29:45.360759 PDT | Perplexity           12.9959
+2017-08-10 23:29:45.360976 PDT | StdReturn           145.258
+2017-08-10 23:29:45.361190 PDT | MaxReturn          2900
+2017-08-10 23:29:45.361414 PDT | MinReturn          2100
+2017-08-10 23:29:45.361609 PDT | AveragePolicyStd      0.872414
+2017-08-10 23:29:45.361832 PDT | LossBefore           -0.0295667
+2017-08-10 23:29:45.362023 PDT | LossAfter            -0.0350464
+2017-08-10 23:29:45.362219 PDT | MeanKL                0.0254326
+2017-08-10 23:29:45.362432 PDT | MaxKL                 0.0799494
+2017-08-10 23:29:45.362613 PDT | Time                723.648
+2017-08-10 23:29:45.362788 PDT | ItrTime              36.8124
+2017-08-10 23:29:45.362978 PDT | -----------------  ------------
+2017-08-10 23:29:45.363311 PDT | [point_3] itr #20 | Obtaining samples...
+2017-08-10 23:30:21.079446 PDT | [point_3] itr #20 | Processing samples...
+2017-08-10 23:30:21.085104 PDT | [point_3] itr #20 | fitting baseline...
+2017-08-10 23:30:21.374373 PDT | [point_3] itr #20 | fitted
+2017-08-10 23:30:21.452171 PDT | [point_3] itr #20 | Logging diagnostics...
+2017-08-10 23:30:21.455136 PDT | [point_3] itr #20 | Optimizing policy...
+2017-08-10 23:30:21.455613 PDT | [point_3] itr #20 | optimizing policy
+2017-08-10 23:30:21.497595 PDT | [point_3] itr #20 | Saving snapshot...
+2017-08-10 23:30:21.509276 PDT | [point_3] itr #20 | Saved
+2017-08-10 23:30:21.511966 PDT | -----------------  -------------
+2017-08-10 23:30:21.512690 PDT | TotalExecTime        35.7113
+2017-08-10 23:30:21.513277 PDT | AverageReturn      2675
+2017-08-10 23:30:21.514411 PDT | ExplainedVariance     0.99411
+2017-08-10 23:30:21.514654 PDT | NumTrajs            200
+2017-08-10 23:30:21.514911 PDT | Entropy               2.54985
+2017-08-10 23:30:21.515108 PDT | Perplexity           12.8052
+2017-08-10 23:30:21.515981 PDT | StdReturn           136.29
+2017-08-10 23:30:21.516213 PDT | MaxReturn          3000
+2017-08-10 23:30:21.516424 PDT | MinReturn          2200
+2017-08-10 23:30:21.517042 PDT | AveragePolicyStd      0.865993
+2017-08-10 23:30:21.517251 PDT | LossBefore            0.00613235
+2017-08-10 23:30:21.518103 PDT | LossAfter             0.00253011
+2017-08-10 23:30:21.518322 PDT | MeanKL                0.0167129
+2017-08-10 23:30:21.518521 PDT | MaxKL                 0.0602466
+2017-08-10 23:30:21.519159 PDT | Time                759.8
+2017-08-10 23:30:21.519389 PDT | ItrTime              36.1478
+2017-08-10 23:30:21.519943 PDT | -----------------  -------------
+2017-08-10 23:30:21.521465 PDT | [point_3] itr #21 | Obtaining samples...
+2017-08-10 23:30:57.221820 PDT | [point_3] itr #21 | Processing samples...
+2017-08-10 23:30:57.225227 PDT | [point_3] itr #21 | fitting baseline...
+2017-08-10 23:30:57.498544 PDT | [point_3] itr #21 | fitted
+2017-08-10 23:30:57.577323 PDT | [point_3] itr #21 | Logging diagnostics...
+2017-08-10 23:30:57.584783 PDT | [point_3] itr #21 | Optimizing policy...
+2017-08-10 23:30:57.585271 PDT | [point_3] itr #21 | optimizing policy
+2017-08-10 23:30:57.631636 PDT | [point_3] itr #21 | Saving snapshot...
+2017-08-10 23:30:57.644838 PDT | [point_3] itr #21 | Saved
+2017-08-10 23:30:57.648103 PDT | -----------------  -------------
+2017-08-10 23:30:57.652732 PDT | TotalExecTime        35.6983
+2017-08-10 23:30:57.653106 PDT | AverageReturn      2659.5
+2017-08-10 23:30:57.653490 PDT | ExplainedVariance     0.994505
+2017-08-10 23:30:57.653896 PDT | NumTrajs            200
+2017-08-10 23:30:57.654301 PDT | Entropy               2.55292
+2017-08-10 23:30:57.654715 PDT | Perplexity           12.8445
+2017-08-10 23:30:57.655082 PDT | StdReturn           119.623
+2017-08-10 23:30:57.655513 PDT | MaxReturn          2900
+2017-08-10 23:30:57.655922 PDT | MinReturn          2300
+2017-08-10 23:30:57.656332 PDT | AveragePolicyStd      0.867423
+2017-08-10 23:30:57.656707 PDT | LossBefore           -0.00982848
+2017-08-10 23:30:57.658446 PDT | LossAfter            -0.011244
+2017-08-10 23:30:57.658847 PDT | MeanKL                0.00234948
+2017-08-10 23:30:57.659242 PDT | MaxKL                 0.00843222
+2017-08-10 23:30:57.659640 PDT | Time                795.937
+2017-08-10 23:30:57.660024 PDT | ItrTime              36.1258
+2017-08-10 23:30:57.662936 PDT | -----------------  -------------
+2017-08-10 23:30:57.663465 PDT | [point_3] itr #22 | Obtaining samples...
+2017-08-10 23:31:33.178168 PDT | [point_3] itr #22 | Processing samples...
+2017-08-10 23:31:33.181682 PDT | [point_3] itr #22 | fitting baseline...
+2017-08-10 23:31:33.449434 PDT | [point_3] itr #22 | fitted
+2017-08-10 23:31:33.520236 PDT | [point_3] itr #22 | Logging diagnostics...
+2017-08-10 23:31:33.527331 PDT | [point_3] itr #22 | Optimizing policy...
+2017-08-10 23:31:33.532068 PDT | [point_3] itr #22 | optimizing policy
+2017-08-10 23:31:33.575504 PDT | [point_3] itr #22 | Saving snapshot...
+2017-08-10 23:31:33.588917 PDT | [point_3] itr #22 | Saved
+2017-08-10 23:31:33.594100 PDT | -----------------  ------------
+2017-08-10 23:31:33.596426 PDT | TotalExecTime        35.5128
+2017-08-10 23:31:33.596845 PDT | AverageReturn      2660.5
+2017-08-10 23:31:33.597227 PDT | ExplainedVariance     0.994165
+2017-08-10 23:31:33.597627 PDT | NumTrajs            200
+2017-08-10 23:31:33.597993 PDT | Entropy               2.548
+2017-08-10 23:31:33.600479 PDT | Perplexity           12.7815
+2017-08-10 23:31:33.600882 PDT | StdReturn           129.575
+2017-08-10 23:31:33.601276 PDT | MaxReturn          3000
+2017-08-10 23:31:33.601639 PDT | MinReturn          2300
+2017-08-10 23:31:33.602021 PDT | AveragePolicyStd      0.865343
+2017-08-10 23:31:33.602395 PDT | LossBefore           -0.0233421
+2017-08-10 23:31:33.602796 PDT | LossAfter            -0.0298402
+2017-08-10 23:31:33.604446 PDT | MeanKL                0.0294828
+2017-08-10 23:31:33.604832 PDT | MaxKL                 0.100638
+2017-08-10 23:31:33.605223 PDT | Time                831.881
+2017-08-10 23:31:33.605589 PDT | ItrTime              35.9281
+2017-08-10 23:31:33.608480 PDT | -----------------  ------------
+2017-08-10 23:31:33.609028 PDT | [point_3] itr #23 | Obtaining samples...
+2017-08-10 23:32:10.248772 PDT | [point_3] itr #23 | Processing samples...
+2017-08-10 23:32:10.252840 PDT | [point_3] itr #23 | fitting baseline...
+2017-08-10 23:32:10.301280 PDT | [point_3] itr #23 | fitted
+2017-08-10 23:32:10.471592 PDT | [point_3] itr #23 | Logging diagnostics...
+2017-08-10 23:32:10.476442 PDT | [point_3] itr #23 | Optimizing policy...
+2017-08-10 23:32:10.478085 PDT | [point_3] itr #23 | optimizing policy
+2017-08-10 23:32:10.522770 PDT | [point_3] itr #23 | Saving snapshot...
+2017-08-10 23:32:10.542155 PDT | [point_3] itr #23 | Saved
+2017-08-10 23:32:10.544427 PDT | -----------------  ------------
+2017-08-10 23:32:10.544913 PDT | TotalExecTime        36.6322
+2017-08-10 23:32:10.546669 PDT | AverageReturn      2679
+2017-08-10 23:32:10.548785 PDT | ExplainedVariance     0.994228
+2017-08-10 23:32:10.549235 PDT | NumTrajs            200
+2017-08-10 23:32:10.549589 PDT | Entropy               2.53633
+2017-08-10 23:32:10.550006 PDT | Perplexity           12.6332
+2017-08-10 23:32:10.550611 PDT | StdReturn           127.118
+2017-08-10 23:32:10.552024 PDT | MaxReturn          3000
+2017-08-10 23:32:10.552425 PDT | MinReturn          2300
+2017-08-10 23:32:10.552811 PDT | AveragePolicyStd      0.860371
+2017-08-10 23:32:10.554115 PDT | LossBefore           -0.0145241
+2017-08-10 23:32:10.554521 PDT | LossAfter            -0.026417
+2017-08-10 23:32:10.554914 PDT | MeanKL                0.0731194
+2017-08-10 23:32:10.555428 PDT | MaxKL                 0.269085
+2017-08-10 23:32:10.556342 PDT | Time                868.832
+2017-08-10 23:32:10.556864 PDT | ItrTime              36.9337
+2017-08-10 23:32:10.557284 PDT | -----------------  ------------
+2017-08-10 23:32:10.559187 PDT | [point_3] itr #24 | Obtaining samples...
+2017-08-10 23:32:46.928520 PDT | [point_3] itr #24 | Processing samples...
+2017-08-10 23:32:46.938213 PDT | [point_3] itr #24 | fitting baseline...
+2017-08-10 23:32:47.004753 PDT | [point_3] itr #24 | fitted
+2017-08-10 23:32:47.076498 PDT | [point_3] itr #24 | Logging diagnostics...
+2017-08-10 23:32:47.077975 PDT | [point_3] itr #24 | Optimizing policy...
+2017-08-10 23:32:47.078398 PDT | [point_3] itr #24 | optimizing policy
+2017-08-10 23:32:47.154674 PDT | [point_3] itr #24 | Saving snapshot...
+2017-08-10 23:32:47.175703 PDT | [point_3] itr #24 | Saved
+2017-08-10 23:32:47.178949 PDT | -----------------  -------------
+2017-08-10 23:32:47.179440 PDT | TotalExecTime        36.3595
+2017-08-10 23:32:47.182071 PDT | AverageReturn      2681.5
+2017-08-10 23:32:47.182478 PDT | ExplainedVariance     0.994266
+2017-08-10 23:32:47.196389 PDT | NumTrajs            200
+2017-08-10 23:32:47.196908 PDT | Entropy               2.52907
+2017-08-10 23:32:47.200774 PDT | Perplexity           12.5418
+2017-08-10 23:32:47.205688 PDT | StdReturn           128.482
+2017-08-10 23:32:47.206764 PDT | MaxReturn          3000
+2017-08-10 23:32:47.207168 PDT | MinReturn          2200
+2017-08-10 23:32:47.207347 PDT | AveragePolicyStd      0.857304
+2017-08-10 23:32:47.211290 PDT | LossBefore            0.00123318
+2017-08-10 23:32:47.213456 PDT | LossAfter            -0.00152071
+2017-08-10 23:32:47.215867 PDT | MeanKL                0.0163535
+2017-08-10 23:32:47.218970 PDT | MaxKL                 0.0585902
+2017-08-10 23:32:47.219398 PDT | Time                905.466
+2017-08-10 23:32:47.225612 PDT | ItrTime              36.617
+2017-08-10 23:32:47.226061 PDT | -----------------  -------------
+2017-08-10 23:32:47.227331 PDT | [point_3] itr #25 | Obtaining samples...
+2017-08-10 23:33:23.485082 PDT | [point_3] itr #25 | Processing samples...
+2017-08-10 23:33:23.488579 PDT | [point_3] itr #25 | fitting baseline...
+2017-08-10 23:33:23.700669 PDT | [point_3] itr #25 | fitted
+2017-08-10 23:33:23.786859 PDT | [point_3] itr #25 | Logging diagnostics...
+2017-08-10 23:33:23.793515 PDT | [point_3] itr #25 | Optimizing policy...
+2017-08-10 23:33:23.796514 PDT | [point_3] itr #25 | optimizing policy
+2017-08-10 23:33:23.843288 PDT | [point_3] itr #25 | Saving snapshot...
+2017-08-10 23:33:23.862249 PDT | [point_3] itr #25 | Saved
+2017-08-10 23:33:23.867674 PDT | -----------------  ------------
+2017-08-10 23:33:23.872512 PDT | TotalExecTime        36.2516
+2017-08-10 23:33:23.872935 PDT | AverageReturn      2667
+2017-08-10 23:33:23.873341 PDT | ExplainedVariance     0.994043
+2017-08-10 23:33:23.873731 PDT | NumTrajs            200
+2017-08-10 23:33:23.874117 PDT | Entropy               2.52968
+2017-08-10 23:33:23.877259 PDT | Perplexity           12.5495
+2017-08-10 23:33:23.877690 PDT | StdReturn           128.495
+2017-08-10 23:33:23.878057 PDT | MaxReturn          3100
+2017-08-10 23:33:23.880471 PDT | MinReturn          2300
+2017-08-10 23:33:23.880881 PDT | AveragePolicyStd      0.857649
+2017-08-10 23:33:23.881231 PDT | LossBefore           -0.0129546
+2017-08-10 23:33:23.881632 PDT | LossAfter            -0.0163263
+2017-08-10 23:33:23.884496 PDT | MeanKL                0.0164346
+2017-08-10 23:33:23.884954 PDT | MaxKL                 0.0678783
+2017-08-10 23:33:23.888512 PDT | Time                942.156
+2017-08-10 23:33:23.888940 PDT | ItrTime              36.6395
+2017-08-10 23:33:23.889325 PDT | -----------------  ------------
+2017-08-10 23:33:23.889856 PDT | [point_3] itr #26 | Obtaining samples...
+2017-08-10 23:34:02.315078 PDT | [point_3] itr #26 | Processing samples...
+2017-08-10 23:34:02.321559 PDT | [point_3] itr #26 | fitting baseline...
+2017-08-10 23:34:02.479510 PDT | [point_3] itr #26 | fitted
+2017-08-10 23:34:02.567509 PDT | [point_3] itr #26 | Logging diagnostics...
+2017-08-10 23:34:02.585030 PDT | [point_3] itr #26 | Optimizing policy...
+2017-08-10 23:34:02.585544 PDT | [point_3] itr #26 | optimizing policy
+2017-08-10 23:34:02.634376 PDT | [point_3] itr #26 | Saving snapshot...
+2017-08-10 23:34:02.654176 PDT | [point_3] itr #26 | Saved
+2017-08-10 23:34:02.657682 PDT | -----------------  -------------
+2017-08-10 23:34:02.658813 PDT | TotalExecTime        38.4232
+2017-08-10 23:34:02.659585 PDT | AverageReturn      2657.5
+2017-08-10 23:34:02.660546 PDT | ExplainedVariance     0.993534
+2017-08-10 23:34:02.662993 PDT | NumTrajs            200
+2017-08-10 23:34:02.666424 PDT | Entropy               2.52321
+2017-08-10 23:34:02.666883 PDT | Perplexity           12.4685
+2017-08-10 23:34:02.667282 PDT | StdReturn           132.83
+2017-08-10 23:34:02.668008 PDT | MaxReturn          3000
+2017-08-10 23:34:02.668391 PDT | MinReturn          2300
+2017-08-10 23:34:02.670065 PDT | AveragePolicyStd      0.854837
+2017-08-10 23:34:02.670488 PDT | LossBefore           -0.00565031
+2017-08-10 23:34:02.670887 PDT | LossAfter            -0.00823615
+2017-08-10 23:34:02.672960 PDT | MeanKL                0.0166919
+2017-08-10 23:34:02.673379 PDT | MaxKL                 0.0635578
+2017-08-10 23:34:02.673779 PDT | Time                980.945
+2017-08-10 23:34:02.674169 PDT | ItrTime              38.7659
+2017-08-10 23:34:02.674928 PDT | -----------------  -------------
+2017-08-10 23:34:02.676128 PDT | [point_3] itr #27 | Obtaining samples...
+2017-08-10 23:34:45.548023 PDT | [point_3] itr #27 | Processing samples...
+2017-08-10 23:34:45.554313 PDT | [point_3] itr #27 | fitting baseline...
+2017-08-10 23:34:45.750144 PDT | [point_3] itr #27 | fitted
+2017-08-10 23:34:45.838346 PDT | [point_3] itr #27 | Logging diagnostics...
+2017-08-10 23:34:45.839193 PDT | [point_3] itr #27 | Optimizing policy...
+2017-08-10 23:34:45.839330 PDT | [point_3] itr #27 | optimizing policy
+2017-08-10 23:34:45.867795 PDT | [point_3] itr #27 | Saving snapshot...
+2017-08-10 23:34:45.878038 PDT | [point_3] itr #27 | Saved
+2017-08-10 23:34:45.885411 PDT | -----------------  ------------
+2017-08-10 23:34:45.887358 PDT | TotalExecTime        42.8676
+2017-08-10 23:34:45.888430 PDT | AverageReturn      2665.5
+2017-08-10 23:34:45.888802 PDT | ExplainedVariance     0.994779
+2017-08-10 23:34:45.891994 PDT | NumTrajs            200
+2017-08-10 23:34:45.892442 PDT | Entropy               2.52038
+2017-08-10 23:34:45.892804 PDT | Perplexity           12.4333
+2017-08-10 23:34:45.893206 PDT | StdReturn           112.959
+2017-08-10 23:34:45.893573 PDT | MaxReturn          2900
+2017-08-10 23:34:45.893935 PDT | MinReturn          2300
+2017-08-10 23:34:45.894330 PDT | AveragePolicyStd      0.853622
+2017-08-10 23:34:45.894694 PDT | LossBefore           -0.0112343
+2017-08-10 23:34:45.895080 PDT | LossAfter            -0.014224
+2017-08-10 23:34:45.896434 PDT | MeanKL                0.0192714
+2017-08-10 23:34:45.897879 PDT | MaxKL                 0.0758952
+2017-08-10 23:34:45.898108 PDT | Time               1024.17
+2017-08-10 23:34:45.899447 PDT | ItrTime              43.2084
+2017-08-10 23:34:45.899674 PDT | -----------------  ------------
+2017-08-10 23:34:45.899974 PDT | [point_3] itr #28 | Obtaining samples...
+2017-08-10 23:35:21.318862 PDT | [point_3] itr #28 | Processing samples...
+2017-08-10 23:35:21.322332 PDT | [point_3] itr #28 | fitting baseline...
+2017-08-10 23:35:21.544254 PDT | [point_3] itr #28 | fitted
+2017-08-10 23:35:21.631767 PDT | [point_3] itr #28 | Logging diagnostics...
+2017-08-10 23:35:21.634924 PDT | [point_3] itr #28 | Optimizing policy...
+2017-08-10 23:35:21.635451 PDT | [point_3] itr #28 | optimizing policy
+2017-08-10 23:35:21.671582 PDT | [point_3] itr #28 | Saving snapshot...
+2017-08-10 23:35:21.689816 PDT | [point_3] itr #28 | Saved
+2017-08-10 23:35:21.691191 PDT | -----------------  ------------
+2017-08-10 23:35:21.691617 PDT | TotalExecTime        35.4171
+2017-08-10 23:35:21.693607 PDT | AverageReturn      2668
+2017-08-10 23:35:21.693834 PDT | ExplainedVariance     0.995205
+2017-08-10 23:35:21.694030 PDT | NumTrajs            200
+2017-08-10 23:35:21.694256 PDT | Entropy               2.51476
+2017-08-10 23:35:21.694471 PDT | Perplexity           12.3637
+2017-08-10 23:35:21.696272 PDT | StdReturn           116.086
+2017-08-10 23:35:21.696493 PDT | MaxReturn          2900
+2017-08-10 23:35:21.696689 PDT | MinReturn          2200
+2017-08-10 23:35:21.696913 PDT | AveragePolicyStd      0.851361
+2017-08-10 23:35:21.697116 PDT | LossBefore           -0.018873
+2017-08-10 23:35:21.697296 PDT | LossAfter            -0.0315547
+2017-08-10 23:35:21.697516 PDT | MeanKL                0.0859457
+2017-08-10 23:35:21.697736 PDT | MaxKL                 0.351521
+2017-08-10 23:35:21.697949 PDT | Time               1059.98
+2017-08-10 23:35:21.698163 PDT | ItrTime              35.7904
+2017-08-10 23:35:21.698360 PDT | -----------------  ------------
+2017-08-10 23:35:21.698670 PDT | [point_3] itr #29 | Obtaining samples...
+2017-08-10 23:35:57.130035 PDT | [point_3] itr #29 | Processing samples...
+2017-08-10 23:35:57.135690 PDT | [point_3] itr #29 | fitting baseline...
+2017-08-10 23:35:57.405378 PDT | [point_3] itr #29 | fitted
+2017-08-10 23:35:57.488875 PDT | [point_3] itr #29 | Logging diagnostics...
+2017-08-10 23:35:57.490455 PDT | [point_3] itr #29 | Optimizing policy...
+2017-08-10 23:35:57.490877 PDT | [point_3] itr #29 | optimizing policy
+2017-08-10 23:35:57.526113 PDT | [point_3] itr #29 | Saving snapshot...
+2017-08-10 23:35:57.540762 PDT | [point_3] itr #29 | Saved
+2017-08-10 23:35:57.544579 PDT | -----------------  -------------
+2017-08-10 23:35:57.545084 PDT | TotalExecTime        35.4296
+2017-08-10 23:35:57.547867 PDT | AverageReturn      2675.5
+2017-08-10 23:35:57.548111 PDT | ExplainedVariance     0.995206
+2017-08-10 23:35:57.548345 PDT | NumTrajs            200
+2017-08-10 23:35:57.548548 PDT | Entropy               2.50533
+2017-08-10 23:35:57.548735 PDT | Perplexity           12.2476
+2017-08-10 23:35:57.548966 PDT | StdReturn           116.832
+2017-08-10 23:35:57.549195 PDT | MaxReturn          3000
+2017-08-10 23:35:57.549454 PDT | MinReturn          2400
+2017-08-10 23:35:57.553782 PDT | AveragePolicyStd      0.84733
+2017-08-10 23:35:57.554075 PDT | LossBefore           -0.00594906
+2017-08-10 23:35:57.554272 PDT | LossAfter            -0.0169365
+2017-08-10 23:35:57.554465 PDT | MeanKL                0.0731717
+2017-08-10 23:35:57.554701 PDT | MaxKL                 0.265955
+2017-08-10 23:35:57.554946 PDT | Time               1095.83
+2017-08-10 23:35:57.555171 PDT | ItrTime              35.8451
+2017-08-10 23:35:57.555384 PDT | -----------------  -------------
+2017-08-10 23:35:57.555704 PDT | [point_3] itr #30 | Obtaining samples...
+2017-08-10 23:36:33.257322 PDT | [point_3] itr #30 | Processing samples...
+2017-08-10 23:36:33.268200 PDT | [point_3] itr #30 | fitting baseline...
+2017-08-10 23:36:33.548668 PDT | [point_3] itr #30 | fitted
+2017-08-10 23:36:33.628064 PDT | [point_3] itr #30 | Logging diagnostics...
+2017-08-10 23:36:33.630996 PDT | [point_3] itr #30 | Optimizing policy...
+2017-08-10 23:36:33.633751 PDT | [point_3] itr #30 | optimizing policy
+2017-08-10 23:36:33.661863 PDT | [point_3] itr #30 | Saving snapshot...
+2017-08-10 23:36:33.682705 PDT | [point_3] itr #30 | Saved
+2017-08-10 23:36:33.685874 PDT | -----------------  ------------
+2017-08-10 23:36:33.686724 PDT | TotalExecTime        35.6998
+2017-08-10 23:36:33.687151 PDT | AverageReturn      2672
+2017-08-10 23:36:33.688335 PDT | ExplainedVariance     0.994187
+2017-08-10 23:36:33.688774 PDT | NumTrajs            200
+2017-08-10 23:36:33.689355 PDT | Entropy               2.50235
+2017-08-10 23:36:33.690420 PDT | Perplexity           12.2112
+2017-08-10 23:36:33.690841 PDT | StdReturn           127.342
+2017-08-10 23:36:33.691531 PDT | MaxReturn          3000
+2017-08-10 23:36:33.692431 PDT | MinReturn          2300
+2017-08-10 23:36:33.692855 PDT | AveragePolicyStd      0.846028
+2017-08-10 23:36:33.693762 PDT | LossBefore           -0.0303184
+2017-08-10 23:36:33.694179 PDT | LossAfter            -0.036087
+2017-08-10 23:36:33.695673 PDT | MeanKL                0.0312162
+2017-08-10 23:36:33.696089 PDT | MaxKL                 0.104365
+2017-08-10 23:36:33.696491 PDT | Time               1131.97
+2017-08-10 23:36:33.697822 PDT | ItrTime              36.1283
+2017-08-10 23:36:33.698229 PDT | -----------------  ------------
+2017-08-10 23:36:33.698779 PDT | [point_3] itr #31 | Obtaining samples...
+2017-08-10 23:37:09.355287 PDT | [point_3] itr #31 | Processing samples...
+2017-08-10 23:37:09.358827 PDT | [point_3] itr #31 | fitting baseline...
+2017-08-10 23:37:09.637622 PDT | [point_3] itr #31 | fitted
+2017-08-10 23:37:09.713617 PDT | [point_3] itr #31 | Logging diagnostics...
+2017-08-10 23:37:09.716984 PDT | [point_3] itr #31 | Optimizing policy...
+2017-08-10 23:37:09.721087 PDT | [point_3] itr #31 | optimizing policy
+2017-08-10 23:37:09.753868 PDT | [point_3] itr #31 | Saving snapshot...
+2017-08-10 23:37:09.763337 PDT | [point_3] itr #31 | Saved
+2017-08-10 23:37:09.766753 PDT | -----------------  -------------
+2017-08-10 23:37:09.775173 PDT | TotalExecTime        35.6492
+2017-08-10 23:37:09.775615 PDT | AverageReturn      2672
+2017-08-10 23:37:09.777289 PDT | ExplainedVariance     0.994066
+2017-08-10 23:37:09.777711 PDT | NumTrajs            200
+2017-08-10 23:37:09.778099 PDT | Entropy               2.48719
+2017-08-10 23:37:09.778470 PDT | Perplexity           12.0275
+2017-08-10 23:37:09.778870 PDT | StdReturn           122.947
+2017-08-10 23:37:09.779258 PDT | MaxReturn          2900
+2017-08-10 23:37:09.780431 PDT | MinReturn          2300
+2017-08-10 23:37:09.780858 PDT | AveragePolicyStd      0.839446
+2017-08-10 23:37:09.781232 PDT | LossBefore           -0.0027387
+2017-08-10 23:37:09.783011 PDT | LossAfter            -0.00860116
+2017-08-10 23:37:09.783391 PDT | MeanKL                0.030156
+2017-08-10 23:37:09.783755 PDT | MaxKL                 0.0945883
+2017-08-10 23:37:09.784169 PDT | Time               1168.06
+2017-08-10 23:37:09.784596 PDT | ItrTime              36.0671
+2017-08-10 23:37:09.788364 PDT | -----------------  -------------
+2017-08-10 23:37:09.788980 PDT | [point_3] itr #32 | Obtaining samples...
+2017-08-10 23:37:45.506391 PDT | [point_3] itr #32 | Processing samples...
+2017-08-10 23:37:45.509720 PDT | [point_3] itr #32 | fitting baseline...
+2017-08-10 23:37:45.790815 PDT | [point_3] itr #32 | fitted
+2017-08-10 23:37:45.863624 PDT | [point_3] itr #32 | Logging diagnostics...
+2017-08-10 23:37:45.872254 PDT | [point_3] itr #32 | Optimizing policy...
+2017-08-10 23:37:45.872720 PDT | [point_3] itr #32 | optimizing policy
+2017-08-10 23:37:45.911430 PDT | [point_3] itr #32 | Saving snapshot...
+2017-08-10 23:37:45.916967 PDT | [point_3] itr #32 | Saved
+2017-08-10 23:37:45.925462 PDT | -----------------  -------------
+2017-08-10 23:37:45.925757 PDT | TotalExecTime        35.7154
+2017-08-10 23:37:45.925983 PDT | AverageReturn      2674.5
+2017-08-10 23:37:45.926196 PDT | ExplainedVariance     0.99433
+2017-08-10 23:37:45.926414 PDT | NumTrajs            200
+2017-08-10 23:37:45.926626 PDT | Entropy               2.48582
+2017-08-10 23:37:45.926823 PDT | Perplexity           12.011
+2017-08-10 23:37:45.927044 PDT | StdReturn           127.278
+2017-08-10 23:37:45.927398 PDT | MaxReturn          3000
+2017-08-10 23:37:45.927817 PDT | MinReturn          2300
+2017-08-10 23:37:45.928211 PDT | AveragePolicyStd      0.83885
+2017-08-10 23:37:45.928581 PDT | LossBefore           -0.00353338
+2017-08-10 23:37:45.928976 PDT | LossAfter            -0.00729915
+2017-08-10 23:37:45.929345 PDT | MeanKL                0.0150979
+2017-08-10 23:37:45.933911 PDT | MaxKL                 0.0539148
+2017-08-10 23:37:45.934353 PDT | Time               1204.21
+2017-08-10 23:37:45.934736 PDT | ItrTime              36.1356
+2017-08-10 23:37:45.935154 PDT | -----------------  -------------
+2017-08-10 23:37:45.935677 PDT | [point_3] itr #33 | Obtaining samples...
+2017-08-10 23:38:23.487450 PDT | [point_3] itr #33 | Processing samples...
+2017-08-10 23:38:23.490708 PDT | [point_3] itr #33 | fitting baseline...
+2017-08-10 23:38:23.771735 PDT | [point_3] itr #33 | fitted
+2017-08-10 23:38:23.851915 PDT | [point_3] itr #33 | Logging diagnostics...
+2017-08-10 23:38:23.853820 PDT | [point_3] itr #33 | Optimizing policy...
+2017-08-10 23:38:23.856427 PDT | [point_3] itr #33 | optimizing policy
+2017-08-10 23:38:23.885988 PDT | [point_3] itr #33 | Saving snapshot...
+2017-08-10 23:38:23.902775 PDT | [point_3] itr #33 | Saved
+2017-08-10 23:38:23.904134 PDT | -----------------  -------------
+2017-08-10 23:38:23.904514 PDT | TotalExecTime        37.5498
+2017-08-10 23:38:23.904917 PDT | AverageReturn      2660.5
+2017-08-10 23:38:23.905311 PDT | ExplainedVariance     0.994508
+2017-08-10 23:38:23.905679 PDT | NumTrajs            200
+2017-08-10 23:38:23.906025 PDT | Entropy               2.48406
+2017-08-10 23:38:23.906415 PDT | Perplexity           11.9898
+2017-08-10 23:38:23.912758 PDT | StdReturn           121.613
+2017-08-10 23:38:23.913181 PDT | MaxReturn          3000
+2017-08-10 23:38:23.914677 PDT | MinReturn          2300
+2017-08-10 23:38:23.915064 PDT | AveragePolicyStd      0.838137
+2017-08-10 23:38:23.915451 PDT | LossBefore           -0.00258119
+2017-08-10 23:38:23.915847 PDT | LossAfter            -0.00379929
+2017-08-10 23:38:23.916211 PDT | MeanKL                0.00589137
+2017-08-10 23:38:23.916601 PDT | MaxKL                 0.0203437
+2017-08-10 23:38:23.916954 PDT | Time               1242.19
+2017-08-10 23:38:23.917298 PDT | ItrTime              37.9676
+2017-08-10 23:38:23.917534 PDT | -----------------  -------------
+2017-08-10 23:38:23.917879 PDT | [point_3] itr #34 | Obtaining samples...
+2017-08-10 23:38:59.872577 PDT | [point_3] itr #34 | Processing samples...
+2017-08-10 23:38:59.876076 PDT | [point_3] itr #34 | fitting baseline...
+2017-08-10 23:39:00.146500 PDT | [point_3] itr #34 | fitted
+2017-08-10 23:39:00.221159 PDT | [point_3] itr #34 | Logging diagnostics...
+2017-08-10 23:39:00.226391 PDT | [point_3] itr #34 | Optimizing policy...
+2017-08-10 23:39:00.228628 PDT | [point_3] itr #34 | optimizing policy
+2017-08-10 23:39:00.261000 PDT | [point_3] itr #34 | Saving snapshot...
+2017-08-10 23:39:00.272160 PDT | [point_3] itr #34 | Saved
+2017-08-10 23:39:00.276869 PDT | -----------------  ------------
+2017-08-10 23:39:00.277153 PDT | TotalExecTime        35.9529
+2017-08-10 23:39:00.277381 PDT | AverageReturn      2684.5
+2017-08-10 23:39:00.277588 PDT | ExplainedVariance     0.994163
+2017-08-10 23:39:00.277769 PDT | NumTrajs            200
+2017-08-10 23:39:00.277987 PDT | Entropy               2.48277
+2017-08-10 23:39:00.278211 PDT | Perplexity           11.9744
+2017-08-10 23:39:00.278429 PDT | StdReturn           125.339
+2017-08-10 23:39:00.278649 PDT | MaxReturn          3000
+2017-08-10 23:39:00.278837 PDT | MinReturn          2200
+2017-08-10 23:39:00.279014 PDT | AveragePolicyStd      0.837654
+2017-08-10 23:39:00.279188 PDT | LossBefore           -0.0239974
+2017-08-10 23:39:00.279379 PDT | LossAfter            -0.0296541
+2017-08-10 23:39:00.279593 PDT | MeanKL                0.0220884
+2017-08-10 23:39:00.279816 PDT | MaxKL                 0.0713975
+2017-08-10 23:39:00.280021 PDT | Time               1278.56
+2017-08-10 23:39:00.280224 PDT | ItrTime              36.3546
+2017-08-10 23:39:00.280428 PDT | -----------------  ------------
+2017-08-10 23:39:00.288130 PDT | [point_3] itr #35 | Obtaining samples...
+2017-08-10 23:39:35.398922 PDT | [point_3] itr #35 | Processing samples...
+2017-08-10 23:39:35.402409 PDT | [point_3] itr #35 | fitting baseline...
+2017-08-10 23:39:35.685766 PDT | [point_3] itr #35 | fitted
+2017-08-10 23:39:35.762810 PDT | [point_3] itr #35 | Logging diagnostics...
+2017-08-10 23:39:35.765270 PDT | [point_3] itr #35 | Optimizing policy...
+2017-08-10 23:39:35.766852 PDT | [point_3] itr #35 | optimizing policy
+2017-08-10 23:39:35.804314 PDT | [point_3] itr #35 | Saving snapshot...
+2017-08-10 23:39:35.817395 PDT | [point_3] itr #35 | Saved
+2017-08-10 23:39:35.818751 PDT | -----------------  -------------
+2017-08-10 23:39:35.821240 PDT | TotalExecTime        35.1087
+2017-08-10 23:39:35.821507 PDT | AverageReturn      2682.5
+2017-08-10 23:39:35.821702 PDT | ExplainedVariance     0.994437
+2017-08-10 23:39:35.821932 PDT | NumTrajs            200
+2017-08-10 23:39:35.822120 PDT | Entropy               2.47077
+2017-08-10 23:39:35.822592 PDT | Perplexity           11.8315
+2017-08-10 23:39:35.824451 PDT | StdReturn           131.315
+2017-08-10 23:39:35.824866 PDT | MaxReturn          3000
+2017-08-10 23:39:35.825249 PDT | MinReturn          2300
+2017-08-10 23:39:35.825643 PDT | AveragePolicyStd      0.832557
+2017-08-10 23:39:35.825990 PDT | LossBefore            0.00821196
+2017-08-10 23:39:35.826395 PDT | LossAfter             0.00457049
+2017-08-10 23:39:35.828457 PDT | MeanKL                0.0269885
+2017-08-10 23:39:35.828863 PDT | MaxKL                 0.100236
+2017-08-10 23:39:35.829243 PDT | Time               1314.11
+2017-08-10 23:39:35.829595 PDT | ItrTime              35.5298
+2017-08-10 23:39:35.829991 PDT | -----------------  -------------
+2017-08-10 23:39:35.830521 PDT | [point_3] itr #36 | Obtaining samples...
+2017-08-10 23:40:11.335918 PDT | [point_3] itr #36 | Processing samples...
+2017-08-10 23:40:11.339426 PDT | [point_3] itr #36 | fitting baseline...
+2017-08-10 23:40:11.626804 PDT | [point_3] itr #36 | fitted
+2017-08-10 23:40:11.705373 PDT | [point_3] itr #36 | Logging diagnostics...
+2017-08-10 23:40:11.706809 PDT | [point_3] itr #36 | Optimizing policy...
+2017-08-10 23:40:11.707227 PDT | [point_3] itr #36 | optimizing policy
+2017-08-10 23:40:11.742651 PDT | [point_3] itr #36 | Saving snapshot...
+2017-08-10 23:40:11.755083 PDT | [point_3] itr #36 | Saved
+2017-08-10 23:40:11.763259 PDT | -----------------  -------------
+2017-08-10 23:40:11.764591 PDT | TotalExecTime        35.5019
+2017-08-10 23:40:11.764835 PDT | AverageReturn      2693.5
+2017-08-10 23:40:11.765057 PDT | ExplainedVariance     0.994968
+2017-08-10 23:40:11.765277 PDT | NumTrajs            200
+2017-08-10 23:40:11.765474 PDT | Entropy               2.47487
+2017-08-10 23:40:11.765719 PDT | Perplexity           11.8802
+2017-08-10 23:40:11.765908 PDT | StdReturn           121.687
+2017-08-10 23:40:11.766089 PDT | MaxReturn          3000
+2017-08-10 23:40:11.766314 PDT | MinReturn          2300
+2017-08-10 23:40:11.766542 PDT | AveragePolicyStd      0.834263
+2017-08-10 23:40:11.766775 PDT | LossBefore           -0.00327854
+2017-08-10 23:40:11.766988 PDT | LossAfter            -0.00552825
+2017-08-10 23:40:11.767186 PDT | MeanKL                0.0115677
+2017-08-10 23:40:11.767566 PDT | MaxKL                 0.0446706
+2017-08-10 23:40:11.767922 PDT | Time               1350.05
+2017-08-10 23:40:11.768682 PDT | ItrTime              35.9319
+2017-08-10 23:40:11.773247 PDT | -----------------  -------------
+2017-08-10 23:40:11.773802 PDT | [point_3] itr #37 | Obtaining samples...
+2017-08-10 23:40:46.997428 PDT | [point_3] itr #37 | Processing samples...
+2017-08-10 23:40:47.000947 PDT | [point_3] itr #37 | fitting baseline...
+2017-08-10 23:40:47.284864 PDT | [point_3] itr #37 | fitted
+2017-08-10 23:40:47.358965 PDT | [point_3] itr #37 | Logging diagnostics...
+2017-08-10 23:40:47.365486 PDT | [point_3] itr #37 | Optimizing policy...
+2017-08-10 23:40:47.365882 PDT | [point_3] itr #37 | optimizing policy
+2017-08-10 23:40:47.393723 PDT | [point_3] itr #37 | Saving snapshot...
+2017-08-10 23:40:47.406713 PDT | [point_3] itr #37 | Saved
+2017-08-10 23:40:47.407823 PDT | -----------------  ------------
+2017-08-10 23:40:47.408067 PDT | TotalExecTime        35.2217
+2017-08-10 23:40:47.408291 PDT | AverageReturn      2671.5
+2017-08-10 23:40:47.408506 PDT | ExplainedVariance     0.993753
+2017-08-10 23:40:47.408727 PDT | NumTrajs            200
+2017-08-10 23:40:47.408936 PDT | Entropy               2.47324
+2017-08-10 23:40:47.409138 PDT | Perplexity           11.8608
+2017-08-10 23:40:47.409333 PDT | StdReturn           130.145
+2017-08-10 23:40:47.409528 PDT | MaxReturn          3000
+2017-08-10 23:40:47.413525 PDT | MinReturn          2100
+2017-08-10 23:40:47.413750 PDT | AveragePolicyStd      0.833635
+2017-08-10 23:40:47.413960 PDT | LossBefore           -0.0111083
+2017-08-10 23:40:47.414169 PDT | LossAfter            -0.0171745
+2017-08-10 23:40:47.414382 PDT | MeanKL                0.045294
+2017-08-10 23:40:47.414601 PDT | MaxKL                 0.166866
+2017-08-10 23:40:47.414829 PDT | Time               1385.7
+2017-08-10 23:40:47.415051 PDT | ItrTime              35.6332
+2017-08-10 23:40:47.415243 PDT | -----------------  ------------
+2017-08-10 23:40:47.415566 PDT | [point_3] itr #38 | Obtaining samples...
+2017-08-10 23:41:24.645453 PDT | [point_3] itr #38 | Processing samples...
+2017-08-10 23:41:24.648750 PDT | [point_3] itr #38 | fitting baseline...
+2017-08-10 23:41:24.941151 PDT | [point_3] itr #38 | fitted
+2017-08-10 23:41:25.016536 PDT | [point_3] itr #38 | Logging diagnostics...
+2017-08-10 23:41:25.017988 PDT | [point_3] itr #38 | Optimizing policy...
+2017-08-10 23:41:25.022063 PDT | [point_3] itr #38 | optimizing policy
+2017-08-10 23:41:25.056951 PDT | [point_3] itr #38 | Saving snapshot...
+2017-08-10 23:41:25.064700 PDT | [point_3] itr #38 | Saved
+2017-08-10 23:41:25.073415 PDT | -----------------  -------------
+2017-08-10 23:41:25.073716 PDT | TotalExecTime        37.226
+2017-08-10 23:41:25.073954 PDT | AverageReturn      2671
+2017-08-10 23:41:25.074164 PDT | ExplainedVariance     0.994917
+2017-08-10 23:41:25.074357 PDT | NumTrajs            200
+2017-08-10 23:41:25.074566 PDT | Entropy               2.46768
+2017-08-10 23:41:25.074783 PDT | Perplexity           11.7951
+2017-08-10 23:41:25.074978 PDT | StdReturn           117.299
+2017-08-10 23:41:25.075206 PDT | MaxReturn          3100
+2017-08-10 23:41:25.075398 PDT | MinReturn          2400
+2017-08-10 23:41:25.075581 PDT | AveragePolicyStd      0.831226
+2017-08-10 23:41:25.075799 PDT | LossBefore            0.0167148
+2017-08-10 23:41:25.076017 PDT | LossAfter             0.0159189
+2017-08-10 23:41:25.076227 PDT | MeanKL                0.00133958
+2017-08-10 23:41:25.076440 PDT | MaxKL                 0.00298452
+2017-08-10 23:41:25.076665 PDT | Time               1423.36
+2017-08-10 23:41:25.076873 PDT | ItrTime              37.657
+2017-08-10 23:41:25.077057 PDT | -----------------  -------------
+2017-08-10 23:41:25.079801 PDT | [point_3] itr #39 | Obtaining samples...
+2017-08-10 23:42:01.673238 PDT | [point_3] itr #39 | Processing samples...
+2017-08-10 23:42:01.679476 PDT | [point_3] itr #39 | fitting baseline...
+2017-08-10 23:42:02.003043 PDT | [point_3] itr #39 | fitted
+2017-08-10 23:42:02.078436 PDT | [point_3] itr #39 | Logging diagnostics...
+2017-08-10 23:42:02.080640 PDT | [point_3] itr #39 | Optimizing policy...
+2017-08-10 23:42:02.082128 PDT | [point_3] itr #39 | optimizing policy
+2017-08-10 23:42:02.120083 PDT | [point_3] itr #39 | Saving snapshot...
+2017-08-10 23:42:02.134232 PDT | [point_3] itr #39 | Saved
+2017-08-10 23:42:02.136249 PDT | -----------------  --------------
+2017-08-10 23:42:02.136505 PDT | TotalExecTime        36.5914
+2017-08-10 23:42:02.136698 PDT | AverageReturn      2680
+2017-08-10 23:42:02.137671 PDT | ExplainedVariance     0.994169
+2017-08-10 23:42:02.137914 PDT | NumTrajs            200
+2017-08-10 23:42:02.139273 PDT | Entropy               2.47604
+2017-08-10 23:42:02.139521 PDT | Perplexity           11.8941
+2017-08-10 23:42:02.139772 PDT | StdReturn           124.499
+2017-08-10 23:42:02.140113 PDT | MaxReturn          3000
+2017-08-10 23:42:02.141027 PDT | MinReturn          2300
+2017-08-10 23:42:02.141280 PDT | AveragePolicyStd      0.834695
+2017-08-10 23:42:02.141658 PDT | LossBefore            0.000224382
+2017-08-10 23:42:02.142265 PDT | LossAfter            -0.00157291
+2017-08-10 23:42:02.142474 PDT | MeanKL                0.00792947
+2017-08-10 23:42:02.142690 PDT | MaxKL                 0.0275737
+2017-08-10 23:42:02.143783 PDT | Time               1460.42
+2017-08-10 23:42:02.144526 PDT | ItrTime              37.0548
+2017-08-10 23:42:02.144748 PDT | -----------------  --------------
+2017-08-10 23:42:02.146434 PDT | [point_3] itr #40 | Obtaining samples...
+2017-08-10 23:42:46.352478 PDT | [point_3] itr #40 | Processing samples...
+2017-08-10 23:42:46.356597 PDT | [point_3] itr #40 | fitting baseline...
+2017-08-10 23:42:46.639247 PDT | [point_3] itr #40 | fitted
+2017-08-10 23:42:46.714640 PDT | [point_3] itr #40 | Logging diagnostics...
+2017-08-10 23:42:46.723532 PDT | [point_3] itr #40 | Optimizing policy...
+2017-08-10 23:42:46.723954 PDT | [point_3] itr #40 | optimizing policy
+2017-08-10 23:42:46.757354 PDT | [point_3] itr #40 | Saving snapshot...
+2017-08-10 23:42:46.768385 PDT | [point_3] itr #40 | Saved
+2017-08-10 23:42:46.773227 PDT | -----------------  ------------
+2017-08-10 23:42:46.776376 PDT | TotalExecTime        44.202
+2017-08-10 23:42:46.776826 PDT | AverageReturn      2678.5
+2017-08-10 23:42:46.777206 PDT | ExplainedVariance     0.994618
+2017-08-10 23:42:46.777593 PDT | NumTrajs            200
+2017-08-10 23:42:46.777988 PDT | Entropy               2.47615
+2017-08-10 23:42:46.780465 PDT | Perplexity           11.8954
+2017-08-10 23:42:46.780873 PDT | StdReturn           113.083
+2017-08-10 23:42:46.781080 PDT | MaxReturn          2900
+2017-08-10 23:42:46.784447 PDT | MinReturn          2400
+2017-08-10 23:42:46.784659 PDT | AveragePolicyStd      0.834744
+2017-08-10 23:42:46.784884 PDT | LossBefore           -0.0054146
+2017-08-10 23:42:46.785089 PDT | LossAfter            -0.0112566
+2017-08-10 23:42:46.785270 PDT | MeanKL                0.0431759
+2017-08-10 23:42:46.785482 PDT | MaxKL                 0.157064
+2017-08-10 23:42:46.785699 PDT | Time               1505.06
+2017-08-10 23:42:46.785911 PDT | ItrTime              44.626
+2017-08-10 23:42:46.786116 PDT | -----------------  ------------
+2017-08-10 23:42:46.786451 PDT | [point_3] itr #41 | Obtaining samples...
+2017-08-10 23:43:22.101858 PDT | [point_3] itr #41 | Processing samples...
+2017-08-10 23:43:22.105248 PDT | [point_3] itr #41 | fitting baseline...
+2017-08-10 23:43:22.392334 PDT | [point_3] itr #41 | fitted
+2017-08-10 23:43:22.468740 PDT | [point_3] itr #41 | Logging diagnostics...
+2017-08-10 23:43:22.474091 PDT | [point_3] itr #41 | Optimizing policy...
+2017-08-10 23:43:22.474499 PDT | [point_3] itr #41 | optimizing policy
+2017-08-10 23:43:22.520885 PDT | [point_3] itr #41 | Saving snapshot...
+2017-08-10 23:43:22.531799 PDT | [point_3] itr #41 | Saved
+2017-08-10 23:43:22.533715 PDT | -----------------  -------------
+2017-08-10 23:43:22.536386 PDT | TotalExecTime        35.3137
+2017-08-10 23:43:22.536940 PDT | AverageReturn      2674.5
+2017-08-10 23:43:22.538163 PDT | ExplainedVariance     0.994344
+2017-08-10 23:43:22.538555 PDT | NumTrajs            200
+2017-08-10 23:43:22.539122 PDT | Entropy               2.47344
+2017-08-10 23:43:22.540358 PDT | Perplexity           11.8632
+2017-08-10 23:43:22.540761 PDT | StdReturn           125.299
+2017-08-10 23:43:22.542222 PDT | MaxReturn          3000
+2017-08-10 23:43:22.542616 PDT | MinReturn          2300
+2017-08-10 23:43:22.542957 PDT | AveragePolicyStd      0.833565
+2017-08-10 23:43:22.544368 PDT | LossBefore           -0.00605412
+2017-08-10 23:43:22.544778 PDT | LossAfter            -0.00678177
+2017-08-10 23:43:22.547148 PDT | MeanKL                0.00348417
+2017-08-10 23:43:22.547528 PDT | MaxKL                 0.0111221
+2017-08-10 23:43:22.548113 PDT | Time               1540.82
+2017-08-10 23:43:22.549286 PDT | ItrTime              35.7464
+2017-08-10 23:43:22.550227 PDT | -----------------  -------------
+2017-08-10 23:43:22.550708 PDT | [point_3] itr #42 | Obtaining samples...
+2017-08-10 23:43:58.043658 PDT | [point_3] itr #42 | Processing samples...
+2017-08-10 23:43:58.046856 PDT | [point_3] itr #42 | fitting baseline...
+2017-08-10 23:43:58.333479 PDT | [point_3] itr #42 | fitted
+2017-08-10 23:43:58.406036 PDT | [point_3] itr #42 | Logging diagnostics...
+2017-08-10 23:43:58.414481 PDT | [point_3] itr #42 | Optimizing policy...
+2017-08-10 23:43:58.415021 PDT | [point_3] itr #42 | optimizing policy
+2017-08-10 23:43:58.454857 PDT | [point_3] itr #42 | Saving snapshot...
+2017-08-10 23:43:58.460640 PDT | [point_3] itr #42 | Saved
+2017-08-10 23:43:58.464350 PDT | -----------------  ------------
+2017-08-10 23:43:58.467466 PDT | TotalExecTime        35.4891
+2017-08-10 23:43:58.467863 PDT | AverageReturn      2682.5
+2017-08-10 23:43:58.469351 PDT | ExplainedVariance     0.994423
+2017-08-10 23:43:58.470459 PDT | NumTrajs            200
+2017-08-10 23:43:58.470855 PDT | Entropy               2.47042
+2017-08-10 23:43:58.474620 PDT | Perplexity           11.8274
+2017-08-10 23:43:58.475028 PDT | StdReturn           126.269
+2017-08-10 23:43:58.475391 PDT | MaxReturn          3100
+2017-08-10 23:43:58.475754 PDT | MinReturn          2300
+2017-08-10 23:43:58.476110 PDT | AveragePolicyStd      0.832311
+2017-08-10 23:43:58.476489 PDT | LossBefore           -0.0104554
+2017-08-10 23:43:58.476866 PDT | LossAfter            -0.0109711
+2017-08-10 23:43:58.477210 PDT | MeanKL                0.0028553
+2017-08-10 23:43:58.477586 PDT | MaxKL                 0.0102371
+2017-08-10 23:43:58.477970 PDT | Time               1576.75
+2017-08-10 23:43:58.478349 PDT | ItrTime              35.9128
+2017-08-10 23:43:58.478705 PDT | -----------------  ------------
+2017-08-10 23:43:58.479166 PDT | [point_3] itr #43 | Obtaining samples...
+2017-08-10 23:44:34.226502 PDT | [point_3] itr #43 | Processing samples...
+2017-08-10 23:44:34.230048 PDT | [point_3] itr #43 | fitting baseline...
+2017-08-10 23:44:34.515401 PDT | [point_3] itr #43 | fitted
+2017-08-10 23:44:34.589622 PDT | [point_3] itr #43 | Logging diagnostics...
+2017-08-10 23:44:34.594598 PDT | [point_3] itr #43 | Optimizing policy...
+2017-08-10 23:44:34.600534 PDT | [point_3] itr #43 | optimizing policy
+2017-08-10 23:44:34.623007 PDT | [point_3] itr #43 | Saving snapshot...
+2017-08-10 23:44:34.637685 PDT | [point_3] itr #43 | Saved
+2017-08-10 23:44:34.640600 PDT | -----------------  -------------
+2017-08-10 23:44:34.641040 PDT | TotalExecTime        35.7454
+2017-08-10 23:44:34.643292 PDT | AverageReturn      2683
+2017-08-10 23:44:34.643691 PDT | ExplainedVariance     0.99466
+2017-08-10 23:44:34.644088 PDT | NumTrajs            200
+2017-08-10 23:44:34.644470 PDT | Entropy               2.46519
+2017-08-10 23:44:34.644824 PDT | Perplexity           11.7657
+2017-08-10 23:44:34.645183 PDT | StdReturn           114.939
+2017-08-10 23:44:34.645570 PDT | MaxReturn          3000
+2017-08-10 23:44:34.645931 PDT | MinReturn          2400
+2017-08-10 23:44:34.646319 PDT | AveragePolicyStd      0.830121
+2017-08-10 23:44:34.646696 PDT | LossBefore           -0.00760523
+2017-08-10 23:44:34.647066 PDT | LossAfter            -0.0107503
+2017-08-10 23:44:34.650771 PDT | MeanKL                0.0151282
+2017-08-10 23:44:34.651219 PDT | MaxKL                 0.0510143
+2017-08-10 23:44:34.651602 PDT | Time               1612.93
+2017-08-10 23:44:34.651986 PDT | ItrTime              36.1606
+2017-08-10 23:44:34.652335 PDT | -----------------  -------------
+2017-08-10 23:44:34.652833 PDT | [point_3] itr #44 | Obtaining samples...
+2017-08-10 23:45:10.068742 PDT | [point_3] itr #44 | Processing samples...
+2017-08-10 23:45:10.072171 PDT | [point_3] itr #44 | fitting baseline...
+2017-08-10 23:45:10.369517 PDT | [point_3] itr #44 | fitted
+2017-08-10 23:45:10.437787 PDT | [point_3] itr #44 | Logging diagnostics...
+2017-08-10 23:45:10.453613 PDT | [point_3] itr #44 | Optimizing policy...
+2017-08-10 23:45:10.454127 PDT | [point_3] itr #44 | optimizing policy
+2017-08-10 23:45:10.496135 PDT | [point_3] itr #44 | Saving snapshot...
+2017-08-10 23:45:10.511095 PDT | [point_3] itr #44 | Saved
+2017-08-10 23:45:10.512805 PDT | -----------------  -------------
+2017-08-10 23:45:10.515467 PDT | TotalExecTime        35.414
+2017-08-10 23:45:10.515877 PDT | AverageReturn      2677
+2017-08-10 23:45:10.516580 PDT | ExplainedVariance     0.995518
+2017-08-10 23:45:10.517813 PDT | NumTrajs            200
+2017-08-10 23:45:10.518216 PDT | Entropy               2.46139
+2017-08-10 23:45:10.518608 PDT | Perplexity           11.7211
+2017-08-10 23:45:10.519212 PDT | StdReturn           107.569
+2017-08-10 23:45:10.520343 PDT | MaxReturn          2900
+2017-08-10 23:45:10.520717 PDT | MinReturn          2400
+2017-08-10 23:45:10.521573 PDT | AveragePolicyStd      0.828547
+2017-08-10 23:45:10.522333 PDT | LossBefore           -0.00864335
+2017-08-10 23:45:10.523562 PDT | LossAfter            -0.0105043
+2017-08-10 23:45:10.523974 PDT | MeanKL                0.00727661
+2017-08-10 23:45:10.524357 PDT | MaxKL                 0.030202
+2017-08-10 23:45:10.525201 PDT | Time               1648.8
+2017-08-10 23:45:10.526739 PDT | ItrTime              35.8591
+2017-08-10 23:45:10.527193 PDT | -----------------  -------------
+2017-08-10 23:45:10.527677 PDT | [point_3] itr #45 | Obtaining samples...
+2017-08-10 23:45:48.459458 PDT | [point_3] itr #45 | Processing samples...
+2017-08-10 23:45:48.468104 PDT | [point_3] itr #45 | fitting baseline...
+2017-08-10 23:45:48.833791 PDT | [point_3] itr #45 | fitted
+2017-08-10 23:45:48.915106 PDT | [point_3] itr #45 | Logging diagnostics...
+2017-08-10 23:45:48.921251 PDT | [point_3] itr #45 | Optimizing policy...
+2017-08-10 23:45:48.922500 PDT | [point_3] itr #45 | optimizing policy
+2017-08-10 23:45:48.956572 PDT | [point_3] itr #45 | Saving snapshot...
+2017-08-10 23:45:48.969412 PDT | [point_3] itr #45 | Saved
+2017-08-10 23:45:48.971964 PDT | -----------------  --------------
+2017-08-10 23:45:48.972200 PDT | TotalExecTime        37.9284
+2017-08-10 23:45:48.972433 PDT | AverageReturn      2665
+2017-08-10 23:45:48.973757 PDT | ExplainedVariance     0.994014
+2017-08-10 23:45:48.973973 PDT | NumTrajs            200
+2017-08-10 23:45:48.974851 PDT | Entropy               2.45707
+2017-08-10 23:45:48.975082 PDT | Perplexity           11.6705
+2017-08-10 23:45:48.975269 PDT | StdReturn           125.2
+2017-08-10 23:45:48.975455 PDT | MaxReturn          3000
+2017-08-10 23:45:48.975653 PDT | MinReturn          2400
+2017-08-10 23:45:48.977021 PDT | AveragePolicyStd      0.826759
+2017-08-10 23:45:48.977269 PDT | LossBefore           -0.000266017
+2017-08-10 23:45:48.977471 PDT | LossAfter            -0.00102398
+2017-08-10 23:45:48.977669 PDT | MeanKL                0.00223629
+2017-08-10 23:45:48.979245 PDT | MaxKL                 0.00954087
+2017-08-10 23:45:48.979511 PDT | Time               1687.26
+2017-08-10 23:45:48.979715 PDT | ItrTime              38.4425
+2017-08-10 23:45:48.979978 PDT | -----------------  --------------
+2017-08-10 23:45:48.982142 PDT | [point_3] itr #46 | Obtaining samples...
+2017-08-10 23:46:25.589667 PDT | [point_3] itr #46 | Processing samples...
+2017-08-10 23:46:25.593039 PDT | [point_3] itr #46 | fitting baseline...
+2017-08-10 23:46:25.890655 PDT | [point_3] itr #46 | fitted
+2017-08-10 23:46:25.958657 PDT | [point_3] itr #46 | Logging diagnostics...
+2017-08-10 23:46:25.963816 PDT | [point_3] itr #46 | Optimizing policy...
+2017-08-10 23:46:25.973815 PDT | [point_3] itr #46 | optimizing policy
+2017-08-10 23:46:26.015222 PDT | [point_3] itr #46 | Saving snapshot...
+2017-08-10 23:46:26.024890 PDT | [point_3] itr #46 | Saved
+2017-08-10 23:46:26.032151 PDT | -----------------  -------------
+2017-08-10 23:46:26.032602 PDT | TotalExecTime        36.6036
+2017-08-10 23:46:26.032989 PDT | AverageReturn      2667.5
+2017-08-10 23:46:26.033367 PDT | ExplainedVariance     0.995012
+2017-08-10 23:46:26.033755 PDT | NumTrajs            200
+2017-08-10 23:46:26.034095 PDT | Entropy               2.45693
+2017-08-10 23:46:26.034504 PDT | Perplexity           11.669
+2017-08-10 23:46:26.034900 PDT | StdReturn           115.731
+2017-08-10 23:46:26.035273 PDT | MaxReturn          2900
+2017-08-10 23:46:26.035652 PDT | MinReturn          2300
+2017-08-10 23:46:26.036029 PDT | AveragePolicyStd      0.826677
+2017-08-10 23:46:26.036435 PDT | LossBefore            0.00020792
+2017-08-10 23:46:26.036822 PDT | LossAfter            -0.00491877
+2017-08-10 23:46:26.037183 PDT | MeanKL                0.0382371
+2017-08-10 23:46:26.041985 PDT | MaxKL                 0.138535
+2017-08-10 23:46:26.042417 PDT | Time               1724.32
+2017-08-10 23:46:26.042781 PDT | ItrTime              37.0492
+2017-08-10 23:46:26.043178 PDT | -----------------  -------------
+2017-08-10 23:46:26.043651 PDT | [point_3] itr #47 | Obtaining samples...
+2017-08-10 23:47:01.969548 PDT | [point_3] itr #47 | Processing samples...
+2017-08-10 23:47:01.972838 PDT | [point_3] itr #47 | fitting baseline...
+2017-08-10 23:47:01.991287 PDT | [point_3] itr #47 | fitted
+2017-08-10 23:47:02.102858 PDT | [point_3] itr #47 | Logging diagnostics...
+2017-08-10 23:47:02.104138 PDT | [point_3] itr #47 | Optimizing policy...
+2017-08-10 23:47:02.104385 PDT | [point_3] itr #47 | optimizing policy
+2017-08-10 23:47:02.183156 PDT | [point_3] itr #47 | Saving snapshot...
+2017-08-10 23:47:02.206932 PDT | [point_3] itr #47 | Saved
+2017-08-10 23:47:02.212346 PDT | -----------------  -------------
+2017-08-10 23:47:02.214390 PDT | TotalExecTime        35.9239
+2017-08-10 23:47:02.216339 PDT | AverageReturn      2682.5
+2017-08-10 23:47:02.216772 PDT | ExplainedVariance     0.994652
+2017-08-10 23:47:02.217112 PDT | NumTrajs            200
+2017-08-10 23:47:02.218534 PDT | Entropy               2.45704
+2017-08-10 23:47:02.218879 PDT | Perplexity           11.6702
+2017-08-10 23:47:02.219249 PDT | StdReturn           119.347
+2017-08-10 23:47:02.220420 PDT | MaxReturn          3000
+2017-08-10 23:47:02.220797 PDT | MinReturn          2300
+2017-08-10 23:47:02.221871 PDT | AveragePolicyStd      0.826694
+2017-08-10 23:47:02.222238 PDT | LossBefore            0.00272083
+2017-08-10 23:47:02.222920 PDT | LossAfter            -0.00358881
+2017-08-10 23:47:02.223972 PDT | MeanKL                0.0244557
+2017-08-10 23:47:02.225031 PDT | MaxKL                 0.0910146
+2017-08-10 23:47:02.225413 PDT | Time               1760.5
+2017-08-10 23:47:02.226156 PDT | ItrTime              36.1648
+2017-08-10 23:47:02.227250 PDT | -----------------  -------------
+2017-08-10 23:47:02.227763 PDT | [point_3] itr #48 | Obtaining samples...
+2017-08-10 23:47:37.621559 PDT | [point_3] itr #48 | Processing samples...
+2017-08-10 23:47:37.633079 PDT | [point_3] itr #48 | fitting baseline...
+2017-08-10 23:47:37.719317 PDT | [point_3] itr #48 | fitted
+2017-08-10 23:47:37.854984 PDT | [point_3] itr #48 | Logging diagnostics...
+2017-08-10 23:47:37.860431 PDT | [point_3] itr #48 | Optimizing policy...
+2017-08-10 23:47:37.862286 PDT | [point_3] itr #48 | optimizing policy
+2017-08-10 23:47:37.916973 PDT | [point_3] itr #48 | Saving snapshot...
+2017-08-10 23:47:37.924562 PDT | [point_3] itr #48 | Saved
+2017-08-10 23:47:37.935711 PDT | -----------------  -------------
+2017-08-10 23:47:37.938622 PDT | TotalExecTime        35.3894
+2017-08-10 23:47:37.939040 PDT | AverageReturn      2674.5
+2017-08-10 23:47:37.939439 PDT | ExplainedVariance     0.994749
+2017-08-10 23:47:37.939829 PDT | NumTrajs            200
+2017-08-10 23:47:37.940206 PDT | Entropy               2.4584
+2017-08-10 23:47:37.940601 PDT | Perplexity           11.6861
+2017-08-10 23:47:37.941002 PDT | StdReturn           118.742
+2017-08-10 23:47:37.942783 PDT | MaxReturn          2900
+2017-08-10 23:47:37.945569 PDT | MinReturn          2200
+2017-08-10 23:47:37.948612 PDT | AveragePolicyStd      0.827337
+2017-08-10 23:47:37.950903 PDT | LossBefore           -0.0164475
+2017-08-10 23:47:37.953119 PDT | LossAfter            -0.017246
+2017-08-10 23:47:37.953534 PDT | MeanKL                0.00322627
+2017-08-10 23:47:37.953898 PDT | MaxKL                 0.0119902
+2017-08-10 23:47:37.955112 PDT | Time               1796.22
+2017-08-10 23:47:37.955493 PDT | ItrTime              35.7023
+2017-08-10 23:47:37.957252 PDT | -----------------  -------------
+2017-08-10 23:47:37.957745 PDT | [point_3] itr #49 | Obtaining samples...
+2017-08-10 23:48:13.809244 PDT | [point_3] itr #49 | Processing samples...
+2017-08-10 23:48:13.812492 PDT | [point_3] itr #49 | fitting baseline...
+2017-08-10 23:48:13.835026 PDT | [point_3] itr #49 | fitted
+2017-08-10 23:48:14.002339 PDT | [point_3] itr #49 | Logging diagnostics...
+2017-08-10 23:48:14.003633 PDT | [point_3] itr #49 | Optimizing policy...
+2017-08-10 23:48:14.003880 PDT | [point_3] itr #49 | optimizing policy
+2017-08-10 23:48:14.048697 PDT | [point_3] itr #49 | Saving snapshot...
+2017-08-10 23:48:14.061686 PDT | [point_3] itr #49 | Saved
+2017-08-10 23:48:14.062803 PDT | -----------------  -------------
+2017-08-10 23:48:14.063052 PDT | TotalExecTime        35.8469
+2017-08-10 23:48:14.063269 PDT | AverageReturn      2683.5
+2017-08-10 23:48:14.063470 PDT | ExplainedVariance     0.994078
+2017-08-10 23:48:14.063653 PDT | NumTrajs            200
+2017-08-10 23:48:14.063844 PDT | Entropy               2.45017
+2017-08-10 23:48:14.064069 PDT | Perplexity           11.5903
+2017-08-10 23:48:14.064247 PDT | StdReturn           125.61
+2017-08-10 23:48:14.064438 PDT | MaxReturn          3000
+2017-08-10 23:48:14.064642 PDT | MinReturn          2200
+2017-08-10 23:48:14.064855 PDT | AveragePolicyStd      0.823948
+2017-08-10 23:48:14.066067 PDT | LossBefore           -0.00746647
+2017-08-10 23:48:14.066259 PDT | LossAfter            -0.0095867
+2017-08-10 23:48:14.066441 PDT | MeanKL                0.00871235
+2017-08-10 23:48:14.066636 PDT | MaxKL                 0.0286581
+2017-08-10 23:48:14.066850 PDT | Time               1832.35
+2017-08-10 23:48:14.070526 PDT | ItrTime              36.1043
+2017-08-10 23:48:14.070748 PDT | -----------------  -------------
