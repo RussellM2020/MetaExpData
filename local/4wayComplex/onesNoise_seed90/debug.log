@@ -2869,3 +2869,555 @@
 2017-08-16 23:56:24.451029 PDT | [onesNoise_seed90] itr #32 | ** Step 1 **
 2017-08-16 23:56:24.451460 PDT | [onesNoise_seed90] itr #32 | Obtaining samples...
 2017-08-16 23:56:24.451697 PDT | [onesNoise_seed90] itr #32 | Obtaining samples for iteration 32...
+2017-08-17 00:07:09.855401 PDT | [onesNoise_seed90] itr #32 | Processing samples...
+2017-08-17 00:07:10.823222 PDT | [onesNoise_seed90] itr #32 | fitting baseline...
+2017-08-17 00:07:11.060106 PDT | [onesNoise_seed90] itr #32 | fitted
+2017-08-17 00:07:11.467375 PDT | [onesNoise_seed90] itr #32 | Logging diagnostics...
+2017-08-17 00:07:11.485433 PDT | [onesNoise_seed90] itr #32 | Optimizing policy...
+2017-08-17 00:07:11.485711 PDT | [onesNoise_seed90] itr #32 | Computing KL before
+2017-08-17 00:07:11.705571 PDT | [onesNoise_seed90] itr #32 | Computing loss before
+2017-08-17 00:07:11.930703 PDT | [onesNoise_seed90] itr #32 | Optimizing
+2017-08-17 00:07:11.932166 PDT | [onesNoise_seed90] itr #32 | Start CG optimization: #parameters: 1412, #inputs: 150000, #subsample_inputs: 150000
+2017-08-17 00:07:11.932371 PDT | [onesNoise_seed90] itr #32 | computing loss before
+2017-08-17 00:07:12.160733 PDT | [onesNoise_seed90] itr #32 | performing update
+2017-08-17 00:07:12.161037 PDT | [onesNoise_seed90] itr #32 | computing gradient
+2017-08-17 00:07:12.874971 PDT | [onesNoise_seed90] itr #32 | gradient computed
+2017-08-17 00:07:12.875293 PDT | [onesNoise_seed90] itr #32 | computing descent direction
+2017-08-17 00:07:28.622051 PDT | [onesNoise_seed90] itr #32 | descent direction computed
+2017-08-17 00:07:29.080408 PDT | [onesNoise_seed90] itr #32 | backtrack iters: 1
+2017-08-17 00:07:29.080613 PDT | [onesNoise_seed90] itr #32 | computing loss after
+2017-08-17 00:07:29.080729 PDT | [onesNoise_seed90] itr #32 | optimization finished
+2017-08-17 00:07:29.080844 PDT | [onesNoise_seed90] itr #32 | Computing loss after
+2017-08-17 00:07:29.304926 PDT | [onesNoise_seed90] itr #32 | Computing KL after
+2017-08-17 00:07:29.529626 PDT | [onesNoise_seed90] itr #32 | Saving snapshot...
+2017-08-17 00:07:29.534668 PDT | [onesNoise_seed90] itr #32 | Saved
+2017-08-17 00:07:29.534850 PDT | [onesNoise_seed90] itr #32 | Saving visualization of paths
+2017-08-17 00:07:35.364978 PDT | ----------------------  ---------------
+2017-08-17 00:07:35.365310 PDT | 0PolicyExecTime           318.955
+2017-08-17 00:07:35.365457 PDT | 0EnvExecTime              191.019
+2017-08-17 00:07:35.365568 PDT | 0ProcessExecTime            7.77304
+2017-08-17 00:07:35.365691 PDT | 0AverageReturn           2278.95
+2017-08-17 00:07:35.365815 PDT | 0ExplainedVariance          0.0895916
+2017-08-17 00:07:35.365934 PDT | 0NumTrajs                2000
+2017-08-17 00:07:35.366040 PDT | 0Entropy                    2.144
+2017-08-17 00:07:35.366146 PDT | 0Perplexity                 8.53347
+2017-08-17 00:07:35.366251 PDT | 0StdReturn               5617.5
+2017-08-17 00:07:35.366355 PDT | 0MaxReturn              23500
+2017-08-17 00:07:35.366459 PDT | 0MinReturn                  0
+2017-08-17 00:07:35.366561 PDT | 0AveragePolicyStd           0.706993
+2017-08-17 00:07:35.366668 PDT | ComputeUpdatedDistTime      0.279967
+2017-08-17 00:07:35.366773 PDT | 1PolicyExecTime           435.644
+2017-08-17 00:07:35.366876 PDT | 1EnvExecTime              198.422
+2017-08-17 00:07:35.366987 PDT | 1ProcessExecTime            7.94063
+2017-08-17 00:07:35.367091 PDT | 1AverageReturn           7496.55
+2017-08-17 00:07:35.367196 PDT | 1ExplainedVariance          0.28223
+2017-08-17 00:07:35.367320 PDT | 1NumTrajs                2000
+2017-08-17 00:07:35.367433 PDT | 1Entropy                    2.14537
+2017-08-17 00:07:35.367557 PDT | 1Perplexity                 8.5452
+2017-08-17 00:07:35.367662 PDT | 1StdReturn               9932.05
+2017-08-17 00:07:35.367818 PDT | 1MaxReturn              24000
+2017-08-17 00:07:35.367983 PDT | 1MinReturn                  0
+2017-08-17 00:07:35.368102 PDT | 1AveragePolicyStd           0.707474
+2017-08-17 00:07:35.368207 PDT | MeanKLBefore                0
+2017-08-17 00:07:35.368312 PDT | MeanKL                      0.00701688
+2017-08-17 00:07:35.368417 PDT | LossBefore                 -4.94765e-10
+2017-08-17 00:07:35.368522 PDT | LossAfter                  -0.00115213
+2017-08-17 00:07:35.368635 PDT | dLoss                       0.00115213
+2017-08-17 00:07:35.368740 PDT | Time                    33530.1
+2017-08-17 00:07:35.368844 PDT | ItrTime                  1187.69
+2017-08-17 00:07:35.368948 PDT | ----------------------  ---------------
+2017-08-17 00:07:35.369149 PDT | [onesNoise_seed90] itr #33 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:07:35.379941 PDT | [onesNoise_seed90] itr #33 | ** Step 0 **
+2017-08-17 00:07:35.380988 PDT | [onesNoise_seed90] itr #33 | Obtaining samples...
+2017-08-17 00:07:35.382017 PDT | [onesNoise_seed90] itr #33 | Obtaining samples for iteration 33...
+2017-08-17 00:16:16.997054 PDT | [onesNoise_seed90] itr #33 | Processing samples...
+2017-08-17 00:16:17.746383 PDT | [onesNoise_seed90] itr #33 | fitting baseline...
+2017-08-17 00:16:17.984209 PDT | [onesNoise_seed90] itr #33 | fitted
+2017-08-17 00:16:18.325998 PDT | [onesNoise_seed90] itr #33 | Logging diagnostics...
+2017-08-17 00:16:18.344802 PDT | [onesNoise_seed90] itr #33 | Computing policy updates...
+2017-08-17 00:16:18.619892 PDT | [onesNoise_seed90] itr #33 | ** Step 1 **
+2017-08-17 00:16:18.620164 PDT | [onesNoise_seed90] itr #33 | Obtaining samples...
+2017-08-17 00:16:18.620289 PDT | [onesNoise_seed90] itr #33 | Obtaining samples for iteration 33...
+2017-08-17 00:27:49.533266 PDT | [onesNoise_seed90] itr #33 | Processing samples...
+2017-08-17 00:27:50.596014 PDT | [onesNoise_seed90] itr #33 | fitting baseline...
+2017-08-17 00:27:50.888814 PDT | [onesNoise_seed90] itr #33 | fitted
+2017-08-17 00:27:51.482186 PDT | [onesNoise_seed90] itr #33 | Logging diagnostics...
+2017-08-17 00:27:51.504354 PDT | [onesNoise_seed90] itr #33 | Optimizing policy...
+2017-08-17 00:27:51.504768 PDT | [onesNoise_seed90] itr #33 | Computing KL before
+2017-08-17 00:27:51.722323 PDT | [onesNoise_seed90] itr #33 | Computing loss before
+2017-08-17 00:27:51.943568 PDT | [onesNoise_seed90] itr #33 | Optimizing
+2017-08-17 00:27:51.945346 PDT | [onesNoise_seed90] itr #33 | Start CG optimization: #parameters: 1412, #inputs: 150000, #subsample_inputs: 150000
+2017-08-17 00:27:51.945606 PDT | [onesNoise_seed90] itr #33 | computing loss before
+2017-08-17 00:27:52.175273 PDT | [onesNoise_seed90] itr #33 | performing update
+2017-08-17 00:27:52.175570 PDT | [onesNoise_seed90] itr #33 | computing gradient
+2017-08-17 00:27:52.890451 PDT | [onesNoise_seed90] itr #33 | gradient computed
+2017-08-17 00:27:52.890753 PDT | [onesNoise_seed90] itr #33 | computing descent direction
+2017-08-17 00:28:08.610932 PDT | [onesNoise_seed90] itr #33 | descent direction computed
+2017-08-17 00:28:09.068671 PDT | [onesNoise_seed90] itr #33 | backtrack iters: 1
+2017-08-17 00:28:09.068929 PDT | [onesNoise_seed90] itr #33 | computing loss after
+2017-08-17 00:28:09.069070 PDT | [onesNoise_seed90] itr #33 | optimization finished
+2017-08-17 00:28:09.069204 PDT | [onesNoise_seed90] itr #33 | Computing loss after
+2017-08-17 00:28:09.292061 PDT | [onesNoise_seed90] itr #33 | Computing KL after
+2017-08-17 00:28:09.514294 PDT | [onesNoise_seed90] itr #33 | Saving snapshot...
+2017-08-17 00:28:09.518057 PDT | [onesNoise_seed90] itr #33 | Saved
+2017-08-17 00:28:09.518312 PDT | [onesNoise_seed90] itr #33 | Saving visualization of paths
+2017-08-17 00:28:16.323954 PDT | ----------------------  ---------------
+2017-08-17 00:28:16.324235 PDT | 0PolicyExecTime           318.09
+2017-08-17 00:28:16.324367 PDT | 0EnvExecTime              192.464
+2017-08-17 00:28:16.324474 PDT | 0ProcessExecTime            7.88813
+2017-08-17 00:28:16.324577 PDT | 0AverageReturn           2294.1
+2017-08-17 00:28:16.324679 PDT | 0ExplainedVariance          0.0895144
+2017-08-17 00:28:16.324780 PDT | 0NumTrajs                2000
+2017-08-17 00:28:16.324880 PDT | 0Entropy                    2.14506
+2017-08-17 00:28:16.325020 PDT | 0Perplexity                 8.54256
+2017-08-17 00:28:16.325121 PDT | 0StdReturn               5624.53
+2017-08-17 00:28:16.325295 PDT | 0MaxReturn              23300
+2017-08-17 00:28:16.325502 PDT | 0MinReturn                  0
+2017-08-17 00:28:16.325686 PDT | 0AveragePolicyStd           0.707466
+2017-08-17 00:28:16.325913 PDT | ComputeUpdatedDistTime      0.274855
+2017-08-17 00:28:16.326133 PDT | 1PolicyExecTime           470.065
+2017-08-17 00:28:16.326351 PDT | 1EnvExecTime              208.702
+2017-08-17 00:28:16.326562 PDT | 1ProcessExecTime            8.45453
+2017-08-17 00:28:16.326763 PDT | 1AverageReturn           6745.3
+2017-08-17 00:28:16.326936 PDT | 1ExplainedVariance          0.279297
+2017-08-17 00:28:16.327145 PDT | 1NumTrajs                2000
+2017-08-17 00:28:16.327363 PDT | 1Entropy                    2.14413
+2017-08-17 00:28:16.327577 PDT | 1Perplexity                 8.53461
+2017-08-17 00:28:16.327791 PDT | 1StdReturn               9618.68
+2017-08-17 00:28:16.327990 PDT | 1MaxReturn              23800
+2017-08-17 00:28:16.328098 PDT | 1MinReturn                  0
+2017-08-17 00:28:16.328201 PDT | 1AveragePolicyStd           0.707136
+2017-08-17 00:28:16.328303 PDT | MeanKLBefore                0
+2017-08-17 00:28:16.328405 PDT | MeanKL                      0.00665989
+2017-08-17 00:28:16.328590 PDT | LossBefore                  6.18456e-10
+2017-08-17 00:28:16.328796 PDT | LossAfter                  -0.00235453
+2017-08-17 00:28:16.328966 PDT | dLoss                       0.00235453
+2017-08-17 00:28:16.329070 PDT | Time                    34770.1
+2017-08-17 00:28:16.329172 PDT | ItrTime                  1234.15
+2017-08-17 00:28:16.329282 PDT | ----------------------  ---------------
+2017-08-17 00:28:16.329606 PDT | [onesNoise_seed90] itr #34 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:28:16.340540 PDT | [onesNoise_seed90] itr #34 | ** Step 0 **
+2017-08-17 00:28:16.342200 PDT | [onesNoise_seed90] itr #34 | Obtaining samples...
+2017-08-17 00:28:16.343237 PDT | [onesNoise_seed90] itr #34 | Obtaining samples for iteration 34...
+2017-08-17 00:37:32.323487 PDT | [onesNoise_seed90] itr #34 | Processing samples...
+2017-08-17 00:37:33.060417 PDT | [onesNoise_seed90] itr #34 | fitting baseline...
+2017-08-17 00:37:33.295885 PDT | [onesNoise_seed90] itr #34 | fitted
+2017-08-17 00:37:33.795734 PDT | [onesNoise_seed90] itr #34 | Logging diagnostics...
+2017-08-17 00:37:33.820534 PDT | [onesNoise_seed90] itr #34 | Computing policy updates...
+2017-08-17 00:37:34.097827 PDT | [onesNoise_seed90] itr #34 | ** Step 1 **
+2017-08-17 00:37:34.098068 PDT | [onesNoise_seed90] itr #34 | Obtaining samples...
+2017-08-17 00:37:34.098229 PDT | [onesNoise_seed90] itr #34 | Obtaining samples for iteration 34...
+2017-08-17 00:49:13.298637 PDT | [onesNoise_seed90] itr #34 | Processing samples...
+2017-08-17 00:49:14.358645 PDT | [onesNoise_seed90] itr #34 | fitting baseline...
+2017-08-17 00:49:14.666212 PDT | [onesNoise_seed90] itr #34 | fitted
+2017-08-17 00:49:15.065163 PDT | [onesNoise_seed90] itr #34 | Logging diagnostics...
+2017-08-17 00:49:15.093889 PDT | [onesNoise_seed90] itr #34 | Optimizing policy...
+2017-08-17 00:49:15.094408 PDT | [onesNoise_seed90] itr #34 | Computing KL before
+2017-08-17 00:49:15.326281 PDT | [onesNoise_seed90] itr #34 | Computing loss before
+2017-08-17 00:49:15.553072 PDT | [onesNoise_seed90] itr #34 | Optimizing
+2017-08-17 00:49:15.553968 PDT | [onesNoise_seed90] itr #34 | Start CG optimization: #parameters: 1412, #inputs: 150000, #subsample_inputs: 150000
+2017-08-17 00:49:15.554211 PDT | [onesNoise_seed90] itr #34 | computing loss before
+2017-08-17 00:49:15.813697 PDT | [onesNoise_seed90] itr #34 | performing update
+2017-08-17 00:49:15.814045 PDT | [onesNoise_seed90] itr #34 | computing gradient
+2017-08-17 00:49:16.532092 PDT | [onesNoise_seed90] itr #34 | gradient computed
+2017-08-17 00:49:16.532487 PDT | [onesNoise_seed90] itr #34 | computing descent direction
+2017-08-17 00:49:32.460154 PDT | [onesNoise_seed90] itr #34 | descent direction computed
+2017-08-17 00:49:32.935780 PDT | [onesNoise_seed90] itr #34 | backtrack iters: 1
+2017-08-17 00:49:32.936043 PDT | [onesNoise_seed90] itr #34 | computing loss after
+2017-08-17 00:49:32.936180 PDT | [onesNoise_seed90] itr #34 | optimization finished
+2017-08-17 00:49:32.936295 PDT | [onesNoise_seed90] itr #34 | Computing loss after
+2017-08-17 00:49:33.164971 PDT | [onesNoise_seed90] itr #34 | Computing KL after
+2017-08-17 00:49:33.400542 PDT | [onesNoise_seed90] itr #34 | Saving snapshot...
+2017-08-17 00:49:33.403611 PDT | [onesNoise_seed90] itr #34 | Saved
+2017-08-17 00:49:33.403814 PDT | [onesNoise_seed90] itr #34 | Saving visualization of paths
+2017-08-17 00:49:39.931040 PDT | ----------------------  ---------------
+2017-08-17 00:49:39.931260 PDT | 0PolicyExecTime           343.017
+2017-08-17 00:49:39.931457 PDT | 0EnvExecTime              201.175
+2017-08-17 00:49:39.931660 PDT | 0ProcessExecTime            8.32386
+2017-08-17 00:49:39.931879 PDT | 0AverageReturn           2148.55
+2017-08-17 00:49:39.932094 PDT | 0ExplainedVariance          0.0934048
+2017-08-17 00:49:39.932279 PDT | 0NumTrajs                2000
+2017-08-17 00:49:39.932472 PDT | 0Entropy                    2.13077
+2017-08-17 00:49:39.932649 PDT | 0Perplexity                 8.42138
+2017-08-17 00:49:39.932843 PDT | 0StdReturn               5482.89
+2017-08-17 00:49:39.933031 PDT | 0MaxReturn              22800
+2017-08-17 00:49:39.933248 PDT | 0MinReturn                  0
+2017-08-17 00:49:39.933472 PDT | 0AveragePolicyStd           0.70252
+2017-08-17 00:49:39.933694 PDT | ComputeUpdatedDistTime      0.276785
+2017-08-17 00:49:39.933893 PDT | 1PolicyExecTime           477.822
+2017-08-17 00:49:39.934089 PDT | 1EnvExecTime              209.178
+2017-08-17 00:49:39.934319 PDT | 1ProcessExecTime            8.4762
+2017-08-17 00:49:39.934506 PDT | 1AverageReturn           6494.9
+2017-08-17 00:49:39.934693 PDT | 1ExplainedVariance          0.278282
+2017-08-17 00:49:39.934893 PDT | 1NumTrajs                2000
+2017-08-17 00:49:39.935115 PDT | 1Entropy                    2.12861
+2017-08-17 00:49:39.935332 PDT | 1Perplexity                 8.40316
+2017-08-17 00:49:39.935550 PDT | 1StdReturn               9392.58
+2017-08-17 00:49:39.935745 PDT | 1MaxReturn              23800
+2017-08-17 00:49:39.935955 PDT | 1MinReturn                  0
+2017-08-17 00:49:39.936161 PDT | 1AveragePolicyStd           0.701771
+2017-08-17 00:49:39.936364 PDT | MeanKLBefore                7.45057e-09
+2017-08-17 00:49:39.936568 PDT | MeanKL                      0.00686526
+2017-08-17 00:49:39.936790 PDT | LossBefore                 -1.60071e-09
+2017-08-17 00:49:39.937005 PDT | LossAfter                  -0.00178988
+2017-08-17 00:49:39.937219 PDT | dLoss                       0.00178988
+2017-08-17 00:49:39.937411 PDT | Time                    36054
+2017-08-17 00:49:39.937596 PDT | ItrTime                  1277.07
+2017-08-17 00:49:39.937794 PDT | ----------------------  ---------------
+2017-08-17 00:49:39.938126 PDT | [onesNoise_seed90] itr #35 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:49:39.952212 PDT | [onesNoise_seed90] itr #35 | ** Step 0 **
+2017-08-17 00:49:39.952639 PDT | [onesNoise_seed90] itr #35 | Obtaining samples...
+2017-08-17 00:49:39.953682 PDT | [onesNoise_seed90] itr #35 | Obtaining samples for iteration 35...
+2017-08-17 00:58:58.058725 PDT | [onesNoise_seed90] itr #35 | Processing samples...
+2017-08-17 00:58:59.114110 PDT | [onesNoise_seed90] itr #35 | fitting baseline...
+2017-08-17 00:58:59.417659 PDT | [onesNoise_seed90] itr #35 | fitted
+2017-08-17 00:58:59.883070 PDT | [onesNoise_seed90] itr #35 | Logging diagnostics...
+2017-08-17 00:58:59.902393 PDT | [onesNoise_seed90] itr #35 | Computing policy updates...
+2017-08-17 00:59:00.180733 PDT | [onesNoise_seed90] itr #35 | ** Step 1 **
+2017-08-17 00:59:00.180940 PDT | [onesNoise_seed90] itr #35 | Obtaining samples...
+2017-08-17 00:59:00.181157 PDT | [onesNoise_seed90] itr #35 | Obtaining samples for iteration 35...
+2017-08-17 01:10:39.165976 PDT | [onesNoise_seed90] itr #35 | Processing samples...
+2017-08-17 01:10:39.917813 PDT | [onesNoise_seed90] itr #35 | fitting baseline...
+2017-08-17 01:10:40.249571 PDT | [onesNoise_seed90] itr #35 | fitted
+2017-08-17 01:10:40.676745 PDT | [onesNoise_seed90] itr #35 | Logging diagnostics...
+2017-08-17 01:10:40.701698 PDT | [onesNoise_seed90] itr #35 | Optimizing policy...
+2017-08-17 01:10:40.702303 PDT | [onesNoise_seed90] itr #35 | Computing KL before
+2017-08-17 01:10:40.931346 PDT | [onesNoise_seed90] itr #35 | Computing loss before
+2017-08-17 01:10:41.162814 PDT | [onesNoise_seed90] itr #35 | Optimizing
+2017-08-17 01:10:41.163869 PDT | [onesNoise_seed90] itr #35 | Start CG optimization: #parameters: 1412, #inputs: 150000, #subsample_inputs: 150000
+2017-08-17 01:10:41.164138 PDT | [onesNoise_seed90] itr #35 | computing loss before
+2017-08-17 01:10:41.396356 PDT | [onesNoise_seed90] itr #35 | performing update
+2017-08-17 01:10:41.396567 PDT | [onesNoise_seed90] itr #35 | computing gradient
+2017-08-17 01:10:42.121646 PDT | [onesNoise_seed90] itr #35 | gradient computed
+2017-08-17 01:10:42.122205 PDT | [onesNoise_seed90] itr #35 | computing descent direction
+2017-08-17 01:10:58.037538 PDT | [onesNoise_seed90] itr #35 | descent direction computed
+2017-08-17 01:10:58.512007 PDT | [onesNoise_seed90] itr #35 | backtrack iters: 1
+2017-08-17 01:10:58.512287 PDT | [onesNoise_seed90] itr #35 | computing loss after
+2017-08-17 01:10:58.512464 PDT | [onesNoise_seed90] itr #35 | optimization finished
+2017-08-17 01:10:58.512641 PDT | [onesNoise_seed90] itr #35 | Computing loss after
+2017-08-17 01:10:58.744077 PDT | [onesNoise_seed90] itr #35 | Computing KL after
+2017-08-17 01:10:58.978379 PDT | [onesNoise_seed90] itr #35 | Saving snapshot...
+2017-08-17 01:10:58.981442 PDT | [onesNoise_seed90] itr #35 | Saved
+2017-08-17 01:10:58.981622 PDT | [onesNoise_seed90] itr #35 | Saving visualization of paths
+2017-08-17 01:11:05.577542 PDT | ----------------------  --------------
+2017-08-17 01:11:05.577748 PDT | 0PolicyExecTime           345.484
+2017-08-17 01:11:05.577862 PDT | 0EnvExecTime              200.867
+2017-08-17 01:11:05.577967 PDT | 0ProcessExecTime            8.27715
+2017-08-17 01:11:05.578132 PDT | 0AverageReturn           2303.15
+2017-08-17 01:11:05.578332 PDT | 0ExplainedVariance          0.105939
+2017-08-17 01:11:05.578529 PDT | 0NumTrajs                2000
+2017-08-17 01:11:05.578750 PDT | 0Entropy                    2.11731
+2017-08-17 01:11:05.578963 PDT | 0Perplexity                 8.30879
+2017-08-17 01:11:05.579181 PDT | 0StdReturn               5647.68
+2017-08-17 01:11:05.579397 PDT | 0MaxReturn              23200
+2017-08-17 01:11:05.579602 PDT | 0MinReturn                  0
+2017-08-17 01:11:05.579781 PDT | 0AveragePolicyStd           0.697824
+2017-08-17 01:11:05.579978 PDT | ComputeUpdatedDistTime      0.278114
+2017-08-17 01:11:05.580182 PDT | 1PolicyExecTime           477.663
+2017-08-17 01:11:05.580364 PDT | 1EnvExecTime              208.973
+2017-08-17 01:11:05.580581 PDT | 1ProcessExecTime            8.5949
+2017-08-17 01:11:05.580798 PDT | 1AverageReturn           7540.75
+2017-08-17 01:11:05.581010 PDT | 1ExplainedVariance          0.308029
+2017-08-17 01:11:05.581214 PDT | 1NumTrajs                2000
+2017-08-17 01:11:05.581426 PDT | 1Entropy                    2.11638
+2017-08-17 01:11:05.581626 PDT | 1Perplexity                 8.30104
+2017-08-17 01:11:05.581835 PDT | 1StdReturn               9748.06
+2017-08-17 01:11:05.582052 PDT | 1MaxReturn              23700
+2017-08-17 01:11:05.582265 PDT | 1MinReturn                  0
+2017-08-17 01:11:05.582477 PDT | 1AveragePolicyStd           0.697517
+2017-08-17 01:11:05.582669 PDT | MeanKLBefore                0
+2017-08-17 01:11:05.582848 PDT | MeanKL                      0.00770308
+2017-08-17 01:11:05.583039 PDT | LossBefore                  9.5315e-10
+2017-08-17 01:11:05.583214 PDT | LossAfter                  -0.00220401
+2017-08-17 01:11:05.583413 PDT | dLoss                       0.00220401
+2017-08-17 01:11:05.583633 PDT | Time                    37339.6
+2017-08-17 01:11:05.583849 PDT | ItrTime                  1279.04
+2017-08-17 01:11:05.584070 PDT | ----------------------  --------------
+2017-08-17 01:11:05.584413 PDT | [onesNoise_seed90] itr #36 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:11:05.595770 PDT | [onesNoise_seed90] itr #36 | ** Step 0 **
+2017-08-17 01:11:05.597642 PDT | [onesNoise_seed90] itr #36 | Obtaining samples...
+2017-08-17 01:11:05.599392 PDT | [onesNoise_seed90] itr #36 | Obtaining samples for iteration 36...
+2017-08-17 01:20:23.632335 PDT | [onesNoise_seed90] itr #36 | Processing samples...
+2017-08-17 01:20:24.575935 PDT | [onesNoise_seed90] itr #36 | fitting baseline...
+2017-08-17 01:20:24.830643 PDT | [onesNoise_seed90] itr #36 | fitted
+2017-08-17 01:20:25.265072 PDT | [onesNoise_seed90] itr #36 | Logging diagnostics...
+2017-08-17 01:20:25.288570 PDT | [onesNoise_seed90] itr #36 | Computing policy updates...
+2017-08-17 01:20:25.561628 PDT | [onesNoise_seed90] itr #36 | ** Step 1 **
+2017-08-17 01:20:25.561896 PDT | [onesNoise_seed90] itr #36 | Obtaining samples...
+2017-08-17 01:20:25.562022 PDT | [onesNoise_seed90] itr #36 | Obtaining samples for iteration 36...
+2017-08-17 01:32:01.906385 PDT | [onesNoise_seed90] itr #36 | Processing samples...
+2017-08-17 01:32:02.834689 PDT | [onesNoise_seed90] itr #36 | fitting baseline...
+2017-08-17 01:32:03.088348 PDT | [onesNoise_seed90] itr #36 | fitted
+2017-08-17 01:32:03.539946 PDT | [onesNoise_seed90] itr #36 | Logging diagnostics...
+2017-08-17 01:32:03.564504 PDT | [onesNoise_seed90] itr #36 | Optimizing policy...
+2017-08-17 01:32:03.565085 PDT | [onesNoise_seed90] itr #36 | Computing KL before
+2017-08-17 01:32:03.800988 PDT | [onesNoise_seed90] itr #36 | Computing loss before
+2017-08-17 01:32:04.033184 PDT | [onesNoise_seed90] itr #36 | Optimizing
+2017-08-17 01:32:04.034052 PDT | [onesNoise_seed90] itr #36 | Start CG optimization: #parameters: 1412, #inputs: 150000, #subsample_inputs: 150000
+2017-08-17 01:32:04.034253 PDT | [onesNoise_seed90] itr #36 | computing loss before
+2017-08-17 01:32:04.266489 PDT | [onesNoise_seed90] itr #36 | performing update
+2017-08-17 01:32:04.266745 PDT | [onesNoise_seed90] itr #36 | computing gradient
+2017-08-17 01:32:04.988733 PDT | [onesNoise_seed90] itr #36 | gradient computed
+2017-08-17 01:32:04.989068 PDT | [onesNoise_seed90] itr #36 | computing descent direction
+2017-08-17 01:32:20.964952 PDT | [onesNoise_seed90] itr #36 | descent direction computed
+2017-08-17 01:32:21.436475 PDT | [onesNoise_seed90] itr #36 | backtrack iters: 1
+2017-08-17 01:32:21.436687 PDT | [onesNoise_seed90] itr #36 | computing loss after
+2017-08-17 01:32:21.436824 PDT | [onesNoise_seed90] itr #36 | optimization finished
+2017-08-17 01:32:21.436956 PDT | [onesNoise_seed90] itr #36 | Computing loss after
+2017-08-17 01:32:21.669988 PDT | [onesNoise_seed90] itr #36 | Computing KL after
+2017-08-17 01:32:21.896618 PDT | [onesNoise_seed90] itr #36 | Saving snapshot...
+2017-08-17 01:32:21.902239 PDT | [onesNoise_seed90] itr #36 | Saved
+2017-08-17 01:32:21.902521 PDT | [onesNoise_seed90] itr #36 | Saving visualization of paths
+2017-08-17 01:32:28.439050 PDT | ----------------------  ---------------
+2017-08-17 01:32:28.439324 PDT | 0PolicyExecTime           345.617
+2017-08-17 01:32:28.439526 PDT | 0EnvExecTime              200.595
+2017-08-17 01:32:28.439736 PDT | 0ProcessExecTime            8.38055
+2017-08-17 01:32:28.439944 PDT | 0AverageReturn           2168.65
+2017-08-17 01:32:28.440140 PDT | 0ExplainedVariance          0.101466
+2017-08-17 01:32:28.440289 PDT | 0NumTrajs                2000
+2017-08-17 01:32:28.440458 PDT | 0Entropy                    2.09527
+2017-08-17 01:32:28.440638 PDT | 0Perplexity                 8.12767
+2017-08-17 01:32:28.440849 PDT | 0StdReturn               5428.25
+2017-08-17 01:32:28.441053 PDT | 0MaxReturn              23400
+2017-08-17 01:32:28.441259 PDT | 0MinReturn                  0
+2017-08-17 01:32:28.441393 PDT | 0AveragePolicyStd           0.690178
+2017-08-17 01:32:28.441536 PDT | ComputeUpdatedDistTime      0.272521
+2017-08-17 01:32:28.441641 PDT | 1PolicyExecTime           474.878
+2017-08-17 01:32:28.441777 PDT | 1EnvExecTime              209.322
+2017-08-17 01:32:28.441872 PDT | 1ProcessExecTime            8.42207
+2017-08-17 01:32:28.441968 PDT | 1AverageReturn           6962.75
+2017-08-17 01:32:28.442064 PDT | 1ExplainedVariance          0.303083
+2017-08-17 01:32:28.442160 PDT | 1NumTrajs                2000
+2017-08-17 01:32:28.442256 PDT | 1Entropy                    2.09524
+2017-08-17 01:32:28.442351 PDT | 1Perplexity                 8.12738
+2017-08-17 01:32:28.442446 PDT | 1StdReturn               9783.19
+2017-08-17 01:32:28.442541 PDT | 1MaxReturn              23800
+2017-08-17 01:32:28.442669 PDT | 1MinReturn                  0
+2017-08-17 01:32:28.442777 PDT | 1AveragePolicyStd           0.690174
+2017-08-17 01:32:28.442871 PDT | MeanKLBefore                0
+2017-08-17 01:32:28.442964 PDT | MeanKL                      0.00661612
+2017-08-17 01:32:28.443058 PDT | LossBefore                  1.42609e-09
+2017-08-17 01:32:28.443150 PDT | LossAfter                  -0.00114955
+2017-08-17 01:32:28.443244 PDT | dLoss                       0.00114955
+2017-08-17 01:32:28.443337 PDT | Time                    38622.5
+2017-08-17 01:32:28.443430 PDT | ItrTime                  1276.32
+2017-08-17 01:32:28.443523 PDT | ----------------------  ---------------
+2017-08-17 01:32:28.443710 PDT | [onesNoise_seed90] itr #37 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:32:28.454797 PDT | [onesNoise_seed90] itr #37 | ** Step 0 **
+2017-08-17 01:32:28.456109 PDT | [onesNoise_seed90] itr #37 | Obtaining samples...
+2017-08-17 01:32:28.457402 PDT | [onesNoise_seed90] itr #37 | Obtaining samples for iteration 37...
+2017-08-17 01:41:42.070798 PDT | [onesNoise_seed90] itr #37 | Processing samples...
+2017-08-17 01:41:43.126733 PDT | [onesNoise_seed90] itr #37 | fitting baseline...
+2017-08-17 01:41:43.424486 PDT | [onesNoise_seed90] itr #37 | fitted
+2017-08-17 01:41:43.896436 PDT | [onesNoise_seed90] itr #37 | Logging diagnostics...
+2017-08-17 01:41:43.922474 PDT | [onesNoise_seed90] itr #37 | Computing policy updates...
+2017-08-17 01:41:44.195771 PDT | [onesNoise_seed90] itr #37 | ** Step 1 **
+2017-08-17 01:41:44.196008 PDT | [onesNoise_seed90] itr #37 | Obtaining samples...
+2017-08-17 01:41:44.196251 PDT | [onesNoise_seed90] itr #37 | Obtaining samples for iteration 37...
+2017-08-17 01:53:18.707444 PDT | [onesNoise_seed90] itr #37 | Processing samples...
+2017-08-17 01:53:19.782690 PDT | [onesNoise_seed90] itr #37 | fitting baseline...
+2017-08-17 01:53:20.101286 PDT | [onesNoise_seed90] itr #37 | fitted
+2017-08-17 01:53:20.481319 PDT | [onesNoise_seed90] itr #37 | Logging diagnostics...
+2017-08-17 01:53:20.501952 PDT | [onesNoise_seed90] itr #37 | Optimizing policy...
+2017-08-17 01:53:20.502213 PDT | [onesNoise_seed90] itr #37 | Computing KL before
+2017-08-17 01:53:20.722568 PDT | [onesNoise_seed90] itr #37 | Computing loss before
+2017-08-17 01:53:20.955586 PDT | [onesNoise_seed90] itr #37 | Optimizing
+2017-08-17 01:53:20.957516 PDT | [onesNoise_seed90] itr #37 | Start CG optimization: #parameters: 1412, #inputs: 150000, #subsample_inputs: 150000
+2017-08-17 01:53:20.957906 PDT | [onesNoise_seed90] itr #37 | computing loss before
+2017-08-17 01:53:21.188399 PDT | [onesNoise_seed90] itr #37 | performing update
+2017-08-17 01:53:21.188666 PDT | [onesNoise_seed90] itr #37 | computing gradient
+2017-08-17 01:53:21.908376 PDT | [onesNoise_seed90] itr #37 | gradient computed
+2017-08-17 01:53:21.908909 PDT | [onesNoise_seed90] itr #37 | computing descent direction
+2017-08-17 01:53:37.892971 PDT | [onesNoise_seed90] itr #37 | descent direction computed
+2017-08-17 01:53:38.367792 PDT | [onesNoise_seed90] itr #37 | backtrack iters: 1
+2017-08-17 01:53:38.368017 PDT | [onesNoise_seed90] itr #37 | computing loss after
+2017-08-17 01:53:38.368146 PDT | [onesNoise_seed90] itr #37 | optimization finished
+2017-08-17 01:53:38.368365 PDT | [onesNoise_seed90] itr #37 | Computing loss after
+2017-08-17 01:53:38.601518 PDT | [onesNoise_seed90] itr #37 | Computing KL after
+2017-08-17 01:53:38.832323 PDT | [onesNoise_seed90] itr #37 | Saving snapshot...
+2017-08-17 01:53:38.836208 PDT | [onesNoise_seed90] itr #37 | Saved
+2017-08-17 01:53:38.836472 PDT | [onesNoise_seed90] itr #37 | Saving visualization of paths
+2017-08-17 01:53:45.652160 PDT | ----------------------  ---------------
+2017-08-17 01:53:45.652513 PDT | 0PolicyExecTime           342.586
+2017-08-17 01:53:45.652737 PDT | 0EnvExecTime              199.312
+2017-08-17 01:53:45.652945 PDT | 0ProcessExecTime            8.28953
+2017-08-17 01:53:45.653136 PDT | 0AverageReturn           2051.2
+2017-08-17 01:53:45.653361 PDT | 0ExplainedVariance          0.100182
+2017-08-17 01:53:45.653547 PDT | 0NumTrajs                2000
+2017-08-17 01:53:45.653723 PDT | 0Entropy                    2.07752
+2017-08-17 01:53:45.653937 PDT | 0Perplexity                 7.98468
+2017-08-17 01:53:45.654154 PDT | 0StdReturn               5417.39
+2017-08-17 01:53:45.654367 PDT | 0MaxReturn              23000
+2017-08-17 01:53:45.654574 PDT | 0MinReturn                  0
+2017-08-17 01:53:45.654764 PDT | 0AveragePolicyStd           0.684161
+2017-08-17 01:53:45.654984 PDT | ComputeUpdatedDistTime      0.272449
+2017-08-17 01:53:45.655174 PDT | 1PolicyExecTime           473.592
+2017-08-17 01:53:45.655348 PDT | 1EnvExecTime              208.818
+2017-08-17 01:53:45.655546 PDT | 1ProcessExecTime            8.37673
+2017-08-17 01:53:45.655768 PDT | 1AverageReturn           6598.9
+2017-08-17 01:53:45.655988 PDT | 1ExplainedVariance          0.285612
+2017-08-17 01:53:45.656205 PDT | 1NumTrajs                2000
+2017-08-17 01:53:45.656403 PDT | 1Entropy                    2.07692
+2017-08-17 01:53:45.656604 PDT | 1Perplexity                 7.97982
+2017-08-17 01:53:45.656809 PDT | 1StdReturn               9338.46
+2017-08-17 01:53:45.656999 PDT | 1MaxReturn              23900
+2017-08-17 01:53:45.657190 PDT | 1MinReturn                  0
+2017-08-17 01:53:45.657410 PDT | 1AveragePolicyStd           0.68396
+2017-08-17 01:53:45.657622 PDT | MeanKLBefore                0
+2017-08-17 01:53:45.657837 PDT | MeanKL                      0.00693715
+2017-08-17 01:53:45.658035 PDT | LossBefore                  3.20142e-10
+2017-08-17 01:53:45.658207 PDT | LossAfter                  -0.00206134
+2017-08-17 01:53:45.658427 PDT | dLoss                       0.00206134
+2017-08-17 01:53:45.658615 PDT | Time                    39899.4
+2017-08-17 01:53:45.658794 PDT | ItrTime                  1270.39
+2017-08-17 01:53:45.659007 PDT | ----------------------  ---------------
+2017-08-17 01:53:45.659377 PDT | [onesNoise_seed90] itr #38 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:53:45.673460 PDT | [onesNoise_seed90] itr #38 | ** Step 0 **
+2017-08-17 01:53:45.674679 PDT | [onesNoise_seed90] itr #38 | Obtaining samples...
+2017-08-17 01:53:45.675751 PDT | [onesNoise_seed90] itr #38 | Obtaining samples for iteration 38...
+2017-08-17 02:03:00.826402 PDT | [onesNoise_seed90] itr #38 | Processing samples...
+2017-08-17 02:03:01.839015 PDT | [onesNoise_seed90] itr #38 | fitting baseline...
+2017-08-17 02:03:02.130354 PDT | [onesNoise_seed90] itr #38 | fitted
+2017-08-17 02:03:02.594290 PDT | [onesNoise_seed90] itr #38 | Logging diagnostics...
+2017-08-17 02:03:02.614997 PDT | [onesNoise_seed90] itr #38 | Computing policy updates...
+2017-08-17 02:03:02.899838 PDT | [onesNoise_seed90] itr #38 | ** Step 1 **
+2017-08-17 02:03:02.900168 PDT | [onesNoise_seed90] itr #38 | Obtaining samples...
+2017-08-17 02:03:02.900416 PDT | [onesNoise_seed90] itr #38 | Obtaining samples for iteration 38...
+2017-08-17 02:14:38.861732 PDT | [onesNoise_seed90] itr #38 | Processing samples...
+2017-08-17 02:14:40.103076 PDT | [onesNoise_seed90] itr #38 | fitting baseline...
+2017-08-17 02:14:40.402451 PDT | [onesNoise_seed90] itr #38 | fitted
+2017-08-17 02:14:40.851111 PDT | [onesNoise_seed90] itr #38 | Logging diagnostics...
+2017-08-17 02:14:40.875966 PDT | [onesNoise_seed90] itr #38 | Optimizing policy...
+2017-08-17 02:14:40.876405 PDT | [onesNoise_seed90] itr #38 | Computing KL before
+2017-08-17 02:14:41.106618 PDT | [onesNoise_seed90] itr #38 | Computing loss before
+2017-08-17 02:14:41.347061 PDT | [onesNoise_seed90] itr #38 | Optimizing
+2017-08-17 02:14:41.348341 PDT | [onesNoise_seed90] itr #38 | Start CG optimization: #parameters: 1412, #inputs: 150000, #subsample_inputs: 150000
+2017-08-17 02:14:41.348599 PDT | [onesNoise_seed90] itr #38 | computing loss before
+2017-08-17 02:14:41.587812 PDT | [onesNoise_seed90] itr #38 | performing update
+2017-08-17 02:14:41.588063 PDT | [onesNoise_seed90] itr #38 | computing gradient
+2017-08-17 02:14:42.310336 PDT | [onesNoise_seed90] itr #38 | gradient computed
+2017-08-17 02:14:42.311743 PDT | [onesNoise_seed90] itr #38 | computing descent direction
+2017-08-17 02:14:58.314952 PDT | [onesNoise_seed90] itr #38 | descent direction computed
+2017-08-17 02:14:58.787435 PDT | [onesNoise_seed90] itr #38 | backtrack iters: 1
+2017-08-17 02:14:58.787928 PDT | [onesNoise_seed90] itr #38 | computing loss after
+2017-08-17 02:14:58.788161 PDT | [onesNoise_seed90] itr #38 | optimization finished
+2017-08-17 02:14:58.788396 PDT | [onesNoise_seed90] itr #38 | Computing loss after
+2017-08-17 02:14:59.024567 PDT | [onesNoise_seed90] itr #38 | Computing KL after
+2017-08-17 02:14:59.252602 PDT | [onesNoise_seed90] itr #38 | Saving snapshot...
+2017-08-17 02:14:59.257533 PDT | [onesNoise_seed90] itr #38 | Saved
+2017-08-17 02:14:59.257772 PDT | [onesNoise_seed90] itr #38 | Saving visualization of paths
+2017-08-17 02:15:05.993893 PDT | ----------------------  ---------------
+2017-08-17 02:15:05.994178 PDT | 0PolicyExecTime           344.135
+2017-08-17 02:15:05.994375 PDT | 0EnvExecTime              199.251
+2017-08-17 02:15:05.994512 PDT | 0ProcessExecTime            8.33011
+2017-08-17 02:15:05.994627 PDT | 0AverageReturn           2006.3
+2017-08-17 02:15:05.994734 PDT | 0ExplainedVariance          0.0895781
+2017-08-17 02:15:05.994849 PDT | 0NumTrajs                2000
+2017-08-17 02:15:05.994965 PDT | 0Entropy                    2.05537
+2017-08-17 02:15:05.995186 PDT | 0Perplexity                 7.80969
+2017-08-17 02:15:05.995404 PDT | 0StdReturn               5246.95
+2017-08-17 02:15:05.995627 PDT | 0MaxReturn              23200
+2017-08-17 02:15:05.995849 PDT | 0MinReturn                  0
+2017-08-17 02:15:05.996085 PDT | 0AveragePolicyStd           0.67676
+2017-08-17 02:15:05.996311 PDT | ComputeUpdatedDistTime      0.284488
+2017-08-17 02:15:05.996537 PDT | 1PolicyExecTime           475.057
+2017-08-17 02:15:05.996765 PDT | 1EnvExecTime              208.693
+2017-08-17 02:15:05.996989 PDT | 1ProcessExecTime            8.49516
+2017-08-17 02:15:05.997201 PDT | 1AverageReturn           6836.1
+2017-08-17 02:15:05.997412 PDT | 1ExplainedVariance          0.290301
+2017-08-17 02:15:05.997535 PDT | 1NumTrajs                2000
+2017-08-17 02:15:05.997641 PDT | 1Entropy                    2.05668
+2017-08-17 02:15:05.997756 PDT | 1Perplexity                 7.82
+2017-08-17 02:15:05.997962 PDT | 1StdReturn               9659.66
+2017-08-17 02:15:05.998101 PDT | 1MaxReturn              24100
+2017-08-17 02:15:05.998323 PDT | 1MinReturn                  0
+2017-08-17 02:15:05.998547 PDT | 1AveragePolicyStd           0.677204
+2017-08-17 02:15:05.998775 PDT | MeanKLBefore               -7.45057e-09
+2017-08-17 02:15:05.999000 PDT | MeanKL                      0.00652561
+2017-08-17 02:15:05.999229 PDT | LossBefore                 -6.54836e-10
+2017-08-17 02:15:05.999452 PDT | LossAfter                  -0.00114355
+2017-08-17 02:15:05.999675 PDT | dLoss                       0.00114355
+2017-08-17 02:15:05.999907 PDT | Time                    41179.9
+2017-08-17 02:15:06.000131 PDT | ItrTime                  1273.6
+2017-08-17 02:15:06.000341 PDT | ----------------------  ---------------
+2017-08-17 02:15:06.000660 PDT | [onesNoise_seed90] itr #39 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:15:06.012996 PDT | [onesNoise_seed90] itr #39 | ** Step 0 **
+2017-08-17 02:15:06.014356 PDT | [onesNoise_seed90] itr #39 | Obtaining samples...
+2017-08-17 02:15:06.015405 PDT | [onesNoise_seed90] itr #39 | Obtaining samples for iteration 39...
+2017-08-17 02:24:21.697745 PDT | [onesNoise_seed90] itr #39 | Processing samples...
+2017-08-17 02:24:22.578558 PDT | [onesNoise_seed90] itr #39 | fitting baseline...
+2017-08-17 02:24:22.899891 PDT | [onesNoise_seed90] itr #39 | fitted
+2017-08-17 02:24:23.366375 PDT | [onesNoise_seed90] itr #39 | Logging diagnostics...
+2017-08-17 02:24:23.394678 PDT | [onesNoise_seed90] itr #39 | Computing policy updates...
+2017-08-17 02:24:23.670609 PDT | [onesNoise_seed90] itr #39 | ** Step 1 **
+2017-08-17 02:24:23.670881 PDT | [onesNoise_seed90] itr #39 | Obtaining samples...
+2017-08-17 02:24:23.671030 PDT | [onesNoise_seed90] itr #39 | Obtaining samples for iteration 39...
+2017-08-17 02:36:02.983775 PDT | [onesNoise_seed90] itr #39 | Processing samples...
+2017-08-17 02:36:03.902352 PDT | [onesNoise_seed90] itr #39 | fitting baseline...
+2017-08-17 02:36:04.234641 PDT | [onesNoise_seed90] itr #39 | fitted
+2017-08-17 02:36:04.694733 PDT | [onesNoise_seed90] itr #39 | Logging diagnostics...
+2017-08-17 02:36:04.717464 PDT | [onesNoise_seed90] itr #39 | Optimizing policy...
+2017-08-17 02:36:04.718054 PDT | [onesNoise_seed90] itr #39 | Computing KL before
+2017-08-17 02:36:04.943374 PDT | [onesNoise_seed90] itr #39 | Computing loss before
+2017-08-17 02:36:05.168579 PDT | [onesNoise_seed90] itr #39 | Optimizing
+2017-08-17 02:36:05.169745 PDT | [onesNoise_seed90] itr #39 | Start CG optimization: #parameters: 1412, #inputs: 150000, #subsample_inputs: 150000
+2017-08-17 02:36:05.170007 PDT | [onesNoise_seed90] itr #39 | computing loss before
+2017-08-17 02:36:05.392015 PDT | [onesNoise_seed90] itr #39 | performing update
+2017-08-17 02:36:05.392330 PDT | [onesNoise_seed90] itr #39 | computing gradient
+2017-08-17 02:36:06.103694 PDT | [onesNoise_seed90] itr #39 | gradient computed
+2017-08-17 02:36:06.104033 PDT | [onesNoise_seed90] itr #39 | computing descent direction
+2017-08-17 02:36:21.876038 PDT | [onesNoise_seed90] itr #39 | descent direction computed
+2017-08-17 02:36:22.329622 PDT | [onesNoise_seed90] itr #39 | backtrack iters: 1
+2017-08-17 02:36:22.329906 PDT | [onesNoise_seed90] itr #39 | computing loss after
+2017-08-17 02:36:22.330085 PDT | [onesNoise_seed90] itr #39 | optimization finished
+2017-08-17 02:36:22.330270 PDT | [onesNoise_seed90] itr #39 | Computing loss after
+2017-08-17 02:36:22.555799 PDT | [onesNoise_seed90] itr #39 | Computing KL after
+2017-08-17 02:36:22.777691 PDT | [onesNoise_seed90] itr #39 | Saving snapshot...
+2017-08-17 02:36:22.781721 PDT | [onesNoise_seed90] itr #39 | Saved
+2017-08-17 02:36:22.782454 PDT | [onesNoise_seed90] itr #39 | Saving visualization of paths
+2017-08-17 02:36:29.093794 PDT | ----------------------  ---------------
+2017-08-17 02:36:29.093989 PDT | 0PolicyExecTime           343.986
+2017-08-17 02:36:29.094124 PDT | 0EnvExecTime              200.009
+2017-08-17 02:36:29.094224 PDT | 0ProcessExecTime            8.27462
+2017-08-17 02:36:29.094322 PDT | 0AverageReturn           2179.2
+2017-08-17 02:36:29.094443 PDT | 0ExplainedVariance          0.103494
+2017-08-17 02:36:29.094538 PDT | 0NumTrajs                2000
+2017-08-17 02:36:29.094646 PDT | 0Entropy                    2.04538
+2017-08-17 02:36:29.094856 PDT | 0Perplexity                 7.73211
+2017-08-17 02:36:29.095035 PDT | 0StdReturn               5402.4
+2017-08-17 02:36:29.095163 PDT | 0MaxReturn              23500
+2017-08-17 02:36:29.095259 PDT | 0MinReturn                  0
+2017-08-17 02:36:29.095353 PDT | 0AveragePolicyStd           0.67336
+2017-08-17 02:36:29.095480 PDT | ComputeUpdatedDistTime      0.275419
+2017-08-17 02:36:29.095685 PDT | 1PolicyExecTime           478.363
+2017-08-17 02:36:29.095897 PDT | 1EnvExecTime              208.647
+2017-08-17 02:36:29.096114 PDT | 1ProcessExecTime            8.56094
+2017-08-17 02:36:29.096327 PDT | 1AverageReturn           6775.6
+2017-08-17 02:36:29.096539 PDT | 1ExplainedVariance          0.286918
+2017-08-17 02:36:29.096748 PDT | 1NumTrajs                2000
+2017-08-17 02:36:29.096952 PDT | 1Entropy                    2.04378
+2017-08-17 02:36:29.097133 PDT | 1Perplexity                 7.71975
+2017-08-17 02:36:29.097321 PDT | 1StdReturn               9297.67
+2017-08-17 02:36:29.097533 PDT | 1MaxReturn              23800
+2017-08-17 02:36:29.097747 PDT | 1MinReturn                  0
+2017-08-17 02:36:29.097962 PDT | 1AveragePolicyStd           0.672824
+2017-08-17 02:36:29.098174 PDT | MeanKLBefore                0
+2017-08-17 02:36:29.098373 PDT | MeanKL                      0.00692187
+2017-08-17 02:36:29.098576 PDT | LossBefore                 -8.00355e-10
+2017-08-17 02:36:29.098766 PDT | LossAfter                  -0.00154018
+2017-08-17 02:36:29.098868 PDT | dLoss                       0.00154018
+2017-08-17 02:36:29.098964 PDT | Time                    42463.4
+2017-08-17 02:36:29.099126 PDT | ItrTime                  1276.78
+2017-08-17 02:36:29.099320 PDT | ----------------------  ---------------
+2017-08-17 02:36:29.099641 PDT | [onesNoise_seed90] itr #40 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:36:29.111459 PDT | [onesNoise_seed90] itr #40 | ** Step 0 **
+2017-08-17 02:36:29.112168 PDT | [onesNoise_seed90] itr #40 | Obtaining samples...
+2017-08-17 02:36:29.112752 PDT | [onesNoise_seed90] itr #40 | Obtaining samples for iteration 40...
+2017-08-17 02:45:42.769416 PDT | [onesNoise_seed90] itr #40 | Processing samples...
+2017-08-17 02:45:43.810439 PDT | [onesNoise_seed90] itr #40 | fitting baseline...
+2017-08-17 02:45:44.041819 PDT | [onesNoise_seed90] itr #40 | fitted
+2017-08-17 02:45:44.482602 PDT | [onesNoise_seed90] itr #40 | Logging diagnostics...
+2017-08-17 02:45:44.505613 PDT | [onesNoise_seed90] itr #40 | Computing policy updates...
+2017-08-17 02:45:44.777256 PDT | [onesNoise_seed90] itr #40 | ** Step 1 **
+2017-08-17 02:45:44.777483 PDT | [onesNoise_seed90] itr #40 | Obtaining samples...
+2017-08-17 02:45:44.777681 PDT | [onesNoise_seed90] itr #40 | Obtaining samples for iteration 40...

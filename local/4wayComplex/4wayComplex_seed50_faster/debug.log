@@ -1,0 +1,2419 @@
+2017-08-17 00:18:54.928275 PDT | [4wayComplex_seed50_faster] itr #0 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:18:54.928776 PDT | [4wayComplex_seed50_faster] itr #0 | ** Step 0 **
+2017-08-17 00:18:54.929009 PDT | [4wayComplex_seed50_faster] itr #0 | Obtaining samples...
+2017-08-17 00:18:54.929226 PDT | [4wayComplex_seed50_faster] itr #0 | Obtaining samples for iteration 0...
+2017-08-17 00:20:47.059958 PDT | [4wayComplex_seed50_faster] itr #0 | Processing samples...
+2017-08-17 00:20:47.774015 PDT | [4wayComplex_seed50_faster] itr #0 | fitting baseline...
+2017-08-17 00:20:47.953427 PDT | [4wayComplex_seed50_faster] itr #0 | fitted
+2017-08-17 00:20:48.078395 PDT | [4wayComplex_seed50_faster] itr #0 | Logging diagnostics...
+2017-08-17 00:20:48.082358 PDT | [4wayComplex_seed50_faster] itr #0 | Computing policy updates...
+2017-08-17 00:20:49.181147 PDT | [4wayComplex_seed50_faster] itr #0 | ** Step 1 **
+2017-08-17 00:20:49.181418 PDT | [4wayComplex_seed50_faster] itr #0 | Obtaining samples...
+2017-08-17 00:20:49.181616 PDT | [4wayComplex_seed50_faster] itr #0 | Obtaining samples for iteration 0...
+2017-08-17 00:23:07.817605 PDT | [4wayComplex_seed50_faster] itr #0 | Processing samples...
+2017-08-17 00:23:07.949880 PDT | [4wayComplex_seed50_faster] itr #0 | fitting baseline...
+2017-08-17 00:23:08.001661 PDT | [4wayComplex_seed50_faster] itr #0 | fitted
+2017-08-17 00:23:08.094028 PDT | [4wayComplex_seed50_faster] itr #0 | Logging diagnostics...
+2017-08-17 00:23:08.099361 PDT | [4wayComplex_seed50_faster] itr #0 | Optimizing policy...
+2017-08-17 00:23:08.100028 PDT | [4wayComplex_seed50_faster] itr #0 | Computing KL before
+2017-08-17 00:23:08.258719 PDT | [4wayComplex_seed50_faster] itr #0 | Computing loss before
+2017-08-17 00:23:08.400212 PDT | [4wayComplex_seed50_faster] itr #0 | Optimizing
+2017-08-17 00:23:08.421501 PDT | [4wayComplex_seed50_faster] itr #0 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 00:23:08.421852 PDT | [4wayComplex_seed50_faster] itr #0 | computing loss before
+2017-08-17 00:23:08.472735 PDT | [4wayComplex_seed50_faster] itr #0 | performing update
+2017-08-17 00:23:08.473050 PDT | [4wayComplex_seed50_faster] itr #0 | computing gradient
+2017-08-17 00:23:08.848882 PDT | [4wayComplex_seed50_faster] itr #0 | gradient computed
+2017-08-17 00:23:08.849075 PDT | [4wayComplex_seed50_faster] itr #0 | computing descent direction
+2017-08-17 00:23:12.813589 PDT | [4wayComplex_seed50_faster] itr #0 | descent direction computed
+2017-08-17 00:23:13.079761 PDT | [4wayComplex_seed50_faster] itr #0 | backtrack iters: 2
+2017-08-17 00:23:13.082030 PDT | [4wayComplex_seed50_faster] itr #0 | computing loss after
+2017-08-17 00:23:13.082289 PDT | [4wayComplex_seed50_faster] itr #0 | optimization finished
+2017-08-17 00:23:13.082509 PDT | [4wayComplex_seed50_faster] itr #0 | Computing loss after
+2017-08-17 00:23:13.138528 PDT | [4wayComplex_seed50_faster] itr #0 | Computing KL after
+2017-08-17 00:23:13.192670 PDT | [4wayComplex_seed50_faster] itr #0 | Saving snapshot...
+2017-08-17 00:23:13.199041 PDT | [4wayComplex_seed50_faster] itr #0 | Saved
+2017-08-17 00:23:13.199291 PDT | [4wayComplex_seed50_faster] itr #0 | Saving visualization of paths
+2017-08-17 00:23:14.271246 PDT | ----------------------  ---------------
+2017-08-17 00:23:14.271518 PDT | 0PolicyExecTime            70.0505
+2017-08-17 00:23:14.271886 PDT | 0EnvExecTime               39.6438
+2017-08-17 00:23:14.272249 PDT | 0ProcessExecTime            1.69851
+2017-08-17 00:23:14.272582 PDT | 0AverageReturn            298.5
+2017-08-17 00:23:14.272903 PDT | 0ExplainedVariance          0.10732
+2017-08-17 00:23:14.273207 PDT | 0NumTrajs                 400
+2017-08-17 00:23:14.273553 PDT | 0Entropy                    2.83788
+2017-08-17 00:23:14.273887 PDT | 0Perplexity                17.0795
+2017-08-17 00:23:14.274213 PDT | 0StdReturn               1584.88
+2017-08-17 00:23:14.274539 PDT | 0MaxReturn              14700
+2017-08-17 00:23:14.274847 PDT | 0MinReturn                  0
+2017-08-17 00:23:14.275194 PDT | 0AveragePolicyStd           1
+2017-08-17 00:23:14.275538 PDT | ComputeUpdatedDistTime      1.09843
+2017-08-17 00:23:14.275854 PDT | 1PolicyExecTime            95.5316
+2017-08-17 00:23:14.276181 PDT | 1EnvExecTime               40.6205
+2017-08-17 00:23:14.276502 PDT | 1ProcessExecTime            1.70727
+2017-08-17 00:23:14.276848 PDT | 1AverageReturn            184.5
+2017-08-17 00:23:14.277184 PDT | 1ExplainedVariance          0.0777245
+2017-08-17 00:23:14.277507 PDT | 1NumTrajs                 400
+2017-08-17 00:23:14.277807 PDT | 1Entropy                    2.83852
+2017-08-17 00:23:14.278113 PDT | 1Perplexity                17.0904
+2017-08-17 00:23:14.278460 PDT | 1StdReturn               1104.13
+2017-08-17 00:23:14.278791 PDT | 1MaxReturn              13300
+2017-08-17 00:23:14.279107 PDT | 1MinReturn                  0
+2017-08-17 00:23:14.279430 PDT | 1AveragePolicyStd           1.00032
+2017-08-17 00:23:14.279747 PDT | MeanKLBefore               -1.19326e-09
+2017-08-17 00:23:14.280106 PDT | MeanKL                      0.00668244
+2017-08-17 00:23:14.280447 PDT | LossBefore                  1.16415e-10
+2017-08-17 00:23:14.280783 PDT | LossAfter                  -0.00118053
+2017-08-17 00:23:14.281079 PDT | dLoss                       0.00118053
+2017-08-17 00:23:14.281425 PDT | Time                      258.271
+2017-08-17 00:23:14.281771 PDT | ItrTime                   258.271
+2017-08-17 00:23:14.282086 PDT | ----------------------  ---------------
+2017-08-17 00:23:14.282662 PDT | [4wayComplex_seed50_faster] itr #1 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:23:14.285721 PDT | [4wayComplex_seed50_faster] itr #1 | ** Step 0 **
+2017-08-17 00:23:14.286387 PDT | [4wayComplex_seed50_faster] itr #1 | Obtaining samples...
+2017-08-17 00:23:14.286736 PDT | [4wayComplex_seed50_faster] itr #1 | Obtaining samples for iteration 1...
+2017-08-17 00:25:05.954171 PDT | [4wayComplex_seed50_faster] itr #1 | Processing samples...
+2017-08-17 00:25:06.094900 PDT | [4wayComplex_seed50_faster] itr #1 | fitting baseline...
+2017-08-17 00:25:06.156183 PDT | [4wayComplex_seed50_faster] itr #1 | fitted
+2017-08-17 00:25:06.309308 PDT | [4wayComplex_seed50_faster] itr #1 | Logging diagnostics...
+2017-08-17 00:25:06.314389 PDT | [4wayComplex_seed50_faster] itr #1 | Computing policy updates...
+2017-08-17 00:25:06.434054 PDT | [4wayComplex_seed50_faster] itr #1 | ** Step 1 **
+2017-08-17 00:25:06.434333 PDT | [4wayComplex_seed50_faster] itr #1 | Obtaining samples...
+2017-08-17 00:25:06.434640 PDT | [4wayComplex_seed50_faster] itr #1 | Obtaining samples for iteration 1...
+2017-08-17 00:27:24.506431 PDT | [4wayComplex_seed50_faster] itr #1 | Processing samples...
+2017-08-17 00:27:24.649114 PDT | [4wayComplex_seed50_faster] itr #1 | fitting baseline...
+2017-08-17 00:27:24.709229 PDT | [4wayComplex_seed50_faster] itr #1 | fitted
+2017-08-17 00:27:24.793153 PDT | [4wayComplex_seed50_faster] itr #1 | Logging diagnostics...
+2017-08-17 00:27:24.798082 PDT | [4wayComplex_seed50_faster] itr #1 | Optimizing policy...
+2017-08-17 00:27:24.798557 PDT | [4wayComplex_seed50_faster] itr #1 | Computing KL before
+2017-08-17 00:27:24.851558 PDT | [4wayComplex_seed50_faster] itr #1 | Computing loss before
+2017-08-17 00:27:24.908027 PDT | [4wayComplex_seed50_faster] itr #1 | Optimizing
+2017-08-17 00:27:24.909388 PDT | [4wayComplex_seed50_faster] itr #1 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 00:27:24.909584 PDT | [4wayComplex_seed50_faster] itr #1 | computing loss before
+2017-08-17 00:27:24.959373 PDT | [4wayComplex_seed50_faster] itr #1 | performing update
+2017-08-17 00:27:24.959574 PDT | [4wayComplex_seed50_faster] itr #1 | computing gradient
+2017-08-17 00:27:25.111824 PDT | [4wayComplex_seed50_faster] itr #1 | gradient computed
+2017-08-17 00:27:25.112149 PDT | [4wayComplex_seed50_faster] itr #1 | computing descent direction
+2017-08-17 00:27:28.611845 PDT | [4wayComplex_seed50_faster] itr #1 | descent direction computed
+2017-08-17 00:27:28.665995 PDT | [4wayComplex_seed50_faster] itr #1 | backtrack iters: 0
+2017-08-17 00:27:28.666301 PDT | [4wayComplex_seed50_faster] itr #1 | computing loss after
+2017-08-17 00:27:28.666411 PDT | [4wayComplex_seed50_faster] itr #1 | optimization finished
+2017-08-17 00:27:28.666529 PDT | [4wayComplex_seed50_faster] itr #1 | Computing loss after
+2017-08-17 00:27:28.717695 PDT | [4wayComplex_seed50_faster] itr #1 | Computing KL after
+2017-08-17 00:27:28.770498 PDT | [4wayComplex_seed50_faster] itr #1 | Saving snapshot...
+2017-08-17 00:27:28.775340 PDT | [4wayComplex_seed50_faster] itr #1 | Saved
+2017-08-17 00:27:28.775654 PDT | [4wayComplex_seed50_faster] itr #1 | Saving visualization of paths
+2017-08-17 00:27:30.160200 PDT | ----------------------  ---------------
+2017-08-17 00:27:30.160514 PDT | 0PolicyExecTime            69.9154
+2017-08-17 00:27:30.160797 PDT | 0EnvExecTime               39.326
+2017-08-17 00:27:30.161079 PDT | 0ProcessExecTime            1.71416
+2017-08-17 00:27:30.161329 PDT | 0AverageReturn            267
+2017-08-17 00:27:30.161578 PDT | 0ExplainedVariance          0.0781825
+2017-08-17 00:27:30.161859 PDT | 0NumTrajs                 400
+2017-08-17 00:27:30.162127 PDT | 0Entropy                    2.83298
+2017-08-17 00:27:30.162387 PDT | 0Perplexity                16.996
+2017-08-17 00:27:30.162629 PDT | 0StdReturn               1268.61
+2017-08-17 00:27:30.162899 PDT | 0MaxReturn              12500
+2017-08-17 00:27:30.163129 PDT | 0MinReturn                  0
+2017-08-17 00:27:30.163367 PDT | 0AveragePolicyStd           0.997564
+2017-08-17 00:27:30.163643 PDT | ComputeUpdatedDistTime      0.119292
+2017-08-17 00:27:30.163927 PDT | 1PolicyExecTime            95.1656
+2017-08-17 00:27:30.164194 PDT | 1EnvExecTime               40.4445
+2017-08-17 00:27:30.164421 PDT | 1ProcessExecTime            1.67728
+2017-08-17 00:27:30.164694 PDT | 1AverageReturn            397.75
+2017-08-17 00:27:30.164929 PDT | 1ExplainedVariance          0.114239
+2017-08-17 00:27:30.165172 PDT | 1NumTrajs                 400
+2017-08-17 00:27:30.165447 PDT | 1Entropy                    2.83395
+2017-08-17 00:27:30.165718 PDT | 1Perplexity                17.0125
+2017-08-17 00:27:30.165977 PDT | 1StdReturn               1547.6
+2017-08-17 00:27:30.166217 PDT | 1MaxReturn              12900
+2017-08-17 00:27:30.166477 PDT | 1MinReturn                  0
+2017-08-17 00:27:30.166703 PDT | 1AveragePolicyStd           0.998044
+2017-08-17 00:27:30.166969 PDT | MeanKLBefore               -1.10595e-09
+2017-08-17 00:27:30.167242 PDT | MeanKL                      0.00969709
+2017-08-17 00:27:30.167509 PDT | LossBefore                  4.36557e-10
+2017-08-17 00:27:30.167759 PDT | LossAfter                  -0.00248987
+2017-08-17 00:27:30.168015 PDT | dLoss                       0.00248987
+2017-08-17 00:27:30.168283 PDT | Time                      513.847
+2017-08-17 00:27:30.168512 PDT | ItrTime                   254.493
+2017-08-17 00:27:30.168787 PDT | ----------------------  ---------------
+2017-08-17 00:27:30.169209 PDT | [4wayComplex_seed50_faster] itr #2 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:27:30.172283 PDT | [4wayComplex_seed50_faster] itr #2 | ** Step 0 **
+2017-08-17 00:27:30.172858 PDT | [4wayComplex_seed50_faster] itr #2 | Obtaining samples...
+2017-08-17 00:27:30.173130 PDT | [4wayComplex_seed50_faster] itr #2 | Obtaining samples for iteration 2...
+2017-08-17 00:29:30.554100 PDT | [4wayComplex_seed50_faster] itr #2 | Processing samples...
+2017-08-17 00:29:31.255581 PDT | [4wayComplex_seed50_faster] itr #2 | fitting baseline...
+2017-08-17 00:29:31.441762 PDT | [4wayComplex_seed50_faster] itr #2 | fitted
+2017-08-17 00:29:31.602440 PDT | [4wayComplex_seed50_faster] itr #2 | Logging diagnostics...
+2017-08-17 00:29:31.608052 PDT | [4wayComplex_seed50_faster] itr #2 | Computing policy updates...
+2017-08-17 00:29:31.775288 PDT | [4wayComplex_seed50_faster] itr #2 | ** Step 1 **
+2017-08-17 00:29:31.775681 PDT | [4wayComplex_seed50_faster] itr #2 | Obtaining samples...
+2017-08-17 00:29:31.775956 PDT | [4wayComplex_seed50_faster] itr #2 | Obtaining samples for iteration 2...
+2017-08-17 00:31:50.079837 PDT | [4wayComplex_seed50_faster] itr #2 | Processing samples...
+2017-08-17 00:31:50.220725 PDT | [4wayComplex_seed50_faster] itr #2 | fitting baseline...
+2017-08-17 00:31:50.269171 PDT | [4wayComplex_seed50_faster] itr #2 | fitted
+2017-08-17 00:31:50.362379 PDT | [4wayComplex_seed50_faster] itr #2 | Logging diagnostics...
+2017-08-17 00:31:50.369492 PDT | [4wayComplex_seed50_faster] itr #2 | Optimizing policy...
+2017-08-17 00:31:50.369943 PDT | [4wayComplex_seed50_faster] itr #2 | Computing KL before
+2017-08-17 00:31:50.428557 PDT | [4wayComplex_seed50_faster] itr #2 | Computing loss before
+2017-08-17 00:31:50.481787 PDT | [4wayComplex_seed50_faster] itr #2 | Optimizing
+2017-08-17 00:31:50.482765 PDT | [4wayComplex_seed50_faster] itr #2 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 00:31:50.483018 PDT | [4wayComplex_seed50_faster] itr #2 | computing loss before
+2017-08-17 00:31:50.534631 PDT | [4wayComplex_seed50_faster] itr #2 | performing update
+2017-08-17 00:31:50.534910 PDT | [4wayComplex_seed50_faster] itr #2 | computing gradient
+2017-08-17 00:31:50.694480 PDT | [4wayComplex_seed50_faster] itr #2 | gradient computed
+2017-08-17 00:31:50.694772 PDT | [4wayComplex_seed50_faster] itr #2 | computing descent direction
+2017-08-17 00:31:54.200764 PDT | [4wayComplex_seed50_faster] itr #2 | descent direction computed
+2017-08-17 00:31:54.254002 PDT | [4wayComplex_seed50_faster] itr #2 | backtrack iters: 0
+2017-08-17 00:31:54.254274 PDT | [4wayComplex_seed50_faster] itr #2 | computing loss after
+2017-08-17 00:31:54.254409 PDT | [4wayComplex_seed50_faster] itr #2 | optimization finished
+2017-08-17 00:31:54.254565 PDT | [4wayComplex_seed50_faster] itr #2 | Computing loss after
+2017-08-17 00:31:54.306304 PDT | [4wayComplex_seed50_faster] itr #2 | Computing KL after
+2017-08-17 00:31:54.355950 PDT | [4wayComplex_seed50_faster] itr #2 | Saving snapshot...
+2017-08-17 00:31:54.359740 PDT | [4wayComplex_seed50_faster] itr #2 | Saved
+2017-08-17 00:31:54.360153 PDT | [4wayComplex_seed50_faster] itr #2 | Saving visualization of paths
+2017-08-17 00:31:55.454090 PDT | ----------------------  ---------------
+2017-08-17 00:31:55.454479 PDT | 0PolicyExecTime            78.464
+2017-08-17 00:31:55.454749 PDT | 0EnvExecTime               39.4357
+2017-08-17 00:31:55.454992 PDT | 0ProcessExecTime            1.75827
+2017-08-17 00:31:55.455213 PDT | 0AverageReturn            312.5
+2017-08-17 00:31:55.455468 PDT | 0ExplainedVariance          0.0961325
+2017-08-17 00:31:55.455694 PDT | 0NumTrajs                 400
+2017-08-17 00:31:55.455970 PDT | 0Entropy                    2.82514
+2017-08-17 00:31:55.456233 PDT | 0Perplexity                16.8632
+2017-08-17 00:31:55.456490 PDT | 0StdReturn               1305.24
+2017-08-17 00:31:55.456678 PDT | 0MaxReturn               9000
+2017-08-17 00:31:55.456862 PDT | 0MinReturn                  0
+2017-08-17 00:31:55.457077 PDT | 0AveragePolicyStd           0.993683
+2017-08-17 00:31:55.457262 PDT | ComputeUpdatedDistTime      0.166858
+2017-08-17 00:31:55.457437 PDT | 1PolicyExecTime            94.8836
+2017-08-17 00:31:55.457614 PDT | 1EnvExecTime               40.9346
+2017-08-17 00:31:55.457827 PDT | 1ProcessExecTime            1.6936
+2017-08-17 00:31:55.458040 PDT | 1AverageReturn            561.75
+2017-08-17 00:31:55.458253 PDT | 1ExplainedVariance          0.153372
+2017-08-17 00:31:55.458459 PDT | 1NumTrajs                 400
+2017-08-17 00:31:55.458652 PDT | 1Entropy                    2.82828
+2017-08-17 00:31:55.458835 PDT | 1Perplexity                16.9164
+2017-08-17 00:31:55.459050 PDT | 1StdReturn               2187.88
+2017-08-17 00:31:55.459238 PDT | 1MaxReturn              17600
+2017-08-17 00:31:55.459416 PDT | 1MinReturn                  0
+2017-08-17 00:31:55.459591 PDT | 1AveragePolicyStd           0.995262
+2017-08-17 00:31:55.459775 PDT | MeanKLBefore               -5.82077e-10
+2017-08-17 00:31:55.460005 PDT | MeanKL                      0.00791757
+2017-08-17 00:31:55.460217 PDT | LossBefore                  6.98492e-10
+2017-08-17 00:31:55.460428 PDT | LossAfter                  -0.00132322
+2017-08-17 00:31:55.460649 PDT | dLoss                       0.00132322
+2017-08-17 00:31:55.460842 PDT | Time                      779.432
+2017-08-17 00:31:55.461021 PDT | ItrTime                   264.191
+2017-08-17 00:31:55.461230 PDT | ----------------------  ---------------
+2017-08-17 00:31:55.461567 PDT | [4wayComplex_seed50_faster] itr #3 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:31:55.464626 PDT | [4wayComplex_seed50_faster] itr #3 | ** Step 0 **
+2017-08-17 00:31:55.465224 PDT | [4wayComplex_seed50_faster] itr #3 | Obtaining samples...
+2017-08-17 00:31:55.465452 PDT | [4wayComplex_seed50_faster] itr #3 | Obtaining samples for iteration 3...
+2017-08-17 00:33:46.135748 PDT | [4wayComplex_seed50_faster] itr #3 | Processing samples...
+2017-08-17 00:33:46.295413 PDT | [4wayComplex_seed50_faster] itr #3 | fitting baseline...
+2017-08-17 00:33:46.356796 PDT | [4wayComplex_seed50_faster] itr #3 | fitted
+2017-08-17 00:33:46.455539 PDT | [4wayComplex_seed50_faster] itr #3 | Logging diagnostics...
+2017-08-17 00:33:46.458753 PDT | [4wayComplex_seed50_faster] itr #3 | Computing policy updates...
+2017-08-17 00:33:46.607876 PDT | [4wayComplex_seed50_faster] itr #3 | ** Step 1 **
+2017-08-17 00:33:46.608323 PDT | [4wayComplex_seed50_faster] itr #3 | Obtaining samples...
+2017-08-17 00:33:46.608578 PDT | [4wayComplex_seed50_faster] itr #3 | Obtaining samples for iteration 3...
+2017-08-17 00:36:03.725132 PDT | [4wayComplex_seed50_faster] itr #3 | Processing samples...
+2017-08-17 00:36:03.965586 PDT | [4wayComplex_seed50_faster] itr #3 | fitting baseline...
+2017-08-17 00:36:04.018977 PDT | [4wayComplex_seed50_faster] itr #3 | fitted
+2017-08-17 00:36:04.103533 PDT | [4wayComplex_seed50_faster] itr #3 | Logging diagnostics...
+2017-08-17 00:36:04.113022 PDT | [4wayComplex_seed50_faster] itr #3 | Optimizing policy...
+2017-08-17 00:36:04.113501 PDT | [4wayComplex_seed50_faster] itr #3 | Computing KL before
+2017-08-17 00:36:04.180332 PDT | [4wayComplex_seed50_faster] itr #3 | Computing loss before
+2017-08-17 00:36:04.233804 PDT | [4wayComplex_seed50_faster] itr #3 | Optimizing
+2017-08-17 00:36:04.235415 PDT | [4wayComplex_seed50_faster] itr #3 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 00:36:04.235665 PDT | [4wayComplex_seed50_faster] itr #3 | computing loss before
+2017-08-17 00:36:04.289224 PDT | [4wayComplex_seed50_faster] itr #3 | performing update
+2017-08-17 00:36:04.289543 PDT | [4wayComplex_seed50_faster] itr #3 | computing gradient
+2017-08-17 00:36:04.442201 PDT | [4wayComplex_seed50_faster] itr #3 | gradient computed
+2017-08-17 00:36:04.442492 PDT | [4wayComplex_seed50_faster] itr #3 | computing descent direction
+2017-08-17 00:36:07.963465 PDT | [4wayComplex_seed50_faster] itr #3 | descent direction computed
+2017-08-17 00:36:08.017584 PDT | [4wayComplex_seed50_faster] itr #3 | backtrack iters: 0
+2017-08-17 00:36:08.018144 PDT | [4wayComplex_seed50_faster] itr #3 | computing loss after
+2017-08-17 00:36:08.018510 PDT | [4wayComplex_seed50_faster] itr #3 | optimization finished
+2017-08-17 00:36:08.018665 PDT | [4wayComplex_seed50_faster] itr #3 | Computing loss after
+2017-08-17 00:36:08.069234 PDT | [4wayComplex_seed50_faster] itr #3 | Computing KL after
+2017-08-17 00:36:08.119146 PDT | [4wayComplex_seed50_faster] itr #3 | Saving snapshot...
+2017-08-17 00:36:08.122929 PDT | [4wayComplex_seed50_faster] itr #3 | Saved
+2017-08-17 00:36:08.123134 PDT | [4wayComplex_seed50_faster] itr #3 | Saving visualization of paths
+2017-08-17 00:36:09.545581 PDT | ----------------------  ---------------
+2017-08-17 00:36:09.545982 PDT | 0PolicyExecTime            68.4677
+2017-08-17 00:36:09.546251 PDT | 0EnvExecTime               39.716
+2017-08-17 00:36:09.546505 PDT | 0ProcessExecTime            1.74418
+2017-08-17 00:36:09.546764 PDT | 0AverageReturn            572.5
+2017-08-17 00:36:09.546993 PDT | 0ExplainedVariance          0.0950867
+2017-08-17 00:36:09.547255 PDT | 0NumTrajs                 400
+2017-08-17 00:36:09.547530 PDT | 0Entropy                    2.82191
+2017-08-17 00:36:09.547813 PDT | 0Perplexity                16.8089
+2017-08-17 00:36:09.548066 PDT | 0StdReturn               1896.27
+2017-08-17 00:36:09.548312 PDT | 0MaxReturn              13400
+2017-08-17 00:36:09.548570 PDT | 0MinReturn                  0
+2017-08-17 00:36:09.548801 PDT | 0AveragePolicyStd           0.992083
+2017-08-17 00:36:09.549079 PDT | ComputeUpdatedDistTime      0.148914
+2017-08-17 00:36:09.549354 PDT | 1PolicyExecTime            94.1115
+2017-08-17 00:36:09.549621 PDT | 1EnvExecTime               40.558
+2017-08-17 00:36:09.549848 PDT | 1ProcessExecTime            1.67928
+2017-08-17 00:36:09.550118 PDT | 1AverageReturn            766.25
+2017-08-17 00:36:09.550351 PDT | 1ExplainedVariance          0.153108
+2017-08-17 00:36:09.550602 PDT | 1NumTrajs                 400
+2017-08-17 00:36:09.550876 PDT | 1Entropy                    2.82097
+2017-08-17 00:36:09.551148 PDT | 1Perplexity                16.7932
+2017-08-17 00:36:09.551402 PDT | 1StdReturn               2578.17
+2017-08-17 00:36:09.551626 PDT | 1MaxReturn              16200
+2017-08-17 00:36:09.551896 PDT | 1MinReturn                  0
+2017-08-17 00:36:09.552133 PDT | 1AveragePolicyStd           0.991614
+2017-08-17 00:36:09.552397 PDT | MeanKLBefore                2.32831e-10
+2017-08-17 00:36:09.552671 PDT | MeanKL                      0.00882121
+2017-08-17 00:36:09.552940 PDT | LossBefore                  1.16415e-10
+2017-08-17 00:36:09.553192 PDT | LossAfter                  -0.00194408
+2017-08-17 00:36:09.553461 PDT | dLoss                       0.00194408
+2017-08-17 00:36:09.553694 PDT | Time                     1033.19
+2017-08-17 00:36:09.553931 PDT | ItrTime                   252.662
+2017-08-17 00:36:09.554211 PDT | ----------------------  ---------------
+2017-08-17 00:36:09.554633 PDT | [4wayComplex_seed50_faster] itr #4 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:36:09.558027 PDT | [4wayComplex_seed50_faster] itr #4 | ** Step 0 **
+2017-08-17 00:36:09.558717 PDT | [4wayComplex_seed50_faster] itr #4 | Obtaining samples...
+2017-08-17 00:36:09.559020 PDT | [4wayComplex_seed50_faster] itr #4 | Obtaining samples for iteration 4...
+2017-08-17 00:38:01.176406 PDT | [4wayComplex_seed50_faster] itr #4 | Processing samples...
+2017-08-17 00:38:01.837345 PDT | [4wayComplex_seed50_faster] itr #4 | fitting baseline...
+2017-08-17 00:38:01.958507 PDT | [4wayComplex_seed50_faster] itr #4 | fitted
+2017-08-17 00:38:02.225937 PDT | [4wayComplex_seed50_faster] itr #4 | Logging diagnostics...
+2017-08-17 00:38:02.242832 PDT | [4wayComplex_seed50_faster] itr #4 | Computing policy updates...
+2017-08-17 00:38:02.369394 PDT | [4wayComplex_seed50_faster] itr #4 | ** Step 1 **
+2017-08-17 00:38:02.369684 PDT | [4wayComplex_seed50_faster] itr #4 | Obtaining samples...
+2017-08-17 00:38:02.369898 PDT | [4wayComplex_seed50_faster] itr #4 | Obtaining samples for iteration 4...
+2017-08-17 00:40:21.328932 PDT | [4wayComplex_seed50_faster] itr #4 | Processing samples...
+2017-08-17 00:40:21.829719 PDT | [4wayComplex_seed50_faster] itr #4 | fitting baseline...
+2017-08-17 00:40:21.998238 PDT | [4wayComplex_seed50_faster] itr #4 | fitted
+2017-08-17 00:40:22.120127 PDT | [4wayComplex_seed50_faster] itr #4 | Logging diagnostics...
+2017-08-17 00:40:22.125027 PDT | [4wayComplex_seed50_faster] itr #4 | Optimizing policy...
+2017-08-17 00:40:22.125486 PDT | [4wayComplex_seed50_faster] itr #4 | Computing KL before
+2017-08-17 00:40:22.178134 PDT | [4wayComplex_seed50_faster] itr #4 | Computing loss before
+2017-08-17 00:40:22.231030 PDT | [4wayComplex_seed50_faster] itr #4 | Optimizing
+2017-08-17 00:40:22.232042 PDT | [4wayComplex_seed50_faster] itr #4 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 00:40:22.232926 PDT | [4wayComplex_seed50_faster] itr #4 | computing loss before
+2017-08-17 00:40:22.285400 PDT | [4wayComplex_seed50_faster] itr #4 | performing update
+2017-08-17 00:40:22.285718 PDT | [4wayComplex_seed50_faster] itr #4 | computing gradient
+2017-08-17 00:40:22.438140 PDT | [4wayComplex_seed50_faster] itr #4 | gradient computed
+2017-08-17 00:40:22.438350 PDT | [4wayComplex_seed50_faster] itr #4 | computing descent direction
+2017-08-17 00:40:25.940134 PDT | [4wayComplex_seed50_faster] itr #4 | descent direction computed
+2017-08-17 00:40:26.049886 PDT | [4wayComplex_seed50_faster] itr #4 | backtrack iters: 1
+2017-08-17 00:40:26.050102 PDT | [4wayComplex_seed50_faster] itr #4 | computing loss after
+2017-08-17 00:40:26.050217 PDT | [4wayComplex_seed50_faster] itr #4 | optimization finished
+2017-08-17 00:40:26.050326 PDT | [4wayComplex_seed50_faster] itr #4 | Computing loss after
+2017-08-17 00:40:26.103856 PDT | [4wayComplex_seed50_faster] itr #4 | Computing KL after
+2017-08-17 00:40:26.153501 PDT | [4wayComplex_seed50_faster] itr #4 | Saving snapshot...
+2017-08-17 00:40:26.157779 PDT | [4wayComplex_seed50_faster] itr #4 | Saved
+2017-08-17 00:40:26.158034 PDT | [4wayComplex_seed50_faster] itr #4 | Saving visualization of paths
+2017-08-17 00:40:27.325141 PDT | ----------------------  ---------------
+2017-08-17 00:40:27.325507 PDT | 0PolicyExecTime            68.8521
+2017-08-17 00:40:27.325777 PDT | 0EnvExecTime               40.2804
+2017-08-17 00:40:27.326055 PDT | 0ProcessExecTime            1.75666
+2017-08-17 00:40:27.326326 PDT | 0AverageReturn            347.25
+2017-08-17 00:40:27.326579 PDT | 0ExplainedVariance          0.100598
+2017-08-17 00:40:27.326850 PDT | 0NumTrajs                 400
+2017-08-17 00:40:27.327089 PDT | 0Entropy                    2.82019
+2017-08-17 00:40:27.327320 PDT | 0Perplexity                16.7801
+2017-08-17 00:40:27.327594 PDT | 0StdReturn               1587.29
+2017-08-17 00:40:27.327862 PDT | 0MaxReturn              16800
+2017-08-17 00:40:27.328142 PDT | 0MinReturn                  0
+2017-08-17 00:40:27.328385 PDT | 0AveragePolicyStd           0.991222
+2017-08-17 00:40:27.328648 PDT | ComputeUpdatedDistTime      0.126157
+2017-08-17 00:40:27.328876 PDT | 1PolicyExecTime            95.8029
+2017-08-17 00:40:27.329133 PDT | 1EnvExecTime               40.703
+2017-08-17 00:40:27.329406 PDT | 1ProcessExecTime            1.65916
+2017-08-17 00:40:27.329674 PDT | 1AverageReturn            226.75
+2017-08-17 00:40:27.329928 PDT | 1ExplainedVariance          0.0843022
+2017-08-17 00:40:27.330156 PDT | 1NumTrajs                 400
+2017-08-17 00:40:27.330412 PDT | 1Entropy                    2.82468
+2017-08-17 00:40:27.330640 PDT | 1Perplexity                16.8556
+2017-08-17 00:40:27.330901 PDT | 1StdReturn               1229.19
+2017-08-17 00:40:27.331172 PDT | 1MaxReturn              11000
+2017-08-17 00:40:27.331438 PDT | 1MinReturn                  0
+2017-08-17 00:40:27.331687 PDT | 1AveragePolicyStd           0.993466
+2017-08-17 00:40:27.331966 PDT | MeanKLBefore                1.86265e-09
+2017-08-17 00:40:27.332203 PDT | MeanKL                      0.00655413
+2017-08-17 00:40:27.332432 PDT | LossBefore                  1.22236e-09
+2017-08-17 00:40:27.332710 PDT | LossAfter                  -0.00184023
+2017-08-17 00:40:27.332979 PDT | dLoss                       0.00184023
+2017-08-17 00:40:27.333244 PDT | Time                     1291.23
+2017-08-17 00:40:27.333483 PDT | ItrTime                   256.603
+2017-08-17 00:40:27.333753 PDT | ----------------------  ---------------
+2017-08-17 00:40:27.334131 PDT | [4wayComplex_seed50_faster] itr #5 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:40:27.337421 PDT | [4wayComplex_seed50_faster] itr #5 | ** Step 0 **
+2017-08-17 00:40:27.338111 PDT | [4wayComplex_seed50_faster] itr #5 | Obtaining samples...
+2017-08-17 00:40:27.338413 PDT | [4wayComplex_seed50_faster] itr #5 | Obtaining samples for iteration 5...
+2017-08-17 00:42:18.753778 PDT | [4wayComplex_seed50_faster] itr #5 | Processing samples...
+2017-08-17 00:42:19.443035 PDT | [4wayComplex_seed50_faster] itr #5 | fitting baseline...
+2017-08-17 00:42:19.711138 PDT | [4wayComplex_seed50_faster] itr #5 | fitted
+2017-08-17 00:42:19.896442 PDT | [4wayComplex_seed50_faster] itr #5 | Logging diagnostics...
+2017-08-17 00:42:19.901465 PDT | [4wayComplex_seed50_faster] itr #5 | Computing policy updates...
+2017-08-17 00:42:20.024329 PDT | [4wayComplex_seed50_faster] itr #5 | ** Step 1 **
+2017-08-17 00:42:20.024520 PDT | [4wayComplex_seed50_faster] itr #5 | Obtaining samples...
+2017-08-17 00:42:20.024737 PDT | [4wayComplex_seed50_faster] itr #5 | Obtaining samples for iteration 5...
+2017-08-17 00:44:38.539874 PDT | [4wayComplex_seed50_faster] itr #5 | Processing samples...
+2017-08-17 00:44:38.991469 PDT | [4wayComplex_seed50_faster] itr #5 | fitting baseline...
+2017-08-17 00:44:39.095336 PDT | [4wayComplex_seed50_faster] itr #5 | fitted
+2017-08-17 00:44:39.333464 PDT | [4wayComplex_seed50_faster] itr #5 | Logging diagnostics...
+2017-08-17 00:44:39.347576 PDT | [4wayComplex_seed50_faster] itr #5 | Optimizing policy...
+2017-08-17 00:44:39.348227 PDT | [4wayComplex_seed50_faster] itr #5 | Computing KL before
+2017-08-17 00:44:39.413386 PDT | [4wayComplex_seed50_faster] itr #5 | Computing loss before
+2017-08-17 00:44:39.463358 PDT | [4wayComplex_seed50_faster] itr #5 | Optimizing
+2017-08-17 00:44:39.464510 PDT | [4wayComplex_seed50_faster] itr #5 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 00:44:39.464653 PDT | [4wayComplex_seed50_faster] itr #5 | computing loss before
+2017-08-17 00:44:39.518296 PDT | [4wayComplex_seed50_faster] itr #5 | performing update
+2017-08-17 00:44:39.518549 PDT | [4wayComplex_seed50_faster] itr #5 | computing gradient
+2017-08-17 00:44:39.672650 PDT | [4wayComplex_seed50_faster] itr #5 | gradient computed
+2017-08-17 00:44:39.672902 PDT | [4wayComplex_seed50_faster] itr #5 | computing descent direction
+2017-08-17 00:44:43.230231 PDT | [4wayComplex_seed50_faster] itr #5 | descent direction computed
+2017-08-17 00:44:43.283557 PDT | [4wayComplex_seed50_faster] itr #5 | backtrack iters: 0
+2017-08-17 00:44:43.283798 PDT | [4wayComplex_seed50_faster] itr #5 | computing loss after
+2017-08-17 00:44:43.283937 PDT | [4wayComplex_seed50_faster] itr #5 | optimization finished
+2017-08-17 00:44:43.284118 PDT | [4wayComplex_seed50_faster] itr #5 | Computing loss after
+2017-08-17 00:44:43.337618 PDT | [4wayComplex_seed50_faster] itr #5 | Computing KL after
+2017-08-17 00:44:43.388485 PDT | [4wayComplex_seed50_faster] itr #5 | Saving snapshot...
+2017-08-17 00:44:43.392750 PDT | [4wayComplex_seed50_faster] itr #5 | Saved
+2017-08-17 00:44:43.392997 PDT | [4wayComplex_seed50_faster] itr #5 | Saving visualization of paths
+2017-08-17 00:44:44.542760 PDT | ----------------------  ---------------
+2017-08-17 00:44:44.543054 PDT | 0PolicyExecTime            69.8602
+2017-08-17 00:44:44.543252 PDT | 0EnvExecTime               39.1425
+2017-08-17 00:44:44.543461 PDT | 0ProcessExecTime            1.70075
+2017-08-17 00:44:44.543660 PDT | 0AverageReturn            278.75
+2017-08-17 00:44:44.543835 PDT | 0ExplainedVariance          0.113237
+2017-08-17 00:44:44.544111 PDT | 0NumTrajs                 400
+2017-08-17 00:44:44.544328 PDT | 0Entropy                    2.81918
+2017-08-17 00:44:44.544590 PDT | 0Perplexity                16.7632
+2017-08-17 00:44:44.544813 PDT | 0StdReturn               1372.6
+2017-08-17 00:44:44.545059 PDT | 0MaxReturn              10200
+2017-08-17 00:44:44.545317 PDT | 0MinReturn                  0
+2017-08-17 00:44:44.545583 PDT | 0AveragePolicyStd           0.990723
+2017-08-17 00:44:44.545820 PDT | ComputeUpdatedDistTime      0.12245
+2017-08-17 00:44:44.546062 PDT | 1PolicyExecTime            95.2437
+2017-08-17 00:44:44.546314 PDT | 1EnvExecTime               40.7992
+2017-08-17 00:44:44.546556 PDT | 1ProcessExecTime            1.6856
+2017-08-17 00:44:44.546788 PDT | 1AverageReturn            473
+2017-08-17 00:44:44.547036 PDT | 1ExplainedVariance          0.0930174
+2017-08-17 00:44:44.547263 PDT | 1NumTrajs                 400
+2017-08-17 00:44:44.547480 PDT | 1Entropy                    2.81819
+2017-08-17 00:44:44.547750 PDT | 1Perplexity                16.7465
+2017-08-17 00:44:44.548016 PDT | 1StdReturn               1836.71
+2017-08-17 00:44:44.548261 PDT | 1MaxReturn              15800
+2017-08-17 00:44:44.548514 PDT | 1MinReturn                  0
+2017-08-17 00:44:44.548772 PDT | 1AveragePolicyStd           0.990242
+2017-08-17 00:44:44.549013 PDT | MeanKLBefore               -1.19326e-08
+2017-08-17 00:44:44.549284 PDT | MeanKL                      0.00983546
+2017-08-17 00:44:44.549527 PDT | LossBefore                 -1.01863e-09
+2017-08-17 00:44:44.549763 PDT | LossAfter                  -0.00248752
+2017-08-17 00:44:44.549984 PDT | dLoss                       0.00248752
+2017-08-17 00:44:44.550248 PDT | Time                     1548.46
+2017-08-17 00:44:44.550508 PDT | ItrTime                   256.059
+2017-08-17 00:44:44.550762 PDT | ----------------------  ---------------
+2017-08-17 00:44:44.551148 PDT | [4wayComplex_seed50_faster] itr #6 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:44:44.554202 PDT | [4wayComplex_seed50_faster] itr #6 | ** Step 0 **
+2017-08-17 00:44:44.555117 PDT | [4wayComplex_seed50_faster] itr #6 | Obtaining samples...
+2017-08-17 00:44:44.555390 PDT | [4wayComplex_seed50_faster] itr #6 | Obtaining samples for iteration 6...
+2017-08-17 00:46:37.042593 PDT | [4wayComplex_seed50_faster] itr #6 | Processing samples...
+2017-08-17 00:46:37.454764 PDT | [4wayComplex_seed50_faster] itr #6 | fitting baseline...
+2017-08-17 00:46:37.665946 PDT | [4wayComplex_seed50_faster] itr #6 | fitted
+2017-08-17 00:46:37.796748 PDT | [4wayComplex_seed50_faster] itr #6 | Logging diagnostics...
+2017-08-17 00:46:37.801836 PDT | [4wayComplex_seed50_faster] itr #6 | Computing policy updates...
+2017-08-17 00:46:37.931730 PDT | [4wayComplex_seed50_faster] itr #6 | ** Step 1 **
+2017-08-17 00:46:37.932120 PDT | [4wayComplex_seed50_faster] itr #6 | Obtaining samples...
+2017-08-17 00:46:37.932408 PDT | [4wayComplex_seed50_faster] itr #6 | Obtaining samples for iteration 6...
+2017-08-17 00:48:57.121143 PDT | [4wayComplex_seed50_faster] itr #6 | Processing samples...
+2017-08-17 00:48:57.259427 PDT | [4wayComplex_seed50_faster] itr #6 | fitting baseline...
+2017-08-17 00:48:57.333862 PDT | [4wayComplex_seed50_faster] itr #6 | fitted
+2017-08-17 00:48:57.465293 PDT | [4wayComplex_seed50_faster] itr #6 | Logging diagnostics...
+2017-08-17 00:48:57.477002 PDT | [4wayComplex_seed50_faster] itr #6 | Optimizing policy...
+2017-08-17 00:48:57.477478 PDT | [4wayComplex_seed50_faster] itr #6 | Computing KL before
+2017-08-17 00:48:57.542738 PDT | [4wayComplex_seed50_faster] itr #6 | Computing loss before
+2017-08-17 00:48:57.602748 PDT | [4wayComplex_seed50_faster] itr #6 | Optimizing
+2017-08-17 00:48:57.604117 PDT | [4wayComplex_seed50_faster] itr #6 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 00:48:57.604266 PDT | [4wayComplex_seed50_faster] itr #6 | computing loss before
+2017-08-17 00:48:57.657733 PDT | [4wayComplex_seed50_faster] itr #6 | performing update
+2017-08-17 00:48:57.658043 PDT | [4wayComplex_seed50_faster] itr #6 | computing gradient
+2017-08-17 00:48:57.814036 PDT | [4wayComplex_seed50_faster] itr #6 | gradient computed
+2017-08-17 00:48:57.814354 PDT | [4wayComplex_seed50_faster] itr #6 | computing descent direction
+2017-08-17 00:49:01.310377 PDT | [4wayComplex_seed50_faster] itr #6 | descent direction computed
+2017-08-17 00:49:01.367344 PDT | [4wayComplex_seed50_faster] itr #6 | backtrack iters: 0
+2017-08-17 00:49:01.367568 PDT | [4wayComplex_seed50_faster] itr #6 | computing loss after
+2017-08-17 00:49:01.367706 PDT | [4wayComplex_seed50_faster] itr #6 | optimization finished
+2017-08-17 00:49:01.367845 PDT | [4wayComplex_seed50_faster] itr #6 | Computing loss after
+2017-08-17 00:49:01.420127 PDT | [4wayComplex_seed50_faster] itr #6 | Computing KL after
+2017-08-17 00:49:01.469444 PDT | [4wayComplex_seed50_faster] itr #6 | Saving snapshot...
+2017-08-17 00:49:01.474148 PDT | [4wayComplex_seed50_faster] itr #6 | Saved
+2017-08-17 00:49:01.475413 PDT | [4wayComplex_seed50_faster] itr #6 | Saving visualization of paths
+2017-08-17 00:49:02.559137 PDT | ----------------------  ---------------
+2017-08-17 00:49:02.559497 PDT | 0PolicyExecTime            70.6833
+2017-08-17 00:49:02.559786 PDT | 0EnvExecTime               39.3295
+2017-08-17 00:49:02.560071 PDT | 0ProcessExecTime            1.75084
+2017-08-17 00:49:02.560346 PDT | 0AverageReturn            352.75
+2017-08-17 00:49:02.560602 PDT | 0ExplainedVariance          0.0703395
+2017-08-17 00:49:02.560829 PDT | 0NumTrajs                 400
+2017-08-17 00:49:02.561104 PDT | 0Entropy                    2.81988
+2017-08-17 00:49:02.561371 PDT | 0Perplexity                16.7748
+2017-08-17 00:49:02.561635 PDT | 0StdReturn               1623.94
+2017-08-17 00:49:02.561885 PDT | 0MaxReturn              20500
+2017-08-17 00:49:02.562144 PDT | 0MinReturn                  0
+2017-08-17 00:49:02.562394 PDT | 0AveragePolicyStd           0.991072
+2017-08-17 00:49:02.562628 PDT | ComputeUpdatedDistTime      0.129477
+2017-08-17 00:49:02.562897 PDT | 1PolicyExecTime            95.9023
+2017-08-17 00:49:02.563142 PDT | 1EnvExecTime               40.803
+2017-08-17 00:49:02.563369 PDT | 1ProcessExecTime            1.69264
+2017-08-17 00:49:02.563627 PDT | 1AverageReturn            485
+2017-08-17 00:49:02.563914 PDT | 1ExplainedVariance          0.117824
+2017-08-17 00:49:02.564195 PDT | 1NumTrajs                 400
+2017-08-17 00:49:02.564468 PDT | 1Entropy                    2.82107
+2017-08-17 00:49:02.564746 PDT | 1Perplexity                16.7948
+2017-08-17 00:49:02.565022 PDT | 1StdReturn               2178.84
+2017-08-17 00:49:02.565299 PDT | 1MaxReturn              16900
+2017-08-17 00:49:02.565555 PDT | 1MinReturn                  0
+2017-08-17 00:49:02.565788 PDT | 1AveragePolicyStd           0.99169
+2017-08-17 00:49:02.566066 PDT | MeanKLBefore                3.14321e-09
+2017-08-17 00:49:02.566336 PDT | MeanKL                      0.00942772
+2017-08-17 00:49:02.566594 PDT | LossBefore                  4.22006e-10
+2017-08-17 00:49:02.566871 PDT | LossAfter                  -0.00224764
+2017-08-17 00:49:02.567106 PDT | dLoss                       0.00224764
+2017-08-17 00:49:02.567365 PDT | Time                     1806.55
+2017-08-17 00:49:02.567615 PDT | ItrTime                   256.924
+2017-08-17 00:49:02.567857 PDT | ----------------------  ---------------
+2017-08-17 00:49:02.568267 PDT | [4wayComplex_seed50_faster] itr #7 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:49:02.571606 PDT | [4wayComplex_seed50_faster] itr #7 | ** Step 0 **
+2017-08-17 00:49:02.572313 PDT | [4wayComplex_seed50_faster] itr #7 | Obtaining samples...
+2017-08-17 00:49:02.572589 PDT | [4wayComplex_seed50_faster] itr #7 | Obtaining samples for iteration 7...
+2017-08-17 00:51:03.156279 PDT | [4wayComplex_seed50_faster] itr #7 | Processing samples...
+2017-08-17 00:51:03.314273 PDT | [4wayComplex_seed50_faster] itr #7 | fitting baseline...
+2017-08-17 00:51:03.365296 PDT | [4wayComplex_seed50_faster] itr #7 | fitted
+2017-08-17 00:51:03.534241 PDT | [4wayComplex_seed50_faster] itr #7 | Logging diagnostics...
+2017-08-17 00:51:03.542784 PDT | [4wayComplex_seed50_faster] itr #7 | Computing policy updates...
+2017-08-17 00:51:03.674496 PDT | [4wayComplex_seed50_faster] itr #7 | ** Step 1 **
+2017-08-17 00:51:03.674795 PDT | [4wayComplex_seed50_faster] itr #7 | Obtaining samples...
+2017-08-17 00:51:03.675091 PDT | [4wayComplex_seed50_faster] itr #7 | Obtaining samples for iteration 7...
+2017-08-17 00:53:23.607131 PDT | [4wayComplex_seed50_faster] itr #7 | Processing samples...
+2017-08-17 00:53:23.873111 PDT | [4wayComplex_seed50_faster] itr #7 | fitting baseline...
+2017-08-17 00:53:23.959551 PDT | [4wayComplex_seed50_faster] itr #7 | fitted
+2017-08-17 00:53:24.124306 PDT | [4wayComplex_seed50_faster] itr #7 | Logging diagnostics...
+2017-08-17 00:53:24.149915 PDT | [4wayComplex_seed50_faster] itr #7 | Optimizing policy...
+2017-08-17 00:53:24.150348 PDT | [4wayComplex_seed50_faster] itr #7 | Computing KL before
+2017-08-17 00:53:24.203420 PDT | [4wayComplex_seed50_faster] itr #7 | Computing loss before
+2017-08-17 00:53:24.261165 PDT | [4wayComplex_seed50_faster] itr #7 | Optimizing
+2017-08-17 00:53:24.262731 PDT | [4wayComplex_seed50_faster] itr #7 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 00:53:24.262899 PDT | [4wayComplex_seed50_faster] itr #7 | computing loss before
+2017-08-17 00:53:24.311662 PDT | [4wayComplex_seed50_faster] itr #7 | performing update
+2017-08-17 00:53:24.311975 PDT | [4wayComplex_seed50_faster] itr #7 | computing gradient
+2017-08-17 00:53:24.467333 PDT | [4wayComplex_seed50_faster] itr #7 | gradient computed
+2017-08-17 00:53:24.467601 PDT | [4wayComplex_seed50_faster] itr #7 | computing descent direction
+2017-08-17 00:53:27.932624 PDT | [4wayComplex_seed50_faster] itr #7 | descent direction computed
+2017-08-17 00:53:27.985713 PDT | [4wayComplex_seed50_faster] itr #7 | backtrack iters: 0
+2017-08-17 00:53:27.985971 PDT | [4wayComplex_seed50_faster] itr #7 | computing loss after
+2017-08-17 00:53:27.986133 PDT | [4wayComplex_seed50_faster] itr #7 | optimization finished
+2017-08-17 00:53:27.986247 PDT | [4wayComplex_seed50_faster] itr #7 | Computing loss after
+2017-08-17 00:53:28.037713 PDT | [4wayComplex_seed50_faster] itr #7 | Computing KL after
+2017-08-17 00:53:28.087867 PDT | [4wayComplex_seed50_faster] itr #7 | Saving snapshot...
+2017-08-17 00:53:28.093290 PDT | [4wayComplex_seed50_faster] itr #7 | Saved
+2017-08-17 00:53:28.093477 PDT | [4wayComplex_seed50_faster] itr #7 | Saving visualization of paths
+2017-08-17 00:53:29.286107 PDT | ----------------------  ---------------
+2017-08-17 00:53:29.286370 PDT | 0PolicyExecTime            78.8058
+2017-08-17 00:53:29.286586 PDT | 0EnvExecTime               39.3178
+2017-08-17 00:53:29.286798 PDT | 0ProcessExecTime            1.73
+2017-08-17 00:53:29.287009 PDT | 0AverageReturn            738.5
+2017-08-17 00:53:29.287214 PDT | 0ExplainedVariance          0.0935475
+2017-08-17 00:53:29.287424 PDT | 0NumTrajs                 400
+2017-08-17 00:53:29.287631 PDT | 0Entropy                    2.85707
+2017-08-17 00:53:29.287833 PDT | 0Perplexity                17.4104
+2017-08-17 00:53:29.288957 PDT | 0StdReturn               2610.46
+2017-08-17 00:53:29.289209 PDT | 0MaxReturn              18500
+2017-08-17 00:53:29.290181 PDT | 0MinReturn                  0
+2017-08-17 00:53:29.290451 PDT | 0AveragePolicyStd           1.00964
+2017-08-17 00:53:29.291576 PDT | ComputeUpdatedDistTime      0.130046
+2017-08-17 00:53:29.291830 PDT | 1PolicyExecTime            96.4591
+2017-08-17 00:53:29.292642 PDT | 1EnvExecTime               40.964
+2017-08-17 00:53:29.292869 PDT | 1ProcessExecTime            1.71091
+2017-08-17 00:53:29.293087 PDT | 1AverageReturn            954
+2017-08-17 00:53:29.294094 PDT | 1ExplainedVariance          0.144353
+2017-08-17 00:53:29.294321 PDT | 1NumTrajs                 400
+2017-08-17 00:53:29.295221 PDT | 1Entropy                    2.85655
+2017-08-17 00:53:29.296092 PDT | 1Perplexity                17.4014
+2017-08-17 00:53:29.296324 PDT | 1StdReturn               3281.46
+2017-08-17 00:53:29.296543 PDT | 1MaxReturn              20000
+2017-08-17 00:53:29.297469 PDT | 1MinReturn                  0
+2017-08-17 00:53:29.297707 PDT | 1AveragePolicyStd           1.00938
+2017-08-17 00:53:29.297922 PDT | MeanKLBefore                1.21344e-15
+2017-08-17 00:53:29.298821 PDT | MeanKL                      0.0092011
+2017-08-17 00:53:29.299022 PDT | LossBefore                 -4.94765e-10
+2017-08-17 00:53:29.299239 PDT | LossAfter                  -0.00249288
+2017-08-17 00:53:29.300114 PDT | dLoss                       0.00249288
+2017-08-17 00:53:29.300347 PDT | Time                     2073.17
+2017-08-17 00:53:29.300565 PDT | ItrTime                   265.525
+2017-08-17 00:53:29.301474 PDT | ----------------------  ---------------
+2017-08-17 00:53:29.301860 PDT | [4wayComplex_seed50_faster] itr #8 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:53:29.305535 PDT | [4wayComplex_seed50_faster] itr #8 | ** Step 0 **
+2017-08-17 00:53:29.307106 PDT | [4wayComplex_seed50_faster] itr #8 | Obtaining samples...
+2017-08-17 00:53:29.307359 PDT | [4wayComplex_seed50_faster] itr #8 | Obtaining samples for iteration 8...
+2017-08-17 00:55:20.357353 PDT | [4wayComplex_seed50_faster] itr #8 | Processing samples...
+2017-08-17 00:55:20.718891 PDT | [4wayComplex_seed50_faster] itr #8 | fitting baseline...
+2017-08-17 00:55:20.779814 PDT | [4wayComplex_seed50_faster] itr #8 | fitted
+2017-08-17 00:55:20.913522 PDT | [4wayComplex_seed50_faster] itr #8 | Logging diagnostics...
+2017-08-17 00:55:20.918099 PDT | [4wayComplex_seed50_faster] itr #8 | Computing policy updates...
+2017-08-17 00:55:21.051513 PDT | [4wayComplex_seed50_faster] itr #8 | ** Step 1 **
+2017-08-17 00:55:21.051807 PDT | [4wayComplex_seed50_faster] itr #8 | Obtaining samples...
+2017-08-17 00:55:21.052037 PDT | [4wayComplex_seed50_faster] itr #8 | Obtaining samples for iteration 8...
+2017-08-17 00:57:40.029101 PDT | [4wayComplex_seed50_faster] itr #8 | Processing samples...
+2017-08-17 00:57:40.185519 PDT | [4wayComplex_seed50_faster] itr #8 | fitting baseline...
+2017-08-17 00:57:40.244567 PDT | [4wayComplex_seed50_faster] itr #8 | fitted
+2017-08-17 00:57:40.448753 PDT | [4wayComplex_seed50_faster] itr #8 | Logging diagnostics...
+2017-08-17 00:57:40.456031 PDT | [4wayComplex_seed50_faster] itr #8 | Optimizing policy...
+2017-08-17 00:57:40.456575 PDT | [4wayComplex_seed50_faster] itr #8 | Computing KL before
+2017-08-17 00:57:40.507140 PDT | [4wayComplex_seed50_faster] itr #8 | Computing loss before
+2017-08-17 00:57:40.559448 PDT | [4wayComplex_seed50_faster] itr #8 | Optimizing
+2017-08-17 00:57:40.560666 PDT | [4wayComplex_seed50_faster] itr #8 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 00:57:40.560904 PDT | [4wayComplex_seed50_faster] itr #8 | computing loss before
+2017-08-17 00:57:40.613125 PDT | [4wayComplex_seed50_faster] itr #8 | performing update
+2017-08-17 00:57:40.613396 PDT | [4wayComplex_seed50_faster] itr #8 | computing gradient
+2017-08-17 00:57:40.769042 PDT | [4wayComplex_seed50_faster] itr #8 | gradient computed
+2017-08-17 00:57:40.769301 PDT | [4wayComplex_seed50_faster] itr #8 | computing descent direction
+2017-08-17 00:57:44.280691 PDT | [4wayComplex_seed50_faster] itr #8 | descent direction computed
+2017-08-17 00:57:44.391494 PDT | [4wayComplex_seed50_faster] itr #8 | backtrack iters: 1
+2017-08-17 00:57:44.391763 PDT | [4wayComplex_seed50_faster] itr #8 | computing loss after
+2017-08-17 00:57:44.391945 PDT | [4wayComplex_seed50_faster] itr #8 | optimization finished
+2017-08-17 00:57:44.392086 PDT | [4wayComplex_seed50_faster] itr #8 | Computing loss after
+2017-08-17 00:57:44.444322 PDT | [4wayComplex_seed50_faster] itr #8 | Computing KL after
+2017-08-17 00:57:44.495984 PDT | [4wayComplex_seed50_faster] itr #8 | Saving snapshot...
+2017-08-17 00:57:44.499763 PDT | [4wayComplex_seed50_faster] itr #8 | Saved
+2017-08-17 00:57:44.500001 PDT | [4wayComplex_seed50_faster] itr #8 | Saving visualization of paths
+2017-08-17 00:57:45.611104 PDT | ----------------------  ---------------
+2017-08-17 00:57:45.611401 PDT | 0PolicyExecTime            69.135
+2017-08-17 00:57:45.611583 PDT | 0EnvExecTime               39.4463
+2017-08-17 00:57:45.611756 PDT | 0ProcessExecTime            1.73107
+2017-08-17 00:57:45.611986 PDT | 0AverageReturn            526
+2017-08-17 00:57:45.612202 PDT | 0ExplainedVariance          0.0931953
+2017-08-17 00:57:45.612415 PDT | 0NumTrajs                 400
+2017-08-17 00:57:45.612613 PDT | 0Entropy                    2.84871
+2017-08-17 00:57:45.612800 PDT | 0Perplexity                17.2656
+2017-08-17 00:57:45.613005 PDT | 0StdReturn               2020.6
+2017-08-17 00:57:45.613199 PDT | 0MaxReturn              14400
+2017-08-17 00:57:45.613369 PDT | 0MinReturn                  0
+2017-08-17 00:57:45.613555 PDT | 0AveragePolicyStd           1.00544
+2017-08-17 00:57:45.613776 PDT | ComputeUpdatedDistTime      0.133021
+2017-08-17 00:57:45.613987 PDT | 1PolicyExecTime            95.5519
+2017-08-17 00:57:45.614200 PDT | 1EnvExecTime               40.9144
+2017-08-17 00:57:45.614395 PDT | 1ProcessExecTime            1.72079
+2017-08-17 00:57:45.614574 PDT | 1AverageReturn           1672.25
+2017-08-17 00:57:45.614792 PDT | 1ExplainedVariance          0.209517
+2017-08-17 00:57:45.614969 PDT | 1NumTrajs                 400
+2017-08-17 00:57:45.615148 PDT | 1Entropy                    2.84866
+2017-08-17 00:57:45.615358 PDT | 1Perplexity                17.2647
+2017-08-17 00:57:45.615573 PDT | 1StdReturn               4194.72
+2017-08-17 00:57:45.615786 PDT | 1MaxReturn              19400
+2017-08-17 00:57:45.616007 PDT | 1MinReturn                  0
+2017-08-17 00:57:45.616195 PDT | 1AveragePolicyStd           1.00541
+2017-08-17 00:57:45.616393 PDT | MeanKLBefore               -2.03727e-09
+2017-08-17 00:57:45.616592 PDT | MeanKL                      0.00776997
+2017-08-17 00:57:45.616766 PDT | LossBefore                  0
+2017-08-17 00:57:45.616934 PDT | LossAfter                  -0.00217553
+2017-08-17 00:57:45.617142 PDT | dLoss                       0.00217553
+2017-08-17 00:57:45.617359 PDT | Time                     2329.57
+2017-08-17 00:57:45.617572 PDT | ItrTime                   255.198
+2017-08-17 00:57:45.617782 PDT | ----------------------  ---------------
+2017-08-17 00:57:45.618109 PDT | [4wayComplex_seed50_faster] itr #9 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 00:57:45.621346 PDT | [4wayComplex_seed50_faster] itr #9 | ** Step 0 **
+2017-08-17 00:57:45.621920 PDT | [4wayComplex_seed50_faster] itr #9 | Obtaining samples...
+2017-08-17 00:57:45.622162 PDT | [4wayComplex_seed50_faster] itr #9 | Obtaining samples for iteration 9...
+2017-08-17 00:59:36.647968 PDT | [4wayComplex_seed50_faster] itr #9 | Processing samples...
+2017-08-17 00:59:36.808079 PDT | [4wayComplex_seed50_faster] itr #9 | fitting baseline...
+2017-08-17 00:59:36.856950 PDT | [4wayComplex_seed50_faster] itr #9 | fitted
+2017-08-17 00:59:37.012523 PDT | [4wayComplex_seed50_faster] itr #9 | Logging diagnostics...
+2017-08-17 00:59:37.017425 PDT | [4wayComplex_seed50_faster] itr #9 | Computing policy updates...
+2017-08-17 00:59:37.148670 PDT | [4wayComplex_seed50_faster] itr #9 | ** Step 1 **
+2017-08-17 00:59:37.149042 PDT | [4wayComplex_seed50_faster] itr #9 | Obtaining samples...
+2017-08-17 00:59:37.149346 PDT | [4wayComplex_seed50_faster] itr #9 | Obtaining samples for iteration 9...
+2017-08-17 01:01:54.889448 PDT | [4wayComplex_seed50_faster] itr #9 | Processing samples...
+2017-08-17 01:01:55.043267 PDT | [4wayComplex_seed50_faster] itr #9 | fitting baseline...
+2017-08-17 01:01:55.109254 PDT | [4wayComplex_seed50_faster] itr #9 | fitted
+2017-08-17 01:01:55.347888 PDT | [4wayComplex_seed50_faster] itr #9 | Logging diagnostics...
+2017-08-17 01:01:55.362324 PDT | [4wayComplex_seed50_faster] itr #9 | Optimizing policy...
+2017-08-17 01:01:55.364842 PDT | [4wayComplex_seed50_faster] itr #9 | Computing KL before
+2017-08-17 01:01:55.414536 PDT | [4wayComplex_seed50_faster] itr #9 | Computing loss before
+2017-08-17 01:01:55.465944 PDT | [4wayComplex_seed50_faster] itr #9 | Optimizing
+2017-08-17 01:01:55.467405 PDT | [4wayComplex_seed50_faster] itr #9 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:01:55.467655 PDT | [4wayComplex_seed50_faster] itr #9 | computing loss before
+2017-08-17 01:01:55.517554 PDT | [4wayComplex_seed50_faster] itr #9 | performing update
+2017-08-17 01:01:55.517870 PDT | [4wayComplex_seed50_faster] itr #9 | computing gradient
+2017-08-17 01:01:55.671490 PDT | [4wayComplex_seed50_faster] itr #9 | gradient computed
+2017-08-17 01:01:55.671698 PDT | [4wayComplex_seed50_faster] itr #9 | computing descent direction
+2017-08-17 01:01:59.169978 PDT | [4wayComplex_seed50_faster] itr #9 | descent direction computed
+2017-08-17 01:01:59.221163 PDT | [4wayComplex_seed50_faster] itr #9 | backtrack iters: 0
+2017-08-17 01:01:59.221476 PDT | [4wayComplex_seed50_faster] itr #9 | computing loss after
+2017-08-17 01:01:59.221656 PDT | [4wayComplex_seed50_faster] itr #9 | optimization finished
+2017-08-17 01:01:59.221765 PDT | [4wayComplex_seed50_faster] itr #9 | Computing loss after
+2017-08-17 01:01:59.271425 PDT | [4wayComplex_seed50_faster] itr #9 | Computing KL after
+2017-08-17 01:01:59.319573 PDT | [4wayComplex_seed50_faster] itr #9 | Saving snapshot...
+2017-08-17 01:01:59.324481 PDT | [4wayComplex_seed50_faster] itr #9 | Saved
+2017-08-17 01:01:59.324773 PDT | [4wayComplex_seed50_faster] itr #9 | Saving visualization of paths
+2017-08-17 01:02:00.521967 PDT | ----------------------  ---------------
+2017-08-17 01:02:00.522252 PDT | 0PolicyExecTime            68.9988
+2017-08-17 01:02:00.522479 PDT | 0EnvExecTime               39.5837
+2017-08-17 01:02:00.522699 PDT | 0ProcessExecTime            1.7213
+2017-08-17 01:02:00.522914 PDT | 0AverageReturn            839.75
+2017-08-17 01:02:00.523134 PDT | 0ExplainedVariance          0.141871
+2017-08-17 01:02:00.523344 PDT | 0NumTrajs                 400
+2017-08-17 01:02:00.523554 PDT | 0Entropy                    2.86106
+2017-08-17 01:02:00.523757 PDT | 0Perplexity                17.48
+2017-08-17 01:02:00.523982 PDT | 0StdReturn               2907.94
+2017-08-17 01:02:00.524195 PDT | 0MaxReturn              18300
+2017-08-17 01:02:00.524391 PDT | 0MinReturn                  0
+2017-08-17 01:02:00.524594 PDT | 0AveragePolicyStd           1.01166
+2017-08-17 01:02:00.524793 PDT | ComputeUpdatedDistTime      0.130838
+2017-08-17 01:02:00.525002 PDT | 1PolicyExecTime            94.7695
+2017-08-17 01:02:00.525212 PDT | 1EnvExecTime               40.5137
+2017-08-17 01:02:00.525419 PDT | 1ProcessExecTime            1.68639
+2017-08-17 01:02:00.525655 PDT | 1AverageReturn           1804.25
+2017-08-17 01:02:00.525831 PDT | 1ExplainedVariance          0.18585
+2017-08-17 01:02:00.526002 PDT | 1NumTrajs                 400
+2017-08-17 01:02:00.526209 PDT | 1Entropy                    2.86289
+2017-08-17 01:02:00.526424 PDT | 1Perplexity                17.5121
+2017-08-17 01:02:00.526642 PDT | 1StdReturn               4699.26
+2017-08-17 01:02:00.526826 PDT | 1MaxReturn              20500
+2017-08-17 01:02:00.526994 PDT | 1MinReturn                  0
+2017-08-17 01:02:00.527194 PDT | 1AveragePolicyStd           1.01259
+2017-08-17 01:02:00.527406 PDT | MeanKLBefore               -9.31323e-10
+2017-08-17 01:02:00.527609 PDT | MeanKL                      0.00885681
+2017-08-17 01:02:00.527837 PDT | LossBefore                  1.16415e-10
+2017-08-17 01:02:00.528045 PDT | LossAfter                  -0.00302247
+2017-08-17 01:02:00.528254 PDT | dLoss                       0.00302247
+2017-08-17 01:02:00.528468 PDT | Time                     2584.4
+2017-08-17 01:02:00.528682 PDT | ItrTime                   253.707
+2017-08-17 01:02:00.528895 PDT | ----------------------  ---------------
+2017-08-17 01:02:00.529278 PDT | [4wayComplex_seed50_faster] itr #10 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:02:00.532478 PDT | [4wayComplex_seed50_faster] itr #10 | ** Step 0 **
+2017-08-17 01:02:00.533284 PDT | [4wayComplex_seed50_faster] itr #10 | Obtaining samples...
+2017-08-17 01:02:00.533544 PDT | [4wayComplex_seed50_faster] itr #10 | Obtaining samples for iteration 10...
+2017-08-17 01:03:52.078237 PDT | [4wayComplex_seed50_faster] itr #10 | Processing samples...
+2017-08-17 01:03:52.513507 PDT | [4wayComplex_seed50_faster] itr #10 | fitting baseline...
+2017-08-17 01:03:52.619968 PDT | [4wayComplex_seed50_faster] itr #10 | fitted
+2017-08-17 01:03:52.734624 PDT | [4wayComplex_seed50_faster] itr #10 | Logging diagnostics...
+2017-08-17 01:03:52.738611 PDT | [4wayComplex_seed50_faster] itr #10 | Computing policy updates...
+2017-08-17 01:03:52.849427 PDT | [4wayComplex_seed50_faster] itr #10 | ** Step 1 **
+2017-08-17 01:03:52.849609 PDT | [4wayComplex_seed50_faster] itr #10 | Obtaining samples...
+2017-08-17 01:03:52.849723 PDT | [4wayComplex_seed50_faster] itr #10 | Obtaining samples for iteration 10...
+2017-08-17 01:06:12.517035 PDT | [4wayComplex_seed50_faster] itr #10 | Processing samples...
+2017-08-17 01:06:12.965104 PDT | [4wayComplex_seed50_faster] itr #10 | fitting baseline...
+2017-08-17 01:06:13.062511 PDT | [4wayComplex_seed50_faster] itr #10 | fitted
+2017-08-17 01:06:13.270482 PDT | [4wayComplex_seed50_faster] itr #10 | Logging diagnostics...
+2017-08-17 01:06:13.277916 PDT | [4wayComplex_seed50_faster] itr #10 | Optimizing policy...
+2017-08-17 01:06:13.278157 PDT | [4wayComplex_seed50_faster] itr #10 | Computing KL before
+2017-08-17 01:06:13.329311 PDT | [4wayComplex_seed50_faster] itr #10 | Computing loss before
+2017-08-17 01:06:13.380011 PDT | [4wayComplex_seed50_faster] itr #10 | Optimizing
+2017-08-17 01:06:13.381304 PDT | [4wayComplex_seed50_faster] itr #10 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:06:13.381563 PDT | [4wayComplex_seed50_faster] itr #10 | computing loss before
+2017-08-17 01:06:13.433692 PDT | [4wayComplex_seed50_faster] itr #10 | performing update
+2017-08-17 01:06:13.433926 PDT | [4wayComplex_seed50_faster] itr #10 | computing gradient
+2017-08-17 01:06:13.585653 PDT | [4wayComplex_seed50_faster] itr #10 | gradient computed
+2017-08-17 01:06:13.585934 PDT | [4wayComplex_seed50_faster] itr #10 | computing descent direction
+2017-08-17 01:06:17.071136 PDT | [4wayComplex_seed50_faster] itr #10 | descent direction computed
+2017-08-17 01:06:17.129128 PDT | [4wayComplex_seed50_faster] itr #10 | backtrack iters: 0
+2017-08-17 01:06:17.129377 PDT | [4wayComplex_seed50_faster] itr #10 | computing loss after
+2017-08-17 01:06:17.129534 PDT | [4wayComplex_seed50_faster] itr #10 | optimization finished
+2017-08-17 01:06:17.129681 PDT | [4wayComplex_seed50_faster] itr #10 | Computing loss after
+2017-08-17 01:06:17.180694 PDT | [4wayComplex_seed50_faster] itr #10 | Computing KL after
+2017-08-17 01:06:17.232118 PDT | [4wayComplex_seed50_faster] itr #10 | Saving snapshot...
+2017-08-17 01:06:17.238822 PDT | [4wayComplex_seed50_faster] itr #10 | Saved
+2017-08-17 01:06:17.239101 PDT | [4wayComplex_seed50_faster] itr #10 | Saving visualization of paths
+2017-08-17 01:06:18.425262 PDT | ----------------------  ---------------
+2017-08-17 01:06:18.425540 PDT | 0PolicyExecTime            70.2556
+2017-08-17 01:06:18.425816 PDT | 0EnvExecTime               38.9436
+2017-08-17 01:06:18.426052 PDT | 0ProcessExecTime            1.64371
+2017-08-17 01:06:18.426329 PDT | 0AverageReturn            960.25
+2017-08-17 01:06:18.426609 PDT | 0ExplainedVariance          0.131322
+2017-08-17 01:06:18.426884 PDT | 0NumTrajs                 400
+2017-08-17 01:06:18.427161 PDT | 0Entropy                    2.82191
+2017-08-17 01:06:18.427438 PDT | 0Perplexity                16.8089
+2017-08-17 01:06:18.427711 PDT | 0StdReturn               2979.76
+2017-08-17 01:06:18.427985 PDT | 0MaxReturn              15400
+2017-08-17 01:06:18.428249 PDT | 0MinReturn                  0
+2017-08-17 01:06:18.428498 PDT | 0AveragePolicyStd           0.992075
+2017-08-17 01:06:18.428723 PDT | ComputeUpdatedDistTime      0.110425
+2017-08-17 01:06:18.428993 PDT | 1PolicyExecTime            96.1181
+2017-08-17 01:06:18.429223 PDT | 1EnvExecTime               41.1129
+2017-08-17 01:06:18.429480 PDT | 1ProcessExecTime            1.67097
+2017-08-17 01:06:18.429767 PDT | 1AverageReturn           1861.25
+2017-08-17 01:06:18.430045 PDT | 1ExplainedVariance          0.206309
+2017-08-17 01:06:18.430317 PDT | 1NumTrajs                 400
+2017-08-17 01:06:18.430588 PDT | 1Entropy                    2.82289
+2017-08-17 01:06:18.430862 PDT | 1Perplexity                16.8255
+2017-08-17 01:06:18.431143 PDT | 1StdReturn               4657.5
+2017-08-17 01:06:18.431410 PDT | 1MaxReturn              21300
+2017-08-17 01:06:18.431672 PDT | 1MinReturn                  0
+2017-08-17 01:06:18.431919 PDT | 1AveragePolicyStd           0.992585
+2017-08-17 01:06:18.432198 PDT | MeanKLBefore               -2.89874e-08
+2017-08-17 01:06:18.432431 PDT | MeanKL                      0.0095736
+2017-08-17 01:06:18.432688 PDT | LossBefore                  4.65661e-10
+2017-08-17 01:06:18.432962 PDT | LossAfter                  -0.00288001
+2017-08-17 01:06:18.433244 PDT | dLoss                       0.00288001
+2017-08-17 01:06:18.433516 PDT | Time                     2842.31
+2017-08-17 01:06:18.433786 PDT | ItrTime                   256.71
+2017-08-17 01:06:18.434056 PDT | ----------------------  ---------------
+2017-08-17 01:06:18.434482 PDT | [4wayComplex_seed50_faster] itr #11 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:06:18.437583 PDT | [4wayComplex_seed50_faster] itr #11 | ** Step 0 **
+2017-08-17 01:06:18.438207 PDT | [4wayComplex_seed50_faster] itr #11 | Obtaining samples...
+2017-08-17 01:06:18.438467 PDT | [4wayComplex_seed50_faster] itr #11 | Obtaining samples for iteration 11...
+2017-08-17 01:08:08.902007 PDT | [4wayComplex_seed50_faster] itr #11 | Processing samples...
+2017-08-17 01:08:09.261256 PDT | [4wayComplex_seed50_faster] itr #11 | fitting baseline...
+2017-08-17 01:08:09.338349 PDT | [4wayComplex_seed50_faster] itr #11 | fitted
+2017-08-17 01:08:09.447995 PDT | [4wayComplex_seed50_faster] itr #11 | Logging diagnostics...
+2017-08-17 01:08:09.452023 PDT | [4wayComplex_seed50_faster] itr #11 | Computing policy updates...
+2017-08-17 01:08:09.570639 PDT | [4wayComplex_seed50_faster] itr #11 | ** Step 1 **
+2017-08-17 01:08:09.570937 PDT | [4wayComplex_seed50_faster] itr #11 | Obtaining samples...
+2017-08-17 01:08:09.571064 PDT | [4wayComplex_seed50_faster] itr #11 | Obtaining samples for iteration 11...
+2017-08-17 01:10:27.074902 PDT | [4wayComplex_seed50_faster] itr #11 | Processing samples...
+2017-08-17 01:10:27.670338 PDT | [4wayComplex_seed50_faster] itr #11 | fitting baseline...
+2017-08-17 01:10:27.763524 PDT | [4wayComplex_seed50_faster] itr #11 | fitted
+2017-08-17 01:10:27.980171 PDT | [4wayComplex_seed50_faster] itr #11 | Logging diagnostics...
+2017-08-17 01:10:27.986090 PDT | [4wayComplex_seed50_faster] itr #11 | Optimizing policy...
+2017-08-17 01:10:27.986786 PDT | [4wayComplex_seed50_faster] itr #11 | Computing KL before
+2017-08-17 01:10:28.041403 PDT | [4wayComplex_seed50_faster] itr #11 | Computing loss before
+2017-08-17 01:10:28.092191 PDT | [4wayComplex_seed50_faster] itr #11 | Optimizing
+2017-08-17 01:10:28.093630 PDT | [4wayComplex_seed50_faster] itr #11 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:10:28.093803 PDT | [4wayComplex_seed50_faster] itr #11 | computing loss before
+2017-08-17 01:10:28.149513 PDT | [4wayComplex_seed50_faster] itr #11 | performing update
+2017-08-17 01:10:28.149819 PDT | [4wayComplex_seed50_faster] itr #11 | computing gradient
+2017-08-17 01:10:28.302980 PDT | [4wayComplex_seed50_faster] itr #11 | gradient computed
+2017-08-17 01:10:28.303223 PDT | [4wayComplex_seed50_faster] itr #11 | computing descent direction
+2017-08-17 01:10:31.809771 PDT | [4wayComplex_seed50_faster] itr #11 | descent direction computed
+2017-08-17 01:10:31.914308 PDT | [4wayComplex_seed50_faster] itr #11 | backtrack iters: 1
+2017-08-17 01:10:31.914581 PDT | [4wayComplex_seed50_faster] itr #11 | computing loss after
+2017-08-17 01:10:31.914782 PDT | [4wayComplex_seed50_faster] itr #11 | optimization finished
+2017-08-17 01:10:31.914895 PDT | [4wayComplex_seed50_faster] itr #11 | Computing loss after
+2017-08-17 01:10:31.965495 PDT | [4wayComplex_seed50_faster] itr #11 | Computing KL after
+2017-08-17 01:10:32.016799 PDT | [4wayComplex_seed50_faster] itr #11 | Saving snapshot...
+2017-08-17 01:10:32.022959 PDT | [4wayComplex_seed50_faster] itr #11 | Saved
+2017-08-17 01:10:32.023246 PDT | [4wayComplex_seed50_faster] itr #11 | Saving visualization of paths
+2017-08-17 01:10:33.114860 PDT | ----------------------  ---------------
+2017-08-17 01:10:33.115246 PDT | 0PolicyExecTime            69.3649
+2017-08-17 01:10:33.115499 PDT | 0EnvExecTime               38.7447
+2017-08-17 01:10:33.115763 PDT | 0ProcessExecTime            1.65067
+2017-08-17 01:10:33.116000 PDT | 0AverageReturn           1025
+2017-08-17 01:10:33.116235 PDT | 0ExplainedVariance          0.117218
+2017-08-17 01:10:33.116508 PDT | 0NumTrajs                 400
+2017-08-17 01:10:33.116771 PDT | 0Entropy                    2.82872
+2017-08-17 01:10:33.117017 PDT | 0Perplexity                16.9238
+2017-08-17 01:10:33.117254 PDT | 0StdReturn               3036.75
+2017-08-17 01:10:33.117497 PDT | 0MaxReturn              16300
+2017-08-17 01:10:33.117715 PDT | 0MinReturn                  0
+2017-08-17 01:10:33.117967 PDT | 0AveragePolicyStd           0.995522
+2017-08-17 01:10:33.118232 PDT | ComputeUpdatedDistTime      0.118399
+2017-08-17 01:10:33.118503 PDT | 1PolicyExecTime            94.6764
+2017-08-17 01:10:33.118743 PDT | 1EnvExecTime               40.4584
+2017-08-17 01:10:33.119006 PDT | 1ProcessExecTime            1.60221
+2017-08-17 01:10:33.119228 PDT | 1AverageReturn           2485.25
+2017-08-17 01:10:33.119467 PDT | 1ExplainedVariance          0.159873
+2017-08-17 01:10:33.119733 PDT | 1NumTrajs                 400
+2017-08-17 01:10:33.120005 PDT | 1Entropy                    2.82745
+2017-08-17 01:10:33.120251 PDT | 1Perplexity                16.9022
+2017-08-17 01:10:33.120496 PDT | 1StdReturn               5850.47
+2017-08-17 01:10:33.120727 PDT | 1MaxReturn              20600
+2017-08-17 01:10:33.120947 PDT | 1MinReturn                  0
+2017-08-17 01:10:33.121215 PDT | 1AveragePolicyStd           0.994865
+2017-08-17 01:10:33.121478 PDT | MeanKLBefore                4.65661e-10
+2017-08-17 01:10:33.121731 PDT | MeanKL                      0.00706736
+2017-08-17 01:10:33.121961 PDT | LossBefore                  0
+2017-08-17 01:10:33.122211 PDT | LossAfter                  -0.00274646
+2017-08-17 01:10:33.122429 PDT | dLoss                       0.00274646
+2017-08-17 01:10:33.122692 PDT | Time                     3097.1
+2017-08-17 01:10:33.122955 PDT | ItrTime                   253.589
+2017-08-17 01:10:33.123214 PDT | ----------------------  ---------------
+2017-08-17 01:10:33.123599 PDT | [4wayComplex_seed50_faster] itr #12 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:10:33.126436 PDT | [4wayComplex_seed50_faster] itr #12 | ** Step 0 **
+2017-08-17 01:10:33.127134 PDT | [4wayComplex_seed50_faster] itr #12 | Obtaining samples...
+2017-08-17 01:10:33.127426 PDT | [4wayComplex_seed50_faster] itr #12 | Obtaining samples for iteration 12...
+2017-08-17 01:12:32.694290 PDT | [4wayComplex_seed50_faster] itr #12 | Processing samples...
+2017-08-17 01:12:33.466797 PDT | [4wayComplex_seed50_faster] itr #12 | fitting baseline...
+2017-08-17 01:12:33.694192 PDT | [4wayComplex_seed50_faster] itr #12 | fitted
+2017-08-17 01:12:33.907625 PDT | [4wayComplex_seed50_faster] itr #12 | Logging diagnostics...
+2017-08-17 01:12:33.920145 PDT | [4wayComplex_seed50_faster] itr #12 | Computing policy updates...
+2017-08-17 01:12:34.049523 PDT | [4wayComplex_seed50_faster] itr #12 | ** Step 1 **
+2017-08-17 01:12:34.049742 PDT | [4wayComplex_seed50_faster] itr #12 | Obtaining samples...
+2017-08-17 01:12:34.049947 PDT | [4wayComplex_seed50_faster] itr #12 | Obtaining samples for iteration 12...
+2017-08-17 01:14:51.241512 PDT | [4wayComplex_seed50_faster] itr #12 | Processing samples...
+2017-08-17 01:14:51.473289 PDT | [4wayComplex_seed50_faster] itr #12 | fitting baseline...
+2017-08-17 01:14:51.532404 PDT | [4wayComplex_seed50_faster] itr #12 | fitted
+2017-08-17 01:14:51.610197 PDT | [4wayComplex_seed50_faster] itr #12 | Logging diagnostics...
+2017-08-17 01:14:51.614337 PDT | [4wayComplex_seed50_faster] itr #12 | Optimizing policy...
+2017-08-17 01:14:51.614818 PDT | [4wayComplex_seed50_faster] itr #12 | Computing KL before
+2017-08-17 01:14:51.673441 PDT | [4wayComplex_seed50_faster] itr #12 | Computing loss before
+2017-08-17 01:14:51.726382 PDT | [4wayComplex_seed50_faster] itr #12 | Optimizing
+2017-08-17 01:14:51.727700 PDT | [4wayComplex_seed50_faster] itr #12 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:14:51.728126 PDT | [4wayComplex_seed50_faster] itr #12 | computing loss before
+2017-08-17 01:14:51.776964 PDT | [4wayComplex_seed50_faster] itr #12 | performing update
+2017-08-17 01:14:51.777210 PDT | [4wayComplex_seed50_faster] itr #12 | computing gradient
+2017-08-17 01:14:51.929515 PDT | [4wayComplex_seed50_faster] itr #12 | gradient computed
+2017-08-17 01:14:51.929718 PDT | [4wayComplex_seed50_faster] itr #12 | computing descent direction
+2017-08-17 01:14:55.405144 PDT | [4wayComplex_seed50_faster] itr #12 | descent direction computed
+2017-08-17 01:14:55.458651 PDT | [4wayComplex_seed50_faster] itr #12 | backtrack iters: 0
+2017-08-17 01:14:55.459052 PDT | [4wayComplex_seed50_faster] itr #12 | computing loss after
+2017-08-17 01:14:55.459289 PDT | [4wayComplex_seed50_faster] itr #12 | optimization finished
+2017-08-17 01:14:55.459690 PDT | [4wayComplex_seed50_faster] itr #12 | Computing loss after
+2017-08-17 01:14:55.510937 PDT | [4wayComplex_seed50_faster] itr #12 | Computing KL after
+2017-08-17 01:14:55.560691 PDT | [4wayComplex_seed50_faster] itr #12 | Saving snapshot...
+2017-08-17 01:14:55.564308 PDT | [4wayComplex_seed50_faster] itr #12 | Saved
+2017-08-17 01:14:55.564578 PDT | [4wayComplex_seed50_faster] itr #12 | Saving visualization of paths
+2017-08-17 01:14:57.122507 PDT | ----------------------  ---------------
+2017-08-17 01:14:57.122827 PDT | 0PolicyExecTime            78.3175
+2017-08-17 01:14:57.123115 PDT | 0EnvExecTime               38.887
+2017-08-17 01:14:57.123382 PDT | 0ProcessExecTime            1.64233
+2017-08-17 01:14:57.123638 PDT | 0AverageReturn           1058.25
+2017-08-17 01:14:57.123887 PDT | 0ExplainedVariance          0.095509
+2017-08-17 01:14:57.124156 PDT | 0NumTrajs                 400
+2017-08-17 01:14:57.124398 PDT | 0Entropy                    2.8296
+2017-08-17 01:14:57.124645 PDT | 0Perplexity                16.9388
+2017-08-17 01:14:57.124919 PDT | 0StdReturn               3151.23
+2017-08-17 01:14:57.125194 PDT | 0MaxReturn              19300
+2017-08-17 01:14:57.125470 PDT | 0MinReturn                  0
+2017-08-17 01:14:57.125747 PDT | 0AveragePolicyStd           0.995917
+2017-08-17 01:14:57.126023 PDT | ComputeUpdatedDistTime      0.127966
+2017-08-17 01:14:57.126294 PDT | 1PolicyExecTime            94.1012
+2017-08-17 01:14:57.126570 PDT | 1EnvExecTime               40.6857
+2017-08-17 01:14:57.126836 PDT | 1ProcessExecTime            1.63152
+2017-08-17 01:14:57.127095 PDT | 1AverageReturn           2634
+2017-08-17 01:14:57.127334 PDT | 1ExplainedVariance          0.220622
+2017-08-17 01:14:57.127601 PDT | 1NumTrajs                 400
+2017-08-17 01:14:57.127832 PDT | 1Entropy                    2.82897
+2017-08-17 01:14:57.128078 PDT | 1Perplexity                16.928
+2017-08-17 01:14:57.128349 PDT | 1StdReturn               5871.17
+2017-08-17 01:14:57.128635 PDT | 1MaxReturn              22500
+2017-08-17 01:14:57.128910 PDT | 1MinReturn                  0
+2017-08-17 01:14:57.129185 PDT | 1AveragePolicyStd           0.995604
+2017-08-17 01:14:57.129456 PDT | MeanKLBefore                1.86264e-09
+2017-08-17 01:14:57.129728 PDT | MeanKL                      0.00938695
+2017-08-17 01:14:57.130007 PDT | LossBefore                 -1.62981e-09
+2017-08-17 01:14:57.130274 PDT | LossAfter                  -0.00295675
+2017-08-17 01:14:57.130535 PDT | dLoss                       0.00295675
+2017-08-17 01:14:57.130763 PDT | Time                     3360.64
+2017-08-17 01:14:57.130965 PDT | ItrTime                   262.441
+2017-08-17 01:14:57.131160 PDT | ----------------------  ---------------
+2017-08-17 01:14:57.131520 PDT | [4wayComplex_seed50_faster] itr #13 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:14:57.134621 PDT | [4wayComplex_seed50_faster] itr #13 | ** Step 0 **
+2017-08-17 01:14:57.135304 PDT | [4wayComplex_seed50_faster] itr #13 | Obtaining samples...
+2017-08-17 01:14:57.135608 PDT | [4wayComplex_seed50_faster] itr #13 | Obtaining samples for iteration 13...
+2017-08-17 01:16:46.691062 PDT | [4wayComplex_seed50_faster] itr #13 | Processing samples...
+2017-08-17 01:16:46.958673 PDT | [4wayComplex_seed50_faster] itr #13 | fitting baseline...
+2017-08-17 01:16:47.024826 PDT | [4wayComplex_seed50_faster] itr #13 | fitted
+2017-08-17 01:16:47.133033 PDT | [4wayComplex_seed50_faster] itr #13 | Logging diagnostics...
+2017-08-17 01:16:47.137733 PDT | [4wayComplex_seed50_faster] itr #13 | Computing policy updates...
+2017-08-17 01:16:47.260913 PDT | [4wayComplex_seed50_faster] itr #13 | ** Step 1 **
+2017-08-17 01:16:47.261222 PDT | [4wayComplex_seed50_faster] itr #13 | Obtaining samples...
+2017-08-17 01:16:47.261445 PDT | [4wayComplex_seed50_faster] itr #13 | Obtaining samples for iteration 13...
+2017-08-17 01:19:04.611368 PDT | [4wayComplex_seed50_faster] itr #13 | Processing samples...
+2017-08-17 01:19:05.107190 PDT | [4wayComplex_seed50_faster] itr #13 | fitting baseline...
+2017-08-17 01:19:05.249317 PDT | [4wayComplex_seed50_faster] itr #13 | fitted
+2017-08-17 01:19:05.374108 PDT | [4wayComplex_seed50_faster] itr #13 | Logging diagnostics...
+2017-08-17 01:19:05.379006 PDT | [4wayComplex_seed50_faster] itr #13 | Optimizing policy...
+2017-08-17 01:19:05.379474 PDT | [4wayComplex_seed50_faster] itr #13 | Computing KL before
+2017-08-17 01:19:05.435200 PDT | [4wayComplex_seed50_faster] itr #13 | Computing loss before
+2017-08-17 01:19:05.488454 PDT | [4wayComplex_seed50_faster] itr #13 | Optimizing
+2017-08-17 01:19:05.490126 PDT | [4wayComplex_seed50_faster] itr #13 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:19:05.490663 PDT | [4wayComplex_seed50_faster] itr #13 | computing loss before
+2017-08-17 01:19:05.544386 PDT | [4wayComplex_seed50_faster] itr #13 | performing update
+2017-08-17 01:19:05.544644 PDT | [4wayComplex_seed50_faster] itr #13 | computing gradient
+2017-08-17 01:19:05.698529 PDT | [4wayComplex_seed50_faster] itr #13 | gradient computed
+2017-08-17 01:19:05.698843 PDT | [4wayComplex_seed50_faster] itr #13 | computing descent direction
+2017-08-17 01:19:09.156391 PDT | [4wayComplex_seed50_faster] itr #13 | descent direction computed
+2017-08-17 01:19:09.268976 PDT | [4wayComplex_seed50_faster] itr #13 | backtrack iters: 1
+2017-08-17 01:19:09.269221 PDT | [4wayComplex_seed50_faster] itr #13 | computing loss after
+2017-08-17 01:19:09.269370 PDT | [4wayComplex_seed50_faster] itr #13 | optimization finished
+2017-08-17 01:19:09.269575 PDT | [4wayComplex_seed50_faster] itr #13 | Computing loss after
+2017-08-17 01:19:09.323337 PDT | [4wayComplex_seed50_faster] itr #13 | Computing KL after
+2017-08-17 01:19:09.379385 PDT | [4wayComplex_seed50_faster] itr #13 | Saving snapshot...
+2017-08-17 01:19:09.382977 PDT | [4wayComplex_seed50_faster] itr #13 | Saved
+2017-08-17 01:19:09.383233 PDT | [4wayComplex_seed50_faster] itr #13 | Saving visualization of paths
+2017-08-17 01:19:10.545929 PDT | ----------------------  ---------------
+2017-08-17 01:19:10.548088 PDT | 0PolicyExecTime            68.2478
+2017-08-17 01:19:10.548376 PDT | 0EnvExecTime               38.9594
+2017-08-17 01:19:10.548621 PDT | 0ProcessExecTime            1.63995
+2017-08-17 01:19:10.548897 PDT | 0AverageReturn           1085.25
+2017-08-17 01:19:10.549172 PDT | 0ExplainedVariance          0.0891523
+2017-08-17 01:19:10.549451 PDT | 0NumTrajs                 400
+2017-08-17 01:19:10.549728 PDT | 0Entropy                    2.81785
+2017-08-17 01:19:10.549999 PDT | 0Perplexity                16.7408
+2017-08-17 01:19:10.550273 PDT | 0StdReturn               3224.89
+2017-08-17 01:19:10.550547 PDT | 0MaxReturn              18200
+2017-08-17 01:19:10.550813 PDT | 0MinReturn                  0
+2017-08-17 01:19:10.551077 PDT | 0AveragePolicyStd           0.990118
+2017-08-17 01:19:10.551331 PDT | ComputeUpdatedDistTime      0.122901
+2017-08-17 01:19:10.551568 PDT | 1PolicyExecTime            94.2771
+2017-08-17 01:19:10.551812 PDT | 1EnvExecTime               40.6446
+2017-08-17 01:19:10.552084 PDT | 1ProcessExecTime            1.65367
+2017-08-17 01:19:10.552357 PDT | 1AverageReturn           3140.75
+2017-08-17 01:19:10.552609 PDT | 1ExplainedVariance          0.242903
+2017-08-17 01:19:10.552837 PDT | 1NumTrajs                 400
+2017-08-17 01:19:10.553053 PDT | 1Entropy                    2.81884
+2017-08-17 01:19:10.553311 PDT | 1Perplexity                16.7574
+2017-08-17 01:19:10.553582 PDT | 1StdReturn               6447.33
+2017-08-17 01:19:10.553856 PDT | 1MaxReturn              20700
+2017-08-17 01:19:10.554127 PDT | 1MinReturn                  0
+2017-08-17 01:19:10.554400 PDT | 1AveragePolicyStd           0.990613
+2017-08-17 01:19:10.554676 PDT | MeanKLBefore                2.70665e-08
+2017-08-17 01:19:10.554951 PDT | MeanKL                      0.00938296
+2017-08-17 01:19:10.555223 PDT | LossBefore                 -7.27596e-11
+2017-08-17 01:19:10.555484 PDT | LossAfter                  -0.00211602
+2017-08-17 01:19:10.555755 PDT | dLoss                       0.00211602
+2017-08-17 01:19:10.556025 PDT | Time                     3614.45
+2017-08-17 01:19:10.556250 PDT | ItrTime                   252.252
+2017-08-17 01:19:10.556506 PDT | ----------------------  ---------------
+2017-08-17 01:19:10.556935 PDT | [4wayComplex_seed50_faster] itr #14 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:19:10.559955 PDT | [4wayComplex_seed50_faster] itr #14 | ** Step 0 **
+2017-08-17 01:19:10.560543 PDT | [4wayComplex_seed50_faster] itr #14 | Obtaining samples...
+2017-08-17 01:19:10.560838 PDT | [4wayComplex_seed50_faster] itr #14 | Obtaining samples for iteration 14...
+2017-08-17 01:20:59.384592 PDT | [4wayComplex_seed50_faster] itr #14 | Processing samples...
+2017-08-17 01:20:59.885906 PDT | [4wayComplex_seed50_faster] itr #14 | fitting baseline...
+2017-08-17 01:21:00.010610 PDT | [4wayComplex_seed50_faster] itr #14 | fitted
+2017-08-17 01:21:00.090638 PDT | [4wayComplex_seed50_faster] itr #14 | Logging diagnostics...
+2017-08-17 01:21:00.095450 PDT | [4wayComplex_seed50_faster] itr #14 | Computing policy updates...
+2017-08-17 01:21:00.220120 PDT | [4wayComplex_seed50_faster] itr #14 | ** Step 1 **
+2017-08-17 01:21:00.220379 PDT | [4wayComplex_seed50_faster] itr #14 | Obtaining samples...
+2017-08-17 01:21:00.220560 PDT | [4wayComplex_seed50_faster] itr #14 | Obtaining samples for iteration 14...
+2017-08-17 01:23:17.676721 PDT | [4wayComplex_seed50_faster] itr #14 | Processing samples...
+2017-08-17 01:23:17.910194 PDT | [4wayComplex_seed50_faster] itr #14 | fitting baseline...
+2017-08-17 01:23:18.034950 PDT | [4wayComplex_seed50_faster] itr #14 | fitted
+2017-08-17 01:23:18.197029 PDT | [4wayComplex_seed50_faster] itr #14 | Logging diagnostics...
+2017-08-17 01:23:18.203789 PDT | [4wayComplex_seed50_faster] itr #14 | Optimizing policy...
+2017-08-17 01:23:18.204244 PDT | [4wayComplex_seed50_faster] itr #14 | Computing KL before
+2017-08-17 01:23:18.261391 PDT | [4wayComplex_seed50_faster] itr #14 | Computing loss before
+2017-08-17 01:23:18.313385 PDT | [4wayComplex_seed50_faster] itr #14 | Optimizing
+2017-08-17 01:23:18.314420 PDT | [4wayComplex_seed50_faster] itr #14 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:23:18.314635 PDT | [4wayComplex_seed50_faster] itr #14 | computing loss before
+2017-08-17 01:23:18.367043 PDT | [4wayComplex_seed50_faster] itr #14 | performing update
+2017-08-17 01:23:18.367421 PDT | [4wayComplex_seed50_faster] itr #14 | computing gradient
+2017-08-17 01:23:18.519044 PDT | [4wayComplex_seed50_faster] itr #14 | gradient computed
+2017-08-17 01:23:18.519313 PDT | [4wayComplex_seed50_faster] itr #14 | computing descent direction
+2017-08-17 01:23:22.039797 PDT | [4wayComplex_seed50_faster] itr #14 | descent direction computed
+2017-08-17 01:23:22.204216 PDT | [4wayComplex_seed50_faster] itr #14 | backtrack iters: 2
+2017-08-17 01:23:22.204531 PDT | [4wayComplex_seed50_faster] itr #14 | computing loss after
+2017-08-17 01:23:22.204714 PDT | [4wayComplex_seed50_faster] itr #14 | optimization finished
+2017-08-17 01:23:22.204924 PDT | [4wayComplex_seed50_faster] itr #14 | Computing loss after
+2017-08-17 01:23:22.254632 PDT | [4wayComplex_seed50_faster] itr #14 | Computing KL after
+2017-08-17 01:23:22.308792 PDT | [4wayComplex_seed50_faster] itr #14 | Saving snapshot...
+2017-08-17 01:23:22.312286 PDT | [4wayComplex_seed50_faster] itr #14 | Saved
+2017-08-17 01:23:22.312558 PDT | [4wayComplex_seed50_faster] itr #14 | Saving visualization of paths
+2017-08-17 01:23:23.781019 PDT | ----------------------  ---------------
+2017-08-17 01:23:23.781420 PDT | 0PolicyExecTime            67.4681
+2017-08-17 01:23:23.781678 PDT | 0EnvExecTime               39.0352
+2017-08-17 01:23:23.781933 PDT | 0ProcessExecTime            1.61019
+2017-08-17 01:23:23.782187 PDT | 0AverageReturn            927.25
+2017-08-17 01:23:23.782418 PDT | 0ExplainedVariance          0.089501
+2017-08-17 01:23:23.782679 PDT | 0NumTrajs                 400
+2017-08-17 01:23:23.782970 PDT | 0Entropy                    2.8112
+2017-08-17 01:23:23.783247 PDT | 0Perplexity                16.6298
+2017-08-17 01:23:23.783508 PDT | 0StdReturn               3100.91
+2017-08-17 01:23:23.783757 PDT | 0MaxReturn              19700
+2017-08-17 01:23:23.784043 PDT | 0MinReturn                  0
+2017-08-17 01:23:23.784293 PDT | 0AveragePolicyStd           0.986809
+2017-08-17 01:23:23.784519 PDT | ComputeUpdatedDistTime      0.124104
+2017-08-17 01:23:23.784779 PDT | 1PolicyExecTime            94.6461
+2017-08-17 01:23:23.785005 PDT | 1EnvExecTime               40.4097
+2017-08-17 01:23:23.785261 PDT | 1ProcessExecTime            1.63345
+2017-08-17 01:23:23.785537 PDT | 1AverageReturn           2652.25
+2017-08-17 01:23:23.785787 PDT | 1ExplainedVariance          0.248862
+2017-08-17 01:23:23.786056 PDT | 1NumTrajs                 400
+2017-08-17 01:23:23.786305 PDT | 1Entropy                    2.81034
+2017-08-17 01:23:23.786571 PDT | 1Perplexity                16.6156
+2017-08-17 01:23:23.786820 PDT | 1StdReturn               5994.22
+2017-08-17 01:23:23.787046 PDT | 1MaxReturn              20700
+2017-08-17 01:23:23.787315 PDT | 1MinReturn                  0
+2017-08-17 01:23:23.787546 PDT | 1AveragePolicyStd           0.98638
+2017-08-17 01:23:23.787822 PDT | MeanKLBefore                8.14906e-10
+2017-08-17 01:23:23.788115 PDT | MeanKL                      0.00624195
+2017-08-17 01:23:23.788364 PDT | LossBefore                 -1.4843e-09
+2017-08-17 01:23:23.788627 PDT | LossAfter                  -0.00220112
+2017-08-17 01:23:23.788821 PDT | dLoss                       0.00220111
+2017-08-17 01:23:23.788970 PDT | Time                     3867.38
+2017-08-17 01:23:23.789167 PDT | ItrTime                   251.756
+2017-08-17 01:23:23.789351 PDT | ----------------------  ---------------
+2017-08-17 01:23:23.789720 PDT | [4wayComplex_seed50_faster] itr #15 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:23:23.792782 PDT | [4wayComplex_seed50_faster] itr #15 | ** Step 0 **
+2017-08-17 01:23:23.793395 PDT | [4wayComplex_seed50_faster] itr #15 | Obtaining samples...
+2017-08-17 01:23:23.793690 PDT | [4wayComplex_seed50_faster] itr #15 | Obtaining samples for iteration 15...
+2017-08-17 01:25:12.673730 PDT | [4wayComplex_seed50_faster] itr #15 | Processing samples...
+2017-08-17 01:25:12.816764 PDT | [4wayComplex_seed50_faster] itr #15 | fitting baseline...
+2017-08-17 01:25:12.900685 PDT | [4wayComplex_seed50_faster] itr #15 | fitted
+2017-08-17 01:25:13.138454 PDT | [4wayComplex_seed50_faster] itr #15 | Logging diagnostics...
+2017-08-17 01:25:13.146169 PDT | [4wayComplex_seed50_faster] itr #15 | Computing policy updates...
+2017-08-17 01:25:13.268128 PDT | [4wayComplex_seed50_faster] itr #15 | ** Step 1 **
+2017-08-17 01:25:13.268449 PDT | [4wayComplex_seed50_faster] itr #15 | Obtaining samples...
+2017-08-17 01:25:13.268687 PDT | [4wayComplex_seed50_faster] itr #15 | Obtaining samples for iteration 15...
+2017-08-17 01:27:31.904933 PDT | [4wayComplex_seed50_faster] itr #15 | Processing samples...
+2017-08-17 01:27:32.177424 PDT | [4wayComplex_seed50_faster] itr #15 | fitting baseline...
+2017-08-17 01:27:32.315949 PDT | [4wayComplex_seed50_faster] itr #15 | fitted
+2017-08-17 01:27:32.461139 PDT | [4wayComplex_seed50_faster] itr #15 | Logging diagnostics...
+2017-08-17 01:27:32.466556 PDT | [4wayComplex_seed50_faster] itr #15 | Optimizing policy...
+2017-08-17 01:27:32.467245 PDT | [4wayComplex_seed50_faster] itr #15 | Computing KL before
+2017-08-17 01:27:32.518363 PDT | [4wayComplex_seed50_faster] itr #15 | Computing loss before
+2017-08-17 01:27:32.568327 PDT | [4wayComplex_seed50_faster] itr #15 | Optimizing
+2017-08-17 01:27:32.569165 PDT | [4wayComplex_seed50_faster] itr #15 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:27:32.569318 PDT | [4wayComplex_seed50_faster] itr #15 | computing loss before
+2017-08-17 01:27:32.623101 PDT | [4wayComplex_seed50_faster] itr #15 | performing update
+2017-08-17 01:27:32.623343 PDT | [4wayComplex_seed50_faster] itr #15 | computing gradient
+2017-08-17 01:27:32.776937 PDT | [4wayComplex_seed50_faster] itr #15 | gradient computed
+2017-08-17 01:27:32.777263 PDT | [4wayComplex_seed50_faster] itr #15 | computing descent direction
+2017-08-17 01:27:36.270309 PDT | [4wayComplex_seed50_faster] itr #15 | descent direction computed
+2017-08-17 01:27:36.324089 PDT | [4wayComplex_seed50_faster] itr #15 | backtrack iters: 0
+2017-08-17 01:27:36.324399 PDT | [4wayComplex_seed50_faster] itr #15 | computing loss after
+2017-08-17 01:27:36.324611 PDT | [4wayComplex_seed50_faster] itr #15 | optimization finished
+2017-08-17 01:27:36.325041 PDT | [4wayComplex_seed50_faster] itr #15 | Computing loss after
+2017-08-17 01:27:36.378797 PDT | [4wayComplex_seed50_faster] itr #15 | Computing KL after
+2017-08-17 01:27:36.430156 PDT | [4wayComplex_seed50_faster] itr #15 | Saving snapshot...
+2017-08-17 01:27:36.436250 PDT | [4wayComplex_seed50_faster] itr #15 | Saved
+2017-08-17 01:27:36.436419 PDT | [4wayComplex_seed50_faster] itr #15 | Saving visualization of paths
+2017-08-17 01:27:37.566753 PDT | ----------------------  ---------------
+2017-08-17 01:27:37.567145 PDT | 0PolicyExecTime            67.5471
+2017-08-17 01:27:37.567433 PDT | 0EnvExecTime               38.9777
+2017-08-17 01:27:37.567674 PDT | 0ProcessExecTime            1.64897
+2017-08-17 01:27:37.567875 PDT | 0AverageReturn           1167.75
+2017-08-17 01:27:37.568113 PDT | 0ExplainedVariance          0.134653
+2017-08-17 01:27:37.568349 PDT | 0NumTrajs                 400
+2017-08-17 01:27:37.568591 PDT | 0Entropy                    2.81325
+2017-08-17 01:27:37.568870 PDT | 0Perplexity                16.664
+2017-08-17 01:27:37.569144 PDT | 0StdReturn               3536.85
+2017-08-17 01:27:37.569404 PDT | 0MaxReturn              18200
+2017-08-17 01:27:37.569647 PDT | 0MinReturn                  0
+2017-08-17 01:27:37.569900 PDT | 0AveragePolicyStd           0.987845
+2017-08-17 01:27:37.570125 PDT | ComputeUpdatedDistTime      0.121529
+2017-08-17 01:27:37.570402 PDT | 1PolicyExecTime            95.8573
+2017-08-17 01:27:37.570680 PDT | 1EnvExecTime               40.4038
+2017-08-17 01:27:37.570946 PDT | 1ProcessExecTime            1.61846
+2017-08-17 01:27:37.571188 PDT | 1AverageReturn           2975.5
+2017-08-17 01:27:37.571459 PDT | 1ExplainedVariance          0.337486
+2017-08-17 01:27:37.571690 PDT | 1NumTrajs                 400
+2017-08-17 01:27:37.571956 PDT | 1Entropy                    2.81239
+2017-08-17 01:27:37.572230 PDT | 1Perplexity                16.6496
+2017-08-17 01:27:37.572501 PDT | 1StdReturn               6507.78
+2017-08-17 01:27:37.572752 PDT | 1MaxReturn              21500
+2017-08-17 01:27:37.573013 PDT | 1MinReturn                  0
+2017-08-17 01:27:37.573249 PDT | 1AveragePolicyStd           0.987422
+2017-08-17 01:27:37.573477 PDT | MeanKLBefore               -4.07453e-10
+2017-08-17 01:27:37.573755 PDT | MeanKL                      0.00940702
+2017-08-17 01:27:37.574031 PDT | LossBefore                  6.1118e-10
+2017-08-17 01:27:37.574293 PDT | LossAfter                  -0.00331305
+2017-08-17 01:27:37.574516 PDT | dLoss                       0.00331305
+2017-08-17 01:27:37.574784 PDT | Time                     4121.51
+2017-08-17 01:27:37.575019 PDT | ItrTime                   252.647
+2017-08-17 01:27:37.575294 PDT | ----------------------  ---------------
+2017-08-17 01:27:37.575720 PDT | [4wayComplex_seed50_faster] itr #16 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:27:37.578763 PDT | [4wayComplex_seed50_faster] itr #16 | ** Step 0 **
+2017-08-17 01:27:37.579321 PDT | [4wayComplex_seed50_faster] itr #16 | Obtaining samples...
+2017-08-17 01:27:37.579571 PDT | [4wayComplex_seed50_faster] itr #16 | Obtaining samples for iteration 16...
+2017-08-17 01:29:26.961725 PDT | [4wayComplex_seed50_faster] itr #16 | Processing samples...
+2017-08-17 01:29:27.099156 PDT | [4wayComplex_seed50_faster] itr #16 | fitting baseline...
+2017-08-17 01:29:27.148115 PDT | [4wayComplex_seed50_faster] itr #16 | fitted
+2017-08-17 01:29:27.246974 PDT | [4wayComplex_seed50_faster] itr #16 | Logging diagnostics...
+2017-08-17 01:29:27.250678 PDT | [4wayComplex_seed50_faster] itr #16 | Computing policy updates...
+2017-08-17 01:29:27.370756 PDT | [4wayComplex_seed50_faster] itr #16 | ** Step 1 **
+2017-08-17 01:29:27.371046 PDT | [4wayComplex_seed50_faster] itr #16 | Obtaining samples...
+2017-08-17 01:29:27.371248 PDT | [4wayComplex_seed50_faster] itr #16 | Obtaining samples for iteration 16...
+2017-08-17 01:31:46.285696 PDT | [4wayComplex_seed50_faster] itr #16 | Processing samples...
+2017-08-17 01:31:46.433858 PDT | [4wayComplex_seed50_faster] itr #16 | fitting baseline...
+2017-08-17 01:31:46.513408 PDT | [4wayComplex_seed50_faster] itr #16 | fitted
+2017-08-17 01:31:46.663874 PDT | [4wayComplex_seed50_faster] itr #16 | Logging diagnostics...
+2017-08-17 01:31:46.668921 PDT | [4wayComplex_seed50_faster] itr #16 | Optimizing policy...
+2017-08-17 01:31:46.669206 PDT | [4wayComplex_seed50_faster] itr #16 | Computing KL before
+2017-08-17 01:31:46.719458 PDT | [4wayComplex_seed50_faster] itr #16 | Computing loss before
+2017-08-17 01:31:46.769997 PDT | [4wayComplex_seed50_faster] itr #16 | Optimizing
+2017-08-17 01:31:46.771420 PDT | [4wayComplex_seed50_faster] itr #16 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:31:46.771625 PDT | [4wayComplex_seed50_faster] itr #16 | computing loss before
+2017-08-17 01:31:46.821063 PDT | [4wayComplex_seed50_faster] itr #16 | performing update
+2017-08-17 01:31:46.821372 PDT | [4wayComplex_seed50_faster] itr #16 | computing gradient
+2017-08-17 01:31:46.976882 PDT | [4wayComplex_seed50_faster] itr #16 | gradient computed
+2017-08-17 01:31:46.977202 PDT | [4wayComplex_seed50_faster] itr #16 | computing descent direction
+2017-08-17 01:31:50.503840 PDT | [4wayComplex_seed50_faster] itr #16 | descent direction computed
+2017-08-17 01:31:50.634978 PDT | [4wayComplex_seed50_faster] itr #16 | backtrack iters: 1
+2017-08-17 01:31:50.635290 PDT | [4wayComplex_seed50_faster] itr #16 | computing loss after
+2017-08-17 01:31:50.635509 PDT | [4wayComplex_seed50_faster] itr #16 | optimization finished
+2017-08-17 01:31:50.635734 PDT | [4wayComplex_seed50_faster] itr #16 | Computing loss after
+2017-08-17 01:31:50.687610 PDT | [4wayComplex_seed50_faster] itr #16 | Computing KL after
+2017-08-17 01:31:50.744418 PDT | [4wayComplex_seed50_faster] itr #16 | Saving snapshot...
+2017-08-17 01:31:50.749903 PDT | [4wayComplex_seed50_faster] itr #16 | Saved
+2017-08-17 01:31:50.750165 PDT | [4wayComplex_seed50_faster] itr #16 | Saving visualization of paths
+2017-08-17 01:31:52.159572 PDT | ----------------------  ---------------
+2017-08-17 01:31:52.160738 PDT | 0PolicyExecTime            68.1498
+2017-08-17 01:31:52.161020 PDT | 0EnvExecTime               38.9189
+2017-08-17 01:31:52.161268 PDT | 0ProcessExecTime            1.62113
+2017-08-17 01:31:52.162361 PDT | 0AverageReturn           1371.75
+2017-08-17 01:31:52.162632 PDT | 0ExplainedVariance          0.106302
+2017-08-17 01:31:52.162908 PDT | 0NumTrajs                 400
+2017-08-17 01:31:52.163944 PDT | 0Entropy                    2.81133
+2017-08-17 01:31:52.164211 PDT | 0Perplexity                16.6321
+2017-08-17 01:31:52.164475 PDT | 0StdReturn               3683.03
+2017-08-17 01:31:52.165488 PDT | 0MaxReturn              18300
+2017-08-17 01:31:52.165755 PDT | 0MinReturn                  0
+2017-08-17 01:31:52.166849 PDT | 0AveragePolicyStd           0.986874
+2017-08-17 01:31:52.167113 PDT | ComputeUpdatedDistTime      0.119772
+2017-08-17 01:31:52.168307 PDT | 1PolicyExecTime            96.2299
+2017-08-17 01:31:52.168567 PDT | 1EnvExecTime               40.3172
+2017-08-17 01:31:52.168823 PDT | 1ProcessExecTime            1.6147
+2017-08-17 01:31:52.169054 PDT | 1AverageReturn           3265.75
+2017-08-17 01:31:52.169313 PDT | 1ExplainedVariance          0.277202
+2017-08-17 01:31:52.169556 PDT | 1NumTrajs                 400
+2017-08-17 01:31:52.169786 PDT | 1Entropy                    2.81468
+2017-08-17 01:31:52.170051 PDT | 1Perplexity                16.6879
+2017-08-17 01:31:52.171187 PDT | 1StdReturn               6787.8
+2017-08-17 01:31:52.171455 PDT | 1MaxReturn              21200
+2017-08-17 01:31:52.171712 PDT | 1MinReturn                  0
+2017-08-17 01:31:52.171948 PDT | 1AveragePolicyStd           0.988545
+2017-08-17 01:31:52.172220 PDT | MeanKLBefore               -3.49246e-10
+2017-08-17 01:31:52.172495 PDT | MeanKL                      0.00802186
+2017-08-17 01:31:52.172770 PDT | LossBefore                 -2.32831e-10
+2017-08-17 01:31:52.173844 PDT | LossAfter                  -0.00258149
+2017-08-17 01:31:52.174106 PDT | dLoss                       0.00258149
+2017-08-17 01:31:52.174379 PDT | Time                     4375.82
+2017-08-17 01:31:52.174612 PDT | ItrTime                   253.174
+2017-08-17 01:31:52.174883 PDT | ----------------------  ---------------
+2017-08-17 01:31:52.175306 PDT | [4wayComplex_seed50_faster] itr #17 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:31:52.178448 PDT | [4wayComplex_seed50_faster] itr #17 | ** Step 0 **
+2017-08-17 01:31:52.180427 PDT | [4wayComplex_seed50_faster] itr #17 | Obtaining samples...
+2017-08-17 01:31:52.181886 PDT | [4wayComplex_seed50_faster] itr #17 | Obtaining samples for iteration 17...
+2017-08-17 01:33:50.459976 PDT | [4wayComplex_seed50_faster] itr #17 | Processing samples...
+2017-08-17 01:33:50.611174 PDT | [4wayComplex_seed50_faster] itr #17 | fitting baseline...
+2017-08-17 01:33:50.667256 PDT | [4wayComplex_seed50_faster] itr #17 | fitted
+2017-08-17 01:33:50.950469 PDT | [4wayComplex_seed50_faster] itr #17 | Logging diagnostics...
+2017-08-17 01:33:50.959649 PDT | [4wayComplex_seed50_faster] itr #17 | Computing policy updates...
+2017-08-17 01:33:51.110093 PDT | [4wayComplex_seed50_faster] itr #17 | ** Step 1 **
+2017-08-17 01:33:51.110415 PDT | [4wayComplex_seed50_faster] itr #17 | Obtaining samples...
+2017-08-17 01:33:51.110705 PDT | [4wayComplex_seed50_faster] itr #17 | Obtaining samples for iteration 17...
+2017-08-17 01:36:09.233891 PDT | [4wayComplex_seed50_faster] itr #17 | Processing samples...
+2017-08-17 01:36:09.498705 PDT | [4wayComplex_seed50_faster] itr #17 | fitting baseline...
+2017-08-17 01:36:09.560875 PDT | [4wayComplex_seed50_faster] itr #17 | fitted
+2017-08-17 01:36:09.653004 PDT | [4wayComplex_seed50_faster] itr #17 | Logging diagnostics...
+2017-08-17 01:36:09.657826 PDT | [4wayComplex_seed50_faster] itr #17 | Optimizing policy...
+2017-08-17 01:36:09.658293 PDT | [4wayComplex_seed50_faster] itr #17 | Computing KL before
+2017-08-17 01:36:09.717133 PDT | [4wayComplex_seed50_faster] itr #17 | Computing loss before
+2017-08-17 01:36:09.768591 PDT | [4wayComplex_seed50_faster] itr #17 | Optimizing
+2017-08-17 01:36:09.769960 PDT | [4wayComplex_seed50_faster] itr #17 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:36:09.770100 PDT | [4wayComplex_seed50_faster] itr #17 | computing loss before
+2017-08-17 01:36:09.818913 PDT | [4wayComplex_seed50_faster] itr #17 | performing update
+2017-08-17 01:36:09.819206 PDT | [4wayComplex_seed50_faster] itr #17 | computing gradient
+2017-08-17 01:36:09.970593 PDT | [4wayComplex_seed50_faster] itr #17 | gradient computed
+2017-08-17 01:36:09.970833 PDT | [4wayComplex_seed50_faster] itr #17 | computing descent direction
+2017-08-17 01:36:13.437955 PDT | [4wayComplex_seed50_faster] itr #17 | descent direction computed
+2017-08-17 01:36:13.494194 PDT | [4wayComplex_seed50_faster] itr #17 | backtrack iters: 0
+2017-08-17 01:36:13.494410 PDT | [4wayComplex_seed50_faster] itr #17 | computing loss after
+2017-08-17 01:36:13.494515 PDT | [4wayComplex_seed50_faster] itr #17 | optimization finished
+2017-08-17 01:36:13.494618 PDT | [4wayComplex_seed50_faster] itr #17 | Computing loss after
+2017-08-17 01:36:13.548110 PDT | [4wayComplex_seed50_faster] itr #17 | Computing KL after
+2017-08-17 01:36:13.603066 PDT | [4wayComplex_seed50_faster] itr #17 | Saving snapshot...
+2017-08-17 01:36:13.608003 PDT | [4wayComplex_seed50_faster] itr #17 | Saved
+2017-08-17 01:36:13.608334 PDT | [4wayComplex_seed50_faster] itr #17 | Saving visualization of paths
+2017-08-17 01:36:14.702302 PDT | ----------------------  ---------------
+2017-08-17 01:36:14.702678 PDT | 0PolicyExecTime            76.0865
+2017-08-17 01:36:14.702956 PDT | 0EnvExecTime               39.7971
+2017-08-17 01:36:14.703222 PDT | 0ProcessExecTime            1.64864
+2017-08-17 01:36:14.703487 PDT | 0AverageReturn           1462
+2017-08-17 01:36:14.703720 PDT | 0ExplainedVariance          0.0970671
+2017-08-17 01:36:14.703992 PDT | 0NumTrajs                 400
+2017-08-17 01:36:14.704254 PDT | 0Entropy                    2.80922
+2017-08-17 01:36:14.704503 PDT | 0Perplexity                16.597
+2017-08-17 01:36:14.704758 PDT | 0StdReturn               3550.36
+2017-08-17 01:36:14.704987 PDT | 0MaxReturn              19100
+2017-08-17 01:36:14.705257 PDT | 0MinReturn                  0
+2017-08-17 01:36:14.705502 PDT | 0AveragePolicyStd           0.985776
+2017-08-17 01:36:14.705767 PDT | ComputeUpdatedDistTime      0.148662
+2017-08-17 01:36:14.705999 PDT | 1PolicyExecTime            95.1751
+2017-08-17 01:36:14.706270 PDT | 1EnvExecTime               40.5513
+2017-08-17 01:36:14.706535 PDT | 1ProcessExecTime            1.6261
+2017-08-17 01:36:14.706799 PDT | 1AverageReturn           4265.5
+2017-08-17 01:36:14.707050 PDT | 1ExplainedVariance          0.257167
+2017-08-17 01:36:14.707307 PDT | 1NumTrajs                 400
+2017-08-17 01:36:14.707567 PDT | 1Entropy                    2.80708
+2017-08-17 01:36:14.707815 PDT | 1Perplexity                16.5615
+2017-08-17 01:36:14.708074 PDT | 1StdReturn               7669.79
+2017-08-17 01:36:14.708300 PDT | 1MaxReturn              21400
+2017-08-17 01:36:14.708539 PDT | 1MinReturn                  0
+2017-08-17 01:36:14.708810 PDT | 1AveragePolicyStd           0.984724
+2017-08-17 01:36:14.709071 PDT | MeanKLBefore               -2.09548e-09
+2017-08-17 01:36:14.709329 PDT | MeanKL                      0.00922189
+2017-08-17 01:36:14.709580 PDT | LossBefore                 -6.8394e-10
+2017-08-17 01:36:14.709814 PDT | LossAfter                  -0.00232313
+2017-08-17 01:36:14.710056 PDT | dLoss                       0.00232313
+2017-08-17 01:36:14.710298 PDT | Time                     4638.68
+2017-08-17 01:36:14.710525 PDT | ItrTime                   261.433
+2017-08-17 01:36:14.710765 PDT | ----------------------  ---------------
+2017-08-17 01:36:14.711204 PDT | [4wayComplex_seed50_faster] itr #18 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:36:14.714237 PDT | [4wayComplex_seed50_faster] itr #18 | ** Step 0 **
+2017-08-17 01:36:14.714889 PDT | [4wayComplex_seed50_faster] itr #18 | Obtaining samples...
+2017-08-17 01:36:14.715161 PDT | [4wayComplex_seed50_faster] itr #18 | Obtaining samples for iteration 18...
+2017-08-17 01:38:02.849896 PDT | [4wayComplex_seed50_faster] itr #18 | Processing samples...
+2017-08-17 01:38:02.997811 PDT | [4wayComplex_seed50_faster] itr #18 | fitting baseline...
+2017-08-17 01:38:03.060941 PDT | [4wayComplex_seed50_faster] itr #18 | fitted
+2017-08-17 01:38:03.157897 PDT | [4wayComplex_seed50_faster] itr #18 | Logging diagnostics...
+2017-08-17 01:38:03.162850 PDT | [4wayComplex_seed50_faster] itr #18 | Computing policy updates...
+2017-08-17 01:38:03.278328 PDT | [4wayComplex_seed50_faster] itr #18 | ** Step 1 **
+2017-08-17 01:38:03.278534 PDT | [4wayComplex_seed50_faster] itr #18 | Obtaining samples...
+2017-08-17 01:38:03.278732 PDT | [4wayComplex_seed50_faster] itr #18 | Obtaining samples for iteration 18...
+2017-08-17 01:40:21.461281 PDT | [4wayComplex_seed50_faster] itr #18 | Processing samples...
+2017-08-17 01:40:21.993856 PDT | [4wayComplex_seed50_faster] itr #18 | fitting baseline...
+2017-08-17 01:40:22.079322 PDT | [4wayComplex_seed50_faster] itr #18 | fitted
+2017-08-17 01:40:22.203029 PDT | [4wayComplex_seed50_faster] itr #18 | Logging diagnostics...
+2017-08-17 01:40:22.207998 PDT | [4wayComplex_seed50_faster] itr #18 | Optimizing policy...
+2017-08-17 01:40:22.208463 PDT | [4wayComplex_seed50_faster] itr #18 | Computing KL before
+2017-08-17 01:40:22.261713 PDT | [4wayComplex_seed50_faster] itr #18 | Computing loss before
+2017-08-17 01:40:22.317577 PDT | [4wayComplex_seed50_faster] itr #18 | Optimizing
+2017-08-17 01:40:22.318577 PDT | [4wayComplex_seed50_faster] itr #18 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:40:22.318818 PDT | [4wayComplex_seed50_faster] itr #18 | computing loss before
+2017-08-17 01:40:22.371594 PDT | [4wayComplex_seed50_faster] itr #18 | performing update
+2017-08-17 01:40:22.371931 PDT | [4wayComplex_seed50_faster] itr #18 | computing gradient
+2017-08-17 01:40:22.527023 PDT | [4wayComplex_seed50_faster] itr #18 | gradient computed
+2017-08-17 01:40:22.527313 PDT | [4wayComplex_seed50_faster] itr #18 | computing descent direction
+2017-08-17 01:40:26.021949 PDT | [4wayComplex_seed50_faster] itr #18 | descent direction computed
+2017-08-17 01:40:26.074548 PDT | [4wayComplex_seed50_faster] itr #18 | backtrack iters: 0
+2017-08-17 01:40:26.074827 PDT | [4wayComplex_seed50_faster] itr #18 | computing loss after
+2017-08-17 01:40:26.075043 PDT | [4wayComplex_seed50_faster] itr #18 | optimization finished
+2017-08-17 01:40:26.075229 PDT | [4wayComplex_seed50_faster] itr #18 | Computing loss after
+2017-08-17 01:40:26.126248 PDT | [4wayComplex_seed50_faster] itr #18 | Computing KL after
+2017-08-17 01:40:26.175313 PDT | [4wayComplex_seed50_faster] itr #18 | Saving snapshot...
+2017-08-17 01:40:26.178688 PDT | [4wayComplex_seed50_faster] itr #18 | Saved
+2017-08-17 01:40:26.178970 PDT | [4wayComplex_seed50_faster] itr #18 | Saving visualization of paths
+2017-08-17 01:40:27.636246 PDT | ----------------------  ---------------
+2017-08-17 01:40:27.636645 PDT | 0PolicyExecTime            66.8246
+2017-08-17 01:40:27.636931 PDT | 0EnvExecTime               38.9914
+2017-08-17 01:40:27.637181 PDT | 0ProcessExecTime            1.6109
+2017-08-17 01:40:27.637428 PDT | 0AverageReturn            854.25
+2017-08-17 01:40:27.637688 PDT | 0ExplainedVariance          0.0866433
+2017-08-17 01:40:27.637924 PDT | 0NumTrajs                 400
+2017-08-17 01:40:27.638202 PDT | 0Entropy                    2.81704
+2017-08-17 01:40:27.638476 PDT | 0Perplexity                16.7273
+2017-08-17 01:40:27.638738 PDT | 0StdReturn               2590.03
+2017-08-17 01:40:27.638979 PDT | 0MaxReturn              17700
+2017-08-17 01:40:27.639239 PDT | 0MinReturn                  0
+2017-08-17 01:40:27.639466 PDT | 0AveragePolicyStd           0.989636
+2017-08-17 01:40:27.639740 PDT | ComputeUpdatedDistTime      0.115067
+2017-08-17 01:40:27.640030 PDT | 1PolicyExecTime            95.222
+2017-08-17 01:40:27.640302 PDT | 1EnvExecTime               40.5317
+2017-08-17 01:40:27.640497 PDT | 1ProcessExecTime            1.64848
+2017-08-17 01:40:27.640689 PDT | 1AverageReturn           3744.75
+2017-08-17 01:40:27.640916 PDT | 1ExplainedVariance          0.323705
+2017-08-17 01:40:27.641102 PDT | 1NumTrajs                 400
+2017-08-17 01:40:27.641286 PDT | 1Entropy                    2.81417
+2017-08-17 01:40:27.641502 PDT | 1Perplexity                16.6793
+2017-08-17 01:40:27.641729 PDT | 1StdReturn               7105.49
+2017-08-17 01:40:27.641950 PDT | 1MaxReturn              22500
+2017-08-17 01:40:27.642170 PDT | 1MinReturn                  0
+2017-08-17 01:40:27.642375 PDT | 1AveragePolicyStd           0.988222
+2017-08-17 01:40:27.642564 PDT | MeanKLBefore                6.51927e-09
+2017-08-17 01:40:27.642790 PDT | MeanKL                      0.0094758
+2017-08-17 01:40:27.642987 PDT | LossBefore                 -3.34694e-10
+2017-08-17 01:40:27.643169 PDT | LossAfter                  -0.00311683
+2017-08-17 01:40:27.643353 PDT | dLoss                       0.00311683
+2017-08-17 01:40:27.643578 PDT | Time                     4891.25
+2017-08-17 01:40:27.643806 PDT | ItrTime                   251.468
+2017-08-17 01:40:27.644038 PDT | ----------------------  ---------------
+2017-08-17 01:40:27.644406 PDT | [4wayComplex_seed50_faster] itr #19 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:40:27.647458 PDT | [4wayComplex_seed50_faster] itr #19 | ** Step 0 **
+2017-08-17 01:40:27.648054 PDT | [4wayComplex_seed50_faster] itr #19 | Obtaining samples...
+2017-08-17 01:40:27.648277 PDT | [4wayComplex_seed50_faster] itr #19 | Obtaining samples for iteration 19...
+2017-08-17 01:42:16.385938 PDT | [4wayComplex_seed50_faster] itr #19 | Processing samples...
+2017-08-17 01:42:16.904187 PDT | [4wayComplex_seed50_faster] itr #19 | fitting baseline...
+2017-08-17 01:42:17.018027 PDT | [4wayComplex_seed50_faster] itr #19 | fitted
+2017-08-17 01:42:17.176849 PDT | [4wayComplex_seed50_faster] itr #19 | Logging diagnostics...
+2017-08-17 01:42:17.186497 PDT | [4wayComplex_seed50_faster] itr #19 | Computing policy updates...
+2017-08-17 01:42:17.310717 PDT | [4wayComplex_seed50_faster] itr #19 | ** Step 1 **
+2017-08-17 01:42:17.310910 PDT | [4wayComplex_seed50_faster] itr #19 | Obtaining samples...
+2017-08-17 01:42:17.311056 PDT | [4wayComplex_seed50_faster] itr #19 | Obtaining samples for iteration 19...
+2017-08-17 01:44:35.818903 PDT | [4wayComplex_seed50_faster] itr #19 | Processing samples...
+2017-08-17 01:44:35.959834 PDT | [4wayComplex_seed50_faster] itr #19 | fitting baseline...
+2017-08-17 01:44:36.012502 PDT | [4wayComplex_seed50_faster] itr #19 | fitted
+2017-08-17 01:44:36.123951 PDT | [4wayComplex_seed50_faster] itr #19 | Logging diagnostics...
+2017-08-17 01:44:36.129988 PDT | [4wayComplex_seed50_faster] itr #19 | Optimizing policy...
+2017-08-17 01:44:36.130436 PDT | [4wayComplex_seed50_faster] itr #19 | Computing KL before
+2017-08-17 01:44:36.186967 PDT | [4wayComplex_seed50_faster] itr #19 | Computing loss before
+2017-08-17 01:44:36.236729 PDT | [4wayComplex_seed50_faster] itr #19 | Optimizing
+2017-08-17 01:44:36.237759 PDT | [4wayComplex_seed50_faster] itr #19 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:44:36.237963 PDT | [4wayComplex_seed50_faster] itr #19 | computing loss before
+2017-08-17 01:44:36.291696 PDT | [4wayComplex_seed50_faster] itr #19 | performing update
+2017-08-17 01:44:36.292026 PDT | [4wayComplex_seed50_faster] itr #19 | computing gradient
+2017-08-17 01:44:36.446481 PDT | [4wayComplex_seed50_faster] itr #19 | gradient computed
+2017-08-17 01:44:36.446796 PDT | [4wayComplex_seed50_faster] itr #19 | computing descent direction
+2017-08-17 01:44:39.938111 PDT | [4wayComplex_seed50_faster] itr #19 | descent direction computed
+2017-08-17 01:44:40.044518 PDT | [4wayComplex_seed50_faster] itr #19 | backtrack iters: 1
+2017-08-17 01:44:40.044728 PDT | [4wayComplex_seed50_faster] itr #19 | computing loss after
+2017-08-17 01:44:40.044880 PDT | [4wayComplex_seed50_faster] itr #19 | optimization finished
+2017-08-17 01:44:40.045104 PDT | [4wayComplex_seed50_faster] itr #19 | Computing loss after
+2017-08-17 01:44:40.097881 PDT | [4wayComplex_seed50_faster] itr #19 | Computing KL after
+2017-08-17 01:44:40.147724 PDT | [4wayComplex_seed50_faster] itr #19 | Saving snapshot...
+2017-08-17 01:44:40.152880 PDT | [4wayComplex_seed50_faster] itr #19 | Saved
+2017-08-17 01:44:40.153126 PDT | [4wayComplex_seed50_faster] itr #19 | Saving visualization of paths
+2017-08-17 01:44:41.302454 PDT | ----------------------  ---------------
+2017-08-17 01:44:41.302845 PDT | 0PolicyExecTime            67.1982
+2017-08-17 01:44:41.303109 PDT | 0EnvExecTime               39.1826
+2017-08-17 01:44:41.303358 PDT | 0ProcessExecTime            1.63848
+2017-08-17 01:44:41.303592 PDT | 0AverageReturn           1033
+2017-08-17 01:44:41.303869 PDT | 0ExplainedVariance          0.0733737
+2017-08-17 01:44:41.304156 PDT | 0NumTrajs                 400
+2017-08-17 01:44:41.304422 PDT | 0Entropy                    2.81637
+2017-08-17 01:44:41.304667 PDT | 0Perplexity                16.716
+2017-08-17 01:44:41.304938 PDT | 0StdReturn               3003.62
+2017-08-17 01:44:41.305171 PDT | 0MaxReturn              18000
+2017-08-17 01:44:41.305399 PDT | 0MinReturn                  0
+2017-08-17 01:44:41.305674 PDT | 0AveragePolicyStd           0.989324
+2017-08-17 01:44:41.305948 PDT | ComputeUpdatedDistTime      0.122843
+2017-08-17 01:44:41.306211 PDT | 1PolicyExecTime            95.5748
+2017-08-17 01:44:41.306452 PDT | 1EnvExecTime               40.5437
+2017-08-17 01:44:41.306731 PDT | 1ProcessExecTime            1.63991
+2017-08-17 01:44:41.306961 PDT | 1AverageReturn           4352.75
+2017-08-17 01:44:41.307182 PDT | 1ExplainedVariance          0.226043
+2017-08-17 01:44:41.307453 PDT | 1NumTrajs                 400
+2017-08-17 01:44:41.307725 PDT | 1Entropy                    2.81541
+2017-08-17 01:44:41.308003 PDT | 1Perplexity                16.7
+2017-08-17 01:44:41.308248 PDT | 1StdReturn               7944.38
+2017-08-17 01:44:41.308517 PDT | 1MaxReturn              22300
+2017-08-17 01:44:41.308750 PDT | 1MinReturn                  0
+2017-08-17 01:44:41.308973 PDT | 1AveragePolicyStd           0.988849
+2017-08-17 01:44:41.309250 PDT | MeanKLBefore               -1.45519e-09
+2017-08-17 01:44:41.309519 PDT | MeanKL                      0.00675947
+2017-08-17 01:44:41.309785 PDT | LossBefore                  8.00355e-10
+2017-08-17 01:44:41.310033 PDT | LossAfter                  -0.00193
+2017-08-17 01:44:41.310308 PDT | dLoss                       0.00193
+2017-08-17 01:44:41.310532 PDT | Time                     5145.22
+2017-08-17 01:44:41.310775 PDT | ItrTime                   252.509
+2017-08-17 01:44:41.311051 PDT | ----------------------  ---------------
+2017-08-17 01:44:41.311478 PDT | [4wayComplex_seed50_faster] itr #20 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:44:41.314450 PDT | [4wayComplex_seed50_faster] itr #20 | ** Step 0 **
+2017-08-17 01:44:41.314998 PDT | [4wayComplex_seed50_faster] itr #20 | Obtaining samples...
+2017-08-17 01:44:41.315224 PDT | [4wayComplex_seed50_faster] itr #20 | Obtaining samples for iteration 20...
+2017-08-17 01:46:29.608468 PDT | [4wayComplex_seed50_faster] itr #20 | Processing samples...
+2017-08-17 01:46:29.754629 PDT | [4wayComplex_seed50_faster] itr #20 | fitting baseline...
+2017-08-17 01:46:29.834413 PDT | [4wayComplex_seed50_faster] itr #20 | fitted
+2017-08-17 01:46:30.008412 PDT | [4wayComplex_seed50_faster] itr #20 | Logging diagnostics...
+2017-08-17 01:46:30.013481 PDT | [4wayComplex_seed50_faster] itr #20 | Computing policy updates...
+2017-08-17 01:46:30.136479 PDT | [4wayComplex_seed50_faster] itr #20 | ** Step 1 **
+2017-08-17 01:46:30.136753 PDT | [4wayComplex_seed50_faster] itr #20 | Obtaining samples...
+2017-08-17 01:46:30.136931 PDT | [4wayComplex_seed50_faster] itr #20 | Obtaining samples for iteration 20...
+2017-08-17 01:48:48.554111 PDT | [4wayComplex_seed50_faster] itr #20 | Processing samples...
+2017-08-17 01:48:48.947053 PDT | [4wayComplex_seed50_faster] itr #20 | fitting baseline...
+2017-08-17 01:48:49.020642 PDT | [4wayComplex_seed50_faster] itr #20 | fitted
+2017-08-17 01:48:49.150104 PDT | [4wayComplex_seed50_faster] itr #20 | Logging diagnostics...
+2017-08-17 01:48:49.164605 PDT | [4wayComplex_seed50_faster] itr #20 | Optimizing policy...
+2017-08-17 01:48:49.165072 PDT | [4wayComplex_seed50_faster] itr #20 | Computing KL before
+2017-08-17 01:48:49.231463 PDT | [4wayComplex_seed50_faster] itr #20 | Computing loss before
+2017-08-17 01:48:49.290816 PDT | [4wayComplex_seed50_faster] itr #20 | Optimizing
+2017-08-17 01:48:49.292195 PDT | [4wayComplex_seed50_faster] itr #20 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:48:49.292427 PDT | [4wayComplex_seed50_faster] itr #20 | computing loss before
+2017-08-17 01:48:49.346819 PDT | [4wayComplex_seed50_faster] itr #20 | performing update
+2017-08-17 01:48:49.347242 PDT | [4wayComplex_seed50_faster] itr #20 | computing gradient
+2017-08-17 01:48:49.519624 PDT | [4wayComplex_seed50_faster] itr #20 | gradient computed
+2017-08-17 01:48:49.519969 PDT | [4wayComplex_seed50_faster] itr #20 | computing descent direction
+2017-08-17 01:48:53.063978 PDT | [4wayComplex_seed50_faster] itr #20 | descent direction computed
+2017-08-17 01:48:53.176776 PDT | [4wayComplex_seed50_faster] itr #20 | backtrack iters: 1
+2017-08-17 01:48:53.177074 PDT | [4wayComplex_seed50_faster] itr #20 | computing loss after
+2017-08-17 01:48:53.177198 PDT | [4wayComplex_seed50_faster] itr #20 | optimization finished
+2017-08-17 01:48:53.177304 PDT | [4wayComplex_seed50_faster] itr #20 | Computing loss after
+2017-08-17 01:48:53.229158 PDT | [4wayComplex_seed50_faster] itr #20 | Computing KL after
+2017-08-17 01:48:53.278165 PDT | [4wayComplex_seed50_faster] itr #20 | Saving snapshot...
+2017-08-17 01:48:53.281618 PDT | [4wayComplex_seed50_faster] itr #20 | Saved
+2017-08-17 01:48:53.281792 PDT | [4wayComplex_seed50_faster] itr #20 | Saving visualization of paths
+2017-08-17 01:48:54.734206 PDT | ----------------------  ---------------
+2017-08-17 01:48:54.734584 PDT | 0PolicyExecTime            66.7767
+2017-08-17 01:48:54.734864 PDT | 0EnvExecTime               39.1802
+2017-08-17 01:48:54.735134 PDT | 0ProcessExecTime            1.62823
+2017-08-17 01:48:54.735382 PDT | 0AverageReturn           1679.75
+2017-08-17 01:48:54.735654 PDT | 0ExplainedVariance          0.0718845
+2017-08-17 01:48:54.735884 PDT | 0NumTrajs                 400
+2017-08-17 01:48:54.736132 PDT | 0Entropy                    2.82168
+2017-08-17 01:48:54.736411 PDT | 0Perplexity                16.805
+2017-08-17 01:48:54.736682 PDT | 0StdReturn               3770.87
+2017-08-17 01:48:54.736952 PDT | 0MaxReturn              18100
+2017-08-17 01:48:54.737197 PDT | 0MinReturn                  0
+2017-08-17 01:48:54.737456 PDT | 0AveragePolicyStd           0.991962
+2017-08-17 01:48:54.737706 PDT | ComputeUpdatedDistTime      0.122548
+2017-08-17 01:48:54.737929 PDT | 1PolicyExecTime            95.7312
+2017-08-17 01:48:54.738202 PDT | 1EnvExecTime               40.3043
+2017-08-17 01:48:54.738474 PDT | 1ProcessExecTime            1.62576
+2017-08-17 01:48:54.738741 PDT | 1AverageReturn           4708.25
+2017-08-17 01:48:54.738987 PDT | 1ExplainedVariance          0.244504
+2017-08-17 01:48:54.739257 PDT | 1NumTrajs                 400
+2017-08-17 01:48:54.739487 PDT | 1Entropy                    2.82027
+2017-08-17 01:48:54.739710 PDT | 1Perplexity                16.7813
+2017-08-17 01:48:54.739990 PDT | 1StdReturn               8350.56
+2017-08-17 01:48:54.740263 PDT | 1MaxReturn              22300
+2017-08-17 01:48:54.740530 PDT | 1MinReturn                  0
+2017-08-17 01:48:54.740769 PDT | 1AveragePolicyStd           0.991262
+2017-08-17 01:48:54.740902 PDT | MeanKLBefore                3.04863e-09
+2017-08-17 01:48:54.741090 PDT | MeanKL                      0.00658951
+2017-08-17 01:48:54.741313 PDT | LossBefore                 -2.91038e-10
+2017-08-17 01:48:54.741500 PDT | LossAfter                  -0.00235297
+2017-08-17 01:48:54.741684 PDT | dLoss                       0.00235297
+2017-08-17 01:48:54.741906 PDT | Time                     5398.35
+2017-08-17 01:48:54.742130 PDT | ItrTime                   251.97
+2017-08-17 01:48:54.742351 PDT | ----------------------  ---------------
+2017-08-17 01:48:54.742716 PDT | [4wayComplex_seed50_faster] itr #21 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:48:54.745769 PDT | [4wayComplex_seed50_faster] itr #21 | ** Step 0 **
+2017-08-17 01:48:54.746375 PDT | [4wayComplex_seed50_faster] itr #21 | Obtaining samples...
+2017-08-17 01:48:54.746586 PDT | [4wayComplex_seed50_faster] itr #21 | Obtaining samples for iteration 21...
+2017-08-17 01:50:44.013727 PDT | [4wayComplex_seed50_faster] itr #21 | Processing samples...
+2017-08-17 01:50:44.166609 PDT | [4wayComplex_seed50_faster] itr #21 | fitting baseline...
+2017-08-17 01:50:44.246638 PDT | [4wayComplex_seed50_faster] itr #21 | fitted
+2017-08-17 01:50:44.377207 PDT | [4wayComplex_seed50_faster] itr #21 | Logging diagnostics...
+2017-08-17 01:50:44.382140 PDT | [4wayComplex_seed50_faster] itr #21 | Computing policy updates...
+2017-08-17 01:50:44.503957 PDT | [4wayComplex_seed50_faster] itr #21 | ** Step 1 **
+2017-08-17 01:50:44.504319 PDT | [4wayComplex_seed50_faster] itr #21 | Obtaining samples...
+2017-08-17 01:50:44.504606 PDT | [4wayComplex_seed50_faster] itr #21 | Obtaining samples for iteration 21...
+2017-08-17 01:53:03.641148 PDT | [4wayComplex_seed50_faster] itr #21 | Processing samples...
+2017-08-17 01:53:04.230545 PDT | [4wayComplex_seed50_faster] itr #21 | fitting baseline...
+2017-08-17 01:53:04.365916 PDT | [4wayComplex_seed50_faster] itr #21 | fitted
+2017-08-17 01:53:04.488429 PDT | [4wayComplex_seed50_faster] itr #21 | Logging diagnostics...
+2017-08-17 01:53:04.493241 PDT | [4wayComplex_seed50_faster] itr #21 | Optimizing policy...
+2017-08-17 01:53:04.493705 PDT | [4wayComplex_seed50_faster] itr #21 | Computing KL before
+2017-08-17 01:53:04.546920 PDT | [4wayComplex_seed50_faster] itr #21 | Computing loss before
+2017-08-17 01:53:04.599403 PDT | [4wayComplex_seed50_faster] itr #21 | Optimizing
+2017-08-17 01:53:04.603148 PDT | [4wayComplex_seed50_faster] itr #21 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:53:04.603495 PDT | [4wayComplex_seed50_faster] itr #21 | computing loss before
+2017-08-17 01:53:04.662133 PDT | [4wayComplex_seed50_faster] itr #21 | performing update
+2017-08-17 01:53:04.662411 PDT | [4wayComplex_seed50_faster] itr #21 | computing gradient
+2017-08-17 01:53:04.815734 PDT | [4wayComplex_seed50_faster] itr #21 | gradient computed
+2017-08-17 01:53:04.816026 PDT | [4wayComplex_seed50_faster] itr #21 | computing descent direction
+2017-08-17 01:53:08.362880 PDT | [4wayComplex_seed50_faster] itr #21 | descent direction computed
+2017-08-17 01:53:08.529514 PDT | [4wayComplex_seed50_faster] itr #21 | backtrack iters: 2
+2017-08-17 01:53:08.529833 PDT | [4wayComplex_seed50_faster] itr #21 | computing loss after
+2017-08-17 01:53:08.530052 PDT | [4wayComplex_seed50_faster] itr #21 | optimization finished
+2017-08-17 01:53:08.530268 PDT | [4wayComplex_seed50_faster] itr #21 | Computing loss after
+2017-08-17 01:53:08.582236 PDT | [4wayComplex_seed50_faster] itr #21 | Computing KL after
+2017-08-17 01:53:08.634154 PDT | [4wayComplex_seed50_faster] itr #21 | Saving snapshot...
+2017-08-17 01:53:08.640093 PDT | [4wayComplex_seed50_faster] itr #21 | Saved
+2017-08-17 01:53:08.640370 PDT | [4wayComplex_seed50_faster] itr #21 | Saving visualization of paths
+2017-08-17 01:53:09.806295 PDT | ----------------------  ---------------
+2017-08-17 01:53:09.806655 PDT | 0PolicyExecTime            67.4988
+2017-08-17 01:53:09.806899 PDT | 0EnvExecTime               39.4358
+2017-08-17 01:53:09.807139 PDT | 0ProcessExecTime            1.63357
+2017-08-17 01:53:09.807413 PDT | 0AverageReturn           1587.5
+2017-08-17 01:53:09.807681 PDT | 0ExplainedVariance          0.0617558
+2017-08-17 01:53:09.807947 PDT | 0NumTrajs                 400
+2017-08-17 01:53:09.808191 PDT | 0Entropy                    2.82435
+2017-08-17 01:53:09.808447 PDT | 0Perplexity                16.85
+2017-08-17 01:53:09.808668 PDT | 0StdReturn               3713.78
+2017-08-17 01:53:09.808940 PDT | 0MaxReturn              19600
+2017-08-17 01:53:09.809207 PDT | 0MinReturn                  0
+2017-08-17 01:53:09.809468 PDT | 0AveragePolicyStd           0.993281
+2017-08-17 01:53:09.809659 PDT | ComputeUpdatedDistTime      0.121414
+2017-08-17 01:53:09.809848 PDT | 1PolicyExecTime            96.3399
+2017-08-17 01:53:09.810072 PDT | 1EnvExecTime               40.4253
+2017-08-17 01:53:09.810258 PDT | 1ProcessExecTime            1.59686
+2017-08-17 01:53:09.810439 PDT | 1AverageReturn           5098.75
+2017-08-17 01:53:09.810651 PDT | 1ExplainedVariance          0.229926
+2017-08-17 01:53:09.810873 PDT | 1NumTrajs                 400
+2017-08-17 01:53:09.811089 PDT | 1Entropy                    2.82337
+2017-08-17 01:53:09.811304 PDT | 1Perplexity                16.8335
+2017-08-17 01:53:09.811507 PDT | 1StdReturn               8665.76
+2017-08-17 01:53:09.811696 PDT | 1MaxReturn              22700
+2017-08-17 01:53:09.811928 PDT | 1MinReturn                  0
+2017-08-17 01:53:09.812118 PDT | 1AveragePolicyStd           0.992805
+2017-08-17 01:53:09.812307 PDT | MeanKLBefore                1.1787e-09
+2017-08-17 01:53:09.812488 PDT | MeanKL                      0.00627709
+2017-08-17 01:53:09.812681 PDT | LossBefore                  4.51109e-10
+2017-08-17 01:53:09.812900 PDT | LossAfter                  -0.00166402
+2017-08-17 01:53:09.813115 PDT | dLoss                       0.00166402
+2017-08-17 01:53:09.813327 PDT | Time                     5653.71
+2017-08-17 01:53:09.813553 PDT | ItrTime                   253.898
+2017-08-17 01:53:09.813750 PDT | ----------------------  ---------------
+2017-08-17 01:53:09.814074 PDT | [4wayComplex_seed50_faster] itr #22 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:53:09.817063 PDT | [4wayComplex_seed50_faster] itr #22 | ** Step 0 **
+2017-08-17 01:53:09.817539 PDT | [4wayComplex_seed50_faster] itr #22 | Obtaining samples...
+2017-08-17 01:53:09.817781 PDT | [4wayComplex_seed50_faster] itr #22 | Obtaining samples for iteration 22...
+2017-08-17 01:55:07.435356 PDT | [4wayComplex_seed50_faster] itr #22 | Processing samples...
+2017-08-17 01:55:07.582674 PDT | [4wayComplex_seed50_faster] itr #22 | fitting baseline...
+2017-08-17 01:55:07.645710 PDT | [4wayComplex_seed50_faster] itr #22 | fitted
+2017-08-17 01:55:07.894468 PDT | [4wayComplex_seed50_faster] itr #22 | Logging diagnostics...
+2017-08-17 01:55:07.907430 PDT | [4wayComplex_seed50_faster] itr #22 | Computing policy updates...
+2017-08-17 01:55:08.030851 PDT | [4wayComplex_seed50_faster] itr #22 | ** Step 1 **
+2017-08-17 01:55:08.031229 PDT | [4wayComplex_seed50_faster] itr #22 | Obtaining samples...
+2017-08-17 01:55:08.031481 PDT | [4wayComplex_seed50_faster] itr #22 | Obtaining samples for iteration 22...
+2017-08-17 01:57:26.923253 PDT | [4wayComplex_seed50_faster] itr #22 | Processing samples...
+2017-08-17 01:57:27.136686 PDT | [4wayComplex_seed50_faster] itr #22 | fitting baseline...
+2017-08-17 01:57:27.231648 PDT | [4wayComplex_seed50_faster] itr #22 | fitted
+2017-08-17 01:57:27.471075 PDT | [4wayComplex_seed50_faster] itr #22 | Logging diagnostics...
+2017-08-17 01:57:27.476304 PDT | [4wayComplex_seed50_faster] itr #22 | Optimizing policy...
+2017-08-17 01:57:27.476705 PDT | [4wayComplex_seed50_faster] itr #22 | Computing KL before
+2017-08-17 01:57:27.524393 PDT | [4wayComplex_seed50_faster] itr #22 | Computing loss before
+2017-08-17 01:57:27.574748 PDT | [4wayComplex_seed50_faster] itr #22 | Optimizing
+2017-08-17 01:57:27.576294 PDT | [4wayComplex_seed50_faster] itr #22 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 01:57:27.576550 PDT | [4wayComplex_seed50_faster] itr #22 | computing loss before
+2017-08-17 01:57:27.632479 PDT | [4wayComplex_seed50_faster] itr #22 | performing update
+2017-08-17 01:57:27.632736 PDT | [4wayComplex_seed50_faster] itr #22 | computing gradient
+2017-08-17 01:57:27.789578 PDT | [4wayComplex_seed50_faster] itr #22 | gradient computed
+2017-08-17 01:57:27.789787 PDT | [4wayComplex_seed50_faster] itr #22 | computing descent direction
+2017-08-17 01:57:31.273278 PDT | [4wayComplex_seed50_faster] itr #22 | descent direction computed
+2017-08-17 01:57:31.422137 PDT | [4wayComplex_seed50_faster] itr #22 | backtrack iters: 1
+2017-08-17 01:57:31.422420 PDT | [4wayComplex_seed50_faster] itr #22 | computing loss after
+2017-08-17 01:57:31.422593 PDT | [4wayComplex_seed50_faster] itr #22 | optimization finished
+2017-08-17 01:57:31.422764 PDT | [4wayComplex_seed50_faster] itr #22 | Computing loss after
+2017-08-17 01:57:31.489329 PDT | [4wayComplex_seed50_faster] itr #22 | Computing KL after
+2017-08-17 01:57:31.538134 PDT | [4wayComplex_seed50_faster] itr #22 | Saving snapshot...
+2017-08-17 01:57:31.543218 PDT | [4wayComplex_seed50_faster] itr #22 | Saved
+2017-08-17 01:57:31.543524 PDT | [4wayComplex_seed50_faster] itr #22 | Saving visualization of paths
+2017-08-17 01:57:33.056718 PDT | ----------------------  ---------------
+2017-08-17 01:57:33.057105 PDT | 0PolicyExecTime            76.012
+2017-08-17 01:57:33.057348 PDT | 0EnvExecTime               39.2688
+2017-08-17 01:57:33.057724 PDT | 0ProcessExecTime            1.62585
+2017-08-17 01:57:33.058002 PDT | 0AverageReturn           1504.75
+2017-08-17 01:57:33.058266 PDT | 0ExplainedVariance          0.0773017
+2017-08-17 01:57:33.058514 PDT | 0NumTrajs                 400
+2017-08-17 01:57:33.058799 PDT | 0Entropy                    2.82011
+2017-08-17 01:57:33.059038 PDT | 0Perplexity                16.7786
+2017-08-17 01:57:33.059313 PDT | 0StdReturn               3614.75
+2017-08-17 01:57:33.059592 PDT | 0MaxReturn              19300
+2017-08-17 01:57:33.059858 PDT | 0MinReturn                  0
+2017-08-17 01:57:33.060116 PDT | 0AveragePolicyStd           0.991183
+2017-08-17 01:57:33.060390 PDT | ComputeUpdatedDistTime      0.119503
+2017-08-17 01:57:33.060619 PDT | 1PolicyExecTime            96.0263
+2017-08-17 01:57:33.060952 PDT | 1EnvExecTime               40.4565
+2017-08-17 01:57:33.061301 PDT | 1ProcessExecTime            1.64412
+2017-08-17 01:57:33.061564 PDT | 1AverageReturn           4923.75
+2017-08-17 01:57:33.061813 PDT | 1ExplainedVariance          0.235655
+2017-08-17 01:57:33.062067 PDT | 1NumTrajs                 400
+2017-08-17 01:57:33.062405 PDT | 1Entropy                    2.81652
+2017-08-17 01:57:33.062639 PDT | 1Perplexity                16.7186
+2017-08-17 01:57:33.062868 PDT | 1StdReturn               8507.73
+2017-08-17 01:57:33.063092 PDT | 1MaxReturn              23000
+2017-08-17 01:57:33.063353 PDT | 1MinReturn                  0
+2017-08-17 01:57:33.063620 PDT | 1AveragePolicyStd           0.989407
+2017-08-17 01:57:33.063886 PDT | MeanKLBefore                6.98492e-10
+2017-08-17 01:57:33.064152 PDT | MeanKL                      0.00657951
+2017-08-17 01:57:33.064395 PDT | LossBefore                  1.16415e-10
+2017-08-17 01:57:33.064652 PDT | LossAfter                  -0.00221101
+2017-08-17 01:57:33.064882 PDT | dLoss                       0.00221101
+2017-08-17 01:57:33.065153 PDT | Time                     5916.62
+2017-08-17 01:57:33.065419 PDT | ItrTime                   261.729
+2017-08-17 01:57:33.065738 PDT | ----------------------  ---------------
+2017-08-17 01:57:33.066402 PDT | [4wayComplex_seed50_faster] itr #23 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 01:57:33.069565 PDT | [4wayComplex_seed50_faster] itr #23 | ** Step 0 **
+2017-08-17 01:57:33.070231 PDT | [4wayComplex_seed50_faster] itr #23 | Obtaining samples...
+2017-08-17 01:57:33.070522 PDT | [4wayComplex_seed50_faster] itr #23 | Obtaining samples for iteration 23...
+2017-08-17 01:59:21.453085 PDT | [4wayComplex_seed50_faster] itr #23 | Processing samples...
+2017-08-17 01:59:21.616437 PDT | [4wayComplex_seed50_faster] itr #23 | fitting baseline...
+2017-08-17 01:59:21.711078 PDT | [4wayComplex_seed50_faster] itr #23 | fitted
+2017-08-17 01:59:21.857986 PDT | [4wayComplex_seed50_faster] itr #23 | Logging diagnostics...
+2017-08-17 01:59:21.865038 PDT | [4wayComplex_seed50_faster] itr #23 | Computing policy updates...
+2017-08-17 01:59:21.995162 PDT | [4wayComplex_seed50_faster] itr #23 | ** Step 1 **
+2017-08-17 01:59:21.995483 PDT | [4wayComplex_seed50_faster] itr #23 | Obtaining samples...
+2017-08-17 01:59:21.995713 PDT | [4wayComplex_seed50_faster] itr #23 | Obtaining samples for iteration 23...
+2017-08-17 02:01:41.311862 PDT | [4wayComplex_seed50_faster] itr #23 | Processing samples...
+2017-08-17 02:01:41.661420 PDT | [4wayComplex_seed50_faster] itr #23 | fitting baseline...
+2017-08-17 02:01:41.767401 PDT | [4wayComplex_seed50_faster] itr #23 | fitted
+2017-08-17 02:01:41.912731 PDT | [4wayComplex_seed50_faster] itr #23 | Logging diagnostics...
+2017-08-17 02:01:41.917522 PDT | [4wayComplex_seed50_faster] itr #23 | Optimizing policy...
+2017-08-17 02:01:41.917970 PDT | [4wayComplex_seed50_faster] itr #23 | Computing KL before
+2017-08-17 02:01:41.971450 PDT | [4wayComplex_seed50_faster] itr #23 | Computing loss before
+2017-08-17 02:01:42.026464 PDT | [4wayComplex_seed50_faster] itr #23 | Optimizing
+2017-08-17 02:01:42.027734 PDT | [4wayComplex_seed50_faster] itr #23 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:01:42.028007 PDT | [4wayComplex_seed50_faster] itr #23 | computing loss before
+2017-08-17 02:01:42.081916 PDT | [4wayComplex_seed50_faster] itr #23 | performing update
+2017-08-17 02:01:42.082227 PDT | [4wayComplex_seed50_faster] itr #23 | computing gradient
+2017-08-17 02:01:42.232952 PDT | [4wayComplex_seed50_faster] itr #23 | gradient computed
+2017-08-17 02:01:42.233170 PDT | [4wayComplex_seed50_faster] itr #23 | computing descent direction
+2017-08-17 02:01:45.734483 PDT | [4wayComplex_seed50_faster] itr #23 | descent direction computed
+2017-08-17 02:01:45.846443 PDT | [4wayComplex_seed50_faster] itr #23 | backtrack iters: 1
+2017-08-17 02:01:45.846755 PDT | [4wayComplex_seed50_faster] itr #23 | computing loss after
+2017-08-17 02:01:45.849155 PDT | [4wayComplex_seed50_faster] itr #23 | optimization finished
+2017-08-17 02:01:45.849345 PDT | [4wayComplex_seed50_faster] itr #23 | Computing loss after
+2017-08-17 02:01:45.898767 PDT | [4wayComplex_seed50_faster] itr #23 | Computing KL after
+2017-08-17 02:01:45.953882 PDT | [4wayComplex_seed50_faster] itr #23 | Saving snapshot...
+2017-08-17 02:01:45.959221 PDT | [4wayComplex_seed50_faster] itr #23 | Saved
+2017-08-17 02:01:45.959508 PDT | [4wayComplex_seed50_faster] itr #23 | Saving visualization of paths
+2017-08-17 02:01:47.080802 PDT | ----------------------  ---------------
+2017-08-17 02:01:47.081196 PDT | 0PolicyExecTime            66.6432
+2017-08-17 02:01:47.081482 PDT | 0EnvExecTime               39.3944
+2017-08-17 02:01:47.081761 PDT | 0ProcessExecTime            1.63188
+2017-08-17 02:01:47.082034 PDT | 0AverageReturn           1484
+2017-08-17 02:01:47.082297 PDT | 0ExplainedVariance          0.095518
+2017-08-17 02:01:47.082543 PDT | 0NumTrajs                 400
+2017-08-17 02:01:47.082814 PDT | 0Entropy                    2.82951
+2017-08-17 02:01:47.083049 PDT | 0Perplexity                16.9372
+2017-08-17 02:01:47.083296 PDT | 0StdReturn               3735.49
+2017-08-17 02:01:47.083569 PDT | 0MaxReturn              20700
+2017-08-17 02:01:47.083844 PDT | 0MinReturn                  0
+2017-08-17 02:01:47.084133 PDT | 0AveragePolicyStd           0.99597
+2017-08-17 02:01:47.084409 PDT | ComputeUpdatedDistTime      0.129709
+2017-08-17 02:01:47.084685 PDT | 1PolicyExecTime            96.4736
+2017-08-17 02:01:47.084959 PDT | 1EnvExecTime               40.4618
+2017-08-17 02:01:47.085235 PDT | 1ProcessExecTime            1.61392
+2017-08-17 02:01:47.085501 PDT | 1AverageReturn           5437.25
+2017-08-17 02:01:47.085757 PDT | 1ExplainedVariance          0.257377
+2017-08-17 02:01:47.085927 PDT | 1NumTrajs                 400
+2017-08-17 02:01:47.086112 PDT | 1Entropy                    2.82671
+2017-08-17 02:01:47.086335 PDT | 1Perplexity                16.8898
+2017-08-17 02:01:47.086522 PDT | 1StdReturn               8630.29
+2017-08-17 02:01:47.086712 PDT | 1MaxReturn              22700
+2017-08-17 02:01:47.086906 PDT | 1MinReturn                  0
+2017-08-17 02:01:47.087126 PDT | 1AveragePolicyStd           0.994553
+2017-08-17 02:01:47.087350 PDT | MeanKLBefore               -8.14907e-10
+2017-08-17 02:01:47.087571 PDT | MeanKL                      0.00724087
+2017-08-17 02:01:47.087792 PDT | LossBefore                 -5.82077e-11
+2017-08-17 02:01:47.088023 PDT | LossAfter                  -0.00219943
+2017-08-17 02:01:47.088245 PDT | dLoss                       0.00219943
+2017-08-17 02:01:47.088464 PDT | Time                     6171.03
+2017-08-17 02:01:47.088686 PDT | ItrTime                   252.893
+2017-08-17 02:01:47.088904 PDT | ----------------------  ---------------
+2017-08-17 02:01:47.089279 PDT | [4wayComplex_seed50_faster] itr #24 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:01:47.092261 PDT | [4wayComplex_seed50_faster] itr #24 | ** Step 0 **
+2017-08-17 02:01:47.092771 PDT | [4wayComplex_seed50_faster] itr #24 | Obtaining samples...
+2017-08-17 02:01:47.092996 PDT | [4wayComplex_seed50_faster] itr #24 | Obtaining samples for iteration 24...
+2017-08-17 02:03:35.728548 PDT | [4wayComplex_seed50_faster] itr #24 | Processing samples...
+2017-08-17 02:03:35.982689 PDT | [4wayComplex_seed50_faster] itr #24 | fitting baseline...
+2017-08-17 02:03:36.101377 PDT | [4wayComplex_seed50_faster] itr #24 | fitted
+2017-08-17 02:03:36.250262 PDT | [4wayComplex_seed50_faster] itr #24 | Logging diagnostics...
+2017-08-17 02:03:36.256079 PDT | [4wayComplex_seed50_faster] itr #24 | Computing policy updates...
+2017-08-17 02:03:36.376451 PDT | [4wayComplex_seed50_faster] itr #24 | ** Step 1 **
+2017-08-17 02:03:36.376656 PDT | [4wayComplex_seed50_faster] itr #24 | Obtaining samples...
+2017-08-17 02:03:36.376858 PDT | [4wayComplex_seed50_faster] itr #24 | Obtaining samples for iteration 24...
+2017-08-17 02:05:56.358293 PDT | [4wayComplex_seed50_faster] itr #24 | Processing samples...
+2017-08-17 02:05:56.541425 PDT | [4wayComplex_seed50_faster] itr #24 | fitting baseline...
+2017-08-17 02:05:56.649188 PDT | [4wayComplex_seed50_faster] itr #24 | fitted
+2017-08-17 02:05:56.864531 PDT | [4wayComplex_seed50_faster] itr #24 | Logging diagnostics...
+2017-08-17 02:05:56.871662 PDT | [4wayComplex_seed50_faster] itr #24 | Optimizing policy...
+2017-08-17 02:05:56.872936 PDT | [4wayComplex_seed50_faster] itr #24 | Computing KL before
+2017-08-17 02:05:56.937393 PDT | [4wayComplex_seed50_faster] itr #24 | Computing loss before
+2017-08-17 02:05:56.989992 PDT | [4wayComplex_seed50_faster] itr #24 | Optimizing
+2017-08-17 02:05:56.991173 PDT | [4wayComplex_seed50_faster] itr #24 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:05:56.991493 PDT | [4wayComplex_seed50_faster] itr #24 | computing loss before
+2017-08-17 02:05:57.041909 PDT | [4wayComplex_seed50_faster] itr #24 | performing update
+2017-08-17 02:05:57.042148 PDT | [4wayComplex_seed50_faster] itr #24 | computing gradient
+2017-08-17 02:05:57.193670 PDT | [4wayComplex_seed50_faster] itr #24 | gradient computed
+2017-08-17 02:05:57.193965 PDT | [4wayComplex_seed50_faster] itr #24 | computing descent direction
+2017-08-17 02:06:00.704409 PDT | [4wayComplex_seed50_faster] itr #24 | descent direction computed
+2017-08-17 02:06:00.815662 PDT | [4wayComplex_seed50_faster] itr #24 | backtrack iters: 1
+2017-08-17 02:06:00.815871 PDT | [4wayComplex_seed50_faster] itr #24 | computing loss after
+2017-08-17 02:06:00.816031 PDT | [4wayComplex_seed50_faster] itr #24 | optimization finished
+2017-08-17 02:06:00.816160 PDT | [4wayComplex_seed50_faster] itr #24 | Computing loss after
+2017-08-17 02:06:00.867966 PDT | [4wayComplex_seed50_faster] itr #24 | Computing KL after
+2017-08-17 02:06:00.920330 PDT | [4wayComplex_seed50_faster] itr #24 | Saving snapshot...
+2017-08-17 02:06:00.927745 PDT | [4wayComplex_seed50_faster] itr #24 | Saved
+2017-08-17 02:06:00.928124 PDT | [4wayComplex_seed50_faster] itr #24 | Saving visualization of paths
+2017-08-17 02:06:02.347318 PDT | ----------------------  ---------------
+2017-08-17 02:06:02.347686 PDT | 0PolicyExecTime            67.2467
+2017-08-17 02:06:02.347962 PDT | 0EnvExecTime               39.0708
+2017-08-17 02:06:02.348243 PDT | 0ProcessExecTime            1.62072
+2017-08-17 02:06:02.348517 PDT | 0AverageReturn           1226.25
+2017-08-17 02:06:02.348770 PDT | 0ExplainedVariance          0.0545989
+2017-08-17 02:06:02.349010 PDT | 0NumTrajs                 400
+2017-08-17 02:06:02.349275 PDT | 0Entropy                    2.83998
+2017-08-17 02:06:02.349507 PDT | 0Perplexity                17.1154
+2017-08-17 02:06:02.349788 PDT | 0StdReturn               3103.08
+2017-08-17 02:06:02.350060 PDT | 0MaxReturn              19800
+2017-08-17 02:06:02.350330 PDT | 0MinReturn                  0
+2017-08-17 02:06:02.350577 PDT | 0AveragePolicyStd           1.00114
+2017-08-17 02:06:02.350849 PDT | ComputeUpdatedDistTime      0.119978
+2017-08-17 02:06:02.351086 PDT | 1PolicyExecTime            96.6601
+2017-08-17 02:06:02.351318 PDT | 1EnvExecTime               40.8745
+2017-08-17 02:06:02.351594 PDT | 1ProcessExecTime            1.68452
+2017-08-17 02:06:02.351897 PDT | 1AverageReturn           4875.25
+2017-08-17 02:06:02.352173 PDT | 1ExplainedVariance          0.206835
+2017-08-17 02:06:02.352418 PDT | 1NumTrajs                 400
+2017-08-17 02:06:02.352670 PDT | 1Entropy                    2.8368
+2017-08-17 02:06:02.352902 PDT | 1Perplexity                17.061
+2017-08-17 02:06:02.353131 PDT | 1StdReturn               8552.85
+2017-08-17 02:06:02.353405 PDT | 1MaxReturn              22700
+2017-08-17 02:06:02.353675 PDT | 1MinReturn                  0
+2017-08-17 02:06:02.353942 PDT | 1AveragePolicyStd           0.999569
+2017-08-17 02:06:02.354204 PDT | MeanKLBefore               -4.65661e-10
+2017-08-17 02:06:02.354462 PDT | MeanKL                      0.00920783
+2017-08-17 02:06:02.354689 PDT | LossBefore                 -6.69388e-10
+2017-08-17 02:06:02.354964 PDT | LossAfter                  -0.004154
+2017-08-17 02:06:02.355235 PDT | dLoss                       0.00415399
+2017-08-17 02:06:02.355502 PDT | Time                     6426
+2017-08-17 02:06:02.355748 PDT | ItrTime                   253.839
+2017-08-17 02:06:02.356033 PDT | ----------------------  ---------------
+2017-08-17 02:06:02.356415 PDT | [4wayComplex_seed50_faster] itr #25 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:06:02.359531 PDT | [4wayComplex_seed50_faster] itr #25 | ** Step 0 **
+2017-08-17 02:06:02.360353 PDT | [4wayComplex_seed50_faster] itr #25 | Obtaining samples...
+2017-08-17 02:06:02.360570 PDT | [4wayComplex_seed50_faster] itr #25 | Obtaining samples for iteration 25...
+2017-08-17 02:07:52.278343 PDT | [4wayComplex_seed50_faster] itr #25 | Processing samples...
+2017-08-17 02:07:52.601370 PDT | [4wayComplex_seed50_faster] itr #25 | fitting baseline...
+2017-08-17 02:07:52.722982 PDT | [4wayComplex_seed50_faster] itr #25 | fitted
+2017-08-17 02:07:52.975871 PDT | [4wayComplex_seed50_faster] itr #25 | Logging diagnostics...
+2017-08-17 02:07:52.980888 PDT | [4wayComplex_seed50_faster] itr #25 | Computing policy updates...
+2017-08-17 02:07:53.100449 PDT | [4wayComplex_seed50_faster] itr #25 | ** Step 1 **
+2017-08-17 02:07:53.100749 PDT | [4wayComplex_seed50_faster] itr #25 | Obtaining samples...
+2017-08-17 02:07:53.100973 PDT | [4wayComplex_seed50_faster] itr #25 | Obtaining samples for iteration 25...
+2017-08-17 02:10:13.525381 PDT | [4wayComplex_seed50_faster] itr #25 | Processing samples...
+2017-08-17 02:10:13.709544 PDT | [4wayComplex_seed50_faster] itr #25 | fitting baseline...
+2017-08-17 02:10:13.782130 PDT | [4wayComplex_seed50_faster] itr #25 | fitted
+2017-08-17 02:10:13.927972 PDT | [4wayComplex_seed50_faster] itr #25 | Logging diagnostics...
+2017-08-17 02:10:13.932834 PDT | [4wayComplex_seed50_faster] itr #25 | Optimizing policy...
+2017-08-17 02:10:13.933297 PDT | [4wayComplex_seed50_faster] itr #25 | Computing KL before
+2017-08-17 02:10:13.986398 PDT | [4wayComplex_seed50_faster] itr #25 | Computing loss before
+2017-08-17 02:10:14.041053 PDT | [4wayComplex_seed50_faster] itr #25 | Optimizing
+2017-08-17 02:10:14.042422 PDT | [4wayComplex_seed50_faster] itr #25 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:10:14.042737 PDT | [4wayComplex_seed50_faster] itr #25 | computing loss before
+2017-08-17 02:10:14.095253 PDT | [4wayComplex_seed50_faster] itr #25 | performing update
+2017-08-17 02:10:14.095495 PDT | [4wayComplex_seed50_faster] itr #25 | computing gradient
+2017-08-17 02:10:14.247554 PDT | [4wayComplex_seed50_faster] itr #25 | gradient computed
+2017-08-17 02:10:14.247777 PDT | [4wayComplex_seed50_faster] itr #25 | computing descent direction
+2017-08-17 02:10:17.785463 PDT | [4wayComplex_seed50_faster] itr #25 | descent direction computed
+2017-08-17 02:10:17.895534 PDT | [4wayComplex_seed50_faster] itr #25 | backtrack iters: 1
+2017-08-17 02:10:17.895829 PDT | [4wayComplex_seed50_faster] itr #25 | computing loss after
+2017-08-17 02:10:17.896033 PDT | [4wayComplex_seed50_faster] itr #25 | optimization finished
+2017-08-17 02:10:17.896186 PDT | [4wayComplex_seed50_faster] itr #25 | Computing loss after
+2017-08-17 02:10:17.951108 PDT | [4wayComplex_seed50_faster] itr #25 | Computing KL after
+2017-08-17 02:10:18.000790 PDT | [4wayComplex_seed50_faster] itr #25 | Saving snapshot...
+2017-08-17 02:10:18.004336 PDT | [4wayComplex_seed50_faster] itr #25 | Saved
+2017-08-17 02:10:18.004600 PDT | [4wayComplex_seed50_faster] itr #25 | Saving visualization of paths
+2017-08-17 02:10:19.160785 PDT | ----------------------  ---------------
+2017-08-17 02:10:19.161174 PDT | 0PolicyExecTime            68.0148
+2017-08-17 02:10:19.161413 PDT | 0EnvExecTime               39.5533
+2017-08-17 02:10:19.161686 PDT | 0ProcessExecTime            1.64305
+2017-08-17 02:10:19.161962 PDT | 0AverageReturn           1006.75
+2017-08-17 02:10:19.162232 PDT | 0ExplainedVariance          0.0566363
+2017-08-17 02:10:19.162482 PDT | 0NumTrajs                 400
+2017-08-17 02:10:19.162755 PDT | 0Entropy                    2.85223
+2017-08-17 02:10:19.162986 PDT | 0Perplexity                17.3264
+2017-08-17 02:10:19.163227 PDT | 0StdReturn               2853.7
+2017-08-17 02:10:19.163501 PDT | 0MaxReturn              21900
+2017-08-17 02:10:19.163770 PDT | 0MinReturn                  0
+2017-08-17 02:10:19.164040 PDT | 0AveragePolicyStd           1.00725
+2017-08-17 02:10:19.164289 PDT | ComputeUpdatedDistTime      0.119173
+2017-08-17 02:10:19.164547 PDT | 1PolicyExecTime            97.3672
+2017-08-17 02:10:19.164774 PDT | 1EnvExecTime               40.6435
+2017-08-17 02:10:19.165048 PDT | 1ProcessExecTime            1.6429
+2017-08-17 02:10:19.165316 PDT | 1AverageReturn           5503
+2017-08-17 02:10:19.165616 PDT | 1ExplainedVariance          0.354761
+2017-08-17 02:10:19.165861 PDT | 1NumTrajs                 400
+2017-08-17 02:10:19.166123 PDT | 1Entropy                    2.85125
+2017-08-17 02:10:19.166351 PDT | 1Perplexity                17.3094
+2017-08-17 02:10:19.166618 PDT | 1StdReturn               8984
+2017-08-17 02:10:19.166889 PDT | 1MaxReturn              23400
+2017-08-17 02:10:19.167154 PDT | 1MinReturn                  0
+2017-08-17 02:10:19.167393 PDT | 1AveragePolicyStd           1.00676
+2017-08-17 02:10:19.167593 PDT | MeanKLBefore                8.73113e-10
+2017-08-17 02:10:19.167788 PDT | MeanKL                      0.00787601
+2017-08-17 02:10:19.168023 PDT | LossBefore                  1.62981e-09
+2017-08-17 02:10:19.168204 PDT | LossAfter                  -0.00239578
+2017-08-17 02:10:19.168397 PDT | dLoss                       0.00239578
+2017-08-17 02:10:19.168616 PDT | Time                     6683.08
+2017-08-17 02:10:19.168836 PDT | ItrTime                   255.648
+2017-08-17 02:10:19.169051 PDT | ----------------------  ---------------
+2017-08-17 02:10:19.169415 PDT | [4wayComplex_seed50_faster] itr #26 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:10:19.172394 PDT | [4wayComplex_seed50_faster] itr #26 | ** Step 0 **
+2017-08-17 02:10:19.172924 PDT | [4wayComplex_seed50_faster] itr #26 | Obtaining samples...
+2017-08-17 02:10:19.173173 PDT | [4wayComplex_seed50_faster] itr #26 | Obtaining samples for iteration 26...
+2017-08-17 02:12:08.220194 PDT | [4wayComplex_seed50_faster] itr #26 | Processing samples...
+2017-08-17 02:12:08.367897 PDT | [4wayComplex_seed50_faster] itr #26 | fitting baseline...
+2017-08-17 02:12:08.447996 PDT | [4wayComplex_seed50_faster] itr #26 | fitted
+2017-08-17 02:12:08.592125 PDT | [4wayComplex_seed50_faster] itr #26 | Logging diagnostics...
+2017-08-17 02:12:08.596120 PDT | [4wayComplex_seed50_faster] itr #26 | Computing policy updates...
+2017-08-17 02:12:08.748256 PDT | [4wayComplex_seed50_faster] itr #26 | ** Step 1 **
+2017-08-17 02:12:08.748646 PDT | [4wayComplex_seed50_faster] itr #26 | Obtaining samples...
+2017-08-17 02:12:08.748906 PDT | [4wayComplex_seed50_faster] itr #26 | Obtaining samples for iteration 26...
+2017-08-17 02:14:29.104689 PDT | [4wayComplex_seed50_faster] itr #26 | Processing samples...
+2017-08-17 02:14:29.252860 PDT | [4wayComplex_seed50_faster] itr #26 | fitting baseline...
+2017-08-17 02:14:29.310156 PDT | [4wayComplex_seed50_faster] itr #26 | fitted
+2017-08-17 02:14:29.492352 PDT | [4wayComplex_seed50_faster] itr #26 | Logging diagnostics...
+2017-08-17 02:14:29.497394 PDT | [4wayComplex_seed50_faster] itr #26 | Optimizing policy...
+2017-08-17 02:14:29.497828 PDT | [4wayComplex_seed50_faster] itr #26 | Computing KL before
+2017-08-17 02:14:29.554584 PDT | [4wayComplex_seed50_faster] itr #26 | Computing loss before
+2017-08-17 02:14:29.606603 PDT | [4wayComplex_seed50_faster] itr #26 | Optimizing
+2017-08-17 02:14:29.608262 PDT | [4wayComplex_seed50_faster] itr #26 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:14:29.608439 PDT | [4wayComplex_seed50_faster] itr #26 | computing loss before
+2017-08-17 02:14:29.659951 PDT | [4wayComplex_seed50_faster] itr #26 | performing update
+2017-08-17 02:14:29.660275 PDT | [4wayComplex_seed50_faster] itr #26 | computing gradient
+2017-08-17 02:14:29.811613 PDT | [4wayComplex_seed50_faster] itr #26 | gradient computed
+2017-08-17 02:14:29.811887 PDT | [4wayComplex_seed50_faster] itr #26 | computing descent direction
+2017-08-17 02:14:33.307272 PDT | [4wayComplex_seed50_faster] itr #26 | descent direction computed
+2017-08-17 02:14:33.363634 PDT | [4wayComplex_seed50_faster] itr #26 | backtrack iters: 0
+2017-08-17 02:14:33.363926 PDT | [4wayComplex_seed50_faster] itr #26 | computing loss after
+2017-08-17 02:14:33.364108 PDT | [4wayComplex_seed50_faster] itr #26 | optimization finished
+2017-08-17 02:14:33.364316 PDT | [4wayComplex_seed50_faster] itr #26 | Computing loss after
+2017-08-17 02:14:33.415414 PDT | [4wayComplex_seed50_faster] itr #26 | Computing KL after
+2017-08-17 02:14:33.465725 PDT | [4wayComplex_seed50_faster] itr #26 | Saving snapshot...
+2017-08-17 02:14:33.469689 PDT | [4wayComplex_seed50_faster] itr #26 | Saved
+2017-08-17 02:14:33.469944 PDT | [4wayComplex_seed50_faster] itr #26 | Saving visualization of paths
+2017-08-17 02:14:34.614150 PDT | ----------------------  ---------------
+2017-08-17 02:14:34.614516 PDT | 0PolicyExecTime            67.822
+2017-08-17 02:14:34.614786 PDT | 0EnvExecTime               38.8642
+2017-08-17 02:14:34.615018 PDT | 0ProcessExecTime            1.64839
+2017-08-17 02:14:34.615283 PDT | 0AverageReturn           1184
+2017-08-17 02:14:34.615555 PDT | 0ExplainedVariance          0.0697794
+2017-08-17 02:14:34.615822 PDT | 0NumTrajs                 400
+2017-08-17 02:14:34.616079 PDT | 0Entropy                    2.8427
+2017-08-17 02:14:34.616346 PDT | 0Perplexity                17.162
+2017-08-17 02:14:34.616588 PDT | 0StdReturn               3065.86
+2017-08-17 02:14:34.616818 PDT | 0MaxReturn              20900
+2017-08-17 02:14:34.617088 PDT | 0MinReturn                  0
+2017-08-17 02:14:34.617354 PDT | 0AveragePolicyStd           1.00244
+2017-08-17 02:14:34.617621 PDT | ComputeUpdatedDistTime      0.151583
+2017-08-17 02:14:34.617849 PDT | 1PolicyExecTime            96.76
+2017-08-17 02:14:34.618116 PDT | 1EnvExecTime               41.1565
+2017-08-17 02:14:34.618349 PDT | 1ProcessExecTime            1.66473
+2017-08-17 02:14:34.618583 PDT | 1AverageReturn           5225.75
+2017-08-17 02:14:34.618856 PDT | 1ExplainedVariance          0.303404
+2017-08-17 02:14:34.619127 PDT | 1NumTrajs                 400
+2017-08-17 02:14:34.619390 PDT | 1Entropy                    2.84362
+2017-08-17 02:14:34.619636 PDT | 1Perplexity                17.1778
+2017-08-17 02:14:34.619911 PDT | 1StdReturn               8983.02
+2017-08-17 02:14:34.620149 PDT | 1MaxReturn              23700
+2017-08-17 02:14:34.620381 PDT | 1MinReturn                  0
+2017-08-17 02:14:34.620654 PDT | 1AveragePolicyStd           1.0029
+2017-08-17 02:14:34.620919 PDT | MeanKLBefore               -5.82076e-10
+2017-08-17 02:14:34.621184 PDT | MeanKL                      0.00996043
+2017-08-17 02:14:34.621427 PDT | LossBefore                 -9.94987e-10
+2017-08-17 02:14:34.621692 PDT | LossAfter                  -0.00305966
+2017-08-17 02:14:34.621918 PDT | dLoss                       0.00305966
+2017-08-17 02:14:34.622179 PDT | Time                     6938.54
+2017-08-17 02:14:34.622450 PDT | ItrTime                   254.301
+2017-08-17 02:14:34.622715 PDT | ----------------------  ---------------
+2017-08-17 02:14:34.623116 PDT | [4wayComplex_seed50_faster] itr #27 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:14:34.626120 PDT | [4wayComplex_seed50_faster] itr #27 | ** Step 0 **
+2017-08-17 02:14:34.626847 PDT | [4wayComplex_seed50_faster] itr #27 | Obtaining samples...
+2017-08-17 02:14:34.627144 PDT | [4wayComplex_seed50_faster] itr #27 | Obtaining samples for iteration 27...
+2017-08-17 02:16:31.305521 PDT | [4wayComplex_seed50_faster] itr #27 | Processing samples...
+2017-08-17 02:16:31.762340 PDT | [4wayComplex_seed50_faster] itr #27 | fitting baseline...
+2017-08-17 02:16:31.966491 PDT | [4wayComplex_seed50_faster] itr #27 | fitted
+2017-08-17 02:16:32.097144 PDT | [4wayComplex_seed50_faster] itr #27 | Logging diagnostics...
+2017-08-17 02:16:32.101752 PDT | [4wayComplex_seed50_faster] itr #27 | Computing policy updates...
+2017-08-17 02:16:32.222949 PDT | [4wayComplex_seed50_faster] itr #27 | ** Step 1 **
+2017-08-17 02:16:32.223197 PDT | [4wayComplex_seed50_faster] itr #27 | Obtaining samples...
+2017-08-17 02:16:32.223342 PDT | [4wayComplex_seed50_faster] itr #27 | Obtaining samples for iteration 27...
+2017-08-17 02:18:51.159972 PDT | [4wayComplex_seed50_faster] itr #27 | Processing samples...
+2017-08-17 02:18:51.409341 PDT | [4wayComplex_seed50_faster] itr #27 | fitting baseline...
+2017-08-17 02:18:51.555639 PDT | [4wayComplex_seed50_faster] itr #27 | fitted
+2017-08-17 02:18:51.812711 PDT | [4wayComplex_seed50_faster] itr #27 | Logging diagnostics...
+2017-08-17 02:18:51.820468 PDT | [4wayComplex_seed50_faster] itr #27 | Optimizing policy...
+2017-08-17 02:18:51.822491 PDT | [4wayComplex_seed50_faster] itr #27 | Computing KL before
+2017-08-17 02:18:51.881161 PDT | [4wayComplex_seed50_faster] itr #27 | Computing loss before
+2017-08-17 02:18:51.935983 PDT | [4wayComplex_seed50_faster] itr #27 | Optimizing
+2017-08-17 02:18:51.938836 PDT | [4wayComplex_seed50_faster] itr #27 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:18:51.939085 PDT | [4wayComplex_seed50_faster] itr #27 | computing loss before
+2017-08-17 02:18:51.991967 PDT | [4wayComplex_seed50_faster] itr #27 | performing update
+2017-08-17 02:18:51.992264 PDT | [4wayComplex_seed50_faster] itr #27 | computing gradient
+2017-08-17 02:18:52.145654 PDT | [4wayComplex_seed50_faster] itr #27 | gradient computed
+2017-08-17 02:18:52.145951 PDT | [4wayComplex_seed50_faster] itr #27 | computing descent direction
+2017-08-17 02:18:55.618799 PDT | [4wayComplex_seed50_faster] itr #27 | descent direction computed
+2017-08-17 02:18:55.727255 PDT | [4wayComplex_seed50_faster] itr #27 | backtrack iters: 1
+2017-08-17 02:18:55.727508 PDT | [4wayComplex_seed50_faster] itr #27 | computing loss after
+2017-08-17 02:18:55.727721 PDT | [4wayComplex_seed50_faster] itr #27 | optimization finished
+2017-08-17 02:18:55.727957 PDT | [4wayComplex_seed50_faster] itr #27 | Computing loss after
+2017-08-17 02:18:55.778982 PDT | [4wayComplex_seed50_faster] itr #27 | Computing KL after
+2017-08-17 02:18:55.828899 PDT | [4wayComplex_seed50_faster] itr #27 | Saving snapshot...
+2017-08-17 02:18:55.836086 PDT | [4wayComplex_seed50_faster] itr #27 | Saved
+2017-08-17 02:18:55.836381 PDT | [4wayComplex_seed50_faster] itr #27 | Saving visualization of paths
+2017-08-17 02:18:57.343556 PDT | ----------------------  ---------------
+2017-08-17 02:18:57.343928 PDT | 0PolicyExecTime            75.3024
+2017-08-17 02:18:57.344175 PDT | 0EnvExecTime               39.0047
+2017-08-17 02:18:57.344431 PDT | 0ProcessExecTime            1.65674
+2017-08-17 02:18:57.344711 PDT | 0AverageReturn           1313.5
+2017-08-17 02:18:57.344984 PDT | 0ExplainedVariance          0.0630703
+2017-08-17 02:18:57.345241 PDT | 0NumTrajs                 400
+2017-08-17 02:18:57.345492 PDT | 0Entropy                    2.82038
+2017-08-17 02:18:57.345741 PDT | 0Perplexity                16.7833
+2017-08-17 02:18:57.345971 PDT | 0StdReturn               3217.7
+2017-08-17 02:18:57.346251 PDT | 0MaxReturn              22600
+2017-08-17 02:18:57.346523 PDT | 0MinReturn                  0
+2017-08-17 02:18:57.346788 PDT | 0AveragePolicyStd           0.991597
+2017-08-17 02:18:57.347029 PDT | ComputeUpdatedDistTime      0.120755
+2017-08-17 02:18:57.347297 PDT | 1PolicyExecTime            95.8153
+2017-08-17 02:18:57.347522 PDT | 1EnvExecTime               40.7089
+2017-08-17 02:18:57.347794 PDT | 1ProcessExecTime            1.65086
+2017-08-17 02:18:57.348083 PDT | 1AverageReturn           4471.5
+2017-08-17 02:18:57.348352 PDT | 1ExplainedVariance          0.264316
+2017-08-17 02:18:57.348611 PDT | 1NumTrajs                 400
+2017-08-17 02:18:57.348882 PDT | 1Entropy                    2.81639
+2017-08-17 02:18:57.349111 PDT | 1Perplexity                16.7164
+2017-08-17 02:18:57.349357 PDT | 1StdReturn               8428.44
+2017-08-17 02:18:57.349635 PDT | 1MaxReturn              23400
+2017-08-17 02:18:57.349905 PDT | 1MinReturn                  0
+2017-08-17 02:18:57.350159 PDT | 1AveragePolicyStd           0.989608
+2017-08-17 02:18:57.350380 PDT | MeanKLBefore                9.31324e-10
+2017-08-17 02:18:57.350649 PDT | MeanKL                      0.00689086
+2017-08-17 02:18:57.350877 PDT | LossBefore                 -9.31323e-10
+2017-08-17 02:18:57.351175 PDT | LossAfter                  -0.00202492
+2017-08-17 02:18:57.351447 PDT | dLoss                       0.00202492
+2017-08-17 02:18:57.351716 PDT | Time                     7200.91
+2017-08-17 02:18:57.351972 PDT | ItrTime                   261.213
+2017-08-17 02:18:57.352242 PDT | ----------------------  ---------------
+2017-08-17 02:18:57.352620 PDT | [4wayComplex_seed50_faster] itr #28 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:18:57.355836 PDT | [4wayComplex_seed50_faster] itr #28 | ** Step 0 **
+2017-08-17 02:18:57.356587 PDT | [4wayComplex_seed50_faster] itr #28 | Obtaining samples...
+2017-08-17 02:18:57.356887 PDT | [4wayComplex_seed50_faster] itr #28 | Obtaining samples for iteration 28...
+2017-08-17 02:20:45.940385 PDT | [4wayComplex_seed50_faster] itr #28 | Processing samples...
+2017-08-17 02:20:46.106435 PDT | [4wayComplex_seed50_faster] itr #28 | fitting baseline...
+2017-08-17 02:20:46.195594 PDT | [4wayComplex_seed50_faster] itr #28 | fitted
+2017-08-17 02:20:46.379878 PDT | [4wayComplex_seed50_faster] itr #28 | Logging diagnostics...
+2017-08-17 02:20:46.386454 PDT | [4wayComplex_seed50_faster] itr #28 | Computing policy updates...
+2017-08-17 02:20:46.503274 PDT | [4wayComplex_seed50_faster] itr #28 | ** Step 1 **
+2017-08-17 02:20:46.503467 PDT | [4wayComplex_seed50_faster] itr #28 | Obtaining samples...
+2017-08-17 02:20:46.503640 PDT | [4wayComplex_seed50_faster] itr #28 | Obtaining samples for iteration 28...
+2017-08-17 02:23:06.000235 PDT | [4wayComplex_seed50_faster] itr #28 | Processing samples...
+2017-08-17 02:23:06.380148 PDT | [4wayComplex_seed50_faster] itr #28 | fitting baseline...
+2017-08-17 02:23:06.497164 PDT | [4wayComplex_seed50_faster] itr #28 | fitted
+2017-08-17 02:23:06.640171 PDT | [4wayComplex_seed50_faster] itr #28 | Logging diagnostics...
+2017-08-17 02:23:06.645430 PDT | [4wayComplex_seed50_faster] itr #28 | Optimizing policy...
+2017-08-17 02:23:06.645925 PDT | [4wayComplex_seed50_faster] itr #28 | Computing KL before
+2017-08-17 02:23:06.699920 PDT | [4wayComplex_seed50_faster] itr #28 | Computing loss before
+2017-08-17 02:23:06.752248 PDT | [4wayComplex_seed50_faster] itr #28 | Optimizing
+2017-08-17 02:23:06.753231 PDT | [4wayComplex_seed50_faster] itr #28 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:23:06.753481 PDT | [4wayComplex_seed50_faster] itr #28 | computing loss before
+2017-08-17 02:23:06.804686 PDT | [4wayComplex_seed50_faster] itr #28 | performing update
+2017-08-17 02:23:06.805001 PDT | [4wayComplex_seed50_faster] itr #28 | computing gradient
+2017-08-17 02:23:06.958426 PDT | [4wayComplex_seed50_faster] itr #28 | gradient computed
+2017-08-17 02:23:06.958620 PDT | [4wayComplex_seed50_faster] itr #28 | computing descent direction
+2017-08-17 02:23:10.425490 PDT | [4wayComplex_seed50_faster] itr #28 | descent direction computed
+2017-08-17 02:23:10.539097 PDT | [4wayComplex_seed50_faster] itr #28 | backtrack iters: 1
+2017-08-17 02:23:10.539425 PDT | [4wayComplex_seed50_faster] itr #28 | computing loss after
+2017-08-17 02:23:10.539648 PDT | [4wayComplex_seed50_faster] itr #28 | optimization finished
+2017-08-17 02:23:10.539864 PDT | [4wayComplex_seed50_faster] itr #28 | Computing loss after
+2017-08-17 02:23:10.591945 PDT | [4wayComplex_seed50_faster] itr #28 | Computing KL after
+2017-08-17 02:23:10.642884 PDT | [4wayComplex_seed50_faster] itr #28 | Saving snapshot...
+2017-08-17 02:23:10.646954 PDT | [4wayComplex_seed50_faster] itr #28 | Saved
+2017-08-17 02:23:10.647541 PDT | [4wayComplex_seed50_faster] itr #28 | Saving visualization of paths
+2017-08-17 02:23:11.740689 PDT | ----------------------  ---------------
+2017-08-17 02:23:11.740993 PDT | 0PolicyExecTime            66.9964
+2017-08-17 02:23:11.741245 PDT | 0EnvExecTime               39.2333
+2017-08-17 02:23:11.741511 PDT | 0ProcessExecTime            1.65209
+2017-08-17 02:23:11.741787 PDT | 0AverageReturn           1795.5
+2017-08-17 02:23:11.742057 PDT | 0ExplainedVariance          0.0979281
+2017-08-17 02:23:11.742311 PDT | 0NumTrajs                 400
+2017-08-17 02:23:11.742578 PDT | 0Entropy                    2.80964
+2017-08-17 02:23:11.742817 PDT | 0Perplexity                16.6039
+2017-08-17 02:23:11.743058 PDT | 0StdReturn               3976.28
+2017-08-17 02:23:11.743336 PDT | 0MaxReturn              19800
+2017-08-17 02:23:11.743606 PDT | 0MinReturn                  0
+2017-08-17 02:23:11.743867 PDT | 0AveragePolicyStd           0.986044
+2017-08-17 02:23:11.744047 PDT | ComputeUpdatedDistTime      0.116621
+2017-08-17 02:23:11.744230 PDT | 1PolicyExecTime            96.2164
+2017-08-17 02:23:11.744445 PDT | 1EnvExecTime               40.874
+2017-08-17 02:23:11.744626 PDT | 1ProcessExecTime            1.63708
+2017-08-17 02:23:11.744802 PDT | 1AverageReturn           5141.5
+2017-08-17 02:23:11.744982 PDT | 1ExplainedVariance          0.275619
+2017-08-17 02:23:11.745180 PDT | 1NumTrajs                 400
+2017-08-17 02:23:11.745395 PDT | 1Entropy                    2.81107
+2017-08-17 02:23:11.745606 PDT | 1Perplexity                16.6277
+2017-08-17 02:23:11.745814 PDT | 1StdReturn               8975
+2017-08-17 02:23:11.746022 PDT | 1MaxReturn              23200
+2017-08-17 02:23:11.746218 PDT | 1MinReturn                  0
+2017-08-17 02:23:11.746401 PDT | 1AveragePolicyStd           0.986772
+2017-08-17 02:23:11.746617 PDT | MeanKLBefore               -3.49246e-09
+2017-08-17 02:23:11.746802 PDT | MeanKL                      0.00858182
+2017-08-17 02:23:11.746985 PDT | LossBefore                 -1.16415e-10
+2017-08-17 02:23:11.747159 PDT | LossAfter                  -0.00259618
+2017-08-17 02:23:11.747364 PDT | dLoss                       0.00259618
+2017-08-17 02:23:11.747576 PDT | Time                     7455.72
+2017-08-17 02:23:11.747784 PDT | ItrTime                   253.295
+2017-08-17 02:23:11.748008 PDT | ----------------------  ---------------
+2017-08-17 02:23:11.748229 PDT | [4wayComplex_seed50_faster] itr #29 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:23:11.750266 PDT | [4wayComplex_seed50_faster] itr #29 | ** Step 0 **
+2017-08-17 02:23:11.750591 PDT | [4wayComplex_seed50_faster] itr #29 | Obtaining samples...
+2017-08-17 02:23:11.750726 PDT | [4wayComplex_seed50_faster] itr #29 | Obtaining samples for iteration 29...
+2017-08-17 02:24:59.676474 PDT | [4wayComplex_seed50_faster] itr #29 | Processing samples...
+2017-08-17 02:24:59.826791 PDT | [4wayComplex_seed50_faster] itr #29 | fitting baseline...
+2017-08-17 02:24:59.879418 PDT | [4wayComplex_seed50_faster] itr #29 | fitted
+2017-08-17 02:25:00.071773 PDT | [4wayComplex_seed50_faster] itr #29 | Logging diagnostics...
+2017-08-17 02:25:00.079875 PDT | [4wayComplex_seed50_faster] itr #29 | Computing policy updates...
+2017-08-17 02:25:00.210457 PDT | [4wayComplex_seed50_faster] itr #29 | ** Step 1 **
+2017-08-17 02:25:00.210760 PDT | [4wayComplex_seed50_faster] itr #29 | Obtaining samples...
+2017-08-17 02:25:00.210955 PDT | [4wayComplex_seed50_faster] itr #29 | Obtaining samples for iteration 29...
+2017-08-17 02:27:18.867493 PDT | [4wayComplex_seed50_faster] itr #29 | Processing samples...
+2017-08-17 02:27:19.322250 PDT | [4wayComplex_seed50_faster] itr #29 | fitting baseline...
+2017-08-17 02:27:19.423503 PDT | [4wayComplex_seed50_faster] itr #29 | fitted
+2017-08-17 02:27:19.565639 PDT | [4wayComplex_seed50_faster] itr #29 | Logging diagnostics...
+2017-08-17 02:27:19.570694 PDT | [4wayComplex_seed50_faster] itr #29 | Optimizing policy...
+2017-08-17 02:27:19.571156 PDT | [4wayComplex_seed50_faster] itr #29 | Computing KL before
+2017-08-17 02:27:19.624607 PDT | [4wayComplex_seed50_faster] itr #29 | Computing loss before
+2017-08-17 02:27:19.679987 PDT | [4wayComplex_seed50_faster] itr #29 | Optimizing
+2017-08-17 02:27:19.681237 PDT | [4wayComplex_seed50_faster] itr #29 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:27:19.681500 PDT | [4wayComplex_seed50_faster] itr #29 | computing loss before
+2017-08-17 02:27:19.733894 PDT | [4wayComplex_seed50_faster] itr #29 | performing update
+2017-08-17 02:27:19.734216 PDT | [4wayComplex_seed50_faster] itr #29 | computing gradient
+2017-08-17 02:27:19.887174 PDT | [4wayComplex_seed50_faster] itr #29 | gradient computed
+2017-08-17 02:27:19.887484 PDT | [4wayComplex_seed50_faster] itr #29 | computing descent direction
+2017-08-17 02:27:23.364762 PDT | [4wayComplex_seed50_faster] itr #29 | descent direction computed
+2017-08-17 02:27:23.473205 PDT | [4wayComplex_seed50_faster] itr #29 | backtrack iters: 1
+2017-08-17 02:27:23.473452 PDT | [4wayComplex_seed50_faster] itr #29 | computing loss after
+2017-08-17 02:27:23.473671 PDT | [4wayComplex_seed50_faster] itr #29 | optimization finished
+2017-08-17 02:27:23.473891 PDT | [4wayComplex_seed50_faster] itr #29 | Computing loss after
+2017-08-17 02:27:23.528540 PDT | [4wayComplex_seed50_faster] itr #29 | Computing KL after
+2017-08-17 02:27:23.579094 PDT | [4wayComplex_seed50_faster] itr #29 | Saving snapshot...
+2017-08-17 02:27:23.583488 PDT | [4wayComplex_seed50_faster] itr #29 | Saved
+2017-08-17 02:27:23.583767 PDT | [4wayComplex_seed50_faster] itr #29 | Saving visualization of paths
+2017-08-17 02:27:25.003400 PDT | ----------------------  ---------------
+2017-08-17 02:27:25.003716 PDT | 0PolicyExecTime            66.5307
+2017-08-17 02:27:25.004012 PDT | 0EnvExecTime               39.0745
+2017-08-17 02:27:25.004288 PDT | 0ProcessExecTime            1.62851
+2017-08-17 02:27:25.004536 PDT | 0AverageReturn           1301.25
+2017-08-17 02:27:25.004810 PDT | 0ExplainedVariance          0.0650922
+2017-08-17 02:27:25.005042 PDT | 0NumTrajs                 400
+2017-08-17 02:27:25.005320 PDT | 0Entropy                    2.83488
+2017-08-17 02:27:25.005599 PDT | 0Perplexity                17.0283
+2017-08-17 02:27:25.005869 PDT | 0StdReturn               3181.39
+2017-08-17 02:27:25.006117 PDT | 0MaxReturn              22200
+2017-08-17 02:27:25.006389 PDT | 0MinReturn                  0
+2017-08-17 02:27:25.006619 PDT | 0AveragePolicyStd           0.998537
+2017-08-17 02:27:25.006858 PDT | ComputeUpdatedDistTime      0.127862
+2017-08-17 02:27:25.007138 PDT | 1PolicyExecTime            95.8108
+2017-08-17 02:27:25.007413 PDT | 1EnvExecTime               40.4657
+2017-08-17 02:27:25.007669 PDT | 1ProcessExecTime            1.62813
+2017-08-17 02:27:25.007919 PDT | 1AverageReturn           5466.25
+2017-08-17 02:27:25.008179 PDT | 1ExplainedVariance          0.306752
+2017-08-17 02:27:25.008409 PDT | 1NumTrajs                 400
+2017-08-17 02:27:25.008688 PDT | 1Entropy                    2.83522
+2017-08-17 02:27:25.008962 PDT | 1Perplexity                17.0342
+2017-08-17 02:27:25.009228 PDT | 1StdReturn               9068.28
+2017-08-17 02:27:25.009471 PDT | 1MaxReturn              23000
+2017-08-17 02:27:25.009740 PDT | 1MinReturn                  0
+2017-08-17 02:27:25.009969 PDT | 1AveragePolicyStd           0.998712
+2017-08-17 02:27:25.010234 PDT | MeanKLBefore               -1.56579e-08
+2017-08-17 02:27:25.010510 PDT | MeanKL                      0.00674754
+2017-08-17 02:27:25.010780 PDT | LossBefore                  1.16415e-10
+2017-08-17 02:27:25.011030 PDT | LossAfter                  -0.0029526
+2017-08-17 02:27:25.011304 PDT | dLoss                       0.0029526
+2017-08-17 02:27:25.011539 PDT | Time                     7708.66
+2017-08-17 02:27:25.011789 PDT | ItrTime                   251.836
+2017-08-17 02:27:25.012079 PDT | ----------------------  ---------------
+2017-08-17 02:27:25.012523 PDT | [4wayComplex_seed50_faster] itr #30 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:27:25.015683 PDT | [4wayComplex_seed50_faster] itr #30 | ** Step 0 **
+2017-08-17 02:27:25.016370 PDT | [4wayComplex_seed50_faster] itr #30 | Obtaining samples...
+2017-08-17 02:27:25.016656 PDT | [4wayComplex_seed50_faster] itr #30 | Obtaining samples for iteration 30...
+2017-08-17 02:29:13.624913 PDT | [4wayComplex_seed50_faster] itr #30 | Processing samples...
+2017-08-17 02:29:13.777523 PDT | [4wayComplex_seed50_faster] itr #30 | fitting baseline...
+2017-08-17 02:29:13.825569 PDT | [4wayComplex_seed50_faster] itr #30 | fitted
+2017-08-17 02:29:14.034964 PDT | [4wayComplex_seed50_faster] itr #30 | Logging diagnostics...
+2017-08-17 02:29:14.039803 PDT | [4wayComplex_seed50_faster] itr #30 | Computing policy updates...
+2017-08-17 02:29:14.165232 PDT | [4wayComplex_seed50_faster] itr #30 | ** Step 1 **
+2017-08-17 02:29:14.165419 PDT | [4wayComplex_seed50_faster] itr #30 | Obtaining samples...
+2017-08-17 02:29:14.165535 PDT | [4wayComplex_seed50_faster] itr #30 | Obtaining samples for iteration 30...
+2017-08-17 02:31:33.567879 PDT | [4wayComplex_seed50_faster] itr #30 | Processing samples...
+2017-08-17 02:31:33.854612 PDT | [4wayComplex_seed50_faster] itr #30 | fitting baseline...
+2017-08-17 02:31:33.935665 PDT | [4wayComplex_seed50_faster] itr #30 | fitted
+2017-08-17 02:31:34.065376 PDT | [4wayComplex_seed50_faster] itr #30 | Logging diagnostics...
+2017-08-17 02:31:34.070293 PDT | [4wayComplex_seed50_faster] itr #30 | Optimizing policy...
+2017-08-17 02:31:34.070762 PDT | [4wayComplex_seed50_faster] itr #30 | Computing KL before
+2017-08-17 02:31:34.125761 PDT | [4wayComplex_seed50_faster] itr #30 | Computing loss before
+2017-08-17 02:31:34.176413 PDT | [4wayComplex_seed50_faster] itr #30 | Optimizing
+2017-08-17 02:31:34.178119 PDT | [4wayComplex_seed50_faster] itr #30 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:31:34.178348 PDT | [4wayComplex_seed50_faster] itr #30 | computing loss before
+2017-08-17 02:31:34.228065 PDT | [4wayComplex_seed50_faster] itr #30 | performing update
+2017-08-17 02:31:34.228386 PDT | [4wayComplex_seed50_faster] itr #30 | computing gradient
+2017-08-17 02:31:34.387748 PDT | [4wayComplex_seed50_faster] itr #30 | gradient computed
+2017-08-17 02:31:34.388042 PDT | [4wayComplex_seed50_faster] itr #30 | computing descent direction
+2017-08-17 02:31:37.883547 PDT | [4wayComplex_seed50_faster] itr #30 | descent direction computed
+2017-08-17 02:31:37.990547 PDT | [4wayComplex_seed50_faster] itr #30 | backtrack iters: 1
+2017-08-17 02:31:37.990736 PDT | [4wayComplex_seed50_faster] itr #30 | computing loss after
+2017-08-17 02:31:37.990840 PDT | [4wayComplex_seed50_faster] itr #30 | optimization finished
+2017-08-17 02:31:37.990965 PDT | [4wayComplex_seed50_faster] itr #30 | Computing loss after
+2017-08-17 02:31:38.042069 PDT | [4wayComplex_seed50_faster] itr #30 | Computing KL after
+2017-08-17 02:31:38.091917 PDT | [4wayComplex_seed50_faster] itr #30 | Saving snapshot...
+2017-08-17 02:31:38.095874 PDT | [4wayComplex_seed50_faster] itr #30 | Saved
+2017-08-17 02:31:38.096083 PDT | [4wayComplex_seed50_faster] itr #30 | Saving visualization of paths
+2017-08-17 02:31:39.210678 PDT | ----------------------  ---------------
+2017-08-17 02:31:39.210980 PDT | 0PolicyExecTime            66.8585
+2017-08-17 02:31:39.211215 PDT | 0EnvExecTime               39.3935
+2017-08-17 02:31:39.211441 PDT | 0ProcessExecTime            1.64808
+2017-08-17 02:31:39.211645 PDT | 0AverageReturn           1541.25
+2017-08-17 02:31:39.211840 PDT | 0ExplainedVariance          0.102937
+2017-08-17 02:31:39.212048 PDT | 0NumTrajs                 400
+2017-08-17 02:31:39.212245 PDT | 0Entropy                    2.8367
+2017-08-17 02:31:39.212421 PDT | 0Perplexity                17.0593
+2017-08-17 02:31:39.212592 PDT | 0StdReturn               3661.74
+2017-08-17 02:31:39.212800 PDT | 0MaxReturn              22400
+2017-08-17 02:31:39.213016 PDT | 0MinReturn                  0
+2017-08-17 02:31:39.213228 PDT | 0AveragePolicyStd           0.999452
+2017-08-17 02:31:39.213446 PDT | ComputeUpdatedDistTime      0.125
+2017-08-17 02:31:39.213638 PDT | 1PolicyExecTime            96.6847
+2017-08-17 02:31:39.213814 PDT | 1EnvExecTime               40.3274
+2017-08-17 02:31:39.214028 PDT | 1ProcessExecTime            1.62959
+2017-08-17 02:31:39.214202 PDT | 1AverageReturn           5483.25
+2017-08-17 02:31:39.214371 PDT | 1ExplainedVariance          0.311631
+2017-08-17 02:31:39.214585 PDT | 1NumTrajs                 400
+2017-08-17 02:31:39.214800 PDT | 1Entropy                    2.83769
+2017-08-17 02:31:39.215011 PDT | 1Perplexity                17.0762
+2017-08-17 02:31:39.215209 PDT | 1StdReturn               9243.98
+2017-08-17 02:31:39.215399 PDT | 1MaxReturn              23500
+2017-08-17 02:31:39.215595 PDT | 1MinReturn                  0
+2017-08-17 02:31:39.215794 PDT | 1AveragePolicyStd           0.999942
+2017-08-17 02:31:39.215971 PDT | MeanKLBefore                1.62981e-09
+2017-08-17 02:31:39.216144 PDT | MeanKL                      0.00665889
+2017-08-17 02:31:39.216361 PDT | LossBefore                  7.27596e-11
+2017-08-17 02:31:39.216575 PDT | LossAfter                  -0.00255191
+2017-08-17 02:31:39.216784 PDT | dLoss                       0.00255191
+2017-08-17 02:31:39.216977 PDT | Time                     7963.17
+2017-08-17 02:31:39.217165 PDT | ItrTime                   253.084
+2017-08-17 02:31:39.217368 PDT | ----------------------  ---------------
+2017-08-17 02:31:39.217703 PDT | [4wayComplex_seed50_faster] itr #31 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:31:39.220571 PDT | [4wayComplex_seed50_faster] itr #31 | ** Step 0 **
+2017-08-17 02:31:39.221173 PDT | [4wayComplex_seed50_faster] itr #31 | Obtaining samples...
+2017-08-17 02:31:39.221410 PDT | [4wayComplex_seed50_faster] itr #31 | Obtaining samples for iteration 31...
+2017-08-17 02:33:28.057683 PDT | [4wayComplex_seed50_faster] itr #31 | Processing samples...
+2017-08-17 02:33:28.642288 PDT | [4wayComplex_seed50_faster] itr #31 | fitting baseline...
+2017-08-17 02:33:28.806520 PDT | [4wayComplex_seed50_faster] itr #31 | fitted
+2017-08-17 02:33:28.937613 PDT | [4wayComplex_seed50_faster] itr #31 | Logging diagnostics...
+2017-08-17 02:33:28.942584 PDT | [4wayComplex_seed50_faster] itr #31 | Computing policy updates...
+2017-08-17 02:33:29.059735 PDT | [4wayComplex_seed50_faster] itr #31 | ** Step 1 **
+2017-08-17 02:33:29.059946 PDT | [4wayComplex_seed50_faster] itr #31 | Obtaining samples...
+2017-08-17 02:33:29.060094 PDT | [4wayComplex_seed50_faster] itr #31 | Obtaining samples for iteration 31...
+2017-08-17 02:35:48.748110 PDT | [4wayComplex_seed50_faster] itr #31 | Processing samples...
+2017-08-17 02:35:48.980802 PDT | [4wayComplex_seed50_faster] itr #31 | fitting baseline...
+2017-08-17 02:35:49.059694 PDT | [4wayComplex_seed50_faster] itr #31 | fitted
+2017-08-17 02:35:49.183784 PDT | [4wayComplex_seed50_faster] itr #31 | Logging diagnostics...
+2017-08-17 02:35:49.188760 PDT | [4wayComplex_seed50_faster] itr #31 | Optimizing policy...
+2017-08-17 02:35:49.189219 PDT | [4wayComplex_seed50_faster] itr #31 | Computing KL before
+2017-08-17 02:35:49.242279 PDT | [4wayComplex_seed50_faster] itr #31 | Computing loss before
+2017-08-17 02:35:49.294217 PDT | [4wayComplex_seed50_faster] itr #31 | Optimizing
+2017-08-17 02:35:49.295625 PDT | [4wayComplex_seed50_faster] itr #31 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:35:49.295807 PDT | [4wayComplex_seed50_faster] itr #31 | computing loss before
+2017-08-17 02:35:49.346942 PDT | [4wayComplex_seed50_faster] itr #31 | performing update
+2017-08-17 02:35:49.347235 PDT | [4wayComplex_seed50_faster] itr #31 | computing gradient
+2017-08-17 02:35:49.502837 PDT | [4wayComplex_seed50_faster] itr #31 | gradient computed
+2017-08-17 02:35:49.503133 PDT | [4wayComplex_seed50_faster] itr #31 | computing descent direction
+2017-08-17 02:35:52.985662 PDT | [4wayComplex_seed50_faster] itr #31 | descent direction computed
+2017-08-17 02:35:53.094426 PDT | [4wayComplex_seed50_faster] itr #31 | backtrack iters: 1
+2017-08-17 02:35:53.094724 PDT | [4wayComplex_seed50_faster] itr #31 | computing loss after
+2017-08-17 02:35:53.094929 PDT | [4wayComplex_seed50_faster] itr #31 | optimization finished
+2017-08-17 02:35:53.095165 PDT | [4wayComplex_seed50_faster] itr #31 | Computing loss after
+2017-08-17 02:35:53.147123 PDT | [4wayComplex_seed50_faster] itr #31 | Computing KL after
+2017-08-17 02:35:53.196921 PDT | [4wayComplex_seed50_faster] itr #31 | Saving snapshot...
+2017-08-17 02:35:53.202537 PDT | [4wayComplex_seed50_faster] itr #31 | Saved
+2017-08-17 02:35:53.202724 PDT | [4wayComplex_seed50_faster] itr #31 | Saving visualization of paths
+2017-08-17 02:35:54.375331 PDT | ----------------------  ---------------
+2017-08-17 02:35:54.375610 PDT | 0PolicyExecTime            67.3231
+2017-08-17 02:35:54.375837 PDT | 0EnvExecTime               39.1739
+2017-08-17 02:35:54.376030 PDT | 0ProcessExecTime            1.63427
+2017-08-17 02:35:54.376202 PDT | 0AverageReturn           1671.75
+2017-08-17 02:35:54.376408 PDT | 0ExplainedVariance          0.115134
+2017-08-17 02:35:54.376623 PDT | 0NumTrajs                 400
+2017-08-17 02:35:54.376840 PDT | 0Entropy                    2.83118
+2017-08-17 02:35:54.377061 PDT | 0Perplexity                16.9655
+2017-08-17 02:35:54.377274 PDT | 0StdReturn               4049.69
+2017-08-17 02:35:54.377490 PDT | 0MaxReturn              22100
+2017-08-17 02:35:54.377708 PDT | 0MinReturn                  0
+2017-08-17 02:35:54.377920 PDT | 0AveragePolicyStd           0.996679
+2017-08-17 02:35:54.378136 PDT | ComputeUpdatedDistTime      0.116778
+2017-08-17 02:35:54.378348 PDT | 1PolicyExecTime            96.2242
+2017-08-17 02:35:54.378554 PDT | 1EnvExecTime               41.0452
+2017-08-17 02:35:54.378749 PDT | 1ProcessExecTime            1.65779
+2017-08-17 02:35:54.378933 PDT | 1AverageReturn           5077.5
+2017-08-17 02:35:54.379146 PDT | 1ExplainedVariance          0.221136
+2017-08-17 02:35:54.379337 PDT | 1NumTrajs                 400
+2017-08-17 02:35:54.379509 PDT | 1Entropy                    2.83019
+2017-08-17 02:35:54.379709 PDT | 1Perplexity                16.9486
+2017-08-17 02:35:54.379930 PDT | 1StdReturn               8614.14
+2017-08-17 02:35:54.380148 PDT | 1MaxReturn              23200
+2017-08-17 02:35:54.380370 PDT | 1MinReturn                  0
+2017-08-17 02:35:54.380582 PDT | 1AveragePolicyStd           0.996186
+2017-08-17 02:35:54.380797 PDT | MeanKLBefore               -8.14908e-10
+2017-08-17 02:35:54.381015 PDT | MeanKL                      0.00701782
+2017-08-17 02:35:54.381225 PDT | LossBefore                 -1.8772e-09
+2017-08-17 02:35:54.381443 PDT | LossAfter                  -0.003031
+2017-08-17 02:35:54.381653 PDT | dLoss                       0.003031
+2017-08-17 02:35:54.381857 PDT | Time                     8218.27
+2017-08-17 02:35:54.382051 PDT | ItrTime                   253.985
+2017-08-17 02:35:54.382233 PDT | ----------------------  ---------------
+2017-08-17 02:35:54.382594 PDT | [4wayComplex_seed50_faster] itr #32 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:35:54.385443 PDT | [4wayComplex_seed50_faster] itr #32 | ** Step 0 **
+2017-08-17 02:35:54.386168 PDT | [4wayComplex_seed50_faster] itr #32 | Obtaining samples...
+2017-08-17 02:35:54.386408 PDT | [4wayComplex_seed50_faster] itr #32 | Obtaining samples for iteration 32...
+2017-08-17 02:37:52.773922 PDT | [4wayComplex_seed50_faster] itr #32 | Processing samples...
+2017-08-17 02:37:53.178654 PDT | [4wayComplex_seed50_faster] itr #32 | fitting baseline...
+2017-08-17 02:37:53.304001 PDT | [4wayComplex_seed50_faster] itr #32 | fitted
+2017-08-17 02:37:53.389517 PDT | [4wayComplex_seed50_faster] itr #32 | Logging diagnostics...
+2017-08-17 02:37:53.394442 PDT | [4wayComplex_seed50_faster] itr #32 | Computing policy updates...
+2017-08-17 02:37:53.514663 PDT | [4wayComplex_seed50_faster] itr #32 | ** Step 1 **
+2017-08-17 02:37:53.514858 PDT | [4wayComplex_seed50_faster] itr #32 | Obtaining samples...
+2017-08-17 02:37:53.514999 PDT | [4wayComplex_seed50_faster] itr #32 | Obtaining samples for iteration 32...
+2017-08-17 02:40:13.050536 PDT | [4wayComplex_seed50_faster] itr #32 | Processing samples...
+2017-08-17 02:40:13.488951 PDT | [4wayComplex_seed50_faster] itr #32 | fitting baseline...
+2017-08-17 02:40:13.636554 PDT | [4wayComplex_seed50_faster] itr #32 | fitted
+2017-08-17 02:40:13.761662 PDT | [4wayComplex_seed50_faster] itr #32 | Logging diagnostics...
+2017-08-17 02:40:13.766518 PDT | [4wayComplex_seed50_faster] itr #32 | Optimizing policy...
+2017-08-17 02:40:13.766990 PDT | [4wayComplex_seed50_faster] itr #32 | Computing KL before
+2017-08-17 02:40:13.823540 PDT | [4wayComplex_seed50_faster] itr #32 | Computing loss before
+2017-08-17 02:40:13.875724 PDT | [4wayComplex_seed50_faster] itr #32 | Optimizing
+2017-08-17 02:40:13.876583 PDT | [4wayComplex_seed50_faster] itr #32 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:40:13.876760 PDT | [4wayComplex_seed50_faster] itr #32 | computing loss before
+2017-08-17 02:40:13.927259 PDT | [4wayComplex_seed50_faster] itr #32 | performing update
+2017-08-17 02:40:13.927521 PDT | [4wayComplex_seed50_faster] itr #32 | computing gradient
+2017-08-17 02:40:14.080135 PDT | [4wayComplex_seed50_faster] itr #32 | gradient computed
+2017-08-17 02:40:14.080433 PDT | [4wayComplex_seed50_faster] itr #32 | computing descent direction
+2017-08-17 02:40:17.631697 PDT | [4wayComplex_seed50_faster] itr #32 | descent direction computed
+2017-08-17 02:40:17.744956 PDT | [4wayComplex_seed50_faster] itr #32 | backtrack iters: 1
+2017-08-17 02:40:17.745279 PDT | [4wayComplex_seed50_faster] itr #32 | computing loss after
+2017-08-17 02:40:17.745500 PDT | [4wayComplex_seed50_faster] itr #32 | optimization finished
+2017-08-17 02:40:17.745703 PDT | [4wayComplex_seed50_faster] itr #32 | Computing loss after
+2017-08-17 02:40:17.798176 PDT | [4wayComplex_seed50_faster] itr #32 | Computing KL after
+2017-08-17 02:40:17.848050 PDT | [4wayComplex_seed50_faster] itr #32 | Saving snapshot...
+2017-08-17 02:40:17.854046 PDT | [4wayComplex_seed50_faster] itr #32 | Saved
+2017-08-17 02:40:17.854333 PDT | [4wayComplex_seed50_faster] itr #32 | Saving visualization of paths
+2017-08-17 02:40:19.076468 PDT | ----------------------  ---------------
+2017-08-17 02:40:19.076844 PDT | 0PolicyExecTime            76.2997
+2017-08-17 02:40:19.077249 PDT | 0EnvExecTime               39.6888
+2017-08-17 02:40:19.077479 PDT | 0ProcessExecTime            1.67907
+2017-08-17 02:40:19.077730 PDT | 0AverageReturn           1547.75
+2017-08-17 02:40:19.078451 PDT | 0ExplainedVariance          0.155286
+2017-08-17 02:40:19.078710 PDT | 0NumTrajs                 400
+2017-08-17 02:40:19.079362 PDT | 0Entropy                    2.82582
+2017-08-17 02:40:19.079615 PDT | 0Perplexity                16.8747
+2017-08-17 02:40:19.079834 PDT | 0StdReturn               3637.46
+2017-08-17 02:40:19.080624 PDT | 0MaxReturn              21400
+2017-08-17 02:40:19.080882 PDT | 0MinReturn                  0
+2017-08-17 02:40:19.081126 PDT | 0AveragePolicyStd           0.99412
+2017-08-17 02:40:19.081369 PDT | ComputeUpdatedDistTime      0.119838
+2017-08-17 02:40:19.081617 PDT | 1PolicyExecTime            96.5849
+2017-08-17 02:40:19.081842 PDT | 1EnvExecTime               40.5703
+2017-08-17 02:40:19.082076 PDT | 1ProcessExecTime            1.62571
+2017-08-17 02:40:19.082337 PDT | 1AverageReturn           5672.75
+2017-08-17 02:40:19.082610 PDT | 1ExplainedVariance          0.313572
+2017-08-17 02:40:19.082857 PDT | 1NumTrajs                 400
+2017-08-17 02:40:19.083094 PDT | 1Entropy                    2.82492
+2017-08-17 02:40:19.083340 PDT | 1Perplexity                16.8596
+2017-08-17 02:40:19.083565 PDT | 1StdReturn               9402.63
+2017-08-17 02:40:19.083824 PDT | 1MaxReturn              23500
+2017-08-17 02:40:19.084197 PDT | 1MinReturn                  0
+2017-08-17 02:40:19.084532 PDT | 1AveragePolicyStd           0.993656
+2017-08-17 02:40:19.084775 PDT | MeanKLBefore               -2.21189e-09
+2017-08-17 02:40:19.085022 PDT | MeanKL                      0.00883127
+2017-08-17 02:40:19.085338 PDT | LossBefore                  6.98492e-10
+2017-08-17 02:40:19.085957 PDT | LossAfter                  -0.00278563
+2017-08-17 02:40:19.086192 PDT | dLoss                       0.00278563
+2017-08-17 02:40:19.086586 PDT | Time                     8482.93
+2017-08-17 02:40:19.086903 PDT | ItrTime                   263.472
+2017-08-17 02:40:19.087191 PDT | ----------------------  ---------------
+2017-08-17 02:40:19.087586 PDT | [4wayComplex_seed50_faster] itr #33 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:40:19.091398 PDT | [4wayComplex_seed50_faster] itr #33 | ** Step 0 **
+2017-08-17 02:40:19.092176 PDT | [4wayComplex_seed50_faster] itr #33 | Obtaining samples...
+2017-08-17 02:40:19.092459 PDT | [4wayComplex_seed50_faster] itr #33 | Obtaining samples for iteration 33...
+2017-08-17 02:42:06.732439 PDT | [4wayComplex_seed50_faster] itr #33 | Processing samples...
+2017-08-17 02:42:07.177514 PDT | [4wayComplex_seed50_faster] itr #33 | fitting baseline...
+2017-08-17 02:42:07.347662 PDT | [4wayComplex_seed50_faster] itr #33 | fitted
+2017-08-17 02:42:07.492726 PDT | [4wayComplex_seed50_faster] itr #33 | Logging diagnostics...
+2017-08-17 02:42:07.497366 PDT | [4wayComplex_seed50_faster] itr #33 | Computing policy updates...
+2017-08-17 02:42:07.614515 PDT | [4wayComplex_seed50_faster] itr #33 | ** Step 1 **
+2017-08-17 02:42:07.614758 PDT | [4wayComplex_seed50_faster] itr #33 | Obtaining samples...
+2017-08-17 02:42:07.614912 PDT | [4wayComplex_seed50_faster] itr #33 | Obtaining samples for iteration 33...
+2017-08-17 02:44:26.044048 PDT | [4wayComplex_seed50_faster] itr #33 | Processing samples...
+2017-08-17 02:44:26.227354 PDT | [4wayComplex_seed50_faster] itr #33 | fitting baseline...
+2017-08-17 02:44:26.429715 PDT | [4wayComplex_seed50_faster] itr #33 | fitted
+2017-08-17 02:44:26.715869 PDT | [4wayComplex_seed50_faster] itr #33 | Logging diagnostics...
+2017-08-17 02:44:26.729419 PDT | [4wayComplex_seed50_faster] itr #33 | Optimizing policy...
+2017-08-17 02:44:26.729809 PDT | [4wayComplex_seed50_faster] itr #33 | Computing KL before
+2017-08-17 02:44:26.785520 PDT | [4wayComplex_seed50_faster] itr #33 | Computing loss before
+2017-08-17 02:44:26.836223 PDT | [4wayComplex_seed50_faster] itr #33 | Optimizing
+2017-08-17 02:44:26.837604 PDT | [4wayComplex_seed50_faster] itr #33 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:44:26.837747 PDT | [4wayComplex_seed50_faster] itr #33 | computing loss before
+2017-08-17 02:44:26.892296 PDT | [4wayComplex_seed50_faster] itr #33 | performing update
+2017-08-17 02:44:26.892573 PDT | [4wayComplex_seed50_faster] itr #33 | computing gradient
+2017-08-17 02:44:27.046815 PDT | [4wayComplex_seed50_faster] itr #33 | gradient computed
+2017-08-17 02:44:27.047080 PDT | [4wayComplex_seed50_faster] itr #33 | computing descent direction
+2017-08-17 02:44:30.544269 PDT | [4wayComplex_seed50_faster] itr #33 | descent direction computed
+2017-08-17 02:44:30.707824 PDT | [4wayComplex_seed50_faster] itr #33 | backtrack iters: 2
+2017-08-17 02:44:30.708131 PDT | [4wayComplex_seed50_faster] itr #33 | computing loss after
+2017-08-17 02:44:30.708247 PDT | [4wayComplex_seed50_faster] itr #33 | optimization finished
+2017-08-17 02:44:30.708355 PDT | [4wayComplex_seed50_faster] itr #33 | Computing loss after
+2017-08-17 02:44:30.759166 PDT | [4wayComplex_seed50_faster] itr #33 | Computing KL after
+2017-08-17 02:44:30.811337 PDT | [4wayComplex_seed50_faster] itr #33 | Saving snapshot...
+2017-08-17 02:44:30.815353 PDT | [4wayComplex_seed50_faster] itr #33 | Saved
+2017-08-17 02:44:30.815618 PDT | [4wayComplex_seed50_faster] itr #33 | Saving visualization of paths
+2017-08-17 02:44:31.930792 PDT | ----------------------  ---------------
+2017-08-17 02:44:31.931201 PDT | 0PolicyExecTime            66.2397
+2017-08-17 02:44:31.931482 PDT | 0EnvExecTime               39.0692
+2017-08-17 02:44:31.931731 PDT | 0ProcessExecTime            1.62837
+2017-08-17 02:44:31.931987 PDT | 0AverageReturn           1500.75
+2017-08-17 02:44:31.932247 PDT | 0ExplainedVariance          0.0342771
+2017-08-17 02:44:31.932494 PDT | 0NumTrajs                 400
+2017-08-17 02:44:31.932776 PDT | 0Entropy                    2.81019
+2017-08-17 02:44:31.933049 PDT | 0Perplexity                16.613
+2017-08-17 02:44:31.933313 PDT | 0StdReturn               3149.07
+2017-08-17 02:44:31.933554 PDT | 0MaxReturn              18500
+2017-08-17 02:44:31.933826 PDT | 0MinReturn                  0
+2017-08-17 02:44:31.934054 PDT | 0AveragePolicyStd           0.986431
+2017-08-17 02:44:31.934299 PDT | ComputeUpdatedDistTime      0.116855
+2017-08-17 02:44:31.934576 PDT | 1PolicyExecTime            95.1232
+2017-08-17 02:44:31.934854 PDT | 1EnvExecTime               40.9108
+2017-08-17 02:44:31.935140 PDT | 1ProcessExecTime            1.63082
+2017-08-17 02:44:31.935393 PDT | 1AverageReturn           5285.25
+2017-08-17 02:44:31.935644 PDT | 1ExplainedVariance          0.205842
+2017-08-17 02:44:31.935871 PDT | 1NumTrajs                 400
+2017-08-17 02:44:31.936153 PDT | 1Entropy                    2.80867
+2017-08-17 02:44:31.936426 PDT | 1Perplexity                16.5878
+2017-08-17 02:44:31.936695 PDT | 1StdReturn               9133.92
+2017-08-17 02:44:31.936938 PDT | 1MaxReturn              23100
+2017-08-17 02:44:31.937129 PDT | 1MinReturn                  0
+2017-08-17 02:44:31.937398 PDT | 1AveragePolicyStd           0.985677
+2017-08-17 02:44:31.937628 PDT | MeanKLBefore               -1.16415e-10
+2017-08-17 02:44:31.937885 PDT | MeanKL                      0.00649716
+2017-08-17 02:44:31.938161 PDT | LossBefore                 -1.04774e-09
+2017-08-17 02:44:31.938435 PDT | LossAfter                  -0.00240512
+2017-08-17 02:44:31.938688 PDT | dLoss                       0.00240512
+2017-08-17 02:44:31.938820 PDT | Time                     8735.89
+2017-08-17 02:44:31.939008 PDT | ItrTime                   251.728
+2017-08-17 02:44:31.939230 PDT | ----------------------  ---------------
+2017-08-17 02:44:31.939562 PDT | [4wayComplex_seed50_faster] itr #34 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:44:31.942499 PDT | [4wayComplex_seed50_faster] itr #34 | ** Step 0 **
+2017-08-17 02:44:31.943173 PDT | [4wayComplex_seed50_faster] itr #34 | Obtaining samples...
+2017-08-17 02:44:31.943414 PDT | [4wayComplex_seed50_faster] itr #34 | Obtaining samples for iteration 34...
+2017-08-17 02:46:20.444028 PDT | [4wayComplex_seed50_faster] itr #34 | Processing samples...
+2017-08-17 02:46:20.710750 PDT | [4wayComplex_seed50_faster] itr #34 | fitting baseline...
+2017-08-17 02:46:20.776487 PDT | [4wayComplex_seed50_faster] itr #34 | fitted
+2017-08-17 02:46:20.949297 PDT | [4wayComplex_seed50_faster] itr #34 | Logging diagnostics...
+2017-08-17 02:46:20.959463 PDT | [4wayComplex_seed50_faster] itr #34 | Computing policy updates...
+2017-08-17 02:46:21.098889 PDT | [4wayComplex_seed50_faster] itr #34 | ** Step 1 **
+2017-08-17 02:46:21.099192 PDT | [4wayComplex_seed50_faster] itr #34 | Obtaining samples...
+2017-08-17 02:46:21.099424 PDT | [4wayComplex_seed50_faster] itr #34 | Obtaining samples for iteration 34...
+2017-08-17 02:48:39.791616 PDT | [4wayComplex_seed50_faster] itr #34 | Processing samples...
+2017-08-17 02:48:40.226612 PDT | [4wayComplex_seed50_faster] itr #34 | fitting baseline...
+2017-08-17 02:48:40.330482 PDT | [4wayComplex_seed50_faster] itr #34 | fitted
+2017-08-17 02:48:40.470643 PDT | [4wayComplex_seed50_faster] itr #34 | Logging diagnostics...
+2017-08-17 02:48:40.476830 PDT | [4wayComplex_seed50_faster] itr #34 | Optimizing policy...
+2017-08-17 02:48:40.477304 PDT | [4wayComplex_seed50_faster] itr #34 | Computing KL before
+2017-08-17 02:48:40.531610 PDT | [4wayComplex_seed50_faster] itr #34 | Computing loss before
+2017-08-17 02:48:40.581761 PDT | [4wayComplex_seed50_faster] itr #34 | Optimizing
+2017-08-17 02:48:40.583196 PDT | [4wayComplex_seed50_faster] itr #34 | Start CG optimization: #parameters: 1412, #inputs: 30000, #subsample_inputs: 30000
+2017-08-17 02:48:40.583453 PDT | [4wayComplex_seed50_faster] itr #34 | computing loss before
+2017-08-17 02:48:40.632706 PDT | [4wayComplex_seed50_faster] itr #34 | performing update
+2017-08-17 02:48:40.632964 PDT | [4wayComplex_seed50_faster] itr #34 | computing gradient
+2017-08-17 02:48:40.783615 PDT | [4wayComplex_seed50_faster] itr #34 | gradient computed
+2017-08-17 02:48:40.783834 PDT | [4wayComplex_seed50_faster] itr #34 | computing descent direction
+2017-08-17 02:48:44.290472 PDT | [4wayComplex_seed50_faster] itr #34 | descent direction computed
+2017-08-17 02:48:44.348308 PDT | [4wayComplex_seed50_faster] itr #34 | backtrack iters: 0
+2017-08-17 02:48:44.348604 PDT | [4wayComplex_seed50_faster] itr #34 | computing loss after
+2017-08-17 02:48:44.348802 PDT | [4wayComplex_seed50_faster] itr #34 | optimization finished
+2017-08-17 02:48:44.349028 PDT | [4wayComplex_seed50_faster] itr #34 | Computing loss after
+2017-08-17 02:48:44.399141 PDT | [4wayComplex_seed50_faster] itr #34 | Computing KL after
+2017-08-17 02:48:44.450785 PDT | [4wayComplex_seed50_faster] itr #34 | Saving snapshot...
+2017-08-17 02:48:44.454433 PDT | [4wayComplex_seed50_faster] itr #34 | Saved
+2017-08-17 02:48:44.454586 PDT | [4wayComplex_seed50_faster] itr #34 | Saving visualization of paths
+2017-08-17 02:48:45.957489 PDT | ----------------------  ---------------
+2017-08-17 02:48:45.957864 PDT | 0PolicyExecTime            66.6573
+2017-08-17 02:48:45.958111 PDT | 0EnvExecTime               39.4721
+2017-08-17 02:48:45.958350 PDT | 0ProcessExecTime            1.66058
+2017-08-17 02:48:45.958634 PDT | 0AverageReturn           1600
+2017-08-17 02:48:45.958906 PDT | 0ExplainedVariance          0.114545
+2017-08-17 02:48:45.959175 PDT | 0NumTrajs                 400
+2017-08-17 02:48:45.959417 PDT | 0Entropy                    2.81478
+2017-08-17 02:48:45.959687 PDT | 0Perplexity                16.6895
+2017-08-17 02:48:45.959925 PDT | 0StdReturn               3394.35
+2017-08-17 02:48:45.960196 PDT | 0MaxReturn              20100
+2017-08-17 02:48:45.960471 PDT | 0MinReturn                  0
+2017-08-17 02:48:45.960739 PDT | 0AveragePolicyStd           0.988848
+2017-08-17 02:48:45.960933 PDT | ComputeUpdatedDistTime      0.134164
+2017-08-17 02:48:45.961126 PDT | 1PolicyExecTime            95.8033
+2017-08-17 02:48:45.961340 PDT | 1EnvExecTime               40.5151
+2017-08-17 02:48:45.961523 PDT | 1ProcessExecTime            1.60346
+2017-08-17 02:48:45.961700 PDT | 1AverageReturn           5963.5
+2017-08-17 02:48:45.961919 PDT | 1ExplainedVariance          0.308551
+2017-08-17 02:48:45.962191 PDT | 1NumTrajs                 400
+2017-08-17 02:48:45.962462 PDT | 1Entropy                    2.816
+2017-08-17 02:48:45.962709 PDT | 1Perplexity                16.7099
+2017-08-17 02:48:45.962975 PDT | 1StdReturn               9673.06
+2017-08-17 02:48:45.963200 PDT | 1MaxReturn              23600
+2017-08-17 02:48:45.963447 PDT | 1MinReturn                  0
+2017-08-17 02:48:45.963690 PDT | 1AveragePolicyStd           0.989447
+2017-08-17 02:48:45.963949 PDT | MeanKLBefore                0
+2017-08-17 02:48:45.964194 PDT | MeanKL                      0.00959743
+2017-08-17 02:48:45.964470 PDT | LossBefore                  1.39698e-09
+2017-08-17 02:48:45.964741 PDT | LossAfter                  -0.00300696
+2017-08-17 02:48:45.965002 PDT | dLoss                       0.00300696
+2017-08-17 02:48:45.965242 PDT | Time                     8989.53
+2017-08-17 02:48:45.965505 PDT | ItrTime                   252.515
+2017-08-17 02:48:45.965736 PDT | ----------------------  ---------------
+2017-08-17 02:48:45.966119 PDT | [4wayComplex_seed50_faster] itr #35 | Sampling set of tasks/goals for this meta-batch...
+2017-08-17 02:48:45.969401 PDT | [4wayComplex_seed50_faster] itr #35 | ** Step 0 **
+2017-08-17 02:48:45.970129 PDT | [4wayComplex_seed50_faster] itr #35 | Obtaining samples...
+2017-08-17 02:48:45.970412 PDT | [4wayComplex_seed50_faster] itr #35 | Obtaining samples for iteration 35...
